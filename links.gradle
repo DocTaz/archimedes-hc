@@ -1,0 +1,17 @@
+/* URLs for CITE services, Image Citation Tool, and CITEKit.
+*/
+
+
+project.ext {
+    // The four CITE services	    
+    texts = "http://beta.hpcc.uh.edu/tomcat/hmtcite/texts"
+    indices =  "http://beta.hpcc.uh.edu/tomcat/hmtcite/indices"
+    collections = "http://beta.hpcc.uh.edu/tomcat/hmtcite/collections"
+    images = "http://beta.hpcc.uh.edu/tomcat/hmtcite/images"
+
+    // The image citation tool
+    ict = "http://beta.hpcc.uh.edu/tomcat/hmtcite/ict.html"
+
+    // CiteKit javascript package
+    citekit = "http://folio.furman.edu/newcitekit/js/cite-jq.js"
+}
