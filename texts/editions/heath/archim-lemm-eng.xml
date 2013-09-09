@@ -1,0 +1,960 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Book of Lemmas</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 301-318 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">301-318</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+            
+
+BOOK OF LEMMAS. 
+
+
+
+Proposition 1 . 
+
+If two circles touch at A, and ifBD, EF be parallel diameters 
+in them, ADF is a straight line. 
+
+[The proof in the text only applies to the particular case 
+where the diameters are perpendicular to the radius to the 
+point of contact, but it is easily adapted to the more general 
+case by one small change only.] 
+
+Let 0, C be the centres of the circles, and let OC be joined 
+and produced to A. Draw DH parallel to AO meeting OF 
+inH. 
+
+
+
+
+Then, since 
+and OF=OA, 
+
+we have, by subtraction, 
+
+
+
+Therefore 
+
+
+
+Z HDF - HFD. 
+
+
+
+302 
+
+
+
+ARCHIMEDES 
+
+
+
+Thus both the triangles CAD, HDF are isosceles, and the 
+third angles ACD, DHF in each are equal. Therefore the 
+equal angles in each are equal to one another, and 
+
+
+
+Add to each the angle CDF, and it follows that 
+
+
+
+= (two right angles). 
+Hence ADF is a straight line. 
+The same proof applies if the circles touch externally*. 
+
+
+
+Proposition 2. 
+
+Let AB be the diameter of a semicircle, and let the tangents 
+to it at B and at any other point D on it meet in T. If now DE 
+be drawn perpendicular to AB, and if AT, DE meet in F, 
+
+DF=FE. 
+
+Produce AD to meet BT produced in H. Then the angle 
+ADB in the semicircle is right; therefore the angle BDH is 
+also right. And TB, TD are equal. 
+
+
+
+
+Therefore T is the centre of the semicircle on BU as 
+diameter, which passes through D. 
+
+Hence HT=TB. 
+
+And, since DE, HB are parallel, it follows that DF= FE. 
+
+* Pappus assumes the result of this proposition in connexion with the 
+<fy>/3ijAof (p. 214, ed. Hultsch), and he proves it for the case where the circles 
+touch externally (p. 840). 
+
+
+
+BOOK OF LEMMAS. 
+
+
+
+303 
+
+
+
+Proposition 3. 
+
+Let P be any point on a segment of a circle whose base is 
+AB, and let PN be perpendicular to AB. Take D on AB so 
+that AN = ND. If now PQ be an arc equal to the arc PA, and 
+
+BQ be joined, 
+
+BQ, BD shall be equal*. 
+
+
+
+
+3omPA,PQ,PD,DQ. 
+
+* The segment iu the figure of the MS. appears to have been a semicircle, 
+though the proposition is equally true of any segment. But the case where the 
+segment is a semicircle brings the proposition into close connexion with a 
+proposition in Ptolemy's fieydXy 0-frragtt, I. 9 (p. 31, ed. Halma; cf. the repro- 
+duction in Cantor's Gesch. d. Matliematik, I. (1894), p. 389). Ptolemy's object is 
+to connect by an equation the lengths of the chord of an arc and the chord of half 
+the arc. Substantially his procedure is as follows. Suppose AP t PQ to be 
+equal arcs, AB the diameter through A ; and let AP, PQ, AQ, PB, QB be joined. 
+Measure BD along BA equal to BQ. The perpendicular PN is now drawn, and 
+it is proved that PA=PD, and AN= ND. 
+
+Then AN^(BA -/?Z>) = J (DA - BQ) = J (BA - \'l*A* - A <?*). 
+And, by similar triangles, AN : AP=AP : AB. 
+
+Therefore AP*=AB . AN 
+
+= i (AB - \lAB* ~AQ*) . AB. 
+
+This gives AP in terms of AQ and the known diameter AB. If we divide by 
+AB 2 throughout, it is seen at once that the proposition gives a geometrical 
+proof of the formula 
+
+sin 3 ^j = J (1 - cos o). 
+
+The case where the segment is a semicircle recalls also the method used by 
+Archimedes at the beginning of the second part of Prop. 3 of the Measurement 
+of a circle. It is there proved that, in the figure above, 
+
+
+
+or, if we divide the first two terms of the proposition by AB, 
+( 1 + cos a)/sin a = cot ~ . 
+
+
+
+304 ARCHIMEDES 
+
+Then, since the arcs PA, PQ are equal, 
+
+PA=PQ. 
+But, since AN = ND, and the angles at N are right, 
+
+PA=PD. 
+Therefore 
+and 
+
+Now, since A, P, Q, B are concyclic, 
+
+Z P4D 4- Z PQB = (two right angles), 
+whence Z PD4 + Z PQB = (two right angles) 
+
+
+
+Therefore Z PQ5 - 
+
+and, since the parts, the angles PQD, PDQ, are equal, 
+
+
+
+and 
+
+
+
+Proposition 4. 
+
+IfAB be the diameter of a semicircle and N any point on AB % 
+and if semicircles be described within the first semicircle and 
+having AN, BN as diameters respectively, the figure included 
+between the circumferences of the three semicircles is "what 
+Archimedes called an ap/Si/Xo?*"; and its area is equal to the 
+circle on PN a* diameter, where PN is perpendicular to AB 
+and meets the original semicircle in P. 
+
+For AB 9 - AIT + NB* + 2AN . NB 
+
+
+
+But circles (or semicircles) are to one another as the squares of 
+their radii (or diameters). 
+
+* &pfa\ot is literally ' a shoemaker's knife.' Cf. note attached to the remarks 
+on the Liber A$$umptorum in the Introduction, Chapter II. 
+
+
+
+BOOK OF LEMMAS. 
+
+
+
+305 
+
+
+
+Hence 
+(semicircle on 
+
+
+
+of semicircles on AN, NB) 
++ 2 (semicircle on PN). 
+
+
+
+
+That is, the circle on PN as diameter is equal to the 
+difference between the semicircle on AB and the sum of the 
+semicircles on AN, NB, i.e. is equal to the area of the 0/0/817X09. 
+
+
+
+Proposition 5. 
+
+Let AB be the diameter of a semicircle, C any point on AB, 
+and CD perpendicular to it, and let semicircles be described 
+within the first semicircle and having AC, CB as diameters. 
+Then, if two circles be drawn touching CD on different sides 
+and each touching two of the semicircles^ the circles so drawn 
+mil be equal. 
+
+Let one of the circles touch CD at E, the semicircle on AB 
+in F, and the semicircle on AC in G. 
+
+Draw the diameter EH of the circle, which will accordingly 
+be perpendicular to CD and therefore parallel to AB 
+
+Join FH, HA, and FE> EB. Then, by Prop. 1, FffA, FEB 
+are both straight lines, since EH, AB are parallel. 
+
+For the same reason AGE, C6H are straight lines. 
+
+Let AF produced meet CD in D, and let AE produced 
+meet the outer semicircle in 7. Join BI, ID. 
+
+H. A. 20 
+
+
+
+306 ARCHIMEDES 
+
+Then, since the angles AFB, ACD are right, the straight 
+lines AD, AB are such that the perpendiculars on each from the 
+extremity of the other meet in the point E. Therefore, by the 
+properties of triangles, AE is perpendicular to the line joining 
+B to D. 
+
+
+
+
+But AE is perpendicular to BI. 
+Therefore BID is a straight line. 
+
+Now, since the angles at G, I are right, CH is parallel 
+to BD. 
+
+Therefore A B : BC = A D : DH 
+
+= AC : HE, 
+
+so that AC . CB = AB . HE. 
+
+In like manner, if d is the diameter of the other circle, we can 
+prove that AC . CB = AB . d. 
+
+Therefore d = HE, and the circles are equal*. 
+
+* The property upon which this result depends, viz. that 
+AB:BC=AC:HE, 
+
+appears as an intermediate step in a proposition of Pappus (p. 280, ed. Hultsch) 
+which proves that, in the figure above, 
+
+
+
+The truth of the latter proposition is easily seen. For, since the angle CEH 
+is a right angle, and EG is perpendicular to CH, 
+
+CE*:EH*=CG: OH 
+=AC : HE. 
+
+
+
+BOOK OF LEMMAS. 307 
+
+[As pointed out by an Arabian Scholiast Alkauhi, this 
+proposition may be stated more generally. If, instead of one 
+point on AB, we have two points C, D t and semicircles be 
+described on AC, BD as diameters, and if, instead of the 
+perpendicular to AB through C, we take the radical axis of the 
+two semicircles, then the circles described on different sides of 
+the radical axis and each touching it as well as two of the 
+semicircles are equal. The proof is similar and presents no 
+difficulty.] 
+
+
+
+Proposition 6. 
+
+Let AB, the diameter of a semicircle, be divided at C so that 
+AC=%CB [or in any ratio]. Describe semicircles within the 
+first semicircle and on AC, GB as diameters, and suppose a 
+circle drawn touching all three semicircles. If GH be the 
+diameter of this circle, to find the relation between GH and AB. 
+
+Let GH be that diameter of the circle which is parallel to 
+AB t and let the circle touch the semicircles on AB, AC, CB 
+in D, E, F respectively. 
+
+Join AG, GD and BE, HD. Then, by Prop. 1, AGD, BED 
+are straight lines. 
+
+
+
+
+For a like reason AEE, BFG are straight lines, as also 
+are CEG, CFH. 
+
+Let AD meet the semicircle on AC in 7, and let BD meet 
+the semicircle on CB in K. Join CI, CK meeting AE, BF 
+
+202 
+
+
+
+308 
+
+
+
+ARCHIMEDES 
+
+
+
+respectively in L, M, and let QL, HM produced meet AB in 
+N, P respectively. 
+
+Now, in the triangle AGC, the perpendiculars from A, on 
+the opposite sides meet in L. Therefore, by the properties of 
+triangles, OLNis perpendicular to AC. 
+
+Similarly HMP is perpendicular to CB. 
+
+Again, since the angles at /, K, D are right, CK is parallel 
+to AD, and CI to BD. 
+
+Therefore AC:CB = AL: LH 
+
+= AN:NP, 
+BC:CA=BM:MG 
+= BP:PN. 
+AN:NP = NP: PB, 
+or AN, NP, PB are in continued proportion*. 
+Now, in the case where AC | CB, 
+
+
+
+and 
+
+
+
+Hence 
+
+
+
+whence BP : PN : NA : AB = 4 : 6 : 9 : 19. 
+Therefore GH = NP = & AB. 
+
+And similarly GH can be found when AC : CB is equal to 
+any other given ratiof. 
+
+* This same property appears incidentally in Pappus (p. 226) as an inter- 
+mediate step in the proof of the " ancient proposition " alluded to below. 
+
+t In general, if AC : CB=\ : 1, we have 
+
+BP:PN:NA: AB = l : X : X a : (1 + X+V), 
+and GH:AB = \: (1 + X+X 2 ). 
+
+It may be interesting to add the enunciation of the "ancient proposition" 
+stated by Pappus (p. 208) and proved by him after several auxiliary lemmas. 
+
+
+
+
+BOOK OF LEMMAS. 
+
+
+
+809 
+
+
+
+Proposition 7. 
+
+If circles be circumscribed about and inscribed in a square, 
+the circumscribed circle is double of the inscribed circle. 
+
+For the ratio of the circumscribed to the inscribed circle is 
+equal to that of the square on the diagonal to the square itself, 
+i.e. to the ratio 2 : 1. 
+
+Proposition 8. 
+
+If A B be any chord of a circle whose centre is 0, and if AB 
+be produced to C so that BG is equal to the radius; if further GO 
+meet the circle in D and be produced to meet the circle a second 
+time in E, the arc AE will be equal to three times the arc BD. 
+
+
+
+
+Draw the chord EF parallel to AB, and join OB, OF. 
+
+Let an otp^Xos be formed by three semicircles on AB, AC, CB as diameters, and 
+let a series of circles be described, the first of which touches all three semicircles, 
+while the second touches the first and two of the semicircles forming one end 
+of the &p0i?Xo$, the third touches the second and the same two semicircles, and 
+so on. Let the diameters of the successive circles be d^ d a , d,,... their centres 
+Oj, 2 , O 3 ,... and O 1 N l) 0^, 3 iV s ,... the perpendiculars from the centres on 
+AB. Then it is to be proved that 
+
+
+
+310 
+
+
+
+ARCHIMEDES 
+
+
+
+Then, since the angles OEF, OFE are equal, 
+*COF = 2tOEF 
+
+= 2 ^ BCO, by parallels, 
+
+= ZBOD, since BG 
+Therefore 
+
+
+
+so that the arc BF is equal to three times the arc BD. 
+
+Hence the arc AE> which is equal to the arc BF, is equal to 
+three times the arc BD*. 
+
+
+
+Proposition 9. 
+
+If in a circle two chords AB, CD which do not pass through 
+the centre intersect at right angles, then 
+
+(arc AD) + (arc CB) = (arc AC) + (arc DB). 
+
+Let the chords intersect at 0, and draw the diameter EF 
+parallel to AB intersecting CD in 
+H. EF will thus bisect CD at 
+right angles in H, and 
+
+(arc #)=== (arc J<7). 
+Also EDF, ECF are semi- 
+circles, while 
+
+(arc ED) = (arc EA) + (arc AD). 
+Therefore 
+
+(sum of arcs CF, EA, AD) = (arc 
+of a semicircle). 
+
+And the arcs AE, BF are equal. 
+Therefore 
+
+(arc CB) + (arc AD) = (arc of a semicircle). 
+
+* This proposition gives a method of reducing the trisection of any angle, 
+i.e. of any circular arc, to a problem of the kind known as vctaei*. Suppose that 
+AE is the arc to be trisected, and that ED is the diameter through E of the circle 
+of which AE is an arc. In order then to find an arc equal to one-third of AE, 
+we have only to draw through A a line ADC, meeting the circle again in B and 
+ED produced in C, such that BC it equal to the radius of the circle. For a 
+discussion of this and other ve&rctt see the Introduction, Chapter V. 
+
+
+
+
+BOOK OF LEMMAS 
+
+
+
+311 
+
+
+
+Hence the remainder of the circumference, the sum of the 
+arcs A C t DB y is also equal to a semicircle; and the proposition 
+is proved. 
+
+Proposition 1O. 
+
+Suppose that TA, TB are two tangents to a circle, while TC 
+cuts it. Let BD be the chord through B parallel to TC, and let 
+AD meet TC in E. Then, if EH be drawn perpendicular to BD 9 
+it will bisect it in H. 
+
+Let AB meet TC in F, and join BE. 
+
+Now the angle TAB is equal to the angle in the alternate 
+segment, i.e. 
+
+
+
+= Z AST, by parallels. 
+
+
+
+
+Hence the triangles EAT, AFT have one angle equal and 
+another (at T) common. They are therefore similar, and 
+
+FT:AT = AT:ET. 
+Therefore 
+
+ET . TF = TA 9 
+
+
+
+It follows that the triangles EBT, BFT are similar. 
+Therefore Z TEB = Z TBF 
+
+
+
+But the angle TEB is equal to the angle EBD, and the 
+angle TAB was proved equal to the angle EDB. 
+
+
+
+312 
+
+
+
+ARCHIMEDES 
+
+
+
+Therefore 
+
+And the angles at H are right angles. 
+
+It follows that 
+
+
+
+Proposition 11. 
+
+If two chords AB, CD in a circle intersect at right angles in 
+a point 0, not being the centre, then 
+
+A0* + BO* + CO 9 + DO 8 - (diameter)*. 
+Draw the diameter CE, and join AC, CJS, AD, BE. 
+
+Then the angle OAO is equal 
+to the angle CEB in the same seg- 
+ment, and the angles AOC, EBC 
+are right; therefore the triangles 
+AOC, EBC are similar, and 
+
+
+
+
+It follows that the subtended 
+arcs, and therefore the chords AD, 
+BE, are equal. 
+
+* The figure of this proposition curiously recalls the figure of a problem 
+given by Pappus (pp. 836-8) among his lemmas to the first Book of the treatise 
+of Apollonius On Contacts (irepi lirajuv). The problem is, Given a circle and 
+two points E, F (neither of which is necessarily, as in this case, the middle 
+point of the chord of the circle drawn through E, F), to draw through E, F 
+respectively two chords AD, AB Jwving a common extremity A and such that DB 
+is parallel to EP. The analysis is as follows. Suppose the problem solved, BD 
+being parallel to FE. Let BT, the tangent at B, meet EF produced in T. (T 
+is not in general the pole of AB, so that TA is not generally the tangent at A.) 
+
+Then / TBF= L BDA, in the alternate segment, 
+
+= L AET, by parallels. 
+Therefore A, E, B, T are concyclio, and 
+
+EF.FT=AF.FB. 
+
+But, the circle ADB and the point F being given, the rectangle AF . FB is given. 
+Also EF is given. 
+
+Hence FT is known. 
+
+Thus, to make the construction, we have only to find the length of FT from 
+the data, produce EF to T BO that FT has the ascertained length, draw the 
+tangent TB, and then draw BD parallel to EF. DE, BF will then meet in A on 
+the circle and will be the chords required. 
+
+
+
+BOOK OF LEMMAS. 
+
+
+
+313 
+
+
+
+Thus 
+
+
+
+(AO* + DO 9 ) + (50* + CO') = AD* 
+
+
+
+Proposition 12. 
+
+If AB be ike diameter of a semicircle, and TP, TQ the 
+tangents to it from any point T, and if AQ, BP be joined 
+meeting in R, then TR is perpendicular to AB. 
+
+Let TR produced meet AB in M, and join PA, QB. 
+
+Since the angle APB is right, 
+
+Z PA B + Z PBA = (a right angle) 
+
+
+
+.-70 
+
+
+
+
+
+
+
+Add to each side the angle RBQ t and 
+
+Z PAB + ^ QBA - (exterior) Z PJKQ. 
+
+But ^ 2!PfZ = ^ PAB t and z TQE = 
+in the alternate segments ; 
+therefore z rP/J + z JQB = ^ PRQ. 
+
+It follows from this that TP=TQ = TR. 
+
+[For, if PT be produced to so that TO = TQ, we have 
+
+
+
+And, by hypothesis, z P12Q 
+By addition, t POQ -h ^ P12Q 
+
+
+
+TPR + TQR 
+TP/Z 4- OQ12. 
+
+
+
+314 
+
+
+
+ARCHIMEDES 
+
+
+
+It follows that, in the quadrilateral OPRQ, the opposite 
+angles are together equal to two right angles. Therefore a 
+circle will go round OPQR, and T is its centre, because 
+TO = TQ. Therefore TR = TP.] 
+
+
+
+Thus /. TRP = z TPR = ^ PA M. 
+
+Adding to each the angle PRM, 
+
+Z. PAM+t PRM=t TRP + z PRM 
+
+= (two right angles). 
+
+Therefore ^ APR + Z ^13/jB = (two right angles), 
+whence Z AMR = (a right angle)*. 
+
+
+
+Proposition 13. 
+
+If a diametw AB of a circle meet any chord CD, not a 
+diameter, in E, and if AM, BN be drawn perpendicular to CD, 
+then 
+
+
+
+Let be the centre of the 
+circle, and OH perpendicular to 
+CD. Join BM, and produce HO to 
+meet BM in K. 
+
+Then CH=HD. 
+And, by parallels, 
+
+
+
+snce 
+
+
+
+OA, 
+
+
+
+
+NH=HM. 
+
+
+
+Therefore 
+Accordingly 
+
+
+
+* TM is of course the polar of the intersection of PQ, AB, as it is the line 
+joining the poles of PQ, AB respectively. 
+
+t This proposition is of course true whether M, N lie on CD or on CD 
+produced each way. Pappus proves it for the latter case in his first lemma 
+(p. 788) to the second Book of Apollonius' 
+
+
+
+BOOK OF LEMMAS. 
+
+
+
+315 
+
+
+
+Proposition 14. 
+
+Let AGE be a semicircle on AB as diameter, and let AD, 
+BE be equal lengths measured along ABfrom A, B respectively. 
+On AD, BE as diameters describe semicircles on the side towards 
+C, and on DE as diameter a semicircle on the opposite side. Let 
+the perpendicular to AB through 0, the centre of the first semi- 
+circle, meet the opposite semicircles in C, F respectively. 
+
+Then shall the area of the figure bounded by the circumferences 
+of all the semicircles ("which Archimedes calls 'Salinvn'"*) be 
+equal to the area of the circle on CF as diameter-^. 
+
+By Eucl. n. 10, since ED is bisected at and produced 
+to A, 
+
+EA* + AD* = 2 (EO* + OA*) 9 
+
+and CF=OA + OE = EA. 
+
+
+
+
+* For the explanation of this name see note attached to the remarks on the 
+Liber Assumptorum in the Introduction, Chapter II. On the grounds there 
+given at length I believe <rd\ivov to be simply a Qraecised form of the Latin 
+word salinum, 'salt-cellar.* 
+
+t Cantor (Qesch. d. Mathematik, i. p. 285) compares this proposition 
+with Hippocrates' attempt to square the circle by means of lunes, bat 
+points out that the object of Archimedes may have been the converse of that 
+of Hippocrates. For, whereas Hippocrates wished to find the area of a circle 
+from that of other figures of the same sort, Archimedes* intention was possibly 
+to equate the area of figures bounded by different curves to that of a circle 
+regarded as already known. 
+
+
+
+316 ARCHIMEDES 
+
+Therefore 
+
+Aff + DE* - 4 (EO* + OA*) 
+
+But circles (and therefore semicircles) are to one another as 
+the squares on their radii (or diameters). 
+
+Therefore 
+(sum of semicircles on AB, DE) 
+
+= (circle on CF) + (sum of semicircles on AD, BE). 
+Therefore 
+
+(area of ' salinon ') = (area of circle on CF as diam.). 
+
+Proposition 15. 
+
+Let AB be the diameter of a circle, AC a side of an in- 
+scribed regular pentagon, D the middle point of the arc AC. 
+Join CD and produce it to meet BA produced in E; join AC, 
+DB meeting in F, and draw FM perpendicular to AB. Then 
+
+EM = (radius of circle)*. 
+
+Let be the centre of the circle, and join DA, DM, DO, 
+CB. 
+
+Now Z A BC = f (right angle), 
+
+and Z A BD = ^ DBG = (right angle), 
+
+whence /L A OD = (right angle). 
+
+* Pappus gives (p. 418) a proposition almost identical with this among the 
+lemmas required for the comparison of the five regular polyhedra. His enunci- 
+ation is substantially as follows. If DH be half the side of a pentagon inscribed 
+in a circle, while DH is perpendicular to the radius OH A, and if HM be made 
+equal to AH, then OA is divided at M in extreme and mean ratio, OM being the 
+greater segment. 
+
+In the course of the proof it is first shown that AD, DM, MO are all equal, 
+as in the proposition above. 
+
+Then, the triangles ODA, DAM being similar, 
+OA:AD = AD:AM, 
+or (since AD= OM) OA : OM= OM : MA. 
+
+
+
+BOOK OF LEMMAS. 317 
+
+Further, the triangles FOB, FMB are equal in all respects. 
+
+Therefore, in the triangles DOB, DMB, the sides CB, ME 
+being equal and BD common, while the angles CBD, MBD are 
+equal, 
+
+Z BCD / B MD = (right angle). 
+
+
+
+
+But Z BCD + Z BAD = (two right angles) 
+
+
+
+so that Z DAE 
+
+and ZJ54D 
+
+Therefore AD = MD. 
+
+Now, in the triangle DJtfO, 
+
+Z MOD = (right angle), 
+Z ZX = f (right angle). 
+Therefore Z ODJf = (right angle) = 4 OD ; 
+whence OM=MD. 
+
+Again Z #D.4 = (supplement of A DC) 
+
+
+
+f (right angle) 
+
+
+
+318 ARCHIMEDES 
+
+Therefore, in the triangles EDA, ODM, 
+
+
+
+and the sides AD 9 MD are equal. 
+
+Hence the triangles are equal in all respects, and 
+
+
+
+Therefore 
+
+
+
+Moreover DE DO; and it follows that, since DE is equal 
+to the side of an inscribed hexagon, and DC is the side of an 
+inscribed decagon, EC is divided at D in extreme and mean 
+ratio [i.e. EC : ED = ED : DC] ; "and this is proved in the 
+book of the Elements." [Eucl. xin. 9, "If the side of the 
+hexagon and the side of the decagon inscribed in the same 
+circle be put together, the whole straight line is divided in 
+extreme and mean ratio, and the greater segment is the 
+side of the hexagon."] 
+
+
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2668 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Conoids and Spheroids</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 99-150 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">99-150</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+            
+ON CONOIDS AND SPHEKOIDS. 
+
+
+
+Introduction *. 
+
+" ARCHIMEDES to Dositheus greeting. 
+
+In this book I have set forth and send you the proofs of the 
+remaining theorems not included in what I sent you before, and 
+also of some others discovered later which, though I had often 
+tried to investigate them previously, I had failed to arrive at 
+because I found their discovery attended with some difficulty. 
+And this is why even the propositions themselves were not 
+published with the rest. But afterwards, when I had studied 
+them with greater care, I discovered what I had failed in 
+before. 
+
+Now the remainder of the earlier theorems were propositions 
+concerning the right-angled conoid [paraboloid of revolution] ; 
+but the discoveries which I have now added relate to an obtuse- 
+angled conoid [hyperboloid of revolution] and to spheroidal 
+figures, some of which I call oblong (Trapapatcea) and others fiat 
+
+
+
+I. Concerning the right-angled conoid it was laid down 
+that, if a section of a right-angled cone [a parabola] be made to 
+revolve about the diameter [axis] which remains fixed and 
+
+* The whole of this introductory matter, including the definitions, is trans- 
+lated literally from the Greek text in order that the terminology of Archimedes 
+may be faithfully represented. When this has once been set out, nothing will 
+be lost by returning to modern phraseology and notation. These will accordingly 
+be employed, as usual, when we come to the actual propositions of the treatise. 
+
+72 
+
+
+
+100 ARCHIMEDES 
+
+return to the position from which it started, the figure compre- 
+hended by the section of the right-angled cone is called a right- 
+angled conoid, and the diameter which has remained fixed 
+is called its axis, while its vertex is the point in which the 
+axis meets (airrerai) the surface of the conoid. And if a plane 
+touch the right-angled conoid, and another plane drawn parallel 
+to the tangent plane cut off a segment of the conoid, the base 
+of the segment cut off is defined as the portion intercepted by 
+the section of the conoid on the cutting plane, the vertex 
+[of the segment] as the point in which the first plane touches 
+the conoid, and the axis [of the segment] as the portion cut 
+off within the segment from the line drawn through the vertex 
+of the segment parallel to the axis of the conoid. 
+
+The questions propounded for consideration were 
+
+(1) why, if a segment of the right-angled conoid be cut off 
+by a plane at right angles to the axis, will the segment so cut 
+off be half as large again as the cone which has the same base 
+as the segment and the same axis, and 
+
+(2) why, if two segments be cut off from the right-angled 
+conoid by planes drawn in any manner, will the segments so cut 
+off have to one another the duplicate ratio of their axes. 
+
+II. Respecting the obtuse-angled conoid we lay down the 
+following premisses. If there be in a plane a section of an 
+obtuse-angled cone [a hyperbola], its diameter [axis], and the 
+nearest lines to the section of the obtuse-angled cone [i.e. the 
+asymptotes of the hyperbola], and if, the diameter [axis] 
+remaining fixed, the plane containing the aforesaid lines be 
+made to revolve about it and return to the position from which 
+it started, the nearest lines to the section of the obtuse-angled 
+cone [the asymptotes] will clearly comprehend an isosceles cone 
+whose vertex will be the point of concourse of the nearest lines 
+and whose axis will be the diameter [axis] which has remained 
+fixed. The figure comprehended by the section of the obtuse- 
+angled cone is called an obtuse-angled conoid [hyperboloid of 
+revolution], its axis is the diameter which has remained fixed, 
+and its vertex the point in which the axis meets the surface 
+
+
+
+ON CONOIDS AND SPHEROIDS. 101 
+
+of the conoid. The cone comprehended by the nearest lines to 
+the section of the obtuse-angled cone is called [the cone] 
+enveloping the conoid (irepiexcov TO fcwvoeiSes), and the 
+straight line between the vertex of the conoid and the vertex 
+of the cone enveloping the conoid is called [the line] adjacent 
+to the axis (iroTeovtra rc5 agovi). And if a plane touch the 
+obtuse-angled conoid, and another plane drawn parallel to the 
+tangent plane cut off a segment of the conoid, the base of 
+the segment so cut off is defined as the portion intercepted by 
+the section of the conoid on the cutting plane, the vertex [of 
+the segment] as the point of contact of the plane which touches 
+the conoid, the axis [of the segment] as the portion cut off 
+within the segment from the line drawn through the vertex of 
+the segment and the vertex of the cone enveloping the conoid ; 
+and the straight line between the said vertices is called 
+adjacent to the axis. 
+
+Right-angled conoids are all similar; but of obtuse-angled 
+conoids let those be called similar in which the cones enveloping 
+the conoids are similar. 
+
+The following questions are propounded for consideration, 
+
+(1) why, if a segment be cut off from the obtuse-angled 
+conoid by a plane at right angles to the axis, the segment so 
+cut off has to the cone which has the same base as the segment 
+and the same axis the ratio which the line equal to the sum 
+of the axis of the segment and three times the line adjacent 
+to the axis bears to the line equal to the sum of the axis of 
+the segment and twice the line adjacent to the axis, and 
+
+(2) why, if a segment of the obtuse-angled conoid be cut 
+off by a plane not at right angles to the axis, the segment so 
+cut off will bear to the figure which has the same base as 
+the segment and the same axis, being a segment of a cone* 
+(atrorp.afjLa tcwvov), the ratio which the line equal to the sum 
+of the axis of the segment and three times the line adjacent 
+to the axis bears to the line equal to the sum of the axis of the 
+segment and twice the line adjacent to the axis. 
+
+* A segment of a cone is defined later (p. 104). 
+
+
+
+102 ARCHIMEDES 
+
+III. Concerning spheroidal figures we lay down the follow- 
+ing premisses. If a section of an acute-angled cone [ellipse] be 
+made to revolve about the greater diameter [major axis] which 
+remains fixed and return to the position from which it started, 
+the figure comprehended by the section of the acute-angled 
+cone is called an oblong spheroid (trapap.aK^ <r<<upoei8e?). 
+But if the section of the acute-angled cone revolve about the 
+lesser diameter [minor axis] which remains fixed and return 
+to the position from which it started, the figure comprehended 
+by the section of the acute-angled cone is called a flat spheroid 
+(eTTiTrXarv ffQaipoeiSes). In either of the spheroids the axis 
+is defined as the diameter [axis] which has remained fixed, the 
+vertex as the point in which the axis meets the surface of the 
+spheroid, the centre as the middle point of the axis, and the 
+diameter as the line drawn through the centre at right angles 
+to the axis. And, if parallel planes touch, without cutting, 
+either of the spheroidal figures, and if another plane be drawn 
+parallel to the tangent planes and cutting the spheroid, the 
+base of the resulting segments is defined as the portion inter- 
+cepted by the section of the spheroid on the cutting plane, their 
+vertices as the points in which the parallel planes touch the 
+spheroid, and their axes as the portions cut off within the 
+segments from the straight line joining their vertices. And 
+that the planes touching the spheroid meet its surface at one 
+point only, and that the straight line joining the points of 
+contact passes through the centre of the spheroid, we shall 
+prove. Those spheroidal figures are called similar in which 
+the axes have the same ratio to the 'diameters/ And let 
+segments of spheroidal figures and conoids be called similar if 
+they are cut off from similar figures and have their bases 
+similar, while their axes, being either at right angles to the 
+planes of the bases or making equal angles with the corre- 
+sponding diameters [axes] of the bases, have the same ratio 
+to one another as the corresponding diameters [axes] of the 
+
+
+
+The following questions about spheroids are propounded for 
+consideration, 
+
+(1) why, if one of the spheroidal figures be cut by a plane 
+
+
+
+ON CONOIDS AND SPHEROIDS. 103 
+
+through the centre at right angles to the axis, each of the 
+resulting segments will be double of the cone having the same 
+base as the segment and the same axis ; while, if the plane of 
+section be at right angles to the axis without passing through 
+the centre, (a) the greater of the resulting segments will bear 
+to the cone which has the same base as the segment and the 
+same axis the ratio which the line equal to the sum of half the 
+straight line which is the axis of the spheroid and the axis of 
+the lesser segment bears to the axis of the lesser segment, and 
+(6) the lesser segment bears to the cone which has the same 
+base as the segment and the same axis the ratio which the line 
+equal to the sum of half the straight line which is the axis 
+of the spheroid and the axis of the greater segment bears to the 
+axis of the greater segment ; 
+
+(2) why, if one of the spheroids be cut by a plane passing 
+through the centre but not at right angles to the axis, each of 
+the resulting segments will be double of the figure having the 
+same base as the segment and the same axis and consisting of a 
+segment of a cone*. 
+
+(3) But, if the plane cutting the spheroid be neither 
+through the centre nor at right angles to the axis, (a) the 
+greater of the resulting segments will have to the figure 
+which has the same base as the segment and the same axis 
+the ratio which the line equal to the sum of half the line 
+joining the vertices of the segments and the axis of the lesser 
+segment bears to the axis of the lesser segment, and (6) the 
+lesser segment will have to the figure with the same base 
+as the segment and the same axis the ratio which the line 
+equal to the sum of half the line joining the vertices of the 
+segments and the axis of the greater segment bears to the axis 
+of the greater segment. And the figure referred to is in these 
+cases also a segment of a cone*. 
+
+When the aforesaid theorems are proved, there are dis- 
+covered by means of them many theorems and problems. 
+Such, for example, are the theorems 
+(1) that similar spheroids and similar segments both of 
+
+* See the definition of a segment of a cone (MrnafM K&*OV) on p. 104. 
+
+
+
+104 ARCHIMEDES 
+
+spheroidal figures and conoids have to one another the triplicate 
+ratio of their axes, and 
+
+(2) that in equal spheroidal figures the squares on the 
+' diameters ' are reciprocally proportional to the axes, and, if in 
+spheroidal figures the squares on the ' diameters 1 are reciprocally 
+proportional to the axes, the spheroids are equal. 
+
+Such also is the problem, From a given spheroidal figure 
+or conoid to cut off a segment by a plane drawn parallel to a 
+given plane so that the segment cut off is equal to a given cone 
+or cylinder or to a given sphere. 
+
+After prefixing therefore the theorems and directions (eVi- 
+Tayiuvra) which are necessary for the proof of them, I will 
+then proceed to expound the propositions themselves to you. 
+Farewell. 
+
+DEFINITIONS. 
+
+If a cone be cut by a plane meeting all the sides [generators] 
+of the cone, the section will be either a circle or a section of an 
+acute-angled cone [an ellipse]. If then the section be a circle, 
+it is clear that the segment cut off from the cone towards the 
+same parts as the vertex of the cone will be a cone. But, if 
+the section be a section of an acute-angled cone [an ellipse], let 
+the figure cut off from the cone towards the same parts as the 
+vertex of the cone be called a segment of a cone. Let the 
+base of the segment be defined as the plane comprehended by 
+the section of the acute-angled cone, its vertex as the point 
+which is also the vertex of the cone, and its aads as the straight 
+line joining the vertex of the cone to the centre of the section 
+of the acute-angled cone. 
+
+And if a cylinder be cut by two parallel planes meeting all 
+the sides [generators] of the cylinder, the sections will be either 
+circles or sections of acute-angled cones [ellipses] equal and 
+similar to one another. If then the sections be circles, it is 
+clear that the figure cut off from the cylinder between the 
+parallel planes will be a cylinder. But, if the sections be 
+sections of acute-angled cones [ellipses], let the figure cut off 
+from the cylinder between the parallel planes be called a 
+frustum (TO/UO?) of a cylinder. And let the bases of the 
+
+
+
+ON CONOIDS AND SPHEROIDS. 105 
+
+frustum be defined as the planes comprehended by the sections 
+of the acute-angled cones [ellipses], and the axis as the straight 
+line joining the centres of the sections of the acute-angled 
+cones, so that the axis will be in the same straight line with 
+the axis of the cylinder." 
+
+Lemma. 
+
+If in an ascending arithmetical progression consisting of the 
+magnitudes A Jt A^, ... A n the common difference be equal to the 
+least term A lt then 
+
+
+
+and 
+
+[The proof of this is given incidentally in the treatise On 
+Spirals, Prop. 11. By placing lines side by side to represent 
+the terms of the progression and then producing each so as to 
+make it equal to the greatest term, Archimedes gives the 
+equivalent of the following proof. 
+
+If Sn^Ai+Ai+.^+A^ + An, 
+
+we have also S n = A n + A n ^ + A n ^ + ...4- -4,. 
+
+And A l + -4 n _j = A 2 + A n ^ 2 = ... = A n . 
+
+Therefore 2S n = (n + 1) A nt 
+
+whence n . A n < 2S nt 
+
+and n.A n >2S n - l . 
+
+Thus, if the progression is a, 2a, . . . na, 
+
+
+
+a, 
+
+
+
+and /i*a<2S n , 
+
+but >2S IM .] 
+
+Proposition 1. 
+
+If A lf B lt C l9 .../fj and A^, jB 2 , (7 3 , ...K^ be two series of 
+magnitudes such that 
+
+A , D __ A . JJ \ 
+
+/Ij . JDj = -/Ij x^ji I 
+
+J?, : C^ss-Bj : (7,, a?id so on j ^ ' 
+
+
+
+106 ARCHIMEDES 
+
+and if A 3 , B 3 , d> ...K z and A 4 , B 4 , d, ...K 4 be two other series 
+such that 
+
+A\ I A$ = ^1 2 : -"-4* 
+
+B l :B S =B Z :B 4 , and soon 
+then ( 
+
+
+
+1 /g\ 
+
+) .............. ^ P '' 
+
+
+
+The proof is as follows. 
+
+Since A 3 : A l = A 4 : A.,, 
+
+and A l :B l ^A 9 :B. 9 
+
+while Bi-.Bi^Bt-.Bt, 
+
+we have, ex aequali, A 3 : B 3 = A 4 : B 4 . \ 
+
+Similarly B 3 :C 3 =B^:C 4t and so on j 
+
+Again, it follows from equations (a) that 
+
+
+
+Therefore 
+
+A, : A,^(A, + B t + d + ... + /TO : (A 9 +B 9 -h ... + 
+or (A + B l + d + -.. + #0 : ^i = (A, + B 2 + C..+ ... + 
+and A l :A 3 = A: A^ 
+
+while from equations (7) it follows in like manner that 
+
+
+
+By the last three equations, ex aequali, 
+
+
+
+COR. If any terms in the third and fourth series corre- 
+sponding to terms in the first and second be left out, the 
+result is the same. For example, if the last terms K 3 , K 4 are 
+absent, 
+
+
+
+where I immediately precedes K in each series. 
+
+
+
+OK CONOIDS AND SPHEROIDS. 
+
+
+
+107 
+
+
+
+Lemma to Proposition 2. 
+
+[On Spirals, Prop. 10.] 
+
+// A 19 A*> A 3t ...A n be n lines forming an ascending 
+arithmetical progression in which the common difference is equal 
+to the least term A lt then 
+
+
+
+(n 
+
+
+
+A l (A l 
+
+
+
+Ai A 2 
+
+
+
+n- 3 A-2A n _, 
+
+
+
+AH Aft_i A..,j AB Aj AI 
+
+Let the lines A n , A n - lt -4 n _ 2 , ...A l be placed in a row 
+from left to right. Produce A n - lt A n _, ...Ai until they are 
+each equal to A ni so that the parts produced are respectively 
+equal to A l9 A. 2 , ...4 n _,. 
+
+Taking each line successively, we have 
+
+
+
+(A, + A n _tf = A? + 
+
+\A Z 4* -"-n a) == A^ 4* < 
+
+
+
+"t" ^^2' "n a 
+
+
+
+108 ARCHIMEDES 
+
+And, by addition, 
+
+
+
++ 24, . An-i + 24 2 . 4 n _ 2 4- . . . + 24^ . 4, . 
+
+Therefore, in order to obtain the required result, we have to 
+prove that 
+
+
+
++ ... + A n * ............ (a). 
+
+Now 24 3 . 4 n _ 2 as A l . 44 n _ 2 , because 4 2 = 24i , 
+24 8 . A n -t = A l . 6 4 n _ s , because A s = 34j , 
+
+
+
+It follows that 
+
+
+
+And this last expression can be proved to be equal to 
+
+A* + A*+... + A n *. 
+
+For An^A^n.An) 
+
+
+
+because (n 1) A n = -4 n _, 4- 
+
+4- -"-n 2 4- 
+f 
+
+
+
+Similarly 4 Vi = ^! {^n^ -f 2(4 7l _ 2 -f 4 n _ 8 4- 
+
+
+
+whence, by addition, 
+
+A n t 
+
+1 + 5A n - t + ... +(2n- 
+
+
+
+ON CONOIDS AND SPHEROIDS. 109 
+
+Thus the equation marked (a) above is true ; and it follows 
+that 
+
+
+
+. 
+
+COR. 1. From this it is evident that 
+
+n.A n ><3(A' + A*+...+A n *) ............. (1). 
+
+Also An^A^An + ^A^ + An-i+.-.+At)}, as above, 
+so that An > A^An + A n ^ + ... -Mi), 
+and therefore 
+
+
+
+It follows from the proposition that 
+
+_ 1 ) .................. (2). 
+
+
+
+COR. 2. All these results will hold if we substitute similar 
+figures for squares on all the lines ; for similar figures are in the 
+duplicate ratio of their sides. 
+
+[In the above proposition the symbols A lt A^, ...A n have 
+been used instead of a, 2a, 3a, ...na in order to exhibit the 
+geometrical character of the proof ; but, if we now substitute 
+the latter terms in the various results, we have (1) 
+
+(n + 1) nV + a(a + 2a + ... 4- na) 
+
+= 3 {a 2 4- (2a) 2 + (3a)* + . . . + (a) f j. 
+
+Therefore a 9 + (2a) a + (3a) 2 + . . . + (na) 2 
+
+n ( n + !)} 
+
+a } 
+
+
+
+a * (/ , -i \ 
+
+8l ( " +1) " 
+
+
+
+_. _ 
+
+Also(2) i' 
+and (3) n' 
+
+
+
+110 ARCHIMEDES 
+
+Proposition 3. 
+
+IfA lt A 2 ... A n be any number of areas such that* 
+A l = 00 + s , 
+
+
+
+A n a. nx + (nx)* y 
+
+(* )~iff\ 
+2 + T j ' 
+
+(ft 7i^?*\ 
+S + -Q- 
+L O / 
+
+For, by the Lemma immediately preceding Prop. 1, 
+
+n . anx < 2 (ax + a . 20 + . . . + a . nx) y 
+and > 2 (ax + a . 20 + . . . + a . /T^T #). 
+
+Also, by the Lemma preceding this proposition, 
+n . (nx)* < 3 {x* + (2#)' + (30)" + . . . + (/w?)"} 
+and > 3 {0 2 + (20) 1 + . . . + (n~^~T a;) 2 }. 
+
+Hence 
+
+ClfflQC VL ( fUE I 
+
+-y + -y- ; - < [(00 4- 0>) + {a . 20 -f (20/J + . . . + {a . n0 ^(710)") 
+and 
+> [(00 + s ) + {a . 2# -t- (2#) 2 j + ... + {a . ti^l x -f (?i-"l 0) 1 }], 
+
+
+
+an*x 
+
+
+
+and 
+
+It follows that 
+
+
+
+or n.A n :(A l 
+
+also n.^ n :(^ 1 
+
+* The phraseology of Archimedes here is that associated with the traditional 
+method of application of areas: rf K a...irap Ard^ra* atrav wapairfov n xupiov 
+vvtppd\\ov cfdci TTpay6vt? t if to each of the lines there be applied a space 
+[rectangle] exceeding by a square figure. " Thus A l is a rectangle of height x ap- 
+plied to a line a but overlapping it so that the base extends a distance x beyond a. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 
+
+
+
+Ill 
+
+
+
+Proposition 3. 
+
+(1) If TP, TP' be two tangents to any conic meeting in T, 
+and if Qq, Q'q' be any two chords parallel respectively to TP, 
+TP' and meeting in 0, then 
+
+QO.Oq:Q'O.Oq'=TP*: TP". 
+" And this is proved in the elements of conies*." 
+
+(2) If QQ' be a chord of a parabola bisected in V by the 
+diameter PV, and if PV be of constant length, then the areas of 
+the triangle PQQ' and of the segment PQQ' are both constant 
+whatever be the direction of QQ'. 
+
+Let ABB' be the particular segment of the parabola whose 
+vertex is A, so that BE' is bisected perpendicularly by the axis 
+at the point H, where AH = PV. 
+
+Draw QD perpendicular to PV. 
+
+
+
+
+Let p a be the parameter of the principal ordinates, and let 
+p be another line of such length that 
+
+QV-.QD'-p-.p.; 
+
+it will then follow that p is equal to the parameter of the ordi- 
+nates to the diameter PV, i.e. those which are parallel to QV. 
+
+* i.e. in the treatises on conies by Aristaeus and Euclid. 
+
+
+
+112 ARCHIMEDES 
+
+" For this is proved in the conies*." 
+
+Thus QV*=p.PV. 
+
+And BH*=p a .AH, while AH=PV. 
+Therefore QF 1 : BH* = p:p a . 
+
+But QV*:QD*=p:p a ; 
+
+hence BH = QD. 
+
+Thus BH.AH=QD.PV, 
+
+and therefore A 4 JBJ3' = A PQQ' ; 
+
+that is, the area of the triangle PQQ' is constant so long as PV 
+is of constant length. 
+
+Hence also the area of the segment PQQ' is constant under 
+the same conditions; for the segment is equal to $APQQ'. 
+[Quadrature of the Parabola, Prop. 17 or 24.] 
+
+* The theorem which is here assumed by Archimedes as known can be 
+proved in various ways. 
+
+(1) It is easily deduced from Apollonius I. 49 (cf. Apollonius of Perga, 
+pp. liii, 39). If in the figure the tangents at A and P be drawn, the former 
+meeting PV in E, and the latter meeting the axis in T, and if AE, PT meet 
+at C, the proposition of Apollonius is to the effect that 
+
+
+
+where p is the parameter of the ordinates to PV. 
+
+(2) It may be proved independently as follows. 
+
+Let QQ' meet the axis in O, and let QM, Q'JT, PN be ordinates to the axis. 
+
+Then AM : A M' = QM* : Q'M'* = OM* : < 
+
+whence AM : MM'= OJf : OJ/ 2 - O J/ 
+
+= OJ/ 3 :(OJ/-OJ/')., 
+BO that OJf *=AM . (OJ/- OM'). 
+
+That is to say, (AM- AO)*=AM .(AM+AM' -2AO), 
+or AO*=AM.AM'. 
+
+And, since QM*=p a .AM, and Q'M'* = p a .AM f , 
+it follows that QM .Q'M' = p a .AO (a). 
+
+Now QV* : QD*=QV* : (Q M + Q' M '\ 2 
+
+
+
+= QV*:(PN*+QM.Q'M') 
+=p.PV:p a .(AN+AO),l)y(a). 
+
+But PV=TO=AN+AO. 
+
+Therefore QV* : QD * = p : p a . 
+
+
+
+ON CONOIDS AND SPHEROIDS. 
+
+
+
+113 
+
+
+
+Proposition 4. 
+
+The area of any ellipse is to that of the auxiliary circle as 
+the minor axis to the major. 
+
+Let AA' be the major and BB' the minor axis of the 
+ellipse, and let BB' meet the auxiliary circle in 6, b'. 
+
+Suppose to be such a circle that 
+
+(circle AbA'V) :0 = CA:CB. 
+Then shall be equal to the area of the ellipse. 
+
+For, if not, must be either greater or less than the 
+ellipse. 
+
+I. If possible, let be greater than the ellipse. 
+
+We can then inscribe in the circle an equilateral polygon 
+of 4w sides such that its area is greater than that of the ellipse, 
+[cf. OH the Sphere and Cylinder, I. 0.] 
+
+
+
+
+Let this be done, and inscribe in the auxiliary circle of the 
+ellipse the polygon AefbghA'... similar to that inscribed in 0. 
+Let the perpendiculars eM, /JV,... on AA' meet the ellipse in 
+E, F,. . . respectively. Join A E t EF, FB,. . .. 
+
+Suppose that P' denotes the area of the polygon inscribed 
+in the auxiliary circle, and P that of the polygon inscribed in 
+the ellipse. 
+
+
+
+H. A. 
+
+
+
+8 
+
+
+
+114 ARCHIMEDES 
+
+Then, since all the lines eM, fN,. . . are cut in the same 
+proportions at E y F,... f 
+
+i.e. eM : EM=fN :FN=... = bC : BC, 
+
+the paii*s of triangles, as eAM 9 EAM, and the pairs of trapeziums, 
+as eMNf, EMNF, are all in the same ratio to one another 
+as bC to BC, or as CA to CB. 
+
+Therefore, by addition, 
+
+P':P = CA:CB. 
+
+Now P' : (polygon inscribed in 0) 
+
+= (circle AbA 'V) : () 
+
+= CA : CB, by hypothesis. 
+
+Therefore P is equal to the polygon inscribed in 0. 
+
+But this is impossible, because the latter polygon is by 
+hypothesis greater than the ellipse, and a fortiori greater 
+than P. 
+
+Hence is not greater than the ellipse. 
+
+II. If possible, let be less than the ellipse. 
+
+In this case we inscribe in the ellipse a polygon P with In 
+equal sides such that P > 0. 
+
+Let the perpendiculars from the angular points on the 
+axis AA' be produced to meet the auxiliary circle, and let the 
+corresponding polygon (P f ) in the circle be formed. 
+
+Inscribe in a polygon similar to P'. 
+
+Then P':P = CA:CB 
+
+= (circle AbA'b') : 0, by hypothesis, 
+= P' : (polygon inscribed in O). 
+
+Therefore the polygon inscribed in is equal to the 
+polygon P ; which is impossible, because P > 0. 
+
+Hence 0, being neither greater nor less than the ellipse, is 
+equal to it ; and the required result follows. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 115 
+
+
+
+Proposition 5. 
+
+If AA', BE' be the major and minor axis of an ellipse 
+respectively, and if d be the diameter of any circle, then 
+
+(area of ellipse) : (area of circle) = A A' . BE' : d' 2 . 
+For 
+(area of ellipse) : (area of auxiliary circle) = BE' : A A [Prop. 4] 
+
+= AA'.BB': A A". 
+And 
+
+(area of aux. circle) : (area of circle with diam. d) = A A* : tf. 
+Therefore the required result follows ex aequali 
+
+Proposition 6. 
+
+The areas of ellipses are as the rectangles under their axes. 
+This follows at once from Props. 4, 5. 
+
+COR. The areas of similar ellipses are as the squares of 
+corresponding a.i-es. 
+
+Proposition 7. 
+
+Given an ellipse with centre C, and a line CO drawn per- 
+pendicular to its plane, it is possible to find a circular cone 
+with vertex and such that the given ellipse is a section of it 
+[or, in other words, to find ilie circular sections of the cone with 
+vertex passing through the circumference of the ellipse]. 
+
+Conceive an ellipse with BB' as its minor axis and lying in 
+a plane perpendicular to that of the paper. Let CO be drawn 
+perpendicular to the plane of the ellipse, and let be the 
+vertex of the required cone. Produce OB, 00, OB' t and in the 
+.same plane with them draw BED meeting 0(7, OB' produced 
+in E, D respectively and in such a direction that 
+
+BE. ED : EO* = CA* : C0\ 
+where CA is half the major axis of the ellipse. 
+
+82 
+
+
+
+116 
+
+
+
+ARCHIMEDES 
+
+
+
+" And this is possible, since 
+
+BE. ED: EO* > BC. CB' : CO*" 
+
+[Both the construction and this proposition are assumed as 
+known.] 
+
+
+
+
+Now conceive a circle with BD as diameter lying in a plane 
+at right angles to that of the paper, and describe a cone with 
+this circle for its base and with vertex 0. 
+
+We have therefore to prove that the given ellipse is a 
+section of the cone, or, if P be any point on the ellipse, that P 
+lies on the surface of the cone. 
+
+Draw PN perpendicular to BK'. Join ON and produce it 
+to meet BD in M t and let MQ be drawn in the plane of the 
+circle on BD as diameter perpendicular to BD and meeting the 
+circle in Q. Also let FG, HK be drawn through E, M respec- 
+tively parallel to BB'. 
+
+We have then 
+
+
+
+= BE.ED:FE.EG 
+= (BE. ED : EO*) . (EO 9 : FE.EG) 
+= (CA*:CO*).(CO*:BC.CB') 
+= CA* : CB* 
+
+
+
+ON CONOIDS AND SPHEROIDS. 117 
+
+Therefore QM> : PN* = HM.MK:BN. NB' 
+
+
+
+whence, since PN, QM are parallel, OPQ is a straight line. 
+
+But Q is on the circumference of the circle on BD as 
+diameter ; therefore OQ is a generator of the cone, and hence 
+P lies on the cone. 
+
+Thus the cone passes through all points on the ellipse. 
+
+Proposition 8. 
+
+Given an ellipse, a plane through one of its axes A A' and 
+perpendicular to the plane of the ellipse, and a line CO drawn 
+from C, the centre, in the given plane through AA' but not 
+perpendicular to AA e , it is possible to find a cone with vertex 
+such that the given ellipse is a section of it [or, in other words, 
+to find the circular sections of the cone with vertex whose 
+surface passes through the circumference of the ellipse]. 
+
+By hypothesis, OA, OA' are unequal. Produce QA' to D so 
+that OA = OD. Join A D, and draw FG through C parallel to it. 
+
+The given ellipse is to be supposed to lie in a plane per- 
+pendicular to the plane of the paper. Let BB' be the other 
+axis of the ellipse. 
+
+Conceive a plane through AD perpendicular to the plane 
+of the paper, and in it describe either (a), if CB* = FC. CG, a 
+circle with diameter AD, or (b\ if not, an ellipse on AD as 
+axis such that, if d be the other axis, 
+
+
+
+Take a cone with vertex whose surface passes through 
+the circle or ellipse just drawn. This is possible even when the 
+curve is an ellipse, because the line from to the middle point 
+of AD is perpendicular to the plane of the ellipse, and the 
+construction is effected by means of Prop. 7. 
+
+Let P be any point on the given ellipse, and we have only 
+to prove that P lies on the surface of the cone so described 
+
+
+
+118 ARCHIMEDES 
+
+Draw PN perpendicular to AA'. Join ON, and produce it 
+to meet AD in M. Through M draw HK parallel to A' A. 
+
+
+
+
+Lastly, draw MQ perpendicular to the plane of the paper 
+(and therefore perpendicular to both HK and AD) meeting the 
+ellipse or circle about AD (and therefore the surface of the cone) 
+in Q. 
+Then 
+
+QM* : HM . MK - (QM 9 : DM . MA ) . (DM . MA : HM . MK) 
+= (d 2 : AD*).(FC. GG : A'C. CA) 
+= (Ctf* : FC . CG).(FC.CG : AC .CA) 
+= CB* : CA* 
+= PN*:A'N.NA. 
+Therefore, alternately, 
+
+QM : PN* - HM. MK : A' XT . NA 
+
+= OM* : ON*. 
+
+Thus, since PN, QM are parallel, OPQ is a straight line ; 
+and, Q being on the surface of the cone, it follows that P is also 
+on the surface of the cone. 
+
+Similarly all points on the ellipse are also on the cone, and 
+the ellipse is therefore a section of the cone. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 119 
+
+Proposition 9. 
+
+Given an ellipse, a plane through one of its axes and perpen- 
+dicular to that of the ellipse, and a straight line CO drawn from 
+the centre of the ellipse in the given plane through the axis but 
+not perpendicular to that axis, it is possible to find a cylinder 
+with axis OC such that the ellipse is a section of it [or, in other 
+words, to find the circular sections of the cylinder with axis OC 
+whose surface passes through the circumference of the given 
+ellipse]. 
+
+Let A A' be an axis of the ellipse, and suppose the plane 
+of the ellipse to be perpendicular to that of the paper, so that 
+OC lies in the plane of the paper. 
+
+
+
+
+Draw AD, A'E parallel to CO, and let DE be the line 
+through perpendicular to both AD and A'E. 
+
+We have now three different cases according as the other 
+axis BW of the ellipse is (1) equal to, (2) greater than, or 
+(3) less than, DE. 
+
+(1) Suppose BB' = DE. 
+
+Draw a plane through DE at right angles to OC, and in 
+this plane describe a circle on DE as diameter. Through this 
+circle describe a cylinder with axis OC. 
+
+This cylinder shall be the cylinder required, or its surface 
+shall pass through every point P of the ellipse. 
+
+For, if P be any point on the ellipse, draw PN perpendicular 
+to A A' ; through N draw NM parallel to CO meeting DE in 
+M, and through Af, in the plane of the circle on DE as diameter, 
+draw MQ perpendicular to DE, meeting the circle in Q. 
+
+
+
+120 
+
+
+
+ARCHIMEDES 
+
+
+
+Then, since DE = BB', 
+
+PN* : AN,NA' = DO' : A C. CA. 
+
+
+
+And 
+since AD, NM, CO, A'E are parallel. 
+
+Therefore PN* = DM.ME 
+
+= QM>, 
+by the property of the circle. 
+
+Hence, since PN, QM are equal as well as parallel, PQ is 
+parallel to MN and therefore to CO. It follows that PQ is a 
+generator of the cylinder, whose surface accordingly passes 
+through P. 
+
+(2) If BB' > DE y we take E' on A'E such that DE' = BB' 
+and describe a circle on DE' as diameter in a plane perpen- 
+dicular to that of the paper ; and the rest of the construction 
+and proof is exactly similar to those given for case (1). 
+
+(3) Suppose BB' < DE. 
+
+Take a point K on CO produced such that 
+
+
+
+From K draw KR perpendicular to the plane of the paper 
+and equal to CB. 
+
+Thus OR 9 OK 9 + CB 9 = OD*. 
+
+
+
+
+In the plane containing DE, OR describe a circle on DE an 
+diameter. Through this circle (which must pass through R) 
+draw a cylinder with axis OC. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 121 
+
+We have then to prove that, if P be any point on the given 
+ellipse, P lies on the cylinder so described. 
+
+Draw PN perpendicular to AA', and through N draw NM 
+parallel to CO meeting DE in M. In the plane of the circle on 
+DE as diameter draw MQ perpendicular to DE and meeting 
+the circle in Q. 
+
+Lastly, draw QH perpendicular to NM produced. QH will 
+then be perpendicular to the plane containing AC, DE t i.e. the 
+plane of the paper. 
+
+Now QH 2 : QM* = KR* : OR\ by similar triangles. 
+
+And QM 2 : AN. NA' = DM. ME : AN. NA' 
+
+= OZ> 2 : CA\ 
+Hence, ex aequali, since OR = OD, 
+
+QH*:AN.NA' = KR*:CA* 
+- CB* : CA* 
+= PN*:AN.NA'. 
+
+Thus QH = PN. And QH, PN are also parallel. Accordingly 
+PQ is parallel to MN, and therefore to CO, so that PQ is a 
+generator, and the cylinder passes through P. 
+
+Proposition 1O. 
+
+It was proved by the earlier geometers that any two cones 
+have to one another the ratio compounded of the ratios of their 
+bases and of their heights*. The same method of proof will 
+show that any segments of cones have to one another the ratio 
+compounded of the ratios of their bases and of their heights. 
+
+The proposition that any 'frustum ' of a cylinder is triple 
+of the conical segment which has the same base as the frustum 
+and equal height is also proved in the same manner as the 
+proposition that the cylinder is triple of the cone which has 
+the same base as the cylinder and equal height^. 
+
+* This follows from Eucl. xu. 11 and 14 taken together. Cf. On the Sphere 
+and Cylinder i, Lemma 1. 
+
+t This proposition was proved by Eudoxus, as stated in the preface to On 
+the Sphere and Cylinder i. Cf. Eucl. xu. 10. 
+
+
+
+122 ARCHIMEDES 
+
+Proposition 11. 
+
+(1) If a paraboloid of revolution be cut by a plane through, 
+or parallel to, the axis, the section will be a parabola equal to the 
+original parabola which by its revolution generates the paraboloid. 
+And the axis of the section urill be the intersection between the 
+cutting plane and the plane through the axis of the paraboloid 
+at right angles to the cutting plane. 
+
+If the paraboloid be cut by a plane at right angles to its 
+axis, the section will be a circle whose centre is on the axis. 
+
+(2) If a hyperboloid of revolution be cut by a plane through 
+the axis, parallel to the axis, or through the centre, the section 
+will be a hyperbola, (a) if the section be through the axis, equal, 
+(b) if parallel to the axis, similar, (c) if through the centre, 
+not similar, to the original hyperbola which by its revolution 
+generates the hyperboloid. And the axi.s of the section will be 
+the intersection of the cutting plane and the plane through the 
+axis of the hyperboloid at right angles to the cutting plane. 
+
+Any section of the hyperboloid by a plane at right angles to 
+the axis will be a circle whose centre is on the axis. 
+
+(3) If any of the spheroidal figures be cut by a plane through 
+the axis or parallel to the axis, the section will be an ellipse, 
+(a) if the section be through the axis, equal, (b) if parallel to the 
+axis, similar, to the ellipse which by its revolution generates the 
+figure. And the axis of the section will be ike intersection of the 
+cutting plane and the plane through the axis of the spheroid 
+at right angles to the cutting plane. 
+
+If the section be by a plane at right angles to the axis of the 
+sph^oid, it will be a circle whose centre is on the axis. 
+
+(4) If any of the said figures be cut by a plane through the 
+axis, and if a perpendicular be drawn to the plane of section 
+from any point on the surface of the figure but not on the section, 
+that perpendicular will fall within the section. 
+
+" And the proofs of all these propositions are evident."* 
+* Cf. the Introduction, chapter HI. 4. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 
+
+
+
+123 
+
+
+
+Proposition 12. 
+
+If a paraboloid of revolution be cut by a plane neither parallel 
+nor perpendicular to the axis, and if the plane through the axis 
+perpendicukir to the cutting plane intersect it in a straight line 
+of which the portion intercepted within the paraboloid is RR, 
+the section of the paraboloid ivill be an ellipse whose major axis 
+is RR' and whose minor axis is equal to the perpendicular 
+distance between the lines through R, R parallel to the axis 
+of the paraboloid. 
+
+Suppose the cutting plane to be perpendicular to the plane 
+of the paper, and let the latter be the plane through the axis 
+ANF of the paraboloid which intersects the cutting plane at 
+right angles in RR. Let RH be parallel to the axis of the 
+paraboloid, and R'H perpendicular to RH. 
+
+Let Q be any point on the section made by the cutting 
+plane, and from Q draw QM perpendicular to RR. QM will 
+therefore be perpendicular to the plane of the paper. 
+
+Through M draw DMFE perpendicular to the axis ANF 
+meeting the parabolic section made by the plane of the paper 
+in D, E. Then QM is perpendicular to DE, and, if a plane be 
+drawn through DE, QM, it will be perpendicular to the axis 
+and will cut the paraboloid in a circular section. 
+
+
+
+
+Since Q is on this circle, 
+
+
+
+Again, if PT be that tangent to the parabolic section in the 
+
+
+
+124 
+
+
+
+ARCHIMEDES 
+
+
+
+plane of the paper which is parallel to RR', and if the tangent 
+at A meet PT in 0, then, from the property of the parabola, 
+
+DM.ME:RM.MR' = AO*:OP* [Prop. 3 (1)] 
+
+= AO* : 02", since AN** AT. 
+
+Therefore QM* : RM . MR' A O 2 : 
+
+
+
+by similar triangles. 
+
+Hence Q lies on an ellipse whose major axis is RR' and 
+whose minor axis is equal to R'H. 
+
+
+
+Propositions 13, 14. 
+
+If a hyperboloid of revolution be cut by a plane meeting all 
+the generators of the enveloping cone, or if an ' oblong ' spheroid 
+be cut by a plane not perpendicular to the axis*, and if a plane 
+through the axis intersect the cutting plane at right angles in a 
+straight line on which the hyperboloid or spheroid intercepts 
+a length RR', then the section by the cutting plane will be an 
+ellipse whose major axis is RR'. 
+
+Suppose the cutting plane to be at right angles to the 
+plane of the paper, and suppose the latter plane to be that 
+
+
+
+
+* Archimedes begins Prop. 14 for the spheroid with the remark that, when the 
+catting plane passes through or is parallel to the axis, the case is clear (^Aov). 
+Cf. Prop. 11 (3). 
+
+
+
+ON CONOIDS AND SPHEROIDS. 125 
+
+through the axis ANF which intersects the cutting plane 
+at right angles in RR'. The section of the hyperboloid or 
+spheroid by the plane of the paper is thus a hyperbola or ellipse 
+having ANF for its transverse or major axis. 
+
+Take any point on the section made by the cutting plane, 
+as Q, and draw QM perpendicular to RR'. QM will then 
+be perpendicular to the plane of the paper. 
+
+Through M draw DFE at right angles to the axis ANF 
+meeting the hyperbola or ellipse in D, E\ and through QM, 
+DE let a plane be described. This plane will accordingly be 
+perpendicular to the axis and will cut the hyperboloid or 
+spheroid in a circular section. 
+
+Thus QM* = DM.ME. 
+
+Let PT be that tangent to the hyperbola or ellipse which 
+is parallel to RR', and let the tangent at A meet PT in 0. 
+
+Then, by the property of the hyperbola or ellipse, 
+
+DM. ME : RM.MR' = OA* : OP 2 , 
+or QM* : RM. MR = OA* : OP 2 . 
+
+Now (1) in the hyperbola OA < OP, because AT< AN*, and 
+accordingly OT < OP, while OA < OT y 
+
+(2) in the ellipse, if KK' be the diameter parallel to RR', 
+and BB f the minor axis, 
+
+EG . CB' : KG . GK' = OA* : OP 2 ; 
+and BC . CB' < KG . CK', so that OA < OP. 
+
+Hence in both cases the locus of Q is an ellipse whose major 
+axis is RR'. 
+
+COR. 1. If the spheroid be a 'flat* spheroid, the section will 
+be an ellipse, and everything will proceed as before except that 
+RR' will in this case be the minor axis. 
+
+CoR. 2. In all conoids or spheroids parallel sections will be 
+similar, since the ratio OA* : OP* is the same for all the 
+parallel sections. 
+
+* With reference to this assumption of. the Introduction, chapter in. 3. 
+
+
+
+126 ARCHIMEDES 
+
+Proposition 15. 
+
+(1) If from any point on the surface of a conoid a line be 
+drawn, in the case of the paraboloid, parallel to the axis, and, in 
+the case of the hyperboloid, parallel to any line passing through 
+the vertex of the enveloping cone, the part of the straight line 
+which is in the same direction as the convexity of the surface will 
+fall without it, and the part which is in the oilier direction 
+within it. 
+
+For, if a plane be drawn, in the case of the paraboloid, 
+through the axis and the point, and, in the case of the hyperbo- 
+loid, through the given point and through the given straight 
+line drawn through the vertex of the enveloping cone, the 
+section by the plane will be (a) in the paraboloid a parabola 
+whose axis is the axis of the paraboloid, (6) in the hyperboloid 
+a hyperbola in which the given line through the vertex of the 
+enveloping cone is a diameter*. [Prop. 11] 
+
+Hence the property follows from the plane properties of the 
+conies. 
+
+(2) If a plane touch a conoid without cutting it, it will 
+touch it at one point only, and the plane drawn through the 
+point of contact and the axis of the conoid will be at right 
+angles to the plane which touches it. 
+
+For, if possible, let the plane touch at two points. Draw 
+through each point a parallel to the axis. The plane passing 
+through both parallels will therefore either pass through, or be 
+parallel to, the axis. Hence the section of the conoid made by 
+this plane will be a conic [Prop. 11 (1), (2)], the two points 
+will lie on this conic, and the line joining them will lie within 
+the conic and therefore within the conoid. But this line 
+will be in the tangent plane, since the two points are in it. 
+Therefore some portion of the tangent plane will be within 
+the conoid; which is impossible, since the plane does not 
+cut it. 
+
+* There seems to be some error in the text here, which says that "the 
+diameter" (i.e. axis) of the hyperbola is " the straight line drawn in the conoid 
+from the vertex of the cone." But this straight line is not, in general, the 
+axis of the section. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 127 
+
+Therefore the tangent plane touches in one point only. 
+
+That the plane through the point of contact and the axis is 
+perpendicular to the tangent plane is evident in the particular 
+case where the point of contact is the vertex of the conoid. 
+For, if two planes through the axis cut it in two conies, the 
+tangents at the vertex in both conies will be perpendicular 
+to the axis of the conoid. And all such tangents will be in the 
+tangent plane, which must therefore be perpendicular to the 
+axis and to any plane through the axis. 
+
+If the point of contact P is not the vertex, draw the plane 
+passing through the axis AN and the point P. 
+It will cut the conoid in a conic whose axis is 
+AN and the tangent plane in a line DPE 
+touching the conic at P. Draw PNP perpen- 
+dicular to the axis, and draw a plane through it 
+also perpendicular to the axis. This plane will 
+make a circular section and meet the tangent 
+plane in a tangent to the circle, which will 
+therefore be at right angles to PN. Hence the 
+tangent to the circle will be at right angles to the plane 
+containing PN, AN\ and it follows that this last plane is 
+perpendicular to the tangent plane. 
+
+Proposition 16. 
+
+( 1 ) If a plane touch any of the spheroidal figures without 
+cutting it, it will touch at one point only, and the plane through 
+the point of contact and the axis will be at right angles to the 
+tangent plane. 
+
+This is proved by the same method as the last proposition. 
+
+(2) If any conoid or spheroid be cut by a plane through the 
+axis, and if through any tangent to the resulting conic a plane be 
+erected at right angles to the plane of section, the plane so erected 
+will touch tlie conoid or spheroid in the same point as that in 
+which the line touches the conic. 
+
+For it cannot meet the surface at any other point. If it 
+did, the perpendicular from the second point on the cutting 
+
+
+
+
+128 ARCHIMEDES 
+
+plane would be perpendicular also to the tangent to the conic 
+and would therefore fall outside the surface. But it must fall 
+within it. [Prop. 11 (4)] 
+
+(3) If two parallel planes touch any of the splwoidal 
+figures, the line joining the points of contact will pass through 
+the centre of the sphwoid. 
+
+If the planes are at right angles to the axis, the proposition 
+is obvious. If not, the plane through the axis and one point of 
+contact is at right angles to the tangent plane at that point. 
+It is therefore at right angles to the parallel tangent plane, and 
+therefore passes through the second point of contact. Hence 
+both points of contact lie on one plane through the axis, and 
+the proposition is reduced to a plane one. 
+
+Proposition 17. 
+
+If two parallel planes touch any of the spheroidal figures, 
+and another plane be drawn parallel to the tangent planes and 
+passing through the centre, the line drawn through any point of 
+the circumference of the resulting section parallel to the chord 
+of contact of the tangent planes will fall outside the spheroid. 
+
+This is proved at once by reduction to a plane proposition. 
+
+Archimedes adds that it is evident that, if the plane 
+parallel to the tangent planes does not pass through the 
+centre, a straight line drawn in the manner described will 
+fall without the spheroid in the direction of the smaller 
+segment but within it in the other direction. 
+
+Proposition 18. 
+
+Any spheroidal figure which is cut by a plane through the 
+centre is divided, botfi as regards its surface and its volume, into 
+two equal parts by that plane. 
+
+To prove this, Archimedes takes another equal and similar 
+spheroid, divides it similarly by a plane through the centre, and 
+then uses the method of application. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 129 
+
+Propositions 19, 2O. 
+
+Given a segment cut off by a plane from a paraboloid or 
+hyperboloid of revolution, or a segment of a spheroid less than 
+half the spheroid also cut off by a plane, it is possible to inscribe 
+in the segment one solid figure and to circumscribe about it 
+another solid figure, each made up of cylinders or 'frusta ' of 
+cylinders of equal height, and such that the circumscribed figure 
+exceeds the inscribed figure by a volume less than that of any 
+given solid. 
+
+Let the plane base of the segment be perpendicular to the 
+plane of the paper, and let the plane of the paper be the plane 
+through the axis of the conoid or spheroid which cuts the base 
+of the segment at right angles in BC. The section in the plane 
+of the paper is then a conic BAG. [Prop. 11] 
+
+Let EAF be that tangent to the conic which is parallel to 
+BC, and let A be the point of contact. Through EAF draw 
+a plane parallel to the plane through BC bounding the 
+segment. The plane so drawn will then touch the conoid 
+or spheroid at A. [Prop. 16] 
+
+(1) If the base of the segment is at right angles to the 
+axis of the conoid or spheroid, A will be the vertex of the 
+conoid or spheroid, and its axis AD will bisect BC at right 
+angles. 
+
+(2) If the base of the segment is not at right angles to the 
+axis of the conoid or spheroid, we draw AD 
+
+(a) in the paraboloid, parallel to the axis, 
+
+(b) in the hyperboloid, through the centre (or the vertex of 
+the enveloping cone), 
+
+(c) in the spheroid, through the centre, 
+
+and in all the cases it will follow that AD bisects BC in D. 
+
+Then A will be the vertex of the segment, and AD will be 
+its axis. 
+
+Further, the base of the segment will be a circle or an 
+ellipse with BC as diameter or as an axis respectively, and 
+with centre D. We can therefore describe through this circle 
+H. A. 9 
+
+
+
+130 ARCHIMEDES 
+
+or ellipse a cylinder or a ' frustum ' of a cylinder whose axis is 
+AD. * [Prop. 9] 
+
+
+
+
+Dividing this cylinder or frustum continually into equal 
+parts by planes parallel to the base, we shall at length arrive 
+at a cylinder or frustum less in volume than any given solid. 
+
+Let this cylinder or frustum be that whose axis is OD, and 
+let AD be divided into parts equal to OD, at , J/,.... Through 
+L, M 9 ... draw lines parallel to BC meeting the conic in P, (?,.> 
+and through these lines draw planes parallel to the base of the 
+segment. These will cut the conoid or spheroid in circles or 
+similar ellipses. On each of these circles or ellipses describe 
+two cylinders or frusta of cylinders each with axis equal to OD t 
+one of them lying in the direction of A and the other in the 
+direction of D, as shown in the figure. 
+
+Then the cylinders or frusta of cylinders drawn in the 
+Direction of A make up a circumscribed figure, and those in 
+the direction of D an inscribed figure, in relation to the 
+segment. 
+
+Also the cylinder or frustum PG in the circumscribed figure 
+is equal to the cylinder or frustum PH in the inscribed figure, 
+QI in the circumscribed figure is equal to QK in the inscribed 
+figure, and so on. 
+
+Therefore, by addition, 
+(circumscribed fig.) = (inscr. fig.) 
+
++ (cylinder or frustum whose axis is OD). 
+But the cylinder or frustum whose axis is OD is less than 
+the given solid figure ; whence the proposition follows. 
+
+
+
+"Having set out these preliminary propositions, let us 
+proceed to demonstrate the theorems propounded with reference 
+to the figures." 
+
+
+
+ON CONOIDS AND SPHEROIDS. 131 
+
+Propositions 21, 22. 
+
+Any segment of a paraboloid of revolution is half as large 
+again as the cone or segment of a cone which has the same base 
+and the same axis. 
+
+Let the base of the segment be perpendicular to the plane of 
+the paper, and let the plane of the paper be the plane through 
+the axis of the paraboloid which cuts the base of the segment 
+at right angles in BO and makes the parabolic section BAG. 
+
+Let EF be that tangent to the parabola which is parallel to 
+BC, and let A be the point of contact. 
+
+Then (I), if the plane of the base of the segment is 
+perpendicular to the axis of the paraboloid, that axis is the 
+line AD bisecting BC at right angles in D. 
+
+(2) If the plane of the base is not perpendicular to the 
+axis of the paraboloid, draw AD parallel to the axis of the 
+paraboloid. AD will then bisect BC t but not at right angles. 
+
+Draw through EF a plane parallel to the base of the seg- 
+ment. This will touch the paraboloid at A, and A will be 
+the vertex of the segment, AD its axis. 
+
+The base of the segment will be a circle with diameter BC 
+or an ellipse with BC as major axis. 
+
+Accordingly a cylinder or a frustum of a cylinder can be 
+found passing through the circle or ellipse and having AD for 
+its axis [Prop. 9J ; and likewise a cone or a segment of a cone 
+can be drawn passing through the circle or ellipse and having 
+A for vertex and AD for axis. [Prop. 8] 
+
+Suppose X to be a cone equal to f (cone or segment of 
+cone ABC). The cone X is therefore equal to half the cylinder 
+or frustum of a cylinder EC. [Cf. Prop. 10] 
+
+We shall prove that the volume of the segment of the 
+paraboloid is equal to X. 
+
+If not, the segment must be either greater or less than X. 
+I. If possible, let the segment be greater than X. 
+We can then inscribe and circumscribe, as in the last 
+
+92 
+
+
+
+132 ARCHIMEDES 
+
+proposition, figures made up of cylinders or frusta of cylinders 
+with equal height and such that 
+
+(circumscribed fig.) - (inscribed fig.) < (segment) - X. 
+
+Let the greatest of the cylinders or frusta forming the 
+circumscribed figure be that whose base is the circle or ellipse 
+about BC and whose axis is OD, and let the smallest of them be 
+that whose base is the circle or ellipse about PP' and whose 
+axis is AL. 
+
+Let the greatest of the cylinders forming the inscribed 
+figure be that whose base is the circle or ellipse about RR' and 
+whose axis is OJD, and let the smallest be that whose base is 
+the circle or ellipse about PP' and whose axis is LM. 
+
+
+
+
+
+
+L A/Q 
+
+
+
+/ M 
+
+
+
+/o 
+
+
+
+
+Produce all the plane bases of the cylinders or frusta to 
+meet the surface of the complete cylinder or frustum EC. 
+
+Now, since 
+
+(circumscribed fig.) (inscr. fig.) < (segment) X , 
+it follows that (inscribed figure) > X (a). 
+
+Next, comparing successively the cylinders or frusta with 
+heights equal to OD and respectively forming parts of the 
+complete cylinder or frustum EC and of the inscribed figure, 
+we have 
+
+(first cylinder or frustum in EC) : (first in inscr. fig.) 
+
+= BD* : RO* 
+
+=AD:AO 
+
+= BD : TO, where AB meets OR in T. 
+And (second cylinder or frustum in EC) : (second in inscr. fig.) 
+
+= HO : SN, in like manner, 
+and so on. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 133 
+
+Hence [Prop. 1] (cylinder or frustum EC) : (inscribed figure) 
+
+- (BD + HO+ ...) : (TO + SN+ ...), 
+
+where BD, HO,... are all equal, and BD, TO, SN,... diminish in 
+arithmetical progression. 
+
+But [Lemma preceding Prop. 1] 
+
+BD + HO + ... > 2(TO +SN+ ...). 
+
+Therefore (cylinder or frustum EG) > 2 (inscribed fig.), 
+or X > (inscribed fig.) ; 
+
+which is impossible, by (a) above. 
+
+II. If possible, let the segment be less than X. 
+In this case we inscribe and circumscribe figures as before, 
+but such that 
+
+(circumscr. fig.) (inscr. fig.) < X - (segment), 
+whence it follows that 
+
+(circumscribed figure) < X ............... (ft). 
+
+And, comparing the cylinders or frusta making up the 
+complete cylinder or frustum GE and the circumscribed figure 
+respectively, we have 
+
+(first cylinder or frustum in CE) : (first in circumscr. fig.) 
+= BD*:BD* 
+= BD : BD. 
+(second in CE) : (second in circumscr. fig.) 
+
+
+
+=AD:AO 
+
+= HO:TO, 
+and so on. 
+
+Hence [Prop. 1] 
+
+(cylinder or frustum CE) : (circumscribed fig.) 
+
+
+
+< 2 : 1, [Lemma preceding Prop. 1] 
+
+and it follows that 
+
+X < (circumscribed fig.) ; 
+
+which is impossible, by (#). 
+
+Thus the segment, being neither greater nor less than X, is 
+equal to it, and therefore to f (cone or segment of cone ABO). 
+
+
+
+134 
+
+
+
+ARCHIMEDES 
+
+
+
+Proposition 23. 
+
+If from a paraboloid of revolution two segments be cut off, 
+one by a plane perpendicular to the axis, the other by a plane not 
+perpendicular to the axis, and if the axes of the segments are 
+equal, the segments will be equal in volume. 
+
+Let the two planes be supposed perpendicular to the plane 
+of the paper, and let the latter plane be the plane through the 
+axis of the paraboloid cutting the other two planes at right 
+angles in BB f , QQ' respectively and the paraboloid itself in the 
+parabola QPQ'B'. 
+
+Let AN, PFbe the equal axes of the segments, and A, P 
+their respective vertices. 
+
+
+
+
+Draw QL parallel to AN or PV and Q'L perpendicular 
+to QL. 
+
+Now, since the segments of the parabolic section cut off by 
+BB', QQ' have equal axes, the triangles ABB', PQQ f are equal 
+[Prop. 3]. Also, if QD be perpendicular to PV, QD = BN (as 
+in the same Prop. 3). 
+
+Conceive two cones drawn with the same bases as the 
+segments and with A, P as vertices respectively. The height 
+of the cone PQQ' is then PK, where PK is perpendicular to 
+
+
+
+ON CONOIDS AND SPHEROIDS. 
+
+
+
+135 
+
+
+
+Now the cones are in the ratio compounded of the ratios of 
+their bases and of their heights, i.e. the ratio compounded of 
+(1) the ratio of the circle about BB' to the ellipse about QQ', 
+and (2) the ratio of AN to PK. 
+
+That is to say, we have, by means of Props. 5, 12, 
+(cone ABB') : (cone PQQ') = (BB' 9 : QQ' . Q'L) . (AN : PK). 
+And BB' = 2BN = 2QD = Q'L, while QQ' = 2QV. 
+Therefore 
+(cone ABB') : (cone PQQ') = (QD:QV). (AN : PK) 
+
+= (PK:PV).(AN:PK) 
+
+= AN:PV. 
+
+Since AN = PV t the ratio of the cones is a ratio of equality : 
+and it follows that the segments, being each half as large again 
+as the respective cones [Prop. 22], are equal. 
+
+Proposition 24. 
+
+If from a paraboloid of revolution two segments be cut off by 
+planes draiun in any manner, the segments will be to one another 
+as the squares on their axes. 
+
+For let the paraboloid be cut by a plane through the axis 
+in the parabolic section P'PApp, and let the axis of the 
+parabola and paraboloid be ANN'. 
+
+Measure along ANN' the lengths AN, AN' equal to the 
+respective axes of the given segments, 
+and through N, N' draw planes perpen- 
+dicular to the axis, making circular 
+sections on Pp, P'p' as diameters re- 
+spectively. With these circles as bases 
+and with the common vertex A let two 
+cones be described. 
+
+Now the segments of the paraboloid 
+whose bases are the circles about Pp t 
+P'f! are equal to the given segments 
+respectively, since their respective axes 
+are equal [Prop. 23]; and, since the 
+segments APp, AP'p' are half as large 
+
+
+
+
+136 ARCHIMEDES 
+
+again as the cones APp, AP'p' respectively, we have only 
+to show that the cones are in the ratio of A N* to AN'*. 
+
+But 
+
+(cone APp) : (cone APp') = (PN> : P'N'*).(AN : AN 1 ) 
+
+= (AN: AN'). (AN: AN') 
+= AN*: AN 19 ', 
+thus the proposition is proved. 
+
+Propositions 25, 26. 
+
+In any hyperboloid of revolution, if A be the vertex and AD 
+the axis of any segment cut off by a plane, and if CA be the 
+semidiameter of the hyperboloid through A (CA being of course 
+in the same straight line with AD), then 
+
+(segment) : (cone with same base and axis) 
+
+- (AD + ZCA) : (AD + 2CA ). 
+
+Let the plane cutting off the segment be perpendicular to 
+the plane of the paper, and let the latter plane be the plane 
+through the axis of the hyperboloid which intersects the cutting 
+plane at right angles in BB', and makes the hyperbolic 
+segment BAB'. Let C be the centre of the hyperboloid (or 
+the vertex of the enveloping cone). 
+
+Let EF be that tangent to the hyperbolic section which is 
+parallel to BB'. Let EF touch at A, and join CA. Then CA 
+produced will bisect BB' at D, CA will be a semi-diameter of 
+the hyperboloid, A will be the vertex of the segment, and AD 
+its axis. Produce AC to A' and H, so that AC= CA' = A'H. 
+
+Through EF draw a plane parallel to the base of the seg- 
+ment. This plane will touch the hyperboloid at A. 
+
+Then (1), if the base of the segment is at right angles to the 
+axis of the hyperboloid, A will be the vertex, and AD the axis, 
+of the hyperboloid as well as of the segment, and the base of the 
+segment will be a circle on BB' as diameter. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 
+
+
+
+137 
+
+
+
+(2) If the base of the segment is not perpendicular to the 
+axis of the hyperboloid, the base will be an ellipse on BB' as 
+major axis. [ pr P- 13 1 
+
+
+
+
+N/ 
+
+
+
+/ 
+
+
+
+-Zv 
+
+B' 
+
+
+
+(AD) 
+
+
+
+lAA'j 
+
+
+
+Then we can draw a cylinder or a frustum of a cylinder 
+EBB'F passing through the circle or ellipse about BB' and 
+having AD for its axis; also we can describe a cone or a 
+segment of a cone through the circle or ellipse and having A 
+for its vertex. 
+
+We have to prove that 
+(segment ABB') : (cone or segment of cone ABB') = HD : A'D. 
+
+
+
+138 ARCHIMEDES 
+
+Let V be a cone such that 
+
+V : (cone or segment of cone ABB') = HD : A 'D, (a) 
+
+find we have to prove that V is equal to the segment. 
+
+Now 
+(cylinder or frustum EB') : (cone or segmt. of cone ABB f ) = 3:1. 
+
+Therefore, by means of (a), 
+
+TTT) 
+(cylinder or frustum EB') :V = A'D: ?f- (0). 
+
+O 
+
+If the segment is not equal to F, it must either be greater 
+or less. 
+
+I. If possible, let the segment be greater than F. 
+
+Inscribe and circumscribe to the segment figures made up 
+of cylinders or frusta of cylinders, with axes along AD and all 
+equal to one another, such that 
+
+(circumscribed fig.) (inscr. fig.) < (segmt.) F, 
+whence (inscribed figure) > F (7). 
+
+Produce all the planes forming the bases of the cylinders or 
+frusta of cylinders to meet the surface of the complete cylinder 
+or frustum EB'. 
+
+Then, if ND be the axis of the greatest cylinder or frustum 
+in the circumscribed figure, the complete cylinder will be 
+divided into cylinders or frusta each equal to this greatest 
+cylinder or frustum. 
+
+Let there be a number of straight lines a equal to A A ' and 
+as many in number as the parts into which AD is divided by 
+the bases of the cylinders or frusta. To each line a apply a 
+rectangle which shall overlap it by a square, and let the greatest 
+of the rectangles be equal to the rectangle AD . A'D and the 
+least equal to the rectangle AL . A'L ; also let the sides of the 
+overlapping squares 6, p, q,...l be in descending arithmetical 
+progression. Thus 6, p, q,...l will be respectively equal to AD, 
+AN, AM,...AL, and the rectangles (ab + ft 2 ), (ap+p*),...(al+F) 
+will be respectively equal to AD . A'D, AN.A'N,...AL . A'L. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 139 
+
+Suppose, further, that we have a series of spaces S each 
+equal to the largest rectangle AD. A'D and as many in number 
+as the diminishing rectangles. 
+
+Comparing now the successive cylinders or frusta (1) in the 
+complete cylinder or frustum EB' and (2) in the inscribed 
+figure, beginning from the base of the segment, we have 
+
+(first cylinder or frustum in EB') : (first in inscr. figure) 
+
+
+
+= AD . A'D : AN. A'N, from the hyperbola, 
+= S: (ap+p*). 
+Again 
+
+(second cylinder or frustum in EB') : (second in inscr. fig.) 
+= BD*:QM* 
+= AD.A'D:AM.A'M 
+
+
+
+and so on. 
+
+The last cylinder or frustum in the complete cylinder or 
+frustum EB' has no cylinder or frustum corresponding to it in 
+the inscribed figure. 
+
+Combining the proportions, we have [Prop. 1] 
+
+(cylinder or frustum EB') : (inscribed figure) 
+
+= (sum of all the spaces S) : (ap + p*) 4- (at? 4- g 8 ) 4- . . . 
+
+[Prop. 2] 
+
+
+
+TTT) 
+
+>A'D:-<T, since a = AA', b = AD, 
+
+O 
+
+>(EB'): V, by (B) above. 
+Hence (inscribed figure) < V. 
+
+But this is impossible, because, by (7) above, the inscribed 
+figure is greater than F. 
+
+
+
+140 ARCHIMEDES 
+
+II. Next suppose, if possible, that the segment is less 
+than V. 
+
+In this case we circumscribe and inscribe figures such that 
+
+(circumscribed fig.) (inscribed fig.) < F (segment), 
+whence we derive 
+
+V > (circumscribed figure) ............... (8). 
+
+We now compare successive cylinders or frusta in the 
+complete cylinder or frustum and in the circumscribed figure ; 
+and we have 
+
+(first cylinder or frustum in EB') : (first in circumscribed fig.) 
+
+= 8:8 
+
+
+
+(second in EB') : (second in circumscribed fig.) 
+
+= S:(ap+p*), 
+and so on. 
+
+Hence [Prop. 1] 
+(cylinder or frustum EB') : (circumscribed fig.) 
+
+= (sum of all spaces 8) : (cub -f V) + (ap 4- p*) + . . . 
+
+< (a + 6) : + [Prop. 2] 
+
+
+
+<(EB')i F, by (ft) above. 
+
+Hence the circumscribed figure is greater than F; which is 
+impossible, by (8) above. 
+
+Thus the segment is neither greater nor less than F, and is 
+therefore equal to it. 
+
+Therefore, by (a), 
+
+(segment ABB') : (cone or segment of cone ABB') 
+
+= (AD + SCA) : (AD+2CA). 
+
+
+
+ON CONOIDS AND SPHEROIDS. 141 
+
+
+
+Propositions 27, 28, 29, 3O. 
+
+(1) In any spheroid whose centre is C, if a plane meeting 
+the axis cut off a segment not greater than half the spheroid and 
+having A for its vertex and AD for its axis, and if A'D be the 
+axis of the remaining segment of the spheroid, then 
+
+(first segmt.) : (cone or segmt. of cone with same base and axis) 
+
+= CA+A'D:A'D 
+[= SCA - AD : 2CA - AD]. 
+
+(2) As a particular case, if the plane passes through the 
+centre, so that the segment is half the spheroid, half the spheroid 
+is double of the cone or segment of a cone which has the same 
+vertex and axis. 
+
+Let the plane cutting off the segment be at right angles to 
+the plane of the paper, and let the latter plane be the plane 
+through the axis of the spheroid which intersects the cutting 
+plane in BB' and makes the elliptic section ABA'B'. 
+
+Let EF, E'F' be the two tangents to the ellipse which are 
+parallel to BB 1 , let them touch it in A, A', and through the 
+tangents draw planes parallel to the base of the segment. 
+These planes will touch the spheroid at A, A', which will 
+be the vertices of the two segments into which it is divided. 
+Also A A' will pass through the centre C and bisect BB' 
+in-D. 
+
+Then (1) if the base of the segments be perpendicular to 
+the axis of the spheroid, A, A! will be the vertices of the 
+spheroid as well as of the segments, AA' will be the axis 
+of the spheroid, and the base of the segments will be a circle on 
+BB' as diameter ; 
+
+(2) if the base of the segments be not perpendicular to the 
+axis of the spheroid, the base of the segments will be an 
+ellipse of which BB' is one axis, and AD, A'D will be the 
+axes of the segments respectively. 
+
+
+
+142 
+
+
+
+ARCHIMEDES 
+
+
+
+We can now draw a cylinder or a frustum of a cylinder 
+EBB'F through the circle or ellipse about BB' and having AD 
+for its axis; and we can also draw a cone or a segment of 
+a cone passing through the circle or ellipse about BB' and 
+having ^1 for its vertex. 
+
+
+
+
+
+
+
+
+a 
+
+
+
+
+a 
+
+
+
+
+
+
+
+
+
+X 
+
+
+
+
+
+
+
+
+
+
+a 8 
+
+
+
+
+
+
+
+We have then to show that, if CA' be produced to H so 
+thatCM'-jTir, 
+(segment ABB') : (cone or segment of cone ABB') = /fZ) : A'D. 
+
+Let F be such a cone that 
+
+V : (cone or segment of cone ABB*) = HD : A'D . . . (a) ; 
+and we have to show that the segment ABB' is equal to V. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 143 
+
+But, since 
+(cylinder or frustum EB') : (cone or segment of cone ABB') 
+
+= 3:1, 
+we have, by the aid of (a), 
+
+ffD 
+
+(cylinder or frustum EB') : V = A'D : ^p (ft). 
+
+Now, if the segment ABB' is not equal to F, it must 
+be either greater or less. 
+
+I. Suppose, if possible, that the segment is greater 
+than V. 
+
+Let figures be inscribed and circumscribed to the segment 
+consisting of cylinders or frusta of cylinders, with axes along 
+AD and all equal to one another, such that 
+
+(circumscribed fig.) (inscribed fig.) < (segment) F, 
+whence it follows that 
+
+(inscribed fig.) > F (7). 
+
+Produce all the planes forming the bases of the cylinders or 
+frusta to meet the surface of the complete cylinder or frustum 
+EB'. Thus, if ND be the axis of the greatest cylinder or 
+frustum of a cylinder in the circumscribed figure, the complete 
+cylinder or frustum EB' will be divided into cylinders or frusta 
+of cylinders each equal to the greatest of those in the circum- 
+scribed figure. 
+
+Take straight lines da each equal to A'D and as many in 
+number as the parts into which AD is divided by the bases of 
+the cylinders or frusta, and measure da along da' equal to AD. 
+It follows that aa' = 2CD. 
+
+Apply to each of the lines a'd rectangles with height equal 
+to ad, and draw the squares on each of the lines ad as in 
+the figure. Let 8 denote the area of each complete rectangle. 
+
+From the first rectangle take away a gnomon with breadth 
+equal to AN (i.e. with each end of a length equal to AN) ; 
+take away from the second rectangle a gnomon with breadth 
+equal to AM, and so on, the last rectangle having no gnomon 
+taken from it. 
+
+
+
+144 ARCHIMEDES 
+
+Then 
+
+the first gnomon A'D . AD -ND . (A'D - AN) 
+
+
+
+= AN.A'N. 
+Similarly, 
+
+the second gnomon = AM. A'M y 
+and so on. 
+
+And the last gnomon (that in the last rectangle but one) is 
+equal to AL . A'L. 
+
+Also, after the gnomons are taken away from the successive 
+rectangles, the remainders (which we will call R 19 .R a ,... R n , 
+where n is the number of rectangles and accordingly R n = 8) 
+are rectangles applied to straight lines each of length aa! and 
+"exceeding by squares" whose sides are respectively equal 
+to DN, DM,... DA. 
+
+For brevity, let DN be denoted by x, and aa or 2CD by c, 
+so that R v = cx + x\ R 9 = c . 2x + (2x)\ . . . 
+
+Then, comparing successively the cylinders or frusta of 
+cylinders (1) in the complete cylinder or frustum EB' and 
+(2) in the inscribed figure, we have 
+
+(first cylinder or frustum in EB') : (first in inscribed fig.) 
+
+
+
+= AD.A'D:AN.A'N 
+= 8 : (first gnomon) ; 
+(second cylinder or frustum in EB') : (second in inscribed fig.) 
+
+= 8 : (second gnomon), 
+and so on. 
+
+The last of the cylinders or frusta in the cylinder or 
+frustum EB' has none corresponding to it in the inscribed 
+figure, and there is no corresponding gnomon. 
+
+Combining the proportions, we have [by Prop. 1] 
+(cylinder or frustum EB') : (inscribed fig.) 
+
+= (sum of all spaces S) : (sum of gnomons). 
+
+
+
+ON CONOIDS AND SPHEROIDS. 145 
+
+Now the differences between 8 and the successive gnomons 
+are R lt R 2 , ... R n , while 
+
+R l = ex + a? 9 
+
+
+
+where 6 = nx = AD. 
+Hence [Prop. 2] 
+
+(sum of all spaces S) : (JZ t + JR.+ ... + # n ) < (c +6) : (| + |) . 
+It follows that 
+(sum of all spaces $) : (sum of gnomons) > (c + 6) : ( + - - ) 
+
+\6 O J 
+
+>">? 
+
+Thus (cylinder or frustum JE7T) : (inscribed fig.) 
+
+>* 
+
+> (cylinder or frustum EB') : V, 
+from (j3) above. 
+
+Therefore (inscribed fig.) < F ; 
+
+which is impossible, by (7) above. 
+
+Hence the segment ABB' is not greater than V. 
+
+II. If possible, let the segment ABB / be less than F. 
+
+We then inscribe and circumscribe figures such that 
+
+(circumscribed fig.) (inscribed fig.) < F (segment), 
+whence F > (circumscribed fig.) (8). 
+
+In this case we compare the cylinders or frusta in (EB f ) 
+with those in the circumscribed figure. 
+
+Thus 
+(first cylinder or frustum in EB') : (first in circumscribed fig.) 
+
+= S:S; 
+(second in EB') : (second in circumscribed fig.) 
+
+= S : (first gnomon), 
+and so on. 
+
+H. A. 10 
+
+
+
+146 ARCHIMEDES 
+
+Lastly (last in EB') : (last in circumscribed fig.) 
+
+= 8 : (last gnomon). 
+Now 
+
+[S + (all the gnomons)} = nS - (R^- R. 2 + ... 
+
+And nflf:B 1 + -B a + ...+-R-i>(c + 6): f| + gj, [Prop. 2] 
+
+so that 
+
+/c 26\ 
+nS : {8 + (all the gnomons)} < (c + b) : f ^ + -g- J 
+
+It follows that, if we combine the above proportions as in 
+Prop. 1, we obtain 
+
+(cylinder or frustum EB') : (circumscribed fig.) 
+
+
+
+< (EB') : V, by (ft) above. 
+
+Hence the circumscribed figure is greater than V\ which is 
+impossible, by (8) above. 
+
+Thus, since the segment ABB' is neither greater nor less 
+than V, it is equal to it ; and the proposition is proved. 
+
+(2) The particular case [Props. 27, 28] where the segment 
+is half the spheroid differs from the above in that the distance 
+CD or c/2 vanishes, and the rectangles cb + b 2 are simply squares 
+(6 2 ), so that the gnomons are simply the differences between 6* 
+and # 2 , 6 2 and (2#)' 2 , and so on. 
+
+
+
+Instead therefore of Prop. 2 we use the Lemma to Prop. 2, 
+Cor. 1, given above [On Spirals, Prop. 10], and instead of the 
+
+ratio (c + 6) : ( | + -g J we obtain the ratio 3 : 2, whence 
+
+(segment ABB') : (cone or segment of cone ABB') = 2:1. 
+
+[This result can also be obtained by simply substituting 
+CA for AD in the ratio (3CA -AD) : (2CA - AD).] 
+
+
+
+ON CONOIDS AND SPHEROIDS. 
+
+
+
+147 
+
+
+
+Propositions 31, 32. 
+
+If a plane divide a spheroid into two unequal segments, and 
+if AN, A'N be the axes of the lesser and greater segments 
+respectively, while C is the centre of the spheroid, then 
+(greater segmt.) : (cone or segmt of cone with same base and aods) 
+
+= CA + AN:AN.' 
+
+Let the plane dividing the spheroid be that through PP' 
+perpendicular to the plane of the paper, and let the latter plane 
+be that through the axis of the spheroid which intersects the 
+cutting plane in PP' and makes the elliptic section PAP' A'. 
+
+
+
+
+Draw the tangents to the ellipse which are parallel to PP'; 
+let them touch the ellipse at A, A ', and through the tangents 
+draw planes parallel to the base of the segments. These planes 
+will touch the spheroid at A, A' y the line AA' will pass 
+through the centre G and bisect PP' in N 9 while AN, AN will 
+be the axes of the segments. 
+
+Then (1) if the cutting plane be perpendicular to the axis 
+of the spheroid, A A 1 will be that axis, and A, A' will be the 
+vertices of the spheroid as well as of the segments. Also the 
+sections of the spheroid by the cutting plane and all planes 
+parallel to it will be circles. 
+
+(2) If the cutting plane be not perpendicular to the axis, 
+
+
+
+-m 9 
+
+
+
+148 ARCHIMEDES 
+
+the base of the segments will be an ellipse of which PP' is an 
+axis, and the sections of the spheroid by all planes parallel 
+to the cutting plane will be similar ellipses. 
+
+Draw a plane through G parallel to the base of the segments 
+and meeting the plane of the paper in BB'. 
+
+Construct three cones or segments of cones, two having A 
+for their common vertex and the plane sections through PP', 
+BB f for their respective bases, and a third having the plane 
+section through PP' for its base and A' for its vertex. 
+
+Produce CA to H and CA' to H' so that 
+
+A'H'=CA. 
+
+
+
+We have then to prove that 
+
+(segment A'PP') : (cone or segment of cone A'PP') 
+
+= CA + AN:AN 
+= NH : AN. 
+
+Now half the spheroid is double of the cone or segment of a 
+cone ABB' [Props. 27, 28]. Therefore 
+
+(the spheroid) = 4 (cone or segment of cone ABB'). 
+But 
+
+(cone or segmt. of cone ABB') : (cone or segmt. of cone APP') 
+= (CA :AN).(BC*:PN*) 
+= (CA :AN).(CA.CA':AN.A'N)...(a). 
+If we measure AK along A A' so that 
+
+AK:AC= AC: AN, 
+
+we have AK.A'N : AG. A'N=CA : AN, 
+
+and the compound ratio in (a) becomes 
+
+(AK. A'N : CA . A'N).(CA . CA' : AN.A'N), 
+
+ie. AK.CA'-.AN.A'N. 
+
+Thus 
+
+(cone or segmt. of cone ABB') : (cone or segmt. of cone APP') 
+
+= AK.CA'-.AN.A'N. 
+
+
+
+ON CONOIDS AND SPHEROIDS. 149 
+
+But (cone or segment of cone APP') : (segment APP') 
+
+= A'N:NH' [Props. 29, 30] 
+
+= AN.A'N:AN.NH'. 
+Therefore, ex aequali, 
+
+(cone or segment of cone ABB') : (segment APP 1 ) 
+
+= AK.CA' -.AN.NH', 
+so that (spheroid) : (segment APP') 
+
+= HH'.AK:AN.NH', 
+since HH' = 4>CA'. 
+
+Hence (segment A'PP') : (segment APP') 
+
+= (HE 1 .AK-AN. NH') : AN . NH' 
+
+= (AK . NH + NH' . NK) : AN. NH'. 
+Further, 
+
+(segment APP') : (cone or segment of cone APP') 
+= NH':A'N 
+
+= AN.NH':AN.A'N, 
+and 
+
+(cone or segmt. of cone APP') : (cone or segmt. of cone A'PP') 
+
+= AN : A'N 
+= AN.A'N: A'N 3 . 
+
+From the last three proportions we obtain, ex aequali, 
+(segment A'PP') : (cone or segment of cone A'PP') 
+= (AK. NH + NH' . NK) : A 'N* 
+= (AK. NH + NH' . NK) : (CA* + NH' . CN) 
+= (AK.NH + NH' . NK) -.(AK.AN + NH' . CN) . . .( 
+
+But 
+AK.NH : AK.AN^NH : AN 
+
+= CA+AN:AN 
+CA:OA 
+
+
+
+= HK:CA 
+
+= HK-NH:CA-AN 
+= NK:CN 
+^NH'.NK -.NH'.CN. 
+
+
+
+150 ARCHIMEDES. 
+
+Hence the ratio in (/3) is equal to the ratio 
+
+AK.NH :AK.AN, or NH : AN. 
+Therefore 
+
+(segment A'PP') : (cone or segment of cone A'PP') 
+
+= NH:AN 
+= CA+AN: AN. 
+
+[If (#, y) be the coordinates of P referred to the conjugate 
+diameters AA' t BB' as axes of x, y, and if 2a, 2b be the lengths 
+of the diameters respectively, we have, since 
+
+(spheroid) (lesser segment) = (greater segment), 
+
+
+
+and the above proposition is the geometrical proof of the truth 
+of this equation where x, y are connected by the equation 
+
+
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>

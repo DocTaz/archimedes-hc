@@ -1,0 +1,1047 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Quadrature of the Parabola</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 233-252 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">233-252</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+            
+
+QUADRATUKE OF THE PAEABOLA. 
+
+
+
+"ARCHIMEDES to Dositheus greeting. 
+
+" When I heard that Conon, who was my friend in his life- 
+time, was dead, but that you were acquainted with Conon and 
+withal versed in geometry, while I grieved for the loss not only 
+of a friend but of an admirable mathematician, I set myself the 
+task of communicating to you, as I had intended to send to 
+Conon, a certain geometrical theorem which had not been 
+investigated before but has now been investigated by me, and 
+which I first discovered by means of mechanics and then 
+exhibited by means of geometry. Now some of the earlier 
+geometers tried to prove it possible to find a rectilineal area 
+equal to a given circle and a given segment of a circle ; and 
+after that they endeavoured to square the area bounded by the 
+section of the whole cone* and a straight line, assuming lemmas 
+not easily conceded, so that it was recognised by most people 
+that the problem was not solved. But I am not aware that 
+any one of my predecessors has attempted to square the 
+segment bounded by a straight line and a section of a right- 
+angled cone [a parabola], of which problem I have now dis- 
+covered the solution. For it is here shown that every segment 
+bounded by a. straight line and a section of a right-angled cone 
+[a parabola] is four-thirds of the triangle which has the same base 
+and equal height with the segment, and for the demonstration 
+
+* There appears to be some corruption here : the expression in the text is 
+ras oXou roO K&VOV TO/MI*, and it is not easy to give a natural and intelligible 
+meaning to it. The section of ' the whole cone ' might perhaps mean a section 
+cutting right through it, i.e. an ellipse, and the ' straight line ' might be an axis 
+or a diameter. But Heiberg objects to the suggestion to read rat dvywlov 
+xcfrou ro/iai , in view of the addition of *al etftofaj, on the ground that the former 
+expression always signifies the whole of an ellipse, never a segment of it 
+(Quaettiones Archimedeae, p. 149). 
+
+
+
+234 ARCHIMEDES 
+
+of this property the following lemma is assumed: that the 
+excess by which the greater of (two) unequal areas exceeds 
+the less can, by being added to itself, be made to exceed any 
+given finite area. The earlier geometers have also used this 
+lemma ; for it is by the use of this same lemma that they have 
+shown that circles are to one another in the duplicate ratio of 
+their diameters, and that spheres are to one another in the 
+triplicate ratio of their diameters, and further that every 
+pyramid is one third part of the prism which has the same base 
+with the pyramid and equal height; also, that every cone is 
+one third part of the cylinder having the same base as the cone 
+and equal height they proved by assuming a certain lemma 
+similar to that aforesaid. And, in the result, each of the afore- 
+said theorems has been accepted* no less than those proved 
+without the lemma. As therefore my work now published has 
+satisfied the same test as the propositions referred to, I have 
+written out the proof and send it to you, first as investigated 
+by means of mechanics, and afterwards too as demonstrated by 
+geometry. Prefixed are, also, the elementary propositions in 
+conies which are of service in the proof (o-ro^eia iccovi/ca %piav 
+es rav dirroSeigw). Farewell." 
+
+
+
+Proposition 1. 
+
+If from a point on a para- 
+bola a straight line be drawn 
+which is either itself the axis or 
+parallel to the axis, as PV, and 
+if QQ' be a chord parallel to 
+the tangent to the parabola at P 
+and meeting PV in V t then 
+
+QF= FQ'. 
+
+Conversely, if QF= VQ', the 
+chord QQ' Ml be parallel to the 
+tangent at P. 
+
+* The Greek of this passage is : ffv^aivei 5t rQv irpocipwtvw 0ewpr)fj.druv 
+IKOGTW w&tv jjffffov r&v Avcv rofrrov rov Xi}/x/uarot dvodctciyfjifrw iririffTVKtvai. 
+Here it would seem that ireircorret/K^ac must be wrong and that the passive 
+should have been used. 
+
+
+
+
+QUADRATURE OF THE PARABOLA. 235 
+
+
+
+Proposition 2. 
+
+If in a parabola QQ' be a chord parallel to the tangent at P t 
+and if a straight line be drawn through P which is either itself 
+the aods or parallel to the axis, and which meets QQ' in V and 
+the tangent at Q to the parabola in T, then 
+
+PV=PT. 
+
+
+
+
+Proposition 3. 
+
+If from a point on a parabola a straight line be drawn 
+which is either itself the axis or parallel to the axis, as PV t 
+and if from two other points Q, Q' on the parabola straight 
+lines be drawn parallel to the tangent at P and meeting PV in 
+V y V respectively, then 
+
+
+
+" And these propositions are proved in the elements of conies*" 
+
+Proposition 4. 
+
+If Qq be the base of any segment of a parabola, and P the 
+verteac of the segment, and if the diameter through any other point 
+R meet Qq in and QP (produced if necessary) in F, then 
+
+QV: VO = OF:FR. 
+
+Draw the ordinate RW to PV, meeting QP in K. 
+* i.e. in the treatises on conies by Euolid and Aristaeus. 
+
+
+
+236 ARCHIMEDES 
+
+
+
+Then PV:PW = QV':RW>; 
+
+whence, by parallels, 
+
+
+
+
+In other words, PQ, PF, PK are in continued proportion; 
+therefore 
+
+
+
+= PQPF:PFPK 
+
+- QF : KF. 
+Hence, by parallels, 
+
+QV: VO = OF:FR 
+
+[It is easily seen that this equation is equivalent to a change of 
+axes of coordinates from the tangent and diameter to new axes 
+consisting of the chord Qq (as axis of #, say) and the diameter 
+through Q (as axis of y). 
+
+g 
+
+For, if QF = a, PF= , where p is the parameter of the 
+ordinates to PF. 
+
+Thus, if QO = x, and RO = y, the above result gives 
+
+a OF 
+
+x-a~ OF-y* 
+a 
+
+, a OF X 'p 
+
+whence ^ = = *- , 
+
+2a-x y y 
+
+or = 
+
+
+
+QUADRATURE OF THE PARABOLA. 237 
+
+
+
+Proposition 5. 
+
+If Qq be the base of any segment of a parabola, P the vertex 
+of the segment, and PV its diameter, and if the diameter of the 
+parabola through any other point R meet Qq in and the 
+tangent at Q in E, then 
+
+QO:Oq = ER:RO. 
+Let the diameter through R meet QP in F. 
+
+
+
+
+Then, by Prop. 4, 
+
+QV: VO=OF:FJR. 
+
+Since QV= Vq, it follows that 
+
+QV:qO = OF:OR (1). 
+
+Also, if VP meet the tangent in T, 
+
+PT = PV, and therefore EF=OF. 
+Accordingly, doubling the antecedents in (1), we have 
+
+Qq:qO = OE: OR, 
+whence QO : Oq = ER:RO. 
+
+
+
+238 
+
+
+
+ARCHIMEDES 
+
+
+
+Propositions 6, 7*. 
+
+Suppose a lever A OB placed horizontally and supported at 
+its middle point 0. Let a triangle BCD in which the angle C is 
+right or obtuse be suspended from B and 0, so that C is attached 
+to and CD is in the same vertical line with 0. Then, if P be 
+such an area as, when suspended from A, will keep the system in 
+equilibrium, 
+
+
+
+Take a point E on OB such that BE=20E, and draw EFH 
+parallel to OCD meeting BC, BD in F, H respectively. Let G 
+be the middle point of FH. 
+
+
+
+
+Then G is the centre of gravity of the triangle BCD. 
+
+Hence, if the angular points B, C be set free and the 
+triangle be suspended by attaching jP to E t the triangle will 
+hang in the same position as before, because EFG is a vertical 
+straight line. "For this is proved f." 
+
+Therefore, as before, there will be equilibrium. 
+Thus P:&BCD=OE:AO 
+
+= 1:3, 
+or P 
+
+* In Prop. 6 Archimedes takes the separate case in which the angle BCD of 
+the triangle is a right angle so that C coincides with O in the figure and F with 
+E. He then proves, in Prop. 7, the same property for the triangle in which 
+BCD is an obtuse angle, by treating the triangle as the difference between two 
+right-angled triangles BOD, BOC and using the result of Prop. 6. I have com- 
+bined the two propositions in one proof, for the sake of brevity. The same 
+remark applies to the propositions following Props. 6, 7. 
+
+t Doubtless in the lost book irepl vyw. Of. the Introduction, Chapter II., 
+ad fin. 
+
+
+
+QUADRATURE OF THE PARABOLA. 
+
+
+
+239 
+
+
+
+Propositions 8, 9. 
+
+Suppose a lever AOB placed horizontally and supported at 
+its middle point 0. Let a triangle BCD, right-angled or obtuse- 
+angled at C, be suspended from the points B, E on OB, the 
+angular point C being so attached to E that the side CD is in the 
+same vertical line with E. Let Q be an area such that 
+
+AO :OE = &BCD:Q. 
+Then, if an area P suspended from A keep the system in 
+
+equilibrium, 
+
+P<ABCDbut>Q. 
+
+Take G the centre of gravity of the triangle BCD, and draw 
+OH parallel to DC, i.e. vertically, meeting BO in H. 
+
+A o_ E H B 
+
+
+
+
+
+We may now suppose the triangle BCD suspended from H, 
+and, since there is equilibrium, 
+
+ABCD :P = AO: OH (1), 
+
+whence P<ABCD. 
+
+Also &BCD:Q = AO: OE. 
+
+Therefore, by (1), ABCD : Q >ABCD : P, 
+and P > Q. 
+
+Propositions 1O, 11. 
+
+Suppose a lever AOB placed horizontally and supported at 0, 
+its middle point. Let CDEF be a trapezium which can be so 
+placed that its parallel sides CD, FE are vertical, while C is 
+vertically below 0, and the other sides CF, DE meet in B. Let 
+EF meet BO in H, and let the trapezium be suspended by attaching 
+F to H and G to 0. Further, suppose Q to be an area such that 
++ AO: OH = (trapezium CDEF) : Q. 
+
+
+
+240 
+
+
+
+ARCHIMEDES 
+
+
+
+Then, if P be the area which, when suspended from A, keeps the 
+system in equilibrium, 
+
+P<Q. 
+
+The same is true in the particular case where the angles at 
+C y F are right, and consequently C, F coincide with 0, H 
+
+
+
+Divide OH in K so that 
+
+
+
+
+Draw KG parallel to OD, and let G be the middle point of 
+the portion of KG intercepted within the trapezium. Then G 
+is the centre of gravity of the trapezium [On, the equilibrium of 
+planes, I. 15]. 
+
+Thus we may suppose the trapezium suspended from K, and 
+the equilibrium will remain undisturbed. 
+
+Therefore 
+
+AO : OK = (trapezium CDEF) : P, 
+
+and, by hypothesis, 
+
+AO : OH = (trapezium CDEF) : Q. 
+Since OK< OH, it follows that 
+
+
+
+Propositions 12, 13. 
+
+If the trapezium CDEF be placed as in the last propositions, 
+except that CD is vertically below a point L on OB instead of 
+being below 0, and the trapezium is suspended from L, H, 
+suppose that Q, R are areas such that 
+
+AO : OH = (trapezium CDEF) : Q, 
+and AO : OL = (trapezium CDEF) : K 
+
+
+
+QUADRATURE OF THE PARABOLA. 
+
+
+
+241 
+
+
+
+If tlien an area P suspended from A keep the system in 
+equilibrium, 
+
+P > R but < Q. 
+
+Take the centre of gravity of the trapezium, as in the 
+last propositions, and let the line through G parallel to DC 
+meet OB in K. 
+
+
+
+L K 
+
+
+
+
+
+Then we may suppose the trapezium suspended from K, 
+and there will still be equilibrium. 
+
+Therefore (trapezium GDEF) : P = AO : OK. 
+
+Hence 
+
+(trapezium GDEF) : P > (trapezium CDEF) : Q, 
+
+but < (trapezium CDEF) : R. 
+
+It follows that P < Q but > R. 
+
+
+
+Propositions 14, 15. 
+
+Let Qq be the base of any segment of a parabola. Then, if 
+two lines be drawn from Q, q, each parallel to the axis of the 
+parabola and on the same side of Qq as the segment is, either 
+
+(1) the angles so formed at Q, q are both right angles, or 
+
+(2) one is acute and the other obtuse. In the latter case let 
+the angle at q be the obtuse angle. 
+
+Divide Qq into any number of equal parts at the points 
+O lt 2 , ... O n . Draw through q, O lf 2 , ... O n diameters of the 
+parabola meeting the tangent at Q in E t E ly E Zt ... E n and the 
+parabola itself in q, R lt R,, ... R n . Join QR 19 QR*, ... QR n 
+meeting qE, 
+
+
+
+H. A. 
+
+
+
+16 
+
+
+
+242 
+
+
+
+ARCHIMEDES 
+
+
+
+Let the diameters Eq, E^O^ ... E n O n meet a straight line 
+QOA drawn through Q perpendicular to the diameters in the 
+points 0, H!, H z , ... H n respectively. (In the particular case 
+where Qq is itself perpendicular to the diameters q will coincide 
+with 0, Oi with H 19 and so on.) 
+
+It is required to prove that 
+
+(1) AEqQ< 3(sum of trapezia F0 1} F&, . . . F n ^0 n and&E n O n Q), 
+
+(2) AEqQ>S(sumoftrapeziaR l O Z) B 2 By . . . Rn^ 
+
+
+
+H 9 Hn-l H Q 
+
+
+
+Pn+J 
+
+
+
+
+Suppose AO made equal to OQ, and conceive QOA as a 
+lever placed horizontally and supported at 0. Suppose the 
+triangle EqQ suspended from OQ in the position drawn, and 
+suppose that the trapezium E0 l in the position drawn is 
+balanced by an area P l suspended from A, the trapezium Efi* 
+in the position drawn is balanced by the area P 2 suspended 
+
+
+
+QUADRATURE OF THE PARABOLA. 243 
+
+from A, and so on, the triangle E n O n Q being in like manner 
+balanced by P n+1 . 
+
+Then P 1 + P 3 + ... + P n +i will balance the whole triangle 
+EqQ as drawn, and therefore 
+
+Pr + P,+ ... + P w -4AJBljQ. [Props. 6, 7] 
+Again AO : 0^ = QO : OH, 
+
+= Qq:q0 1 
+= E& : 0& [by means of Prop. 5] 
+
+= (trapezium EOi) : (trapezium 
+whence [Props. 10, 11] 
+
+
+
+Next AO:OH 1 = E l O l :0 1 R l 
+
+= (E 1 0,):(R 1 3 ) .............. (a), 
+
+while AO : OH a = E t 0. t : OA 
+
+
+
+and, since (o) and (ft) are simultaneously true, we have, by 
+Props. 12, 13, 
+
+
+
+Similarly it may be proved that 
+
+
+
+and so on. 
+
+Lastly [Props. 8, 9] 
+
+AE n O n Q>P n+1 >AR n O n Q. 
+By addition, we obtain 
+(1) (FOJ+(F&)+. .. +(F n _ l O n )+ AE n O n Q> P, 
+
+
+
+or 
+
+
+
+< P l + P a + . . . + P n+1 , a fortiori, 
+<$AEqQ, 
+
+or AEqQ > 3 (^0, + R*0 t +...+ -K B _,O n + A KO n Q). 
+
+162 
+
+
+
+244 
+
+
+
+ARCHIMEDES 
+
+
+
+Proposition 16. 
+
+Suppose Qq to be the base of a parabolic segment, q being 
+not more distant than Qfrom the vertex of the parabola. Draw 
+through q the straight line qE parallel to the axis of the parabola 
+to meet the tangent at Q in E. It is required to prove that 
+
+(area of segment) = A EqQ. 
+
+For, if not, the area of the segment must be either greater 
+or less than A EqQ. 
+
+I. Suppose the area of the 
+segment greater than A EqQ. 
+Then the excess can, if con- 
+tinually added to itself, be 
+made to exceed A EqQ. And 
+it is possible to find a submul- 
+tiple of the triangle EqQ less 
+than the said excess of the 
+segment over A EqQ. 
+
+Let the triangle -FyQ be such 
+a submultiple of the triangle 
+EqQ. Divide Eq into equal 
+parts each equal to qF, and let 
+all the points of division in- 
+cluding F be joined to Q meet- e 
+ing the parabola in R lt R 29 ... 
+
+R n respectively. Through R l9 R t ... R n draw diameters of the 
+parabola meeting qQ in O lf 2 , ... O n respectively. 
+
+Let 0^ meet QR 2 in F,. 
+
+Let 2 R* meet QR l in A and QR B in F z . 
+
+Let B R B meet QJ? 2 in D 2 and QR 4 in F 9 , and so on. 
+
+
+
+or 
+
+
+
+
+We have, by hypothesis, 
+
+A FqQ < (area of segment) - 
+(area of segment) AFqQ > J &EqQ ......... (a). 
+
+
+
+QUADRATURE OF THE PARABOLA. . 245 
+
+Now, since all the parts of qE, as qF and the rest, are equal, 
+0& = R 1 F 19 2 A = DA = RJF*, and so on ; therefore 
+
+
+
+But 
+
+(area of segment) < (F0 l +F& + ... +F n _ 1 n + A E n O n Q). 
+Subtracting, we have 
+(area of segment) - A FqQ < (R& + Rf)* + ... 
+
+
+
+whence, a fortiori, by (a), 
+
+i AEqQ < (R& + R, 2 3 + ... + Rn-iO n + AR n O n Q). 
+But this is impossible, since [Props. 14, 15] 
+
+
+
+Therefore 
+
+(area of segment) :)> %&EqQ. 
+
+II. If possible, suppose the area of the segment less than 
+
+
+
+Take a submultiple of the triangle EqQ, as the triangle 
+FqQ, less than the excess of %AEqQ over the area of the 
+segment, and make the same construction as before. 
+
+Since A FqQ < $AEqQ (area of segment), 
+it follows that 
+A FqQ + (area of segment) < A EqQ 
+
+< (F0 l + F& + . . . + F n ^0 n + AE n O n Q). 
+
+[Props. 14, 15] 
+
+Subtracting from each side the area of the segment, we have 
+A^Q<(sum of spaces qFR lt R^F^, ... E n R n Q) 
+
+< (FO, + F,D, + . . . + F n ^D n ^ + A E n R n Q\ a fortiori; 
+which is impossible, because, by ()8) above, 
+
+
+
+Hence (area of segment) <fc %AEqQ. 
+
+Since then the area of the segment is neither less nor 
+greater than JA-fyQ, it is equal to it. 
+
+
+
+246 
+
+
+
+ARCHIMEDES 
+
+
+
+Proposition 17. 
+
+It is now manifest that the area of any segment of a 
+parabola is four-thirds of the triangle which has the same base 
+as the segment and equal height. 
+
+Let Qq be the base of the segment, P its vertex. Then 
+PQq is the inscribed triangle with the 
+same base as the segment and equal 
+height. 
+
+Since P is the vertex* of the seg- 
+ment, the diameter through P bisects 
+Qq. Let F be the point of bisection. 
+
+Let FP, and qE drawn parallel to 
+it, meet the tangent at Q in T t E re- 
+spectively. 
+
+Then, by parallels, 
+
+
+
+PF=PT, 
+FF=2PF. 
+
+
+
+
+and PF=PT, [Prop. 2] 
+
+so that 
+
+Hence 
+But, by Prop. 16, the area of the segment is equal to 
+
+Therefore (area of segment) = f A PQq. 
+
+
+
+DBF. "In segments bounded by a straight line and any 
+curve I call the straight line the base, and the height the 
+greatest perpendicular drawn from the curve to the base of the 
+segment, and the vertex the point from which the greatest 
+perpendicular is drawn. 7 ' 
+
+* It is curious that Archimedes uses the terms base and vertex of a segment 
+here, but gives the definition of them later (at the end of the proposition). 
+Moreover he assumes the converse of the property proved in Prop. 18. 
+
+
+
+QUADRATURE OF THE PARABOLA. 247 
+
+Proposition 18. 
+
+If Qq be the base of a segment of a parabola, and V the 
+middle point of Qq> and if the diameter through V meet the 
+curve in P, then P is the vertex of the segment. 
+
+
+
+
+For Qq is parallel to the tangent at P [Prop. 1]. Therefore, 
+of all the perpendiculars which can be drawn from points on the 
+segment to the base Qq, that from P is the greatest. Hence, 
+by the definition, P is the vertex of the segment. 
+
+Proposition 19. 
+
+// Qq be a chord of a parabola bisected in V by the diameter 
+PV, and if RM be a diameter bisecting QV in M, and RW 
+be the ordinate from R to PV, then 
+
+
+
+// / 
+
+
+
+
+a 
+For, by the property of the parabola, 
+
+
+
+so that PV = 4>PW, 
+
+whence PV=$RM. 
+
+
+
+248 
+
+
+
+ARCHIMEDES 
+
+
+
+Proposition 2O. 
+
+If Qq be the base, and P the vertex, of a parabolic segment, 
+then the triangle PQq is greater than half the segment PQq. 
+
+For the chord Qq is parallel to the tangent at P, and the 
+triangle PQq is half the parallelogram 
+formed by Qq, the tangent at P, and the 
+diameters through Q, q. 
+
+Therefore the triangle PQq is greater 
+than half the segment. 
+
+COR. It follows that it is possible 
+to inscribe in the segment a polygon such 
+that the segments left over are together 
+less than any assigned area. 
+
+
+
+
+Proposition 21. 
+
+If Qq be the base, and P the vertex, of any parabolic 
+segment, and if R be the vertex of the segment cut off by PQ, 
+then 
+
+
+
+The diameter through R will bisect the chord PQ, and 
+therefore also QV, where PV is the 
+diameter bisecting Qq. Let the dia- 
+meter through R bisect PQ in Y and 
+QViaM. JoinPM. 
+
+By Prop. 19, 
+
+
+
+Also 
+
+Therefore 
+
+and 
+
+Hence 
+
+and 
+
+
+
+PF=271f. 
+, YM=2RY, 
+APQJfaT=2APJJQ. 
+A PQ V = 4 A PRQ, 
+
+
+
+
+QUADRATURE OF THE PARABOLA. 249 
+
+Also, if RW, the ordinate from R to PV, be produced to 
+meet the curve again in r, 
+
+
+
+and the same proof shows that 
+&PQq 
+
+
+
+Proposition 22. 
+
+If there be a series of areas A, B,C, D, ... each of which is 
+four times the next in order, and if the largest, A, be equal to the 
+triangle PQq inscribed in a parabolic segment PQq and having 
+the same base with it and equal height, then 
+
+(A + B+C + D + ...)< (area of segment PQq). 
+
+For, since APQ? = 8 APJJQ = 8 AP^r, where R, r are the 
+vertices of the segments cut off by PQ, 
+Pq, as in the last proposition, 
+
+
+
+
+Therefore, since A PQq = A, 
+AP&B+ APgr=B. 
+
+In like manner we prove that the 
+triangles similarly inscribed in the re- 
+maining segments are together equal to 
+the area (7, and so on. 
+
+Therefore A+B + C + D + ... is equal to the area of a 
+certain inscribed polygon, and is therefore less than the area of 
+the segment. 
+
+
+
+Proposition 23. 
+
+Given a series of areas A, B, C,D t ... Z,of which A is the 
+greatest, and each is equal to four times the next in order y then 
+
+
+
+250 ARCHIMEDES 
+
+Take areas b, c, d, ... such that 
+
+
+
+Then, since 
+and 
+
+Similarly 
+Therefore 
+
+
+
+But 
+
+
+
+d = D, and so on. 
+6 = ^B, 
+B = A, 
+
+
+
+C + c = 5. 
+
+
+
+Therefore, by subtraction, 
+
+
+
+or 
+
+
+
+QUADRATURE OF THE PARABOLA. 
+
+
+
+251 
+
+
+
+The algebraical equivalent of this result is of course 
+
+^-(iM 
+
+
+
+Proposition 24. 
+
+Every segment bounded by a parabola and a chord Qq is 
+equal to four-thirds of the triangle which has the same base as 
+the segment and equal height. 
+
+Suppose K=$APQq, 
+
+where P is the vertex of the segment ; and we have then to 
+prove that the area of the segment is 
+equal to K. 
+
+For, if the segment be not equal to 
+K, it must either be greater or less. 
+
+I. Suppose the area of the segment 
+greater than K. 
+
+If then we inscribe in the segments 
+cut off by PQ t Pq triangles which have 
+the same base and equal height, i.e. 
+triangles with the same vertices R, r as 
+those of the segments, and if in the 
+remaining segments we inscribe triangles in the same manner, 
+and so on, we shall finally have segments remaining whose sum 
+is less than the area by which the segment PQq exceeds K. 
+
+Therefore the polygon so formed must be greater than the 
+area K ; which is impossible, since [Prop. 23] 
+
+
+
+
+where A = A PQq. 
+
+Thus the area of the segment cannot be greater than K. 
+
+II. Suppose, if possible, that the area of the segment is 
+less than K. 
+
+
+
+252 ARCHIMEDES. 
+
+
+
+If then APQq = A, J5= \A, = J5, and so on, until we 
+arrive at an area X such that X is less than the difference 
+between K and the segment, we have 
+
+f4 [Prop. 23] 
+
+
+
+Now, since K exceeds A + B + C+... + Xby an area less 
+than X, and the area of the segment by an area greater than X, 
+it follows that 
+
+A +B+C+ ... +X>(the segment); 
+which is impossible, by Prop. 22 above. 
+Hence the segment is not less than K. 
+Thus, since the segment is neither greater nor less than K, 
+
+(area of segment PQq) = K = 
+
+
+
+
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>

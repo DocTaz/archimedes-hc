@@ -1,0 +1,1894 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Spirals</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 151-188 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">151-188</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+                
+
+ON SPIRALS. 
+
+
+
+"ARCHIMEDES to Dositheus greeting. 
+
+Of most of the theorems which I sent to Conon, and of 
+which you ask me from time to time to send you the proofs, the 
+demonstrations are already before you in the books brought to 
+you by Heracleides ; and some more are also contained in that 
+which I now send you. Do not be surprised at my taking a 
+considerable time before publishing these proofs. This has 
+been owing to my desire to communicate them first to persons 
+engaged in mathematical studies and anxious to investigate 
+them. In fact, how many theorems in geometry which have 
+seemed at first impracticable are in time successfully worked out! 
+Now Conon died before he had sufficient time to investigate 
+the theorems referred to ; otherwise he would have discovered 
+and made manifest all these things, and would have enriched 
+geometry by many other discoveries besides. For I know well 
+that it was no common ability that he brought to bear on 
+mathematics, and that his industry was extraordinary. But, 
+though many years have elapsed since Conon's death, I do not 
+find that any one of the problems has been stirred by a single 
+person. I wish now to put them in review one by one, 
+particularly as it happens that there are two included among 
+them which are impossible of realisation* [and which may 
+serve as a warning] how those who claim to discover every- 
+thing but produce no proofs of the same may be confuted as 
+having actually pretended to discover the impossible. 
+
+* Heiberg reads rAoj ft iro0c<r6fji,wa t but F has rAovs, so that the true reading 
+is perhaps rlXovs 5t iroriMftcva. The meaning appears to be simply ' wrong.' 
+
+
+
+152 ARCHIMEDES 
+
+What are the problems I mean, and what are those of which 
+you have already received the proofs, and those of which the 
+proofs are contained in this book respectively, I think it proper 
+to specify. The first of the problems was, Given a sphere, to find 
+a plane area equal to the surface of the sphere ; and this was 
+first made manifest on the publication of the book concerning the 
+sphere, for, when it is once proved that the surface of any sphere 
+is four times the greatest circle in the sphere, it is clear that it 
+is possible to find a plane area equal to the surface of the sphere. 
+The second was, Given a cone or a cylinder, to find a sphere 
+equal to the cone or cylinder ; the third, To cut a given sphere 
+by a plane so that the segments of it have to one another an 
+assigned ratio ; the fourth, To cut a given sphere by a plane so 
+that the segments of the surface have to one another an assigned 
+ratio ; the fifth, To make a given segment of a sphere similar to 
+a given segment of a sphere* ; the sixth, Given two segments of 
+either the same or different spheres, to find a segment of a sphere 
+which shall be similar to one of the segments and have its 
+surface equal to the surface of the other segment. The seventh 
+was, From a given sphere to cut off a segment by a plane so 
+that the segment bears to the cone which has the same base as 
+the segment and equal height an assigned ratio greater than 
+that of three to two. Of all the propositions just enumerated 
+Heracleides brought you the proofs. The proposition stated 
+next after these was wrong, viz. that, if a sphere be cut by a 
+plane into unequal parts, the greater segment will have to the 
+less the duplicate ratio of that which the greater surface has to 
+the less. That this is wrong is obvious by what I sent you 
+before ; for it included this proposition : If a sphere be cut into 
+unequal parts by a plane at right angles to any diameter in the 
+sphere, the greater segment of the surface will have to the less 
+the same ratio as the greater segment of the diameter has 
+to the less, while the greater segment of the sphere has to the 
+less a ratio less than the duplicate ratio of that whicfc the 
+
+
+
+* rb tioBtv r/xa/xo <r</>a/pas rf doOtvri r/Ltd/uart <r<t>alpas 6/uotaxrai, i.e. to make a 
+segment of a sphere similar to one given segment and equal in content to 
+another given segment. [Cf. On the Sphere and Cylinder, II. 5.] 
+
+
+
+ON SPIRALS. 153 
+
+greater surface has to the less, but greater than the sesqui- 
+alterate* of that ratio. The last of the problems was also wrong, 
+viz. that, if the diameter of any sphere be cut so that the square 
+on the greater segment is triple of the square on the lesser 
+segment, and if through the point thus arrived at a plane be 
+drawn at right angles to the diameter and cutting the sphere, 
+the figure in such a form as is the greater segment of the sphere 
+is the greatest of all the segments which have an equal surface. 
+That this is wrong is also clear from the theorems which I 
+before sent you. For it was there proved that the hemisphere 
+is the greatest of all the segments of a sphere bounded by an 
+equal surface. 
+
+After these theorems the following were propounded con- 
+cerning the conef. If a section of a right-angled cone [a 
+parabola], in which the diameter [axis] remains fixed, be made to 
+revolve so that the diameter [axis] is the axis [of revolution], 
+let the figure described by the section of the right-angled cone 
+be called a conoid. And if a plane touch the conoidal figure 
+and another plane drawn parallel to the tangent plane cut off 
+a segment of the conoid, let the base of the segment cut off be 
+defined as the cutting plane, and the vertex as the point in which 
+the other plane touches the conoid. Now, if the said figure be 
+cut by a plane at right angles to the axis, it is clear that the 
+section will be a circle ; but it needs to be proved that the 
+segment cut off will be half as large again as the cone which has 
+the same base as the segment and equal height. And if two 
+segments be cut off from the conoid by planes drawn in any 
+manner, it is clear that the sections will be sections of acute- 
+angled cones [ellipses] if the cutting planes be not at right 
+angles to the axis; but it needs to be proved that the 
+segments will bear to one another the ratio of the squares on 
+the lines drawn from their vertices parallel to the axis to meet 
+the cutting planes. The proofs of these propositions are not 
+yet sent to you. 
+
+After these came the following propositions about the spiral, 
+
+
+
+* (\6yov) nelfrva ?} i)iu6\tov roO, ov {get /c.r.X., i.e. a ratio greater than (the 
+ratio of the surf aces) $. See On the Sphere and Cylinder, II. 8. 
++ This should be presumably ' the conoid,' not ' the cone.' 
+
+
+
+154 ARCHIMEDES 
+
+which are as it were another sort of problem having nothing 
+in common with the foregoing; and I have written out the 
+proofs of them for you in this book. They are as follows. If a 
+straight line of which one extremity remains fixed be made to 
+revolve at a uniform rate in a plane until it returns to the 
+position from which it started, and if, at the same time as the 
+straight line revolves, a point move at a uniform rate along the 
+straight line, starting from the fixed extremity, the point will 
+describe a spiral in the plane. I say then that the area 
+bounded by the spiral and the straight line which has returned 
+to the position from which it started is a third part of the circle 
+described with the fixed point as centre and with radius the 
+length traversed by the point along the straight line during the 
+one revolution. And, if a straight line touch the spiral at the 
+extreme end of the spiral, and another straight line be drawn at 
+right angles to the line which has revolved and resumed its 
+position from the fixed extremity of it, so as to meet the 
+tangent, I say that the straight line so drawn to meet it is 
+equal to the circumference of the circle. Again, if the revolving 
+line and the point moving along it make several revolutions 
+and return to the position from which the straight line started, 
+I say that the area added by the spiral in the third revolution 
+will be double of that added in the second, that in the fourth 
+three times, that in the fifth four times, and generally the areas 
+added in the later revolutions will be multiples of that added in 
+the second revolution according to the successive numbers, 
+while the area bounded by the spiral in the first revolution is a 
+sixth part of that added in the second revolution. Also, if on 
+the spiral described in one revolution two points be taken and 
+straight lines be drawn joining them to the fixed extremity of 
+the revolving line, and if two circles be drawn with the fixed 
+point as centre and radii the lines drawn to the fixed extremity 
+of the straight line, and the shorter of the two lines be produced, 
+I say that (1) the area bounded by the circumference of the 
+greater circle in the direction of (the part of) the spiral included 
+between the straight lines, the spiral (itself) and the produced 
+straight line will bear to (2) the area bounded by the circum- 
+ference of the lesser circle, the same (part of the) spiral and the 
+
+
+
+ON SPIRALS. 155 
+
+straight line joining their extremities the ratio which (3) the 
+radius of the lesser circle together with two thirds of the excess 
+of the radius of the greater circle over the radius of the lesser 
+bears to (4) the radius of the lesser circle together with one 
+third of the said excess. 
+
+The proofs then of these theorems and others relating to the 
+spiral are given in the present book. Prefixed to them, after the 
+manner usual in other geometrical works, are the propositions 
+necessary to the proofs of them. And here too, as in the books 
+previously published, I assume the following lemma, that, if 
+there be (two) unequal lines or (two) unequal areas, the excess 
+by which the greater exceeds the less can, by being [continually] 
+added to itself, be made to exceed any given magnitude among 
+those which are comparable with [it and with] one another." 
+
+
+
+Proposition 1 . 
+
+If a point move at a uniform rate along any line, and two 
+lengths be taken on it, they will be proportional to the times of 
+describing them. 
+
+Two unequal lengths are taken on a straight line, and two 
+lengths on another straight line representing the times; and 
+they are proved to be proportional by taking equimultiples of 
+each length and the corresponding time after the manner of 
+Eucl. V. Def. 5. 
+
+Proposition 2. 
+
+If each of two points on different lines respectively move along 
+them each at a uniform rate, and if lengths be taken, one on each 
+line, forming pairs, such that each pair are described in equal 
+times, the lengths will be proportionals. 
+
+This is proved at once by equating the ratio of the lengths 
+taken on one line to that of the times of description, which 
+must also be equal to the ratio of the lengths taken on the other 
+line. 
+
+
+
+156 ARCHIMEDES 
+
+
+
+Proposition 3. 
+
+Given any number of circles, it is possible to find a straight 
+line greater than the sum of all their circumferences. 
+
+For we have only to describe polygons about each and then 
+take a straight line equal to the sum of the perimeters of the 
+polygons. 
+
+Proposition 4. 
+
+Given two unequal lines, viz. a straight line and the circum- 
+ference of a circle, it is possible to find a straight line less than 
+the greater of the two lines and greater than the less. 
+
+For, by the Lemma, the excess can, by being added a sufficient 
+number of times to itself, be made to exceed the lesser line. 
+
+Thus e.g , if c> I (where c is the circumference of the circle 
+and I the length of the straight line), we can find a number n 
+such that 
+
+n (c l)> I. 
+
+Therefore c I > - - , 
+
+n 
+
+and c > I + - > I. 
+
+n 
+
+Hence we have only to divide I into n equal parts and add 
+one of them to I. The resulting line will satisfy the condition. 
+
+
+
+Proposition 5. 
+
+Given a circle with centre 0, and the tangent to it at a point 
+A, it is possible to draw from a straight line OFF, meeting the 
+circle in P and the tangent in F, such that, if c be the circum- 
+ference of any given circle whatever, 
+
+FP : OP < (arc AP) : c. 
+
+Take a straight line, as D, greater than the circumference c. 
+[Prop. 3] 
+
+
+
+ON SPIRALS. 157 
+
+Through draw OH parallel to the given tangent, and 
+draw through A a line APH, meeting the circle in P and OH 
+
+
+
+
+in H t such that the portion PH intercepted between the circle 
+and the line OH may be equal to D*. Join OP and produce 
+it to meet the tangent in F. 
+
+Then FP:OP = AP: PH, by parallels, 
+
+
+
+< (arc AP) : c. 
+
+Proposition 6. 
+
+Given a circle with centre 0, a chord AB less than the 
+diameter, and OM the perpendicular on AB from 0, it is possible 
+to draw a straight line OFP 9 meeting the chord AB in F and the 
+circle in P, such that 
+
+
+
+where D : E is any given ratio less than BM : MO. 
+
+Draw OH parallel to AB, and BT perpendicular to BO 
+meeting OH in T. 
+
+Then the triangles BMO, OBT are similar, and therefore 
+
+BM:MO = OB: BT, 
+whence D : E < OB : BT. 
+
+* This construction, which is assumed without any explanation as to how it 
+is to be effected, is described in the original Greek thus: "let PH be placed 
+(KelffOu) equal to D, verging (vetfowra) towards A." This is the usual phraseology 
+used in the type of problem known by the name of veveis. 
+
+
+
+158 
+
+
+
+ARCHIMEDES 
+
+
+
+that 
+
+
+
+Suppose that a line PH (greater than BT) is taken such 
+
+
+
+D:E=OB:PH, 
+
+
+
+
+and let PH be so placed that it passes through B and P lies on 
+the circumference of the circle, while H is on the line OH*. 
+(PH will fall outside BT, because PH > ST.) Join OP meeting 
+AB in F. 
+
+
+
+We now have 
+
+
+
+FP : PS = OP : PH 
+= OB:PH 
+
+
+
+Proposition 7. 
+
+Given a circle with centre 0, a chord AB less than the 
+diameter, and OM the perpendicular on it from 0, it is possible 
+to draw from a straight line OFF, meeting the circle in P and 
+AB produced in F, such that 
+
+
+
+where D : E is any given ratio greater than BM : MO. 
+
+Draw OT parallel to AB, and BT perpendicular to BO 
+meeting OT in T. 
+
+* The Greek phrase is "let PH be placed between the circumference and the 
+straight line (OH) through B." The construction is assumed, like the similar 
+one in the last proposition. 
+
+
+
+ON SPIRALS. 
+
+
+
+159 
+
+
+
+In this case, D : E > BM : M 
+
+> OB : BT, by similar triangles. 
+
+
+
+
+Take a line PH (less than BT) such that 
+D:E=OB:PH, 
+
+and place PH so that JP, JT are on the circle and on OT respec- 
+tively, while HP produced passes through B*. 
+Then FP:PB=OP : PH 
+
+= D:E. 
+
+Proposition 8. 
+
+Given a circle with centre 0, a chord AB less than the 
+diameter, the tangent at B, and the perpendicular OM from 
+on AB, it is possible to draw frcm a straight line OFP, 
+meeting the chord AB in F, the circle in P and the tangent in G y 
+such that 
+
+
+
+where D : E is any given ratio less than BM : MO. 
+
+If OTbe drawn parallel to AB meeting the tangent at B in T, 
+
+BM : MO = OB : BT, 
+so that D:E<OB:BT. 
+
+Take a point G on TB produced such that 
+
+D:E=OB :BC, 
+whence BO > BT. 
+
+* PH is described in the Greek as vevowav tirl (verging to) the point B. As 
+before the construction is assumed. 
+
+
+
+160 
+
+
+
+ARCHIMEDES 
+
+
+
+Through the points 0, T, C describe a circle, and let OB be 
+produced to meet this circle in K. 
+
+
+
+
+Then, since BG > BT> and OB is perpendicular to CT, it is 
+possible to draw from a straight line OGQ, meeting CT in 
+and the circle about OTG in Q, such that OQ = BK*. 
+
+Let OGQ meet AB in F and the original circle in P. 
+
+Now CG.GT=OG.GQ; 
+
+and OF:OG = BT: GT, 
+
+so that OF.GT=OG.BT. 
+
+It follows that 
+
+CG.GT:OF.GT=OG.GQ:OG.BT, 
+
+
+
+or 
+
+
+
+CG: OF=GQ:BT 
+
+= BK : BT, by construction, 
+
+
+
+
+
+= BC: OB 
+
+
+
+
+= BC:OP. 
+
+
+Hence 
+
+
+OP:OF=BC :CQ, 
+
+
+and therefore 
+
+
+PF :OP = BG : BC, 
+
+
+or 
+
+
+PF:BG=OP:BC 
+
+
+
+
+= OB :BC 
+
+
+
+= D:E. 
+
+* The Greek words used are : " it is possible to place another [straight line] 
+GQ equal to KB verging (vctiov<rav) towards 0." This particular vcvvu is 
+discussed by Pappus (p. 298, ed. Hultsch). See the Introduction, chapter v. 
+
+
+
+OX SPIRALS. 161 
+
+
+
+Proposition 9. 
+
+Given a circle with centre 0, a chord AB less than the 
+diameter, the tangent at B, and the perpendicular OM from 
+on AB, it is possible to draw from a straight line OPGF, 
+meeting the circle in P 9 the tangent in G 9 and AB produced in F 9 
+such that 
+
+
+
+where D : E is any given ratio greater than BM : MO. 
+
+Let OT be drawn parallel to AB meeting the tangent at B 
+in T. 
+
+Then D:E>BM:MO 
+
+> OB : BT t by similar triangles. 
+Produce TB to so that 
+
+D:E=OB :BC, 
+whence BC<BT. 
+
+
+
+
+Describe a circle through the points 0, T 9 G t and produce OB 
+to meet this circle in K. 
+
+Then, since TB > BO, and OB is perpendicular to CT> it is 
+possible to draw from a line OGQ, meeting CT in G, and the 
+H. A. 11 
+
+
+
+162 ARCHIMEDES 
+
+circle about OTC in Q, such that GQ = BK*. Let OQ meet 
+the original circle in P and AB produced in F. 
+
+We now prove, exactly as in the last proposition, that 
+CG:OF=BK:BT 
+
+= BC:OP. 
+Thus, as before, 
+
+OP: OF = BC :CG, 
+
+and OP:PF=BC:BG, 
+
+whence PF:BG = OP: BC 
+
+= OB:BC 
+
+= D:E. 
+
+
+
+Proposition 1O. 
+
+If Ai,A Zt A B> ...A n be n lines forming an ascending arith- 
+metical progression in which the common difference is equal 
+to A lt the least term, then 
+
+
+
+[Archimedes' proof of this proposition is given above, p. 107- 
+9, and it is there pointed out that the result is equivalent to 
+
+
+
+COR. 1. It follows from this proposition that 
+
+n.A n * 
+and also that 
+
+
+
+[For the proof of the latter inequality see p. 109 above.] 
+
+COR. 2. All the results will equally hold if similar figures 
+are substituted for squares. 
+
+* See the note on the last proposition. 
+
+
+
+ON SPIRALS. 
+
+
+
+163 
+
+
+
+Proposition 11. 
+
+If A lt A^n.nAn be n lines forming an ascending arith- 
+metical progression [in which the common difference is equal to 
+the least term -4J*, then 
+
+
+
+but 
+
+
+
+<A n *:{A n .A 1 +$(A n -A l )*}; 
+
+
+
+G 
+
+
+
+(n - 1) A n * : (A n _* + A n _* + . . . + A?) 
+
+
+
+[Archimedes sets out the terms side by side in the manner 
+shown in the figure, where BC = A n> DE = A n _ ly ...RS = A l , and 
+produces DE, FG, ...RS until they are 
+
+respectively equal to EC or A n> so that CHI T u 
+
+EH, GI,...SU in the figure are re- 
+spectively equal to A lf A 2 ...A n _ lt He 
+further measures lengths BK, DL, 
+FM, ...PFalong EG, DE, FG,...PQ re- 
+spectively each equal to RS. 
+
+The figure makes the relations 
+between the terms easier to see with 
+the eye, but the use of so large a 
+
+number of letters makes the proof B F p 
+
+somewhat difficult to follow, and it 
+may be more clearly represented as follows.] 
+
+It is evident that (A n A t ) = A n ^ lt 
+The following proportion is therefore obviously true, viz. 
+(n - 1) A* : (n - 1) (A n . A, + A^*) 
+
+
+
+V- 
+
+
+
+* The proposition is true even when the common difference is not equal to 
+A lt and is assumed in the more general form in Props. 25 and 26. But, as 
+Archimedes' proof assumes the equality of A 1 and the common difference, the 
+words are here inserted to prevent misapprehension. 
+
+112 
+
+
+
+164 ARCHIMEDES 
+
+In order therefore to prove the desired result, we have only 
+to show that 
+
+( - 1) A n . A t + i (n - 1) A^ < (A n > + A*.? + . . . + A*) 
+but > (A+J + An_J +... + Aft 
+
+I. To prove the first inequality, we have 
+
+
+
+And 
+
+n _ 1 f +...+^ 2 ' 
+
+. . . + (A, 
+
+
+
++ (n-l)A l t 
+
+A n . 1 + 
++ A, 
+
+
+
+A_ 1 ....................................... (2). 
+
+Comparing the right-hand sides of (1) and (2), we see that 
+(n 1)A* is common to both sides, and 
+
+(n - 1) A l . A n _ l < n A l . -4 n _ 1( 
+while, by Prop. 10, Cor. 1, 
+
+
+
+It follows therefore that 
+
+
+
+and hence the first part of the proposition is proved. 
+
+II. We have now, in order to prove the second result, to 
+show that 
+
+(n - 1) A n . A, + J (n - 1) A^f > (A^ + A^f + . . . +Aft 
+
+
+
+ON SPIRALS. 165 
+
+The right-hand side is equal to 
+
+
+
+3 + 
+
+
+
+A n . 1 ........................ (3). 
+
+Comparing this expression with the right-hand side of (1) above, 
+we see that (n 1) A* is common to both sides, and 
+
+
+
+while, by Prop. 10, Cor. 1, 
+
+i (n - 1) A n .* > (A^f + A*.? + ...+ A>). 
+Hence 
+
+
+
+and the second required result follows. 
+
+COR. The results in the above proposition are equally true if 
+similar figures be substituted for squares on the several lines. 
+
+DEFINITIONS. 
+
+1. If a straight line drawn in a plane revolve at a uniform 
+rate about one extremity which remains fixed and return to 
+the position from which it started, and if, at the same time as 
+the line revolves, a point move at a uniform rate along the 
+straight line beginning from the extremity which remains fixed, 
+the point will describe a spiral (2\t|) in the plane. 
+
+2. Let the extremity of the straight line which remains 
+
+
+
+166 ARCHIMEDES 
+
+fixed while the straight line revolves be called the origin* 
+(dp%d) of the spiral. 
+
+3. And let the position of the line from which the straight 
+line began to revolve be called the initial line* in the 
+revolution (dp%d ra? 
+
+
+
+4. Let the length which the point that moves along the 
+straight line describes in one revolution be called the first 
+distance, that which the same point describes in the second 
+revolution the second distance, and similarly let the distances 
+described in further revolutions be called after the number of 
+the particular revolution. 
+
+5. Let the area bounded by the spiral described in the 
+first revolution and the first distance be called the first area, 
+that bounded by the spiral described in the second revolution 
+and the second distance the second area, and similarly for the 
+rest in order. 
+
+6. If from the origin of the spiral any straight line be 
+drawn, let that side of it which is in the same direction as that 
+of the revolution be called forward (Trpoayovpeva), and that 
+which is in the other direction backward 
+
+
+
+7. Let the circle drawn with the origin as centre and the 
+first distance as radius be called the first circle, that drawn 
+with the same centre and twice the radius the second circle, 
+and similarly for the succeeding circles. 
+
+
+
+Proposition 12. 
+
+If any number of straight lines drawn from the origin to 
+meet the spiral make equal angles with one another, the lines will 
+be in arithmetical progression. 
+
+[The proof is obvious.] 
+
+* The literal translation would of coarse be the " beginning of the spiral " 
+and " the beginning of the revolution " respectively. But the modern names 
+will be more suitable for use later on, and are therefore employed here. 
+
+
+
+ON SPIRALS. 167 
+
+Proposition 13. 
+
+If a straight line touch the spiral, it will touch it in one point 
+only. 
+
+Let be the origin of the spiral, and BC a tangent to it. 
+
+If possible, let BC touch the spiral in two points P, Q. 
+Join OP, OQ, and bisect the angle POQ by the straight line OR 
+meeting the spiral in R. 
+
+
+
+
+Then [Prop. 12] OR is an arithmetic mean between OP and 
+OQ, or 
+
+
+
+But in any triangle POQ, if the bisector of the angle POQ 
+meets PQ in K, 
+
+OP + OQ>20#*. 
+
+Therefore OK < OR, and it follows that some point on BC 
+between P and Q lies within the spiral. Hence BC cuts the 
+spiral; which is contrary to the hypothesis. 
+
+Proposition 14. 
+
+IfObe the origin, and P, Q two points on the first turn of 
+the spiral, and if OP, OQ produced meet the 'first circle' 
+AKP'Q' in P', Q' respectively, OA being the initial line, then 
+
+OP : OQ = (arc AKP') : (arc AKQ'). 
+
+For, while the revolving line OA moves about 0, the point 
+A on it moves uniformly along the circumference of the circle 
+
+* This is assumed as a known proposition ; but it is easily proved. 
+
+
+
+168 ARCHIMEDES 
+
+AKP'Q', and at the same time the point describing the spiral 
+moves uniformly along OA. 
+
+
+
+
+Thus, while A describes the arc AKP', the moving point on 
+OA describes the length OP, and, while A describes the arc 
+AKQ', the moving point on OA describes the distance OQ. 
+
+Hence OP : OQ = (arc AKP f ) : (arc AKQ'). [Prop. 2] 
+
+
+
+Proposition 15. 
+
+IfP,Q be points on the second turn of the spiral, and OP, 
+OQ meet the 'first circle' AKP'Q' in P', Q', as in the last 
+proposition, and if c be the circumference of the first circle, then 
+
+OP : OQ = c + (arc AKP') : c + (arc AKQ'). 
+
+For, while the moving point on OA describes the distance 
+OP, the point A describes the whole of the circumference of 
+the ' first circle ' together with the arc AKP' ; and, while the 
+moving point on OA describes the distance OQ, the point A 
+describes the whole circumference of the ' first circle ' together 
+with the arc AKQ'. 
+
+COR. Similarly, if P, Q are on the nth turn of the spiral, 
+OP : OQ - (n - 1) c + (arc AKP') : (n - 1) c + (arc AKQ'). 
+
+
+
+ON SPIRALS. 169 
+
+
+
+Propositions 16, 17. 
+
+If BG be the tangent at P t any point on the spiral, PC being 
+the 'forward* part of BG, and if OP be joined, the angle OPC 
+is obtuse while the angle OPB is acute. 
+
+I. Suppose P to be on the first turn of the spiral. 
+
+Let OA be the initial line, AKP' the ' first circle/ Draw 
+the circle DLP with centre and radius OP, meeting OA in 
+D. This circle must then, in the ' forward ' direction from P, 
+
+
+
+
+fall within the spiral, and in the ' backward ' direction outside 
+it, since the radii vectores of the spiral are on the ' forward ' side 
+greater, and on the ' backward ' side less, than OP. Hence the 
+angle OPG cannot be acute, since it cannot be less than the 
+angle between OP and the tangent to the circle at P, which is 
+a right angle. 
+
+It only remains therefore to prove that OPC is not a right 
+angle. 
+
+If possible, let it be a right angle. BC will then touch 
+the circle at P. 
+
+Therefore [Prop. 5] it is possible to draw a line OQC 
+meeting the circle through P in Q and BC in (7, such that 
+
+CQ : OQ< (arc PQ) : (arc DLP) (1). 
+
+
+
+170 ARCHIMEDES 
+
+Suppose that OC meets the spiral in R and the ' first circle ' 
+in R'\ and produce OP to meet the ' first circle ' in P'. 
+
+From (1) it follows, componendo, that 
+
+CO : OQ < (arc DLQ) : (arc DLP) 
+
+< (arc AKR') : (arc AKP') 
+
+< OR : OP. [Prop. 14] 
+But this is impossible, because OQ = OP, and OR < OC. 
+
+Hence the angle OPC is not a right angle. It was also 
+proved not to be acute. 
+
+Therefore the angle OPC is obtuse, and the angle OPB 
+consequently acute. 
+
+II. If P is on the second, or the nth turn, the proof is the 
+same, except that in the proportion (1) above we have to 
+substitute for the arc DLP an arc equal to (p + arc DLP) or 
+(n 1 . p + arc DLP), where p is the perimeter of the circle 
+
+
+
+
+DLP through P. Similarly, in the later steps, p or (n 1) p 
+will be added to each of the arcs DLQ and DLP 9 and c or 
+(n-l)c to each of the arcs AKR', AKP', where c is the 
+circumference of the 'first circle* AKP'. 
+
+
+
+ON SPIRALS. 
+
+
+
+171 
+
+
+
+Propositions 18, 19. 
+
+I. If OA be the initial line, A the end of the first turn of 
+the spiral, and if the tangent to the spiral at A be drawn, the 
+straight line OB drawn from perpendicular to OA will meet 
+the said tangent in some point B, and OB will be equal to the 
+circumference of the 'first circle' 
+
+II. If A' be the end of the second turn, the perpendicular 
+OB will meet the tangent at A' in some point B', and OB' will 
+be equal to 2 (circumference of '' second circle 9 ). 
+
+III. Generally, if A n be the end of the nth turn, and OB 
+meet the tangent at A n in B n , then 
+
+
+
+where c n is the circumference of the l nth circle. 1 
+
+I. Let A KG be the 'first circle/ Then, since the 'back- 
+ward ' angle between OA and the tangent at A is acute [Prop. 
+16], the tangent will meet the ' first circle ' in a second point C. 
+And the angles CAO, BOA are together less than two right 
+angles ; therefore OB will meet AC produced in some point B. 
+
+
+
+
+Then, if c be the circumference of the first circle, we have 
+to prove that 
+
+OB = c. 
+
+If not, OB must be either greater or less than c. 
+
+
+
+172 ARCHIMEDES 
+
+(1) If possible, suppose OB > c. 
+
+Measure along OB a length OD less than OB but greater 
+than c. 
+
+We have then a circle AKC, a chord AC in it less than 
+the diameter, and a ratio AO : OD which is greater than the 
+ratio AO : OB or (what is, by similar triangles, equal to it) the 
+ratio of ^AC to the perpendicular from on AC. Therefore 
+[Prop. 7] we can draw a straight line OPF, meeting the circle 
+in P and CA produced in F, such that 
+
+FP:PA=AO:OD. 
+Thus, alternately, since AO = PO, 
+
+FP:PO = PA :OD 
+
+< (arc PA) : c, 
+since (arc PA) > PA, and OD > c. 
+
+Componendo, 
+
+FO : PO < (c + arc PA) : c 
+
+<OQ:OA, 
+
+where OF meets the spiral in Q. [Prop. 15] 
+
+Therefore, since OA = OP, FO < OQ ; which is impossible. 
+Hence OB $ c. 
+
+(2) If possible, suppose OB < c. 
+
+Measure OE along OB so that OE is greater than OB but 
+less than c. 
+
+In this case, since the ratio AO : OE is less than the ratio 
+AO : OB (or the ratio of \AG to the perpendicular from 
+on AC), we can [Prop. 8] draw a line OF'P'G, meeting AC in 
+F', the circle in F, and the tangent at A to the circle in G, 
+such that 
+
+F'P':AG = AO:OE. 
+
+Let OP'G cut the spiral in Q'. 
+Then we have, alternately, 
+
+F'P':P'0 = AG:OE 
+
+> (arc AP') : c, 
+because AG > (arc AP'), and OE < c. 
+
+
+
+ON SPIRALS. 
+
+
+
+173 
+
+
+
+Therefore 
+
+F'O : P'O < (arc AKP') : c 
+
+< OQ[ : OA. [Prop. 14] 
+
+But this is impossible, since OA = OP', and OQ' < OF'. 
+
+Hence OB { c. 
+
+Since therefore OB is neither greater nor less than c, 
+
+05 = c. 
+
+II. Let A'K'C' be the 'second circle/ A'C' being the 
+tangent to the spiral at A (which will cut the second circle, 
+since the 'backward' angle OA'C' is acute). Thus, as before, 
+the perpendicular OB' to OA will meet AC' produced in some 
+point B'. 
+
+If then c' is the circumference of the 'second circle/ we 
+have to prove that OB' = 2c'. 
+
+e 
+C' - - 
+
+
+
+
+For, if not, OB' must be either greater or less than 2c'. 
+(1) If possible, suppose OB' > 2c'. 
+
+Measure OD' along OB' so that OD' is less than OB' but 
+greater than 2c'. 
+
+Then, as in the case of the ' first circle ' above, we can draw 
+a straight line OPF meeting the 'second circle' in P and C f A f 
+produced in F, such that 
+
+
+
+174 ARCHIMEDES 
+
+Let OF meet the spiral in Q. 
+We now have, since A'O = PO, 
+
+
+
+< (arc A'P) : 2c', 
+because (arc AT) > AT and OD' > 2c'. 
+
+Therefore FO : PO < (2c' + arc AT) : 2c' 
+
+< OQ : OA'. [Prop. 15, Cor.] 
+
+Hence FO < OQ] which is impossible. 
+Thus OB' $ 2c'. 
+
+Similarly, as in the case of the ' first circle ', we can prove that 
+
+OB'H:2c'. 
+Therefore OB' = 2c'. 
+
+III. Proceeding, in like manner, to the 'third* and suc- 
+ceeding circles, we shall prove that 
+
+
+
+Proposition 2O. 
+
+I: If P be any point on the first turn of the spiral and OT 
+be drawn perpendicular to OP, OT will meet the tangent at P to 
+the spiral in some point T ; and, if the circle drawn with centre 
+and radius OP meet the initial line in K, then OT is equal to 
+the arc of this circle between K and P measured in the 'forward 1 
+direction of the spiral. 
+
+II. Generally, if P be a point on the nth turn,, and the 
+notation be as before, while p represents the circumference of the 
+circle with radius OP, 
+
+OT = (nl)p + arc KP (measured 'forward '). 
+
+I. Let P be a point on the first turn of the spiral, OA the 
+initial line, PR the tangent at P taken in the 'backward* 
+direction. 
+
+Then [Prop. 16] the angle OPR is acute. Therefore PR 
+
+
+
+ON SPIRALS. 
+
+
+
+175 
+
+
+
+meets the circle through P in some point R ; and also OT will 
+meet PR produced in some point T. 
+
+If now OT is not equal to the arc KRP, it must be either 
+greater or less. 
+
+
+
+
+(1) If possible, let OT be greater than the arc KRP. 
+Measure OU along OT less than OT but greater than the 
+arc KRP. 
+
+Then, since the ratio PO : OU is greater than the ratio 
+PO : OT, or (what is, by similar triangles, equal to it) the 
+ratio of ^PR to the perpendicular from on PR, we can draw 
+a line OQF, meeting the circle in Q and RP produced in F, 
+such that 
+
+FQ:PQ = PO: OU. [Prop. 7] 
+
+Let OF meet the spiral in Q'. 
+We have then 
+
+
+
+< (arc PQ) : (arc KRP), by hypothesis. 
+
+Componendo, 
+
+FO:QO< (arc KRQ) : (arc KRP) 
+
+< OQ' : OP. [Prop. 14] 
+
+But QO = OP. 
+
+
+
+176 ARCHIMEDES 
+
+Therefore FO < OQ' ; which is impossible. 
+Hence OT } (arc KRP). 
+
+(2) The proof that OT^ (arc KRP) follows the method of 
+Prop. 18, I. (2), exactly as the above follows that of Prop. 18, 
+
+
+
+Since then OT is neither greater nor less than the 
+it is equal to it. 
+
+II. If P be on the second turn, the same method shows 
+
+that 
+
+OT = p + (a,ro KRP); 
+
+and, similarly, we have, for a point P on the nth turn, 
+OT = (n - 1) p + (arc KRP). 
+
+Propositions 21, 22, 23. 
+
+Given an area bounded by any arc of a spiral and the lines 
+joining the extremities of the arc to the origin, it is possible to 
+circumscribe about the area one figure, and to inscribe in it 
+another figure, each consisting of similar sectors of circles, and 
+such that the circumscribed figure exceeds the inscribed by less 
+than any assigned area. 
+
+For let BC be any arc of the spiral, the origin. Draw 
+the circle with centre and radius 0(7, where C is the 'forward* 
+end of the arc. 
+
+Then, by bisecting the angle BOG, bisecting the resulting 
+angles, and so on continually, we shall ultimately arrive at 
+an angle COr cutting off a sector of the circle less than any 
+assigned area. Let COr be this sector. 
+
+Let the other lines dividing the angle BOG into equal parts 
+meet the spiral in P, Q, and let Or meet it in R. With as 
+centre and radii OB, OP, OQ, OR respectively describe arcs of 
+circles Bp'> bBq', pQr, qRc', each meeting the adjacent radii as 
+shown in the figure. In each case the arc in the 'forward* 
+direction from each point will fall within, and the arc in the 
+'backward' direction outside, the spiral. 
+
+
+
+ON SPIRALS. 
+
+
+
+177 
+
+
+
+We have now a circumscribed figure and an inscribed figure 
+each consisting of similar sectors of circles. To compare their 
+areas, we take the successive sectors of each, beginning from 0(7, 
+and compare them. 
+
+
+
+
+The sector OCr in the circumscribed figure stands alone. 
+And (sector Rq) = (sector ORc'), 
+
+(sector OQp) = (sector OQr), 
+(sector OPb) = (sector OPq'\ 
+while the sector OBp' in the inscribed figure stands alone. 
+
+Hence, if the equal sectors be taken away, the difference be- 
+tween the circumscribed and inscribed figures is equal to the 
+difference between the sectors OCr and OBp'\ and this difference 
+is less than the sector OCr, which is itself less than any 
+assigned area. 
+
+The proof is exactly the same whatever be the number of 
+angles into which the angle BOG is 
+divided, the only difference being 
+that, when the arc begins from the 
+origin, the smallest sectors OP6, OPq' 
+in each figure are equal, and there is 
+therefore no inscribed sector standing 
+by itself, so that the difference 
+between the circumscribed and in- 
+scribed figures is equal to the sector 
+OCr itself. 
+
+
+
+
+H. A. 
+
+
+
+12 
+
+
+
+178 ARCHIMEDES 
+
+Thus the proposition is universally true. 
+
+COR. Since the area bounded by the spiral is intermediate 
+in magnitude between the circumscribed and inscribed figures, 
+it follows that 
+
+(1) a figure can be circumscribed to the area such that it 
+exceeds the area by less than any assigned space, 
+
+(2) a figure can be inscribed such that the area exceeds it by 
+less than any assigned space. 
+
+Proposition 24. 
+
+The area bounded by the first turn of the spiral and the 
+initial line is equal to one-third of the 'first circle ' [= TT (27ra) 8 , 
+where the spiral is r = a0]. 
+
+[The same proof shows equally that, if OP be any radius 
+vector in the first turn of the spiral, the area of the portion of 
+the spiral bounded thereby is equal to one-third of that sector of 
+the circle drawn with radius OP which is bounded by the initial 
+line and OP, measured in the 'forward ' direction from the 
+initial line.] 
+
+Let be the origin, OA the initial line, A the extremity of 
+the first turn. 
+
+Draw the ' first circle/ i.e. the circle with as centre and 
+OA as radius. 
+
+Then, if Ci be the area of the first circle, R^ that of the first 
+turn of the spiral bounded by OA, we have to prove that 
+
+
+
+For, if not, S^ must be either greater or less than C l9 
+
+I. If possible, suppose JRj < $C lt 
+
+We can then circumscribe a figure about R^ made up of 
+similar sectors of circles such that, if F be the area of this 
+
+figure, 
+
+F-^fa-K, 
+
+whence F<%C l . 
+
+
+
+ON SPIRALS. 
+
+
+
+179 
+
+
+
+Let OP, OQ, ... be the radii of the circular sectors, beginning 
+from the smallest. The radius of the largest is of course OA. 
+
+The radii then form an ascending arithmetical progression 
+in which the common difference is equal to the least term OP. 
+If n be the number of the sectors, we have [by Prop. 10, Cor. 1] 
+
+n. OA*< 3 (OP' + OQ* + ... + 04 8 ); 
+
+
+
+
+and, since the similar sectors are proportional to the squares on 
+their radii, it follows that 
+
+G, < 3P, 
+
+
+
+or 
+
+
+
+But this is impossible, since F was less than 
+Therefore 1 
+
+
+
+II. If possible, suppose B^ > ^Q. 
+
+We can then inscribe a figure made up of similar sectors of 
+circles such that, if/ be its area, 
+
+whence /> $C lt 
+
+If there are (n 1) sectors, their radii, as OP, OQ, ..., form 
+an ascending arithmetical progression in which the least term 
+is equal to the common difference, and the greatest term, as 
+OF, is equal to (n - 1) OP. 
+
+12-2 
+
+
+
+180 ARCHIMEDES 
+
+Thus [Prop. 10, Cor. 1], 
+
+n . OA > 3 ( OP ' + OQ 2 + . . . + Y ' ), 
+whence C 1 > 3f, 
+
+or /<*C f I ; 
+
+which is impossible, since /> (7j. 
+
+Therefore J2i H#,. 
+
+Since then 1^ is neither greater nor less than (7 lf 
+
+A = ^. 
+
+[Archimedes does not actually find the area of the spiral 
+cut off by the radius vector OP, where P is any point on the 
+first turn ; but, in order to do this, we have only to substitute 
+
+
+
+
+in the above proof the area of the sector KLP of the circle 
+drawn with as centre and OP as radius for the area C l of 
+the ' first circle ', while the two figures made up of similar sectors 
+have to be circumscribed about and inscribed in the portion 
+OEP of the spiral. The same method of proof then applies 
+exactly, and the area of OEP is seen to be J (sector KLP). 
+
+We can prove also, by the same method, that, if P be a 
+point on the second, or any later turn, as the wth, the complete 
+area described by the radius vector from the beginning up to 
+the time when it reaches the position OP is, if C denote the 
+area of the complete circle with as centre and OP as radius, 
+J (C + sector KLP) or (n^~l . C + sector KLP) respectively. 
+
+The area so described by the radius vector is of course not 
+the same thing as the area bounded by the last complete turn 
+
+
+
+ON SPIRALS. 181 
+
+of the spiral ending at P and the intercepted portion of the 
+radius vector OP. Thus, suppose RI to be the area bounded 
+by the first turn of the spiral and OA l (the first turn ending at 
+A l on the initial line), R* the area added to this by the second 
+complete turn ending at A 2 on the initial line, and so on. ^ has 
+then been described twice by the radius vector when it arrives 
+at the position OA*\ when the radius vector arrives at the 
+position OA 9 , it has described R l three times, the ring JB 2 twice, 
+and the ring R 3 once ; and so on. 
+
+Thus, generally, if G n denote the area of the ' nth circle/ we 
+shall have 
+
+
+
+while the actual area bounded by the outside, or the complete 
+nth, turn and the intercepted portion of OA n will be equal to 
+
+
+
+It can now be seen that the results of the later Props. 25 
+and 26 may be obtained from the extension of Prop. 24 just 
+given. 
+
+To obtain the general result of Prop. 26, suppose BC to be 
+an arc on any turn whatever of the spiral, being itself less than 
+a complete turn, and suppose B to be beyond A n the extremity 
+of the nth complete turn, while G is ' forward ' from B. 
+
+Let - be the fraction of a turn between the end of the nth 
+
+2 
+turn and the point B. 
+
+Then the area described by the radius vector up to the 
+position OB (starting from the beginning of the spiral) is 
+equal to 
+
+~ ( circle with 
+
+
+
+Also the area described by the radium vector from the beginning 
+up to the position OC is 
+
+
+
+\( n + 
+
+
+
+182 
+
+
+
+ARCHIMEDES 
+
+
+
+The area bounded by OB, OG and the portion BEG of the 
+spiral is equal to the difference between these two expressions ; 
+and, since the circles are to one another as OB* to 0(7*, the 
+difference may be expressed as 
+
+
+
+Jf +\ (i _ 9^\ (circle with rad. OG) + (sector B'MG)\ . 
+But, by Prop. 15, Cor., 
+
+L +\ (circle B'MG) : {(+-) (circle B'MG) + (sector B'MC)\ 
+
+= OB : OG, 
+
+
+
+
+so that 
+
+
+
+In +) (circle B'MG) : (sector B'MG) = OB:(OC- OB). 
+
+, area BEG _ t (l OB \ /, OB* 
+
+US sector B'M ~ 
+
+
+
+OB(OC + OB) + 00" 
+*' OC" 
+
+_Qg. 0^ + $(OC -OB)* 
+OC* 
+
+The result of Prop. 25 is a particular case of this, and the 
+result of Prop. 27 follows immediately, as shown under that 
+proposition.] 
+
+
+
+ON SPIRALS. 183 
+
+
+
+Propositions 25, 26, 27. 
+
+[Prop. 25.] If A* be the end of the second turn of the spiral, 
+the area bounded by the second turn and OA 2 is to the area 
+of the 'second circle' in the ratio of 7 to 12, being the ratio of 
+{rtf*! + (r a rj*} to r*, where r lt r z are the radii of the 'first ' 
+and ' second ' circles respectively. 
+
+[Prop. 26.] If BC be any arc measured in the 'forward ' 
+direction on any turn of a spiral, not being greater than the 
+complete turn, and if a circle be drawn with as centre and OC 
+as radius meeting OS in B\ then 
+
+(area of spiral between OB, 00) : (sector OB'C) 
+
+= {00. OB + $(00- OB)*} : OC 9 . 
+
+[Prop. 27.] If RI be the area of the first turn of the spiral 
+bounded by the initial line, R 2 the area of the ring added by the 
+second complete turn, R 3 that of the ring added by the third turn, 
+and so on, then 
+
+
+
+Also R 2 
+
+[Archimedes' proof of Prop. 25 is, mutatis mutandis, the 
+same as his proof of the more general Prop. 26. The latter 
+will accordingly be given here, and applied to Prop. 25 as a 
+particular case.] 
+
+Let BO be an arc measured in the ' forward ' direction on 
+any turn of the spiral, CKB' the circle drawn with as centre 
+and OC as radius. 
+
+Take a circle such that the square of its radius is equal 
+to OC. OB + $(OC- OB)*, and let <r be a sector in it whose 
+central angle is equal to the angle BOG. 
+Thus a : (sector OB'G) = {OC . OB + J (OC - 05)'} : OC*, 
+and we have therefore to prove that 
+
+(area of spiral OBC) = cr. 
+
+For, if not, the area of the spiral OBC (which we will call S) 
+must be either greater or less than cr. 
+
+
+
+184 
+
+
+
+ARCHIMEDES 
+
+
+
+I. Suppose, if possible, 8 r. 
+
+Circumscribe to the area 8 a figure made up of similar 
+sectors of circles, such that, if F be the area of the figure, 
+
+F-Sr-S, 
+whence F<<r. 
+
+Let the radii of the successive sectors, starting from OB, 
+be OP, OQ,...OC. Produce OP, OQ,... to meet the circle 
+0KB',... 
+
+
+
+
+If then the lines OB, OP, OQ, ... OC be n in number, the 
+number of sectors in the circumscribed figure will be (n 1), 
+and the sector OB'G will also be divided into (n 1) equal 
+sectors. Also OB, OP, OQ, ...OC will form an ascending 
+arithmetical progression of n terms. 
+
+Therefore [see Prop, 11 and Cor.] 
+(n - 1) 0(7* : (OP 8 + OQ 2 + .. . + OCT) 
+
+< OC* :{OC.OB + $(OC- OB)*} 
+
+< (sector OB'C) : <r, by hypothesis. 
+Hence, since similar sectors are as the squares of their radii, 
+
+(sector OB'C) : F< (sector OB'C) : <r, 
+so that F > <r. 
+
+But this is impossible, because F <<r. 
+Therefore 
+
+
+
+ON SPIRALS. 185 
+
+II. Suppose, if possible, S > a. 
+
+Inscribe in the area 8 a figure made up of similar sectors of 
+circles such that, if /be its area, 
+
+flf _/<_,, 
+
+whence f><r. 
+
+Suppose OB, OP, ... F to be the radii of the successive 
+sectors making up the figure/ being (n 1) in number. 
+
+We shall have in this case [see Prop. 11 and Cor.] 
+(n - 1) OC 2 : (OB 9 + OP 8 + ... + OF 2 ) 
+
+> OC 2 : [OC.OB + $(OC- OB)*}, 
+whence (sector OB'C) :/> (sector OB'CT) : <r, 
+so that /<<r. 
+
+But this is impossible, because /> <r. 
+
+Therefore S$<r. 
+
+Since then 8 is neither greater nor less than <r, it follows that 
+
+S=<7. 
+
+In the particular case where B coincides with A lt the end 
+of the first turn of the spiral, and with A 2 , the end of the 
+second turn, the sector OB'C becomes the complete 'second 
+circle/ that, namely, with OA 2 (or r z ) as radius. 
+
+Thus 
+
+(area of spiral bounded by OA^) : (' second circle ') 
+-{Vi + Jfo-r,) 1 } :r a " 
+= (2 + ) : 4 (since r* = 2^) 
+= 7 : 12. 
+
+Again, the area of the spiral bounded by 0-4 2 is equal to 
+E 1 + -R 2 (i-e. the area bounded by the first turn and OA ly 
+together with the ring added by the second turn). Also the 
+'second circle 1 is four times the 'first circle/ and therefore 
+equal to 12^. 
+
+Hence (Ri + RJ : 121^ = 7 : 12, 
+
+or Ri + Bt^lRi. 
+
+Thus Rt^GRt (1). 
+
+
+
+186 ARCHIMEDES 
+
+Next, for the third turn, we have 
+
+(R, + # 2 + .R 3 ) : (' third circle ') = {r s r a + $ (r a - ** 2 ) 2 } 
+
+
+
+= 19 : 27, 
+and (' third circle ') = 9 (' first circle ') 
+
+
+
+therefore J^ + R 2 + R 3 = l9R ly 
+
+and, by (1) above, it follows that 
+
+
+
+-2JZ, ............................ (2), 
+
+and so on. 
+
+Generally, we have 
+
+(R 1 + K !l +...+R n ): (nth circle) = (r n r n _, + $("*- '-i) 2 } : r 
+( A + .Rj + . . . + Rn-J : (n -^Tth circle) 
+
+
+
+and (nth circle) : (n 1th circle) = r n s : r n _! ! . 
+
+Therefore 
+
+(R, + R, + ... + R n ) : (R, + R* + . 
+
+
+
+= {3n (re - 1) + 1} : {3 (n - l)(n - 2) + 1}. 
+Dirimendo, 
+
+
+
+-2) + l} ......... (a). 
+
+Similarly 
+
+
+
+from which we derive 
+
+
+
+ON SPIRALS. 187 
+
+Combining (a) and (/8), we obtain 
+
+n:n-i = (^-l):(rc-2). 
+Thus 
+
+JJ 2 > ^s> ^?4> Rn are in the ratio of the successive numbers 
+1,2, 3. ..(-!). 
+
+Proposition 28. 
+
+IfObe the origin and BO any arc measured in the 'forward ' 
+direction on any turn of the spiral, let two circles be drawn 
+
+(1) with centre 0, and radius OB, meeting 00 in C', and 
+
+(2) with centre and radius 00, meeting OB produced in B'. 
+Then, if E denote the area bounded by the larger circular arc 
+E'G, ike line B'B, and the spiral EG, while F denotes the area 
+bounded by the smaller arc BO', the line CO' and the spiral BO, 
+
+E\F={OB + l(OG-OB)} : {OB + (00 -OB)}. 
+
+Let a- denote the area of the lesser sector OBO f ; then the 
+larger sector OB'C is equal to <r + F -f E. 
+
+
+
+
+Thus [Prop. 26] 
+
+
+
+whence 
+
+E : (cr + F) = {0(7(0(7 - OB) - (00 - OJS) 2 } 
+
+
+
+[OB (00 - OB) + (00 - OB) 2 } 
+
+-OB)'} ............ (2). 
+
+
+
+188 ARCHIMEDES ON SPIRALS. 
+
+Again 
+
+
+
+F+E) :o- = 0<7: OB*. 
+Therefore, by the first proportion above, ex aequali, 
+
+(<r + F) : <r = {OC.OB + $(OC-OBy} : OB', 
+whence 
+
+(a- + F) : F= {OC . OB + $ (OG - OB)'} 
+
+:{OB(OC-OB) + $ (OC - OBJ}. 
+Combining this with (2) above, we obtain 
+E:F={OB (00 - OB) + ) (OC - OB)*} 
+
+: {OB (OC -OB) + $ (OC - OB)"} 
+= {OB + 1 (OC - OB)} : {OB + $ (OC - OB)}. 
+
+
+
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>

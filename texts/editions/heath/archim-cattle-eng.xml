@@ -1,0 +1,460 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Cattle-Problem</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 319-326 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">319-326</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+                
+
+THE CATTLE-PROBLEM. 
+
+
+
+IT is required to find the number of bulls and cows of each 
+of four colours, or to find 8 unknown quantities. The first 
+part of the problem connects the unknowns by seven simple 
+equations ; and the second part adds two more conditions to 
+which the unknowns must be subject. 
+
+Let W, w be the numbers of white bulls and cows respectively, 
+X,x black 
+
+Yy y >, yellow 
+
+Z, z dappled 
+
+First part 
+
+(I) TP=(i + i)J + Y ...................... (a), 
+
+
+
+...................... (7), 
+
+(II) "-(* + *)<* + *) .................... (). 
+
+...................... Mi 
+
+
+
+(*). 
+
+Second part. 
+
+W+X = * square ............................. (0), 
+
+Y+ Z = & triangular number ............... (A). 
+
+
+
+320 ARCHIMEDES 
+
+[There is an ambiguity in the language which expresses the 
+condition (0). Literally the lines mean " When the white bulls 
+joined in number with the black, they stood firm (fyTreSov) 
+with depth and breadth of equal measurement (tVo/ierpot els 
+/8odo? it? evpos re) ; and the plains of Thrinakia, far-stretching 
+all ways, were filled with their multitude" (reading, with 
+Krumbiegel, 7r\r)0ov$ instead of irKivOov). Considering that, if 
+the bulls were packed together so as to form a square figure, 
+the number of them need not be a square number, since a bull 
+is longer than it is broad, it is clear that one possible interpre- 
+tation would be to take the 'square* to be a square figure, and 
+to understand condition (0) to be simply 
+
+W+ J5T=a rectangle (i.e. a product of two factors). 
+
+The problem may therefore be stated in two forms : 
+
+(1) the simpler one in which, for the condition (0), there is 
+substituted the mere requirement that 
+
+TF-f X = a product of two whole numbers ; 
+
+(2) the complete problem in which all the conditions have to 
+be satisfied including the requirement (0) that 
+
+TF+ X = a square number. 
+
+The simpler problem was solved by Jul. Fr. Wurm and may 
+be called 
+
+Wurm's Problem. 
+
+The solution of this is given (together with a discussion of 
+the complete problem) by Amthor in the Zeitschrift fur Math, 
+u. Physik (Hist. litt. Abtheilung), XXV. (1880), p. 156 sqq. 
+
+Multiply (a) by 336, (ft) by 280, (7) by 126, and add ; thus 
+
+297TT = 742F, or 3'. 11TF= 2.7.53F (of). 
+
+Then from (7) and (ft) we obtain 
+
+89LZ=1580F, or 3M1Z= 2 f . 5.79F (/SO, 
+
+and 99Z = 178F, or 3*. 1LAT = 2. 89F (7'). 
+
+Again, if we multiply (8) by 4800, (e) by 2800, (?) by 1260, 
+(17) by 462, and add, we obtain 
+
+4657w 2800Z + 1260Z + 462 F 4- 143 W ; 
+
+
+
+THE CATTLE-PROBLEM. 321 
+
+and, by means of the values in (a'), OS"), (7'), we derive 
+297. 4657w = 2402120 F, 
+
+or 3 8 . 11 . 4657w = 2 8 . 5 . 7 . 23 . 373F (8')- 
+
+Hence, by means of (*;), (f), (e), we have 
+
+3Ml.4657y = 13. 46489 F (e'), 
+
+3 8 .4657s = 2 8 .5.7.761F (f), 
+
+and 3M1. 46570 = 2. 17. 15991 F (17'). 
+
+And, since all the unknowns must be whole numbers, we see 
+from the equations (a'), (/8'), (V) that F must be divisible by 
+3 4 . 11 . 4657, i.e. we may put 
+
+F = 3M 1 . 4657ft = 4149387*. 
+
+Therefore the equations (a'), (/8%..(V) give the following values 
+for all the unknowns in terms of n, viz. 
+
+W = 2 . 3 . 7 . 53 . 4657n = 10366482^ 
+
+X = 2 . 3* . 89 . 4657 n = 746051 4n 
+
+F=3M1. 4657ft = 4149387n 
+
+=2 a . 5. 79.4657w = 7358060nl , A x 
+
+V I x\ I. 
+
+w = 2 8 . 3. 5. 7. 23. 373/1= 7206360?*^ 
+
+#= 2. 3M 7.15991n = 4893246n 
+
+y = 3M3.46489?i = 5439213n 
+
+r = 2 2 . 3. 5. 7.11.761?i= 3515820?iJ 
+
+If now n = 1, the numbers are the smallest which will satisfy 
+the seven equations (a), 08),... (iy); and we have next to find 
+such an integral value for n that the equation (i) will be 
+satisfied also. [The modified equation (0) requiring that TF-f X 
+must be a product of two factors is then simultaneously 
+satisfied.] 
+
+Equation (t) requires that 
+
+
+
+where q is some positive integer. 
+
+u. A. 21 
+
+
+
+ARCHIMEDES 
+
+Putting for F, Z their values as above ascertained, we have 
+( + 1 > = (3M1 + 2" . 5 . 79) . 4657w 
+
+= 2471.4657w 
+= 7.353.4657w. 
+
+Now q is either even or odd, so that either q = 2s, or 
+q-2s-l y and the equation becomes 
+
+
+
+As n need not be a prime number, we suppose n = u . v, where 
+a is the factor in n which divides s without a remainder and v 
+the factor which divides 2s I without a remainder ; we then 
+have the following sixteen alternative pairs of simultaneous 
+equations : 
+
+. 353.4657v, 
+853 . 46570, 
+7.4657v, 
+
+
+
+(1) 
+(2) 
+(3) 
+(4) 
+
+(*) 
+(6) 
+(7) 
+(8) 
+
+
+
+$ = 
+
+
+
+2s 1 = 7. 
+2s 1 = 
+2s 1= 
+2 1 = 
+2sl = 
+2*1= 
+
+
+
+7 . 3530, 
+
+46570, 
+
+3530, 
+
+7t>, 
+
+
+
+u, 
+7u, 
+
+s= 353%, 
+
+s= 4657%, 
+
+s= 7.353%, 
+
+5= 7.4657%, 
+s = 353.4657%, 
+*=7.353.4657u, 2sl= 0. 
+
+In order to find the least value of n which satisfies all the 
+conditions of the problem, we have to choose from the various 
+positive integral solutions of these pairs of equations that 
+particular one which gives the smallest value for the product 
+uv or n. 
+
+If we solve the various pairs and compare the results, we 
+find that it is the pair of equations 
+
+a 7w, 2* - 1 = 353 . 46570, 
+which leads to the solution we want ; this solution is then 
+
+w = 117423, 0=1, 
+so that n = uv = 1 17423 = 3 8 . 4349, 
+
+
+
+THE CATTLE-PROBLEM. 323 
+
+whence it follows that 
+
+7 = 821961, 
+
+and g = 2* - 1 = 1643921. 
+
+Thus F+=2471.4657n 
+
+= 2471.4657.117423 
+= 1351238949081 
+
+1643921 . 1643922 
+
+. _ , 
+
+which is a triangular number, as required. 
+
+The number in equation (0) which has to be the product of 
+two integers is now 
+
+W + X = 2 . 3 . (7 . 53 + 3 . 89) . 4657 
+= 2'.3.11.29.4657 
+= 2. 3. 11. 29. 4657. 117423 
+= 2". 3M 1.29. 4657. 4349 
+= (2* . 3 4 . 4349) . (1 1 . 29 . 4657) 
+= 1409076.1485583, 
+which is a rectangular number with nearly equal factors. 
+
+The solution is then as follows (substituting for n its value 
+117423): 
+
+^=1217263415886 
+
+X= 876035935422 
+
+Y= 487233469701 
+
+Z= 864005479380 
+
+w= 846192410280 
+
+x = 574579625058 
+
+y= 638688708099 
+
+z= 412838131860 
+
+and the sum = 5916837175686 
+
+
+
+324 ARCHIMEDES 
+
+The complete problem. 
+
+In this case the seven original equations (a), (),... (?/) have 
+to be satisfied, and the following further conditions must hold, 
+
+W H- X = a square number = p 2 , say, 
+
+
+
+F + Z = a triangular number = ~ - > say. 
+
+Using the values found above (A), we have in the first place 
+p 2 = 2 . 3 . (7 . 53 + 3 . 89) . 4657 
+
+= 2 2 .3.11.29.4657w, 
+and this equation will be satisfied if 
+
+n = 3 . 11 . 29 . 4657? 2 = 4456749f \ 
+where f is any integer. 
+
+Thus the first 8 equations (a), (/3),...(?), (6) are satisfied by 
+the following values : 
+
+F=2.3 2 .7.11.29.53.4657 2 .f = 46200808287018 . " 
+
+X = 2 . 3M1 . 29 . 89 . 4657 2 . ? = 33249638308986 . f 
+
+F = 3M1 8 . 29 . 4657 2 . f 2 = 18492776362863 . f 
+
+Z = 2 2 .3.5.11.29.79.4657 2 .^ = 32793026546940 . f a 
+w = 2 8 .3 2 . 5. 7. 11. 23. 29. 373. 4657. f = 32116937723640. f" 
+
+a? = 2 . 3M1 . 17 . 29 . 15991 . 4657 . f 8 = 21807969217254 . f a 
+
+y = 3M1 . 13 . 29 . 46489 . 4657 . f 2 = 24241207098537 . f 2 
+
+^2 2 . 3*. 5. 7. II 2 . 29. 761. 4657. f* = 15669127269180. 2 
+
+It remains to determine f so that equation (t) may be 
+satisfied, i.e. so that 
+
+
+
+Substituting the ascertained values of F, Z, we have 
+*-^ L - - 5125802909803 . f f 
+
+-8. 7. 11. 29. 353. 4657*. f. 
+
+
+                
+                THE CATTLE-PROBLEM. 
+                
+                Multiply by 8, and put 
+                
+                2 ? + l = J, 2.4657.f = w, 
+                and we have the "Pellian" equation 
+                
+                $'-1 = 2. 3. 7. 11. 29. 353. < 
+                that is, f- 4729494 w z = l. 
+                
+                Of the solutions of this equation the smallest has to be 
+                chosen for which it is divisible by 2 . 4657. 
+                
+                When this is done, 
+                
+                tL 
+                
+                % = ^ and is a whole number; 
+                
+                whence, by substitution of the value of f so found in the last 
+                system of equations, we should arrive at the solution of the 
+                complete problem. 
+                
+                It would require too much space to enter on the solution of 
+                the " Pellian " equation 
+                
+                f- 4729494 * = !, 
+                
+                and the curious reader is referred to Amthor's paper itself. 
+                Suffice it to say that he develops V47 29494 in the form of a 
+                continued fraction as far as the period which occurs after 91 
+                convergents, and, after an arduous piece of work, arrives at the 
+                conclusion that 
+                
+                
+                
+                w ^ cre <C20654Q represents the fact that there are 206541 more 
+                digits to follow, and that, with the same notation, 
+                
+                the whole number of cattle = 7766 <2Q6543>. 
+                
+                One may well be excused for doubting whether Archimedes 
+                solved the complete problem, having regard to the enormous 
+                
+                
+                
+                326 ARCHIMEDES 
+                
+                size of the numbers and the great difficulties inherent in the 
+                work. By way of giving an idea of the space which would be 
+                required for merely writing down the results when obtained, 
+                Amthor remarks that the large seven-figured logarithmic tables 
+                contain on one page 50 lines with 50 figures or so in each, say 
+                altogether 2500 figures ; therefore one of the eight unknown 
+                quantities would, when found, occupy 82 such pages, and to 
+                write down all the eight numbers would require a volume of 
+                660 pages!] 
+                
+            
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>

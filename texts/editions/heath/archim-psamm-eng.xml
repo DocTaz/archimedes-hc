@@ -1,0 +1,715 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Sand-Reckoner</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 221-232 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">221-232</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+            
+
+THE SAND-RECKONER. 
+
+
+
+" THERE are some, king Gelon, who think that the number 
+of the sand is infinite in multitude ; and I mean by the sand 
+not only that which exists about Syracuse and the rest of Sicily 
+but also that which is found in every region whether inhabited 
+or uninhabited. Again there are some who, without regarding 
+it as infinite, yet think that no number has been named which 
+is great enough to exceed its multitude. And it is clear that 
+they who hold this view, if they imagined a mass made up of 
+sand in other respects as large as the mass of the earth, in- 
+cluding in it all the seas and the hollows of the earth filled up 
+to a height equal to that of the highest of the mountains, 
+would be many times further still from recognising that any 
+number could be expressed which exceeded the multitude of 
+the sand so taken. But I will try to show you by means of 
+geometrical proofs, which you will be able to follow, that, of the 
+numbers named by me and given in the work which I sent to 
+Zeuxippus, some exceed not only the number of the mass of 
+sand equal in magnitude to the earth filled up in the way 
+described, but also that of a mass equal in magnitude to the 
+universe. Now you are aware that 'universe* is the name 
+given by most astronomers to the sphere whose centre is the 
+centre of the earth and whose radius is equal to the straight 
+line between the centre of the sun and the centre of the earth. 
+This is the common account (TO, ypa^opeva), as you have heard 
+from astronomers. But Aristarchus of Samos brought out a 
+
+
+
+222 ARCHIMEDES 
+
+book consisting of some hypotheses, in which the premisses lead 
+to the result that the universe is many times greater than that 
+now so called. His hypotheses are that the fixed stars and the 
+sun remain unmoved, that the earth revolves about the sun in 
+the circumference of a circle, the sun lying in the middle of the 
+orbit, and that the sphere of the fixed stars, situated about the 
+same centre as the sun, is so great that the circle in which he 
+supposes the earth to revolve bears such a proportion to the 
+distance of the fixed stars as the centre of the sphere bears to 
+its surface. Now it is easy to see that this is impossible ; for, 
+since the centre of the sphere has no magnitude, we cannot 
+conceive it to bear any ratio whatever to the surface of the 
+sphere. We must however take Aristarchus to mean this: 
+since we conceive the earth to be, as it were, the centre of 
+the universe, the ratio which the earth bears to what we 
+describe as the ' universe ' is the same as the ratio which the 
+sphere containing the circle in which he supposes the earth to 
+revolve bears to the sphere of the fixed stars. For he adapts 
+the proofs of his results to a hypothesis of this kind, and in 
+particular he appears to suppose the magnitude of the sphere 
+in which he represents the earth as moving to be equal to what 
+we call the ' universe/ 
+
+I say then that, even if a sphere were made up of the sand, 
+as great as Aristarchus supposes the sphere of the fixed stars 
+to be, I shall still prove that, of the numbers named in the 
+Principles*) some exceed in multitude the number of the 
+sand which is equal in magnitude to the sphere referred to, 
+provided that the following assumptions be made. 
+
+1. The perimeter of the earth is about 3,000,000 stadia and 
+not greater. 
+
+It is true that some have tried, as you are of course aware, 
+to prove that the said perimeter is about 300,000 stadia. But 
+I go further and, putting the magnitude of the earth at ten 
+times the size that my predecessors thought it, I suppose its 
+perimeter to be about 3,000,000 stadia and not greater. 
+
+* 'Apxal was apparently the title of the work sent to Zeuxippus. Of. the 
+note attached to the enumeration of lost works of Archimedes in the Introduction, 
+Chapter II., ad fin. 
+
+
+
+THE SAND-RECKONER. 223 
+
+2. The diameter of the earth is greater than the diameter of 
+the moon, and the diameter of the sun is greater than the diameter 
+of tlte earth. 
+
+In this assumption I follow most of the earlier astronomers. 
+
+3. The diameter of the sun is about 30 times the diameter of 
+the moon and not greater, 
+
+It is true that, of the earlier astronomers, Eudoxus declared 
+it to be about nine times as great, and Pheidias my father* 
+twelve times, while Aristarchus tried to prove that the diameter 
+of the sun is greater than 18 times but less than 20 times the 
+diameter of the moon. But I go even further than Aristarchus, 
+in order that the truth of my proposition may be established 
+beyond dispute, and I suppose the diameter of the sun to be 
+about 30 times that of the moon and not greater. 
+
+4. The diameter of the sun is greater than the side of the 
+chiliagon inscribed in the greatest circle in the (sphere of the} 
+universe. 
+
+I make this assumption f because Aristarchus discovered 
+that the sun appeared to be about y^^th part of the circle of 
+the zodiac, and I myself tried, by a method which I will now 
+describe, to find experimentally (opyavitcoSs) the angle sub- 
+tended by the sun and having its vertex at the eye (rdv ywviav, 
+et? av o aXio? eVap/Aofefc rdv /copv<f>dv e^oucrai/ Trem ra ctyei)." 
+
+[Up to this point the treatise has been literally translated 
+because of the historical interest attaching to the ipsissima 
+verba of Archimedes on such a subject. The rest of the work 
+can now be more freely reproduced, and, before proceeding to 
+the mathematical contents of it, it is only necessary to remark 
+that Archimedes next describes how he arrived at a higher and 
+a lower limit for the angle subtended by the sun. This he did 
+
+* rou cl/AoO irarp6s is the correction of Blass for roO 'Affoibrarpo? (Jahrb. f. 
+Philol. cxxvii. 1883). 
+
+t This is not, strictly speaking, an assumption ; it is a proposition proved 
+later (pp. 2246) by means of the result of an experiment about to be 
+described. 
+
+
+
+224 ARCHIMEDES 
+
+by taking a long rod or ruler (*ai/a>i/), fastening on the end of it 
+a small cylinder or disc, pointing the rod in the direction of the 
+sun just after its rising (so that it was possible to look directly 
+at it), then putting the cylinder at such a distance that it just 
+concealed, and just failed to conceal, the sun, and lastly measur- 
+ing the angles subtended by the cylinder. He explains also the 
+correction which he thought it necessary to make because " the 
+eye does not see from one point but from a certain area " (eVel 
+al oyfrie? ov/c a<* evos cra/jLiov /SXeTroi/n, d\\d OTTO TWOS 
+
+
+
+The result of the experiment was to show that the angle 
+subtended by the diameter of the sun was less than T ^th part, 
+and greater than ^th part, of a right angle. 
+
+To prove that (on this assumption) the diameter of the sun 
+is greater than the side of a chiliagon, or figure with 1000 equal 
+sides, inscribed in a great circle of the ' universe.' 
+
+Suppose the plane of the paper to be the plane passing 
+through the centre of the sun, the centre of the earth and the 
+eye, at the time when the sun has just risen above the horizon. 
+Let the plane cut the earth in the circle EHL and the sun 
+in the circle FKG, the centres of the earth and sun being (7, 
+respectively, and E being the position of the eye. 
+
+Further, let the plane cut the sphere of the * universe ' (i.e. 
+the sphere whose centre is C and radius GO) in the great 
+circle AOB. 
+
+Draw from E two tangents to the circle FKG touching it 
+at P, Q, and from C draw two other tangents to the same circle 
+touching it in F t G respectively. 
+
+Let CO meet the sections of the earth and sun in H, K 
+respectively; and let OF, CG produced meet the great circle 
+AOB in A, B. 
+
+Join EO, OF, OG, OP, OQ, AB, and let AB meet CO in M. 
+Now CO > EO, since the sun is just above the horizon. 
+Therefore ^ PEQ > Z FCG. 
+
+
+
+And tPEQ> 
+but < 
+
+
+
+THE BAND-RECKONER. 225 
+
+R represents a right angle. 
+
+
+
+
+Thus Z FOG < ^R, a fortiori, 
+
+and the chord AB subtends an arc of the great circle which is 
+
+
+
+less than ^^th of the circumference of that circle, i.e. 
+
+A B < (side of 656-sided polygon inscribed in the circle). 
+
+Now the perimeter of any polygon inscribed in the great 
+circle is less than tyCO. [Of. Measurement of a circle, Prop. 3.] 
+
+Therefore AB : C0<ll: 1148, 
+
+and, a fortiori, AB < ^faCO ........................ (a). 
+
+Again, since OA = CO, and A M is perpendicular to CO, 
+while OF is perpendicular to CA, 
+
+AM=OF. 
+
+Therefore AB = 2AM = (diameter of sun). 
+Thus (diameter of sun) < ^00, by (a), 
+
+and, a fortiori, 
+
+(diameter of earth) < jfaCO. [Assumption 2] 
+
+
+
+H. A. 
+
+
+
+15 
+
+
+
+226 ARCHIMEDES 
+
+Hence 
+so that 
+
+or CO :HK<100:99. 
+
+And CO>CF, 
+
+while HK<EQ. 
+
+Therefore CF : EQ<IW : 99 
+
+Now in the right-angled triangles CFO t EQO, of the sides 
+about the right angles, 
+
+OF- OQ, but EQ < CF (since EO < CO). 
+Therefore Z OEQ : Z OCF > CO : EO, 
+
+but < OF : 
+
+Doubling the angles, 
+
+
+
+< 100 : 99, by () above. 
+
+But Z PEQ > vfaR, by hypothesis. 
+
+Therefore Z A CB > 3$^ R 
+
+
+
+It follows that the arc AB is greater than ^th of the circum- 
+ference of the great circle A OB. 
+
+Hence, a fortiori, 
+
+AB > (side of chiliagon inscribed in great circle), 
+and AB is equal to the diameter of the sun, as proved above. 
+
+
+
+The following results can now be proved : 
+
+(diameter of ' universe') < 10,000 (diameter of earth), 
+and (diameter of 'universe') < 10,000,000,000 stadia. 
+
+* The proposition here assumed is of course equivalent to the trigonometrical 
+formula which states that, if a, /3 are the circular measures of two angles, each 
+less than a right angle, of which a is the greater, then 
+
+tan a a sin a 
+/ > sin/? ' 
+
+
+
+THE SAND-RECKONER. 227 
+
+(1) Suppose, for brevity, that d u represents the diameter 
+of the ' universe/ d 8 that of the sun, d e that of the earth, and d m 
+that of the moon. 
+
+By hypothesis, d s ^ 30d m , [Assumption 3] 
+
+and d e > d m ; [Assumption 2] 
+
+therefore d s < 3Qd e . 
+
+Now, by the last proposition, 
+
+d 8 > (side of chiliagon inscribed in great circle), 
+so that (perimeter of chiliagon) < lOOOc?* 
+
+< 30,000d e . 
+
+But the perimeter of any regular polygon with more sides 
+than 6 inscribed in a circle is greater than that of the inscribed 
+regular hexagon, and therefore greater than three times the 
+diameter. Hence 
+
+(perimeter of chiliagon) > 3d tt . 
+
+It follows that d u < 10,000d e . 
+
+(2) (Perimeter of earth) ^ 3,000,000 stadia. 
+
+[Assumption 1] 
+and (perimeter of earth) > Sd e . 
+
+Therefore d e < 1,000,000 stadia, 
+
+whence d u < 10,000,000,000 stadia. 
+
+
+
+Assumption 5. 
+
+Suppose a quantity of sand taken not greater than a poppy- 
+seed, and suppose that it contains not more than 10,000 grains. 
+
+Next suppose the diameter of the poppy-seed to be not less 
+than ^th of a finger-breadth. 
+
+Orders and periods of numbers. 
+
+I. We have traditional names for numbers up to a 
+myriad (10,000); we can therefore express numbers up to a 
+myriad myriads (100,000,000). Let these numbers be called 
+numbers of the first order. 
+
+Suppose the 100,000,000 to be the unit of the second order, 
+and let the second order consist of the numbers from that unit 
+up to (100,000,000)'. 
+
+152 
+
+
+
+228 ARCHIMEDES 
+
+Let this again be the unit of the third order of numbers 
+ending with (100,000,000)*; and so on, until we reach the 
+100,000,000^ order of numbers ending with (lOO^OO.OOO) 100 ' 000 ' 000 , 
+which we will call P. 
+
+II. Suppose the numbers from 1 to P just described to 
+form the first period. 
+
+Let P be the unit of the first order of the second period, and . 
+let this consist of the numbers from P up to 100,000,000 P. 
+
+Let the last number be the unit of the second order of the 
+second period, and let this end with (100,000,000)* P. 
+
+We can go on in this way till we reach the 100,000,000& order 
+of the second period ending with (100,000,000)**^, or P*. 
+
+III. Taking P 8 as the unit of the first order of the third 
+period, we proceed in the same way till we reach the 
+100,000,000tfi order of the third period ending with P 8 . 
+
+IV. Taking P 8 as the unit of the first order of the fourth 
+period, we continue the same process until we arrive at the 
+100,000,000*& order of the 100,000,000/i period ending with 
+pioo,ooo,ooo ihi g last number is expressed by Archimedes as " a 
+myriad-myriad units of the myriad-myriad-th order of the 
+myriad-myriad-th period (al p,vpiaici<Fp t vpt,oa"ra<i TrepioSov /j,vpia- 
+fcia-^vpio(Trv apiO^v pvplai, pvpidSes)" which is easily seen 
+
+to be 100,000,000 times the product of (lOO.OOO^OO)"' 999 ' 999 and 
+i e pioo,ooo,ow 
+
+
+
+[The scheme of numbers thus described can be exhibited 
+more clearly by means of indices as follows. 
+
+FIRST PERIOD. 
+
+First order. Numbers from 1 to 10 8 . 
+Second order. 10 8 to 10 16 . 
+Third order. 10" to 10 24 . 
+
+
+
+order. lO 8 -* 108 - 1 ' to 10 8 - 10 " (P, say). 
+
+
+
+THE SAND-RECKONER. 229 
+
+SECOND PERIOD. 
+
+First order. Numbers from P.I to P .IV. 
+Second order. P . 10 8 to P . 10". 
+
+
+
+(W)th order. P.IO 8 -*" 8 - 1 ) to 
+
+P.10 8 - 108 (or P 1 ). 
+
+
+
+(10 8 )TH PERIOD. 
+
+First order. P 108 - 1 . 1 to P 108 - 1 . 10*. 
+
+Second order. P 108 - 1 . 10 8 to P 108 - 1 . 1<K 
+
+
+
+(10*)th order. P^-MO 8 -^ 8 - 1 * to 
+
+P" 8 -!. lOs.io" (i.e. P 108 ). 
+
+The prodigious extent of this scheme will be appreciated 
+when it is considered that the last number in the first period 
+would be represented now by 1 followed by 800,000,000 ciphers, 
+while the last number of the (W*)th period would require 
+100,000,000 times as many ciphers, i.e. 80,000 million millions 
+of ciphers.] 
+
+Octads. 
+
+Consider the series of terms in continued proportion of 
+which the first is 1 and the second 10 [i.e. the geometrical 
+progression 1, 10 1 , 10 2 , 10 s , ...]. The first octad of these terms 
+[i.e. 1, 10 1 , 10*, ...10 7 ] fall accordingly under the first order 
+of the first period above described, the second octad [i.e. 
+10 8 , 10 fl , ... 10 16 ] under the second order of the first period, the 
+first term of the octad being the unit of the corresponding 
+order in each case. Similarly for the third octad, and so on. 
+We can, in the same way, place any number of octads. 
+
+Theorem. 
+
+If there be any number of terms of a series in continued 
+proportion, say A l9 A 3 , A 9 ,... A m ,... A n ,... An+n^,... of which 
+A l ^ 1, J[ a = 10 [so that the series forms the geometrical pro- 
+gression 1, 10 1 , 10 a ,...10 wl - 1 ,...10 n - 1 ,...10 M+f| - a ,...], and if any 
+two terms as A m , A n be taken and multiplied, the product 
+
+
+
+230 ARCHIMEDES 
+
+A m . A n mil be a term in the same series and will be as many 
+terms distant from A n as A m is distant from A l ; also it mil be 
+distant from A l by a number of terms less by one than the sum 
+of the numbers of terms by which A m and A n respectively are 
+distant from A^ 
+
+Take the term which is distant from A n by the same 
+number of terms as A m is distant from A l9 This number of 
+terms is m (the first and last being both counted). Thus the 
+term to be taken is m terms distant from A n , and is therefore 
+the term A m+n ^. 
+
+We have therefore to prove that 
+
+Now terms equally distant from other terms in the con- 
+tinued proportion are proportional. 
+
+A A 
+
+Thus * = m+n "" 1 
+
+AI A n 
+
+But A m = A m .A l , since A l = 1. 
+
+Therefore A m + n _ 1 A m . A n (1). 
+
+The second result is now obvious, since A m is m terms 
+distant from A l9 A n is n terms distant from A l9 and A m+n ^ is 
+(m 4- n 1) terms distant from -4^ 
+
+Application to the number of the sand. 
+
+By Assumption 5 [p. 227], 
+
+(diam. of poppy-seed) ^ ^ (finger-breadth); 
+
+and, since spheres are to one another in the triplicate ratio 
+of their diameters, it follows that 
+
+(sphere of diam. 1 finger-breadth) ^ 64,000 poppy-seeds 
+
+> 64,000 x 10,000 
+} 640,000,000 
+
+^6 units of second grains 
+order + 40,000,000 V of 
+units of first order sand, 
+(a fortiori) < 10 units of second 
+order of numbers. 
+
+
+
+THE SAND-RECKONER. 
+
+
+
+231 
+
+
+
+We now gradually increase the diameter of the supposed 
+sphere, multiplying it by 100 each time. Thus, remembering 
+that the sphere is thereby multiplied by 100* or 1,000,000, the 
+number of grains of sand which would be contained in a sphere 
+with each successive diameter may be arrived at as follows. 
+
+
+
+Diameter of sphere. 
+(1) 100 finger-breadths 
+
+
+
+(2) 10,000 finger-breadths 
+
+
+
+(3) 1 stadium 
+
+(< 10,000 finger-breadths) 
+
+(4) 100 stadia 
+
+
+
+(5) 10,000 stadia 
+
+
+
+(6) 1,000,000 stadia 
+
+
+
+(7) 100,000,000 stadia 
+
+
+
+(8) 10,000,000,000 stadia 
+
+
+
+Corresponding number of grains of sand. 
+
+< 1,000,000 x 10 units of second order 
+<(7th term of series) x (10th term of 
+
+series) 
+
+< 16th term of series [i.e. 10 16 ] 
+<[10 7 or] 10,000,000 units of the second 
+
+order. 
+
+< 1,000,000 x (last number) 
+
+< (7th term of series) x (16th term) 
+
+< 22nd term of series [i.e. 10 21 ] 
+
+< [10 6 or] 100,000 units of third order. 
+
+< 100,000 units of third order. 
+
+* 
+
+< 1,000,000 x (last number) 
+
+< (7th term of series) x (22nd term) 
+
+< 28th term of series [10 27 ] 
+<[103 or] 1,000 units of fourth order. 
+
+< 1,000,000 x (last number) 
+
+< (7th term of series) x (28th term) 
+
+< 34th term of series [10 33 ] 
+
+< 10 units of fifth order. 
+
+< (7th term of series) x (34th term) 
+
+< 40th term [10 39 ] 
+<[10 T or] 10,000,000 units of fifth order. 
+
+< (7th term of series) x (40th term) 
+
+< 46th term [10* 6 ] 
+<[10 6 or] 100,000 units of sixth order. 
+
+< (7th term of series) x (46th term) 
+
+< 52nd term of series [10 61 ] 
+
+< [10 3 or] 1,000 units of seventh order. 
+
+
+
+But, by the proposition above [p. 227], 
+
+(diameter of universe ') < 10,000,000,000 stadia. 
+
+Hence the number of grains of sand which could be contained 
+in a sphere of the size of our 'universe' is less than 1,000 units 
+of the seventh order of numbers [or 10 51 ]. 
+
+
+
+232 ARCHIMEDES 
+
+From this we can prove further that a sphere of the size 
+attributed by Aristarchus to the sphere of the fixed stars would 
+contain a number of grains of sand less than 10,000,000 units 
+of the eighth order of numbers [or lO** 7 = 10"]. 
+
+For, by hypothesis, 
+
+(earth) : (' universe ') = (' universe ') : (sphere of fixed stars). 
+And [p. 227] 
+
+(diameter of ' universe ') < 10,000 (diam. of earth) ; 
+whence 
+
+(diam. of sphere of fixed stars) < 10,000 (diam. of ' universe '). 
+Therefore 
+
+(sphere of fixed stars) < (10,000) 8 . (' universe '). 
+It follows that the number of grains of sand which would be 
+contained in a sphere equal to the sphere of the fixed stars 
+
+< (10,000)' x 1,000 units of seventh order 
+
+< (13th term of series) x (52nd term of series) 
+
+< 64th term of series [i.e. 10 63 ] 
+
+< [10 7 or] 10,000,000 units of eighth order of numbers. 
+
+Conclusion. 
+
+"I conceive that these things, king Gelon, will appear 
+incredible to the great majority of people who have not studied 
+mathematics, but that to those who are conversant therewith 
+and have given thought to the question of the distances and 
+sizes of the earth the sun and moon and the whole universe the 
+proof will carry conviction. And it was for this reason that 
+I thought the subject would be not inappropriate for your 
+consideration." 
+
+
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>

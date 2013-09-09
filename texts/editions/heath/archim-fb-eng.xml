@@ -1,0 +1,2407 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>On Floating Bodies</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 253-300 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope
+                                type="pp">253-300</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1" type="book">
+                <!-- 
+                
+ON FLOATING BODIES. 
+
+BOOK I. 
+
+
+
+Postulate 1. 
+
+" Let it be supposed that a fluid is of such a character that, 
+its parts lying evenly and being continuous, that part which is 
+thrust the less is driven along by that which is thrust the 
+more ; and that each of its parts is thrust by the fluid which is 
+above it in a perpendicular direction if the fluid be sunk in 
+anything and compressed by anything else." 
+
+
+
+Proposition 1. 
+
+If a surface be cut by a plane always passing through a 
+certain point, and if the section be always a circumference [of a 
+circle] whose centre is the aforesaid point, the surface is that of 
+a sphere. 
+
+For, if not, there will be some two lines drawn from the 
+point to the surface which are not equal. 
+
+Suppose to be the fixed point, and A, B to be two points 
+on the surface such that OA, OB are unequal. Let the surface 
+be cut by a plane passing through OA, OB. Then the section 
+is, by hypothesis, a circle whose centre is 0. 
+
+Thus OA = OB ; which is contrary to the assumption. 
+Therefore the surface cannot but be a sphere. 
+
+
+
+254 ARCHIMEDES 
+
+Proposition 2. 
+
+The surface of any fluid at rest is the surface of a sphere 
+whose centre is the same as that of the earth. 
+
+Suppose the surface of the fluid cut by a plane through 0, 
+the centre of the earth, in the curve A BCD. 
+
+ABCD shall be the circumference of a circle. 
+
+For, if not, some of the lines drawn from to the curve 
+will be unequal. Take one of them, OB, such that OB is 
+greater than some of the lines from to the curve and less 
+than others. Draw a circle with OB as radius. Let it be EBF, 
+which will therefore fall partly within and partly without the 
+surface of the fluid. 
+
+
+
+
+Draw OGH making with OB an angle equal to the angle 
+EOB, and meeting the surface in H and the circle in 0. Draw 
+also in the plane an arc of a circle PQR with centre and 
+within the fluid. 
+
+Then the parts of the fluid along PQR are uniform and 
+continuous, and the part PQ is compressed by the part between 
+it and AB 9 while the part QR is compressed by the part 
+between QR and BH. Therefore the parts along PQ, QR will 
+be unequally compressed, and the part which is compressed the 
+less will be set in motion by that which is compressed the 
+more. 
+
+Therefore there will not be rest ; which is contrary to the 
+hypothesis. 
+
+Hence the section of the surface will be the circumference 
+of a circle whose centre is ; and so will all other sections by 
+planes through 0. 
+
+Therefore the surface is that of a sphere with centre 0. 
+
+
+
+UJN J4\LUAT1MU JBUmJ&S 1. 
+
+
+
+200 
+
+
+
+Proposition 3. 
+
+Of solids those which, size for size, are of equal weight with 
+a fluid mil, if let down into the fluid, be immersed so that they 
+do not project above the surface but do not sink lower. 
+
+If possible, let a certain solid EFHG of equal weight, 
+volume for volume, with the fluid remain immersed in it so 
+that part of it, EBCF, projects above the surface. 
+
+Draw through 0, the centre of the earth, and through the 
+solid a plane cutting the surface of the fluid in the circle 
+ABCD. 
+
+Conceive a pyramid with vertex and base a parallelogram 
+at the surface of the fluid, such that it includes the immersed 
+portion of the solid. Let this pyramid be cut by the plane of 
+ABCD in OL, OM. Also let a sphere within the fluid and 
+below GH be described with centre 0, and let the plane of 
+ABCD cut this sphere in PQR. 
+
+
+
+
+Conceive also another pyramid in the fluid with vertex 0, 
+continuous with the former pyramid and equal and similar to 
+it. Let the pyramid so described be cut in OM, ON by the 
+plane of ABCD. 
+
+Lastly, let STUV be a part of the fluid within the second 
+pyramid equal and similar to the part BGHC of the solid, and 
+let SFbe at the surface of the fluid. 
+
+Then the pressures on PQ, QR are unequal, that on PQ 
+being the greater. Hence the part at QR will be set in motion 
+
+
+
+256 ARCHIMEDES 
+
+by that at PQ, and the fluid will not be at rest; which is 
+contrary to the hypothesis. 
+
+Therefore the solid will not stand out above the surface. 
+Nor will it sink further, because all the parts of the fluid 
+will be under the same pressure. 
+
+Proposition 4. 
+
+A solid lighter than a fluid will, if immersed in it, not be 
+completely submerged, but part of it will project above the 
+surface. 
+
+In this case, after the manner of the previous proposition, 
+we assume the solid, if possible, to be completely submerged and 
+the fluid to be at rest in that position, and we conceive (1) a 
+pyramid with its vertex at 0, the centre of the earth, including 
+the solid, (2) another pyramid continuous with the former and 
+equal and similar to it, with the same vertex 0, (3) a portion of 
+the fluid within this latter pyramid equal to the immersed solid 
+in the other pyramid, (4) a sphere with centre whose surface 
+is below the immersed solid and the part of the fluid in the 
+second pyramid corresponding thereto. We suppose a plane to 
+be drawn through the centre cutting the surface of the 
+fluid in the circle ABC, the solid in 8, the first pyramid in OA, 
+OB, the second pyramid in OB, OC, the portion of the fluid in 
+the second pyramid in If, and the inner sphere in PQR. 
+
+Then the pressures on the parts of the fluid at PQ, QR are 
+unequal, since 8 is lighter than K. Hence there will not be 
+rest ; which is contrary to the hypothesis. 
+
+
+
+
+Therefore the solid 8 cannot, in a condition of rest, be 
+completely submerged. 
+
+
+
+ON FLOATING BODIES 1. 257 
+
+
+
+Proposition 5. 
+
+Any solid lighter than a fluid will, if placed in the fluid, 
+be so far immersed that the weight of the solid will be equal to 
+the weight of the fluid displaced. 
+
+For let the solid be EGHF, and let BOHC be the portion 
+of it immersed when the fluid is at rest. As in Prop. 3, 
+conceive a pyramid with vertex including the solid, and 
+another pyramid with the same vertex continuous with the 
+former and equal and similar to it. Suppose a portion of the 
+fluid STUV at the base of the second pyramid to be equal and 
+similar to the immersed portion of the solid ; and let the con- 
+struction be the same as in Prop. 3. 
+
+
+
+
+Then, since the pressure on the parts of the fluid at PQ, QR 
+must be equal in order that the fluid may be at rest, it follows 
+that the weight of the portion STUV of the fluid must be 
+equal to the weight of the solid EGHF. And the former is 
+equal to the weight of the fluid displaced by the immersed 
+portion of the solid BOH C. 
+
+
+
+Proposition 6. 
+
+If a solid lighter than a -fluid be forcibly immersed in it, the 
+solid will be driven upwards by a force equal to the difference 
+between its weight and the weight of the fluid displaced. 
+
+For let A be completely immersed in the fluid, and let G 
+represent the weight of A, and (G + H) the weight of an equal 
+volume of the fluid. Take a solid D, whose weight is H 
+
+H. A. 17 
+
+
+
+258 
+
+
+
+ARCHIMEDES 
+
+
+
+and add it to A. Then the weight of (A + D) is less than 
+that of an equal volume of the fluid ; and, if (A + D) is 
+immersed in the fluid, it will project so that its weight will 
+be equal to the weight of the fluid displaced. But its weight 
+
+
+
+s 
+
+
+
+Therefore the weight of the fluid displaced is (G + H), and 
+hence the volume of the fluid displaced is the volume of the 
+solid A. There will accordingly be rest with A immersed 
+and D projecting. 
+
+Thus the weight of D balances the upward force exerted by 
+the fluid on A, and therefore the latter force is equal to H, 
+which is the difference between the weight of A and the weight 
+of the fluid which A displaces. 
+
+
+
+Proposition 7. 
+
+A solid heavier than a fluid will, if placed in it, descend 
+to the bottom of the fluid, and the solid will, when weighed 
+in the fluid, be lighter than its true weight by the weight of the 
+fluid displaced. 
+
+(1) The first part of the proposition is obvious, since the 
+part of the fluid under the solid will be under greater pressure, 
+and therefore the other parts will give way until the solid 
+reaches the bottom. 
+
+(2) Let A be a solid heavier than the same volume of the 
+fluid, and let (G + H) represent its weight, while G represents 
+the weight of the same volume of the fluid. 
+
+
+
+ON FLOATING BODIES I. 
+
+
+
+259 
+
+
+
+Take a solid B lighter than the same volume of the fluid, 
+and such that the weight of B is G, while the weight of the 
+same volume of the fluid is (G 4- H ). 
+
+
+
+Let A and B be now combined into one solid and immersed. 
+Then, since ( A + B) will be of the same weight as the same 
+volume of fluid, both weights being equal to (G + H)+G, it 
+follows that ( A + B) will remain stationary in the fluid. 
+
+Therefore the force which causes A by itself to sink must 
+be equal to the upward force exerted by the fluid on B by 
+itself. This latter is equal to the difference between (G + H) 
+and G [Prop. 6], Hence A is depressed by a force equal to 
+H, i.e. its weight in the fluid is H, or the difference between 
+G + H and G. 
+
+
+
+[This proposition may, I think, safely be regarded as decisive 
+of the question how Archimedes determined the proportions of 
+gold and silver contained in the famous crown (cf. Introduction, 
+Chapter I.). The proposition suggests in fact the following 
+method. 
+
+Let W represent the weight of the crown, w l and m, the 
+weights of the gold and silver in it respectively, so that 
+
+
+
+(1) Take a weight W of pure gold and weigh it in a fluid. 
+The apparent loss of weight is then equal to the weight of 
+the fluid displaced. If F^ denote this weight, F l is thus known 
+as the result of the operation of weighing. 
+
+It follows that the weight of fluid displaced by a weight w l 
+of gold is .^i. 
+
+
+
+172 
+
+
+
+260 ARCHIMEDES 
+
+(2) Take a weight W of pure silver and perform the same 
+operation. If F* be the loss of weight when the silver is 
+weighed in the fluid, we find in like manner that the weight 
+
+of fluid displaced by w 2 is ~? . F* 
+
+(3) Lastly, weigh the crown itself in the fluid, and let F be 
+the loss of weight. Therefore the weight of fluid displaced by 
+the crown is F. 
+
+It follows that ^ . F l + ^ . Ft = F, 
+
+or w 1 F l + w 2 F 2 (M! + w*) F } 
+
+, w l F 2 - F 
+
+whence iT* * 
+
+This procedure corresponds pretty closely to that described 
+in the poem de ponderibus et mensuris (written probably about 
+500 A.D.)* purporting to explain Archimedes' method. Ac- 
+cording to the author of this poem, we first take two equal 
+weights of pure gold and pure silver respectively and weigh 
+them against each other when both immersed in water; this 
+gives the relation between their weights in water and therefore 
+between their loss of weight in water. Next we take the 
+mixture of gold and silver and an equal weight of pure silver 
+and weigh them against each other in water in the same 
+manner. 
+
+The other version of the method used by Archimedes is 
+that given by Vitruviusf, according to which he measured 
+successively the volumes of fluid displaced by three equal 
+weights, (1) the crown, (2) the same weight of gold, (3) the 
+same weight of silver, respectively. Thus, if as before the 
+weight of the crown is W, and it contains weights Wi and w z of 
+gold and silver respectively, 
+
+(1) the crown displaces a certain quantity of fluid, F say. 
+
+(2) the weight W of gold displaces a certain volume of 
+
+* Torelli's Archimedes, p. 364; Hultsch, Metrol. Script, n. 95 sq., and 
+Prolegomena 118. 
+t De architect, ix. 3. 
+
+
+
+ON FLOATING BODIES I. 261 
+
+fluid, V l say ; therefore a weight w l of gold displaces a volume 
+
+^.^ of fluid. 
+w 
+
+(3) the weight W of silver displaces a certain volume of 
+fluid, say F 2 ; therefore a weight w 2 of silver displaces a volume 
+
+^.F 2 of fluid. 
+
+It follows that F^.F, + ^.F 2 , 
+whence, since W = w l + w 2 , 
+
+
+
+and this ratio is obviously equal to that before obtained, viz. 
+
+
+
+Postulate 2, 
+
+" Let it be granted that bodies which are forced upwards in 
+a fluid are forced upwards along the perpendicular [to the 
+surface] which passes through their centre of gravity/' 
+
+Proposition 8. 
+
+If a solid in the form of a segment of a sphere, and of a 
+substance lighter than a fluid, be immersed in it so that its base 
+does not touch the surface, the solid will rest in such a position 
+that its axis is perpendicular to the surface; and, if the solid be 
+forced into such a position that its base touches the fluid on one 
+side and be then set free, it will not remain in that position but 
+will return to the symmetrical position. 
+
+[The proof of this proposition is wanting in the Latin 
+version of Tartaglia. Commandinus supplied a proof of his 
+own in his edition.] 
+
+Proposition 9. 
+
+If a solid in the form of a segment of a sphere, and of a 
+substance lighter than a fluid, be immersed in it so that its base 
+is completely below the surface, the solid will rest in such a 
+position that its aocis is perpendicular to the surface. 
+
+
+
+262 
+
+
+
+ARCHIMEDES 
+
+
+
+[The proof of this proposition has only survived in a 
+mutilated form. It deals moreover with only one case out of 
+three which are distinguished at the beginning, viz. that in 
+which the segment is greater than a hemisphere, while figures 
+only are given for the cases where the segment is equal to, or 
+less than, a hemisphere.] 
+
+Suppose, first, that the segment is greater than a hemisphere. 
+Let it be cut by a plane through its axis and the centre of the 
+earth ; and, if possible, let it be at rest in the position shown 
+in the figure, where AB is the intersection of the plane with 
+the base of the segment, DE its axis, C the centre of the 
+sphere of which the segment is a part, the centre of the 
+earth. 
+
+
+
+
+The centre of gravity of the portion of the segment outside 
+the fluid, as F, lies on OC produced, its axis passing through C. 
+
+Let G be the centre of gravity of the segment. Join FG, 
+and produce it to H so that 
+
+FG : GH = ( volume of immersed portion) : (rest of solid). 
+Join OH. 
+
+Then the weight of the portion of the solid outside the fluid 
+acts along F0 t and the pressure of the fluid on the immersed 
+portion along OH, while the weight of the immersed portion 
+acts along HO and is by hypothesis less than the pressure of 
+the fluid acting along OH. 
+
+Hence there will not be equilibrium, but the part of the 
+segment towards A will ascend and the part towards B descend, 
+until DE assumes a position perpendicular to the surface of 
+the fluid. 
+
+
+
+
+                -->
+                <p/>
+            </div>
+            
+            <div n="2" type="book">
+                <!-- 
+                    ON FLOATING BODIES. 
+
+
+
+BOOK II. 
+
+
+
+Proposition 1. 
+
+If a solid lighter than a fluid be at rest in it, the weight of 
+the solid will be to that of the same volume of the fluid as the 
+immersed portion of the solid is to the whole. 
+
+Let (A + B) be the solid, B the portion immersed in the 
+fluid. 
+
+Let (C + D) be an equal volume of the fluid, C being equal 
+in volume to A and B to D. 
+
+Further suppose the line E to represent the weight of the 
+solid (A + B\ (F + G) to represent the weight of (<7+JD), and 
+G that of D. 
+
+
+
+
+Then 
+
+weight of (A + B) : weight of (C+ D) - E : (F+ (?)... (1). 
+
+
+
+264 ARCHIMEDES 
+
+And the weight of (A -f B) is equal to the weight of a 
+volume B of the fluid [I. 5], i.e. to the weight of D. 
+
+That is to say, E=G. 
+Hence, by (1), 
+
+weight of (A + B) : weight of (G + D) = G : F+ G 
+
+
+
+= B:A+B. 
+
+
+
+Proposition 2. 
+
+If a right segment of a paraboloid of revolution whose axis is 
+not greater than %p (where p is the principal parameter of the 
+generating parabola), and whose specific gravity is less than that 
+of a fluid, be placed in the fluid with its cms inclined to the 
+vertical at any angle, but so that the base of the segment does not 
+touch the surface of the fluid, the segment of the paraboloid will 
+not remain in that position but will return to the position in 
+which its cuds is vertical. 
+
+Let the axis of the segment of the paraboloid be AN, and 
+through AN draw a plane perpendicular to the surface of the 
+fluid. Let the plane intersect the paraboloid in the parabola 
+BAB', the base of the segment of the paraboloid in BB', and 
+the plane of the surface of the fluid in the chord QQ' of the 
+parabola. 
+
+Then, since the axis AN is placed in a position not perpen- 
+dicular to QQ', BB' will not be parallel to QQ'. 
+
+Draw the tangent PT to the parabola which is parallel to 
+QQ', and let P be the point of contact*. 
+
+[From P draw PV parallel to AN meeting QQ' in V. 
+Then PV will be a diameter of the parabola, and also the 
+axis of the portion of the paraboloid immersed in the fluid. 
+
+* The rest of the proof is wanting in the version of Tartaglia, but is given 
+in brackets as supplied by Gommandinus. 
+
+
+
+ON FLOATING BODIES II. 265 
+
+Let C be the centre of gravity of the paraboloid BAB', and 
+F that of the portion immersed in the fluid. Join FC and 
+produce it to H so that H is the centre of gravity of the 
+remaining portion of the paraboloid above the surface. 
+
+
+
+
+LPKM 
+
+
+
+Then, since 
+and 
+
+it follows that 
+
+Therefore, if CP be joined, the angle CPT is acutef. 
+Hence, if CK be drawn perpendicular to PT, K will fall between 
+P and T. And, if FL, HM be drawn parallel to CK to meet 
+PT, they will each be perpendicular to the surface of the fluid. 
+
+Now the force acting on the immersed portion of the 
+segment of the paraboloid will act upwards along LF, while 
+the weight of the portion outside the fluid will act downwards 
+along HM. 
+
+Therefore there will not be equilibrium, but the segment 
+
+* As the determination of the centre of gravity of a segment of a paraboloid 
+which is here assumed does not appear in any extant work of Archimedes, or 
+in any known work by any other Greek mathematician, it appears probable that 
+it was investigated by Archimedes himself in some treatise now lost. 
+
+t The truth of this statement is easily proved from the property of the sub- 
+normal. For, if the normal at P meet the axis in G, AG is greater than | 
+
+except in the case where the normal is the normal at the vertex A itself. But 
+the latter case is excluded here because, by hypothesis, AN is not placed vertically. 
+Hence, P being a different point from A, AG is always greater than AC\ and, 
+since the angle TPO is right, the angle TPC must be acute. 
+
+
+
+266 ARCHIMEDES 
+
+will turn so that B will rise and ff will fall, until AN takes 
+the vertical position.] 
+
+[For purposes of comparison the trigonometrical equivalent 
+of this and other propositions will be appended. 
+
+Suppose that the angle NTP, at which in the above figure 
+the axis AN is inclined to the surface of the fluid, is denoted 
+by 6. 
+
+Then the coordinates of P referred to AN and the tangent 
+at A as axes are 
+
+j cot 2 0, - cot 0, 
+
+where p is the principal parameter. 
+Suppose that AN=h, PV=k. 
+
+If now x 1 be the distance from T of the orthogonal projection 
+of F on TP, and x the corresponding distance for the point (7, 
+we have 
+
+V 2 
+
+x' = cot 2 . cos + ^ cot . sin + ^ k cos 0, 
+
+# = cot 2 0. cos + ^ A cos 0, 
+4 3 
+
+I j*2 
+whence x' # = cos -I T 
+
+
+
+In order that the segment of the paraboloid may turn in 
+the direction of increasing the angle PTN, x must be greater 
+than x, or the expression just found must be positive. 
+
+This will always be the case, whatever be the value of 0, if 
+
+p 2/i 
+
+2* 3 ' 
+or * 
+
+
+
+Proposition 3. 
+
+J[/* a rtgrAt segment of a paraboloid of revolution whose axis 
+is not greater than \p (where p is the parameter), and whose 
+specific gravity is less than that of a fluid, be placed in the fluid 
+with its axis inclined at any angle to the vertical, but so that its 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+267 
+
+
+
+base is entirely submerged, the solid will not remain in that posi- 
+tion but mil return to the position in which the axis is vertical. 
+
+Let the axis of the paraboloid be AN, and through AN 
+draw a plane perpendicular to the surface of the fluid inter- 
+secting the paraboloid in the parabola BAB', the base of the 
+segment in BNB', and the plane of the surface of the fluid in 
+the chord QQ' of the parabola. 
+
+T MKPL 
+
+
+
+
+Then, since AN, as placed, is not perpendicular to the 
+surface of the fluid, QQ' and BB' will not be parallel 
+
+Draw PT parallel to QQ' and touching the parabola at P. 
+Let PT meet NA produced in T. Draw the diameter PV 
+bisecting QQ' in V. PV is then the axis of the portion of the 
+paraboloid above the surface of the fluid. 
+
+Let C be the centre of gravity of the whole segment of the 
+paraboloid, F that of the portion above the surface. Join FC 
+and produce it to H so that H is the centre of gravity of 
+the immersed portion. 
+
+Then, since AC ^ ^ , the angle CPT is an acute angle, as in 
+
+2t 
+
+the last proposition. 
+
+Hence, if CK be drawn perpendicular to PT, K will fall 
+between P and T. Also, if H M, FL be drawn parallel to CK, 
+they will be perpendicular to the surface of the fluid. 
+
+And the force acting on the submerged portion will act 
+upwards along HM, while the weight of the rest will act 
+downwards along LF produced. 
+
+Thus the paraboloid will turn until it takes the position 
+in which AN is vertical. 
+
+
+
+268 
+
+
+
+ARCHIMEDES 
+
+
+
+Proposition 4. 
+
+Given a right segment of a paraboloid of revolution whose 
+axis AN is greater than $p (where p is the parameter), and 
+whose specific gravity is less than that of a fluid but bears 
+to it a ratio not less than (AN %p)* : AN* t if the segment 
+of the paraboloid be placed in the fluid with its axis at any 
+inclination to the vertical, but so that its base does not touch 
+the surface of the fluid, it will not remain in that position but 
+mil return to the position in which its axis is vertical. 
+
+Let the axis of the segment of the paraboloid be AN, and 
+let a plane be drawn through AN perpendicular to the surface 
+of the fluid and intersecting the segment in the parabola BAB', 
+the base of the segment in BB', and the surface of the fluid in 
+the chord QQ' of the parabola. 
+
+
+
+
+p T 
+
+
+
+Then AN, as placed, will not be perpendicular to QQ 7 . 
+
+Draw PT parallel to QQ' and touching the parabola at P. 
+Draw the diameter PV bisecting QQ' in V. Thus PV will be 
+the axis of the submerged portion of the solid. 
+
+Let C be the centre of gravity of the whole solid, F that of 
+the immersed portion. Join FC and produce it to H so that H 
+is the centre of gravity of the remaining portion. 
+
+Now, since A N = \ A C, 
+
+and AN > f p, 
+
+
+
+it follows that 
+
+
+
+AG>\. 
+
+
+
+ON FLOATING BODIES II. 269 
+
+Measure CO along CA equal to ^ , and OR along OC equal to 
+
+
+
+Then, since AN = \AC, 
+
+and 
+we have, by subtraction, 
+
+
+
+That is, 
+
+-if. 
+
+or AR = (AN-$p). 
+
+Thus (4^ - Jp) : 4-ZT 1 = 4E 2 : 4# 2 , 
+
+and therefore the ratio of the specific gravity of the solid to 
+that of the fluid is, by the enunciation, not less than the ratio 
+AR* : AN*. 
+
+But, by Prop. 1, the former ratio is equal to the ratio 
+of the immersed portion to the whole solid, i.e. to the ratio 
+PF 2 : AN* [On Conoids and Spheroids, Prop. 24]. 
+
+Hence PV* : AN* { AR* : AN*, 
+
+or PV< AR. 
+
+It follows that 
+
+
+
+If, therefore, OK be drawn from perpendicular to OA t it will 
+meet PF between P and F. 
+
+Also, if CK be joined, the triangle KCO is equal and similar 
+to the triangle formed by the normal, the subnormal and the 
+ordinate at P (since CO = $p or the subnormal, and KO is 
+equal to the ordinate). 
+
+Therefore CK is parallel to the normal at P, and therefore 
+perpendicular to the tangent at P and to the surface of the 
+fluid. 
+
+Hence, if parallels to CK be drawn through F, H, they will 
+be perpendicular to the surface of the fluid, and the force 
+acting on the submerged portion of the solid will act upwards 
+along the former, while the weight of the other portion will 
+act downwards along the latter. 
+
+
+
+270 ARCHIMEDES 
+
+Therefore the solid will not remain in its position but will 
+turn until AN assumes a vertical position. 
+
+
+
+[Using the same notation as before (note following Prop. 2), 
+we have 
+
+
+
+and the minimum value of the expression within the bracket, 
+for different values of 0, is 
+
+!-<*-*> 
+
+
+
+7T 
+
+
+
+corresponding to the position in which A M is vertical, or = -~ 
+
+Therefore there will be stable equilibrium in that position only, 
+provided that 
+
+
+
+or, if s be the ratio of the specific gravity of the solid to that of 
+the fluid (= tf/h* in this case), 
+
+
+
+Proposition 5. 
+
+Given a right segment of a paraboloid of revolution such that 
+its aoris AN is greater than \p (where p is the parameter), and 
+its specific gravity is less than that of a fluid but in a ratio to 
+it not greater than the ratio [AN*- (AN-$p)*} : AN 1 , if the 
+segment be placed in the fluid with its axis inclined at any angle 
+to the vertical, but so that its base is completely submerged, it will 
+not remain in that position but will return to the position in 
+which AN is vertical. 
+
+Let a plane be drawn through AN, as placed, perpendicular 
+to the surface of the fluid and cutting the segment of the 
+paraboloid in the parabola BAB', the base of the segment in 
+BB' 9 and the plane of the surface of the fluid in the chord 
+QQ' of the parabola. 
+
+Draw the tangent PT parallel to QQ', and the diameter 
+PV, bisecting QQ', will accordingly be the axis of the portion 
+of the paraboloid above the surface of the fluid. 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+271 
+
+
+
+Let F be the centre of gravity of the portion above the 
+surface, C that of the whole solid, and produce FC to H, the 
+centre of gravity of the immersed portion. 
+
+As in the last proposition, AC > ~, and we measure CO along 
+CA equal to % , and OR along OC equal to %AO. 
+
+t 
+
+Then AN = %AC, and AR = %AO ; 
+and we derive, as before, 
+
+
+
+Now, by hypothesis, 
+(spec, gravity of solid) : (spec, gravity of fluid) 
+
+${AN*-(AN-% P y} :AN* 
+}(AN*-AR*):AN*. 
+
+
+
+
+Therefore 
+(portion submerged) : (whole solid) 
+
+
+
+and 
+
+Thus 
+whence 
+and 
+
+
+
+(whole solid) : (portion above surface) 
+
+^ AN* : AR\ 
+AN* :PV* AN* : AR*, 
+PVJ.AR, 
+PFJ(.AR 
+
+
+
+272 
+
+
+
+ARCHIMEDES 
+
+
+
+Therefore, if a perpendicular to AC be drawn from 0, it will 
+meet PF in some point K between P and F. 
+
+And, since CO = \p> CK will be perpendicular to PT, as in 
+the last proposition. 
+
+Now the force acting on the submerged portion of the solid 
+will act upwards through H, and the weight of the other 
+portion downwards through F, in directions parallel in both 
+cases to CK\ whence the proposition follows. 
+
+Proposition 6. 
+
+If a right segment of a paraboloid lighter than a fluid be 
+such that its a&is AM is greater than fjp, but AM : %p < 15 : 4, 
+and if the segment be placed in the fluid with its axis so inclined 
+to the vertical that its base touclies the fluid, it will never remain 
+in such a position that the base touches the surface in one point 
+only. 
+
+Suppose the segment of the paraboloid to be placed in the 
+position described, and let the plane through the axis AM 
+perpendicular to the surface of the fluid intersect the segment 
+of the paraboloid in the parabolic segment BAB' and the plane 
+of the surface of the fluid in BQ. 
+
+Take C on AM such that AC=2CM (or so that C is the 
+centre of gravity of the segment of the paraboloid), and measure 
+CK along CA such that 
+
+AM:CK=lo :4. 
+
+
+
+
+P T 
+
+
+
+Thus AM : CK > AM : p, by hypothesis; therefore CK < $p. 
+
+
+
+ON FLOATING BODIES II. 278 
+
+Measure CO along CA equal to $p. Also draw KR per- 
+pendicular to AC meeting the parabola in R. 
+
+Draw the tangent PT parallel to BQ, and through P draw 
+the diameter PV bisecting BQ in Fand meeting KR in 7. 
+
+Then PV : PI ^ KM : AK, 
+
+"for this is proved"* 
+
+And QK-JtAM = lAC\ 
+
+whence AK = AC -CK = $AC = \AM. 
+
+Thus KM = %AM. 
+
+Therefore KM = \AK. 
+
+It follows that 
+
+
+
+so that P/ o = < 2/F. 
+
+Let F be the centre of gravity of the immersed portion of 
+the paraboloid, so that PF=2FV. Produce FC to H, the 
+centre of gravity of the portion above the surface. 
+
+Draw OL perpendicular to PV. 
+
+* We have no hint as to the work in which the proof of this proposition was 
+contained. The following proof is shorter than Robertson's (in the Appendix 
+to Torelli's edition). 
+
+Let BQ meet AM in U t and let PN be the ordinate from P to AM. 
+
+We have to prove that PV . AK o r> PI . KM, or in other words that 
+
+(PV .AK-PI. KM) is positive or zero. 
+Now PV.AK-PI.KM=AK.PV-(AK-AN)(AM-AK) 
+
+
+
+=AK*-AK.UM+AM.AN, 
+(since AN=AT). 
+
+Now VM:BM=NT:PN. 
+
+Therefore UM* : p . A M = 4 AN * : p . AN, 
+
+whence VM*=4AM.AN, 
+
+,,, A . r UM* 
+or AM.AN= . 
+
+Therefore PV.AK-PI.KM=AK*-AK. UM 
+
+UM \* 
+
+- -; 
+
+and accordingly (PV. AK-PI. KM) cannot be negative. 
+
+H. A. 18 
+
+
+
+274 
+
+
+
+ARCHIMEDES 
+
+
+
+Then, since CO = %p, CL must be perpendicular to PT and 
+therefore to the surface of the fluid. 
+
+And the forces acting on the immersed portion of the 
+paraboloid and the portion above the surface act respectively 
+upwards and downwards along lines through F and H parallel 
+to CL. 
+
+Hence the paraboloid cannot remain in the position in which 
+B just touches the surface, but must turn in the direction of 
+increasing the angle PTM. 
+
+The proof is the same in the case where the point / is not 
+on VP but on VP produced, as in the second figure*. 
+
+
+
+
+[With the notation used on p. 266, if the base BE' touch 
+the surface of the fluid at B, we have 
+
+
+
+and, by the property of the parabola, 
+BV* = (p + 4 AN] 
+=pk(l+cot*0). 
+
+Therefore *Jph = *Jpk + ~ cot 0. 
+
+To obtain the result of the proposition, we have to eliminate 
+k between this equation and 
+
+/ /i (p 
+
+x x =B cos u { T 
+
+
+
+* It is curious that the figures given by Torelli, Nizze and Heiberg are all 
+incorrect, as they all make the point which I have called I lie on BQ instead of 
+VP produced. 
+
+
+
+ON FLOATING BODIES II. 275 
+
+We have, from the first equation, 
+
+= h - VpA cot +| cot 8 0, 
+
+or A A; = V^A cot - ^ cot* ft 
+
+Therefore 
+
+
+
+cos 1| ( cot 8 + 2) - f Vp& cot 0\ . 
+
+
+
+If then the solid can never rest in the position described, 
+but must turn in the direction of increasing the angle PTM, 
+the expression within the bracket must be positive whatever 
+be the value of 0. 
+
+Therefore (f 
+
+or h < 
+
+
+
+Proposition 7. 
+
+Given a right segment of a paraboloid of revolution lighter 
+than a fluid and such that its axis AM is greater than |p, but 
+AM : j>< 15 : 4, if the segment be placed in the fluid so that 
+its base is entirely submerged, it will never rest in such a position 
+that the base touches the surface of the fluid at one point only. 
+
+Suppose the solid so placed that one point of the base 
+only (B) touches the surface of the fluid. Let the plane 
+through -B and the axis AM cut the solid in the parabolic 
+segment BAB' and the plane of the surface of the fluid in the 
+chord BQ of the parabola. 
+
+Let C be the centre of gravity of the segment, so that 
+AC 2CMj and measure CK along CA such that 
+
+
+
+It follows that 
+
+Measure CO along CA equal to %p. Draw KR perpen- 
+dicular to AM meeting the parabola in It. 
+
+182 
+
+
+
+276 
+
+
+
+ARCHIMEDES 
+
+
+
+Let PT, touching at P, be the tangent to the parabola 
+which is parallel to BQ t and PV the diameter bisecting BQ, i.e. 
+the axis of the portion of the paraboloid above the surface. 
+
+
+
+
+Then, as in the last proposition, we prove that 
+
+
+
+and 
+
+
+
+or> 
+P/ = <2 /F. 
+
+
+
+Let F be the centre of gravity of the portion of the solid 
+above the surface ; join FC and produce it to JET, the centre of 
+gravity of the portion submerged. 
+
+Draw OL perpendicular to PF; and, as before, since 
+CO = %p, CL is perpendicular to the tangent PT. And the 
+lines through H, F parallel to CL are perpendicular to the 
+surface of the fluid; thus the proposition is established as 
+before. 
+
+The proof is the same if the point / is not on VP but on 
+VP produced. 
+
+Proposition 8. 
+
+Given a solid in the form of a right segment of a paraboloid 
+of revolution whose axis AM is greater than f p, but such that 
+AM : $p< 15 : 4, and whose specific gravity bears to that of a 
+fluid a ratio less than (AM-%p)* : AM*, then, if the solid be 
+placed in the fluid so that its base does not touch the fluid and 
+its axis is inclined at an angle to the vertical, the solid will not 
+return to the position in which its axis is vertical and mil not 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+277 
+
+
+
+remain in any position except that in which its axis makes with 
+the surface of the fluid a certain angle to be described. 
+
+Let am be taken equal to the axis AM, and let c be a point 
+on am such that ac = 2cm. Measure co along ca equal to %p 9 
+and or along oc equal to ao. 
+
+
+
+
+P T 
+
+
+
+Let X 4- Y be a straight line such that 
+(spec. gr. of solid) : (spec. gr. of fluid) = (X + F) 9 : am 2 
+and suppose X = 27. 
+
+Now ar = f ao = f (f ant 
+
+= aw J p 
+
+
+
+(a), 
+
+
+
+Therefore, by hypothesis, 
+
+
+
+whence (^T -f F) < ar, and therefore -3T < ao. 
+
+Measure ob along oa equal to X y and draw 6d perpendicular 
+to ab and of such length that 
+
+&d* = co. ab ........................ (ft). 
+
+Join ad. 
+
+Now let the solid be placed in the fluid with its axis AM 
+inclined at an angle to the vertical. Through AM draw a 
+plane perpendicular to the surface of the fluid, and let this 
+
+
+
+278 ARCHIMEDES 
+
+plane cut the paraboloid in the parabola BAB' and the plane 
+of the surface of the fluid in the chord QQ' of the parabola. 
+
+Draw the tangent PT parallel to QQ', touching at P, and 
+let PV be the diameter bisecting QQ 7 in F(or the axis of the 
+immersed portion of the solid), and PN the ordinate from P. 
+
+Measure AO along AM equal to ao, and 00 along OM 
+equal to oc, and draw OL perpendicular to PV. 
+
+I. Suppose the angle OTP greater than the angle dab. 
+Thus PN*:NT*>db*:ba*. 
+
+But PN*:NT*=p:*AN 
+
+
+
+and db % : 6a 2 = \co : ab, by 
+
+Therefore NT< 2a&, 
+
+or AN<db, 
+
+whence NO > bo (since ao = A 0) 
+
+
+
+Now (X + F)* : am* = (spec. gr. of solid) : (spec. gr. of fluid) 
+= (portion immersed) : (rest of solid) 
+
+
+
+so that X+7=PV. 
+
+But Pl(=NO)>X 
+
+>i(jr+F), since Z = 27, 
+
+
+
+or PV<\PL y 
+
+and therefore PL > 2L V. 
+
+Take a point F on PV so that PP= 2JFT, i.e. so that F is 
+the centre of gravity of the immersed portion of the solid. 
+
+Also AC=ac $am = $AM t and therefore C is the centre 
+of gravity of the whole solid. 
+
+Join FG and produce it to H t the centre of gravity of the 
+portion of the solid above the surface. 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+279 
+
+
+
+Now, since CO = Jp, CL is perpendicular to the surface of 
+the fluid ; therefore so are the parallels to CL through F and 
+H. But the force on the immersed portion acts upwards 
+through F and that on the rest of the solid downwards 
+through H. 
+
+Therefore the solid will not rest but turn in the direction of 
+diminishing the angle MTP. 
+
+II. Suppose the angle OTP less than the angle dab. In 
+this case, we shall have, instead of the above results, the 
+following, 
+
+AN>ab t 
+
+NO<X. 
+
+Also PF>fPZ, 
+
+and therefore PL < 2L V. 
+
+
+
+
+Make PF equal to 2F] r , so that F is the centre of gravity 
+of the immersed portion. 
+
+And, proceeding as before, we prove in this case that the 
+solid will turn in the direction of increasing the angle MTP. 
+
+III. When the angle MTP is equal to the angle daft, 
+equalities replace inequalities in the results obtained, and L is 
+itself the centre of gravity of the immersed portion. Thus all 
+the forces act in one straight line, the perpendicular CL\ 
+therefore there is equilibrium, and the solid will rest in the 
+position described. 
+
+
+
+280 ARCHIMEDES 
+
+[With the notation before used 
+
+
+
+and a position of equilibrium is obtained by equating to zero the 
+expression within the bracket. We have then 
+
+
+
+It is easy to verify that the angle 6 satisfying this equation 
+is the identical angle determined by Archimedes. For, in the 
+above proposition, 
+
+
+
+whence a6 = 3 * ~ | ~ 3 ^ = 3 (^ ~"^ ~f 
+
+
+
+Also 6eZ a = a&. 
+
+4 
+
+It follows that 
+
+cot 2 dab = aV/bd* = - j| (h - k) - 1| .] 
+
+
+
+Proposition 9. 
+
+Given a solid in the form of a right segment of a paraboloid 
+of revolution whose axis AM is greater than p y but such that 
+AM : %p< 15 : 4, and whose specific gravity bears to that of a 
+fluid a ratio greater than [AM*-(AM-$ p)*} : AM 2 , then t if 
+the solid be placed in the fluid with its axis inclined at an angle 
+to the vertical but so that its base is entirely below the surface, 
+the solid will not return to the position in which its axis is 
+vertical and will not remain in any position except that in which 
+its axis makes with the surface of the fluid an angle equal to that 
+described in the last proposition. 
+
+Take am equal to AM, and take c on am such that ac = 2cm. 
+Measure co along ca equal to \p y and ar along ac such that 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+281 
+
+
+
+Let X + Y be such a line that 
+
+(spec. gr. of solid) : (spec. gr. of fluid) {am* (X + Y)*j : am*, 
+and suppose X = 2 Y. 
+d 
+
+A. 
+
+
+
+a b 
+
+
+
+o re 
+
+
+
+T p 
+
+
+
+
+Now 
+
+
+
+Therefore, by hypothesis, 
+
+am 9 ar 2 : am 2 < {am 8 (X + F)*} : am*, 
+whence Jf + F < ar, 
+
+and therefore -3T < ao. 
+
+Make 06 (measured along oa) equal to Jf, and draw bd 
+perpendicular to ba and of such length that 
+
+id* = Jco . aft. 
+Join ad. 
+
+Now suppose the solid placed as in the figure with its axis 
+AM inclined to the vertical. Let the plane through AM 
+perpendicular to the surface of the fluid cut the solid in the 
+parabola BA B' and the surface of the fluid in QQ'. 
+
+Let PT be the tangent parallel to QQ', PV the diameter 
+bisecting QQ' (or the axis of the portion of the paraboloid above 
+the surface), PN the ordinate from P. 
+
+
+
+282 . ARCHIMEDES 
+
+I. Suppose the angle MTP greater than the angle dab. 
+Let AM be cut as before in C and so that AC=2CM, 
+OC = %p t and accordingly AM, am are equally divided. Draw 
+OL perpendicular to PV. 
+
+Then, we have, as in the last proposition, 
+
+PN*:NT*>db*:ba* t 
+whence co : NT>^co : ab, 
+
+and therefore AN< ab. 
+
+It follows that N0>bo 
+
+
+
+Again, since the specific gravity of the solid is to that of 
+the fluid as the immersed portion of the solid to the whole, 
+
+AM * - (X + F) 2 : A M * = AM* - PV* : AM*, 
+or (X + YY :AM* = PV* : AM*. 
+
+That is, X+Y=PV. 
+
+And PL (or NO) >X 
+
+
+
+so that PL>2LV. 
+
+Take F on PV so that PF = 2FV. Then F is the centre 
+of gravity of the portion of the solid above the surface. 
+
+Also C is the centre of gravity of the whole solid. Join PC 
+and produce it to IT, the centre of gravity of the immersed 
+portion. 
+
+Then, since CO = \p> CL is perpendicular to PT and to the 
+surface of the fluid ; and the force acting on the immersed 
+portion of the solid acts upwards along the parallel to CL 
+through H, while the weight of the rest of the solid acts down- 
+wards along the parallel to CL through F. 
+
+Hence the solid will not rest but turn in the direction of 
+diminishing the angle MTP. 
+
+II. Exactly as in the last proposition, we prove that, if the 
+angle MTP be less than the angle dab, the solid will not remain 
+
+
+
+ON FLOATING BODIES II. 283 
+
+in its position but will turn in the direction of increasing the 
+angle M TP. 
+
+
+
+
+III. If the angle MTP is equal to the angle dab, the solid 
+will rest in that position, because L and F will coincide, and all 
+the forces will act along the one line CL. 
+
+Proposition 1O. 
+
+Given a solid in the form of a right segment of a paraboloid 
+of revolution in which the axis AM is of a length such that 
+AM:^p>15:4! ) and supposing the solid placed in a fluid 
+of greater specific gravity so that its base is entirely above the 
+surface of the fluid, to investigate the positions of rest. 
+
+(Preliminary.) 
+
+Suppose the segment of the paraboloid to be cut by a plane 
+through its axis AM in the parabolic segment AB 1 of which 
+BB l is the base. 
+
+Divide AM at so that AC = 2CM, and measure CK along 
+CA so that 
+
+AM:CK= 15 : 4 (a), 
+
+whence, by the hypothesis, CK > %p. 
+
+Suppose CO measured along CA equal to %p, and take a 
+point R on AM such that MR = f (70. 
+
+Thus AR = AM-MR 
+
+-CO) 
+
+
+
+284 
+
+
+
+ARCHIMEDES 
+
+
+
+Join BA, draw KA* perpendicular to AM meeting BA in A 2 
+bisect BA in A^ and draw A^M^ A^M 9 parallel to AM meeting 
+BM in Jf a , MS respectively. 
+
+
+
+
+On A Z M 2 , A 3 M 3 as axes describe parabolic segments similar 
+
+to the segment BAB lt (It follows, by similar triangles, that 
+
+BM will be the base of the segment whose axis is A 3 M 9 and 
+
+BB 2 the base of that whose axis is A. 2 M. 2) where BB 2 = 
+
+The parabola BA Z B 2 will then pass through C. 
+
+[For BM, : M*M = BM, : A,K 
+
+- KM : AK 
+
+= CM+CK:AC-CK 
+
+
+
+(13) 
+
+
+
+AO. 
+
+
+
+ON FLOATING BODIES II. 285 
+
+Thus C is seen to be on the parabola BA 2 B 2 by the converse 
+of Prop. 4 of the Quadrature of the Parabola.] 
+
+Also, if a perpendicular to AM be drawn from 0, it will 
+meet the parabola BA^B* in two points, as Q 2 , P 2 . Let QiQ 2 Qs-D 
+be drawn through Q 2 parallel to AM meeting the parabolas 
+BA B lt BA^M respectively in Q l9 Q 3 and BM in JO; and let 
+PjPaPg be the corresponding parallel to AM through P* Let 
+the tangents to the outer parabola at P,, Qj meet MA produced 
+in T lt U respectively. 
+
+Then, since the three parabolic segments are similar and 
+similarly situated, with their bases in the same straight line 
+and having one common extremity, and since QiQzQ^D is a 
+diameter common to all three segments, it follows that 
+
+QiQ 2 : Q 2 Q 3 = (BA : B,B) . (BM : MB 2 )*. 
+Now B& : B$ = JOf a : BM (dividing by 2) 
+
+= 2:5, by means of () above. 
+
+And BM : MB, = BM : (2BM. 2 - BM) 
+
+= 5 : (6 5), by means of (y8), 
+
+= 5:1. 
+
+* This result is assumed without proof, no doubt as being an easy deduction 
+from Prop. 5 of the Quadrature of the Parabola. It may be established 
+as follows. 
+
+First, since AA^A B B is a straight line, and AN=AT with the ordinary 
+notation (where PT is the tangent at P and PN the ordinate), it follows, by 
+similar triangles, that the tangent at B to the outer parabola is a tangent to 
+each of the other two parabolas at the same point B. 
+
+Now, by the proposition quoted, if DQ 3 Q^ produced meet the tangent BT 
+in E t 
+
+JB<?3 : Q S D=BD:DM, 
+
+whence EQ 3 :ED=BD : 
+
+Similarly EQ^ :ED=BD : 
+
+and JB^ : ED = D : BB l 
+
+The first two proportions are equivalent to 
+
+JS<? 8 : D= BD . BB 2 : BM.BB 39 
+and EQz : ED=BD . BM : BM . JB# 2 . 
+
+By subtraction, 
+
+
+
+Similarly Q& : ED = BD . 
+
+It follows that 
+
+. (BM : MBJ. 
+
+
+
+286 ARCHIMEDES 
+
+It follows that 
+
+
+
+or 
+
+Similarly P 1 P a = 2P a P,. 
+
+Also, since MR = f CO = f p, 
+
+AR=AM-MR 
+
+
+
+(Enunciation.) 
+
+If the segment of the paraboloid be placed in the fluid with 
+its base entirely above the surface, then 
+
+(!)/ 
+
+(spec. gr. of solid) : (spec. gr. of fluid) $. AR* : AM* 
+
+ft (AM -p?: AM*], 
+the solid will rest in the position in which its axis AM is vertical; 
+
+(ii.) if 
+
+(spec. ffr. of solid) : (spec. gr. of fluid) < AR* : AM* 
+
+bnt>Q 1 Q*:AM*, 
+
+the solid will not rest with its base touching the surface of the 
+fluid in one point only, but in such a position that its base does 
+not touch the surface at any point and its axis makes with the 
+surface an angle greater than U ; 
+
+(III. a) if 
+
+(spec. gr. of solid) : (spec. gr. of fluid) = QiQ* : AM*, 
+the solid will rest and remain in the position in which the base 
+touches the surface of the fluid at one point only and the axis 
+makes with the surface an angle equal to U ; 
+
+(III. 6) if 
+
+(spec. gr. of solid) : (spec. gr. of fluid) = PiPf : AM*, 
+the solid will rest with its base touching the surface of the fluid 
+at one point only and with its axis inclined to the surface at an 
+angle equal to T t ; 
+
+(IV.) if 
+
+(spec. ffr. of solid) : (spec. gr. of fluid) > P 1 P 8 * : AM* 
+
+but < Q&, 1 : A M *, 
+
+
+
+ON FLOATING BODIES II. 287 
+
+the solid mil rest and remain in a position with its base more 
+
+
+
+(spec. gr. of solid) : (spec. gr. of fluid) < PiP 3 f : AM* 9 
+
+the solid will rest in a position in which its axis is inclined to the 
+surface of the fluid at an angle less than T lt but so that the base 
+does not even touch the surface at one point. 
+
+(Proof.) 
+
+(I.) Since A M > Jp, and 
+(spec. gr. of solid) : (spec. gr. of fluid) ^ (AM fp)* : AM*, 
+
+it follows, by Prop. 4, that the solid will be in stable equilibrium 
+with its axis vertical. 
+
+(II.) In this case 
+
+(spec. gr. of solid) : (spec. gr. of fluid) < AR* : AM* 
+
+but > Q,Q* : AM*. 
+
+
+
+
+Suppose the ratio of the specific gravities to be equal to 
+
+I* : AM\ 
+so that I < AR but > Q^. 
+
+Place P'V between the two parabolas BAB lt BP 9 Q 9 M equal 
+
+
+
+288 ARCHIMEDES 
+
+to I and parallel to AM*; and let P'V meet the intermediate 
+parabola in F'. 
+
+Then, by the same proof as before, we obtain 
+
+
+
+Let PT', the tangent at P' to the outer parabola, meet 
+MA in T', and let P'N' be the ordinate at P'. 
+
+Join BV and produce it to meet the outer parabola in Q'. 
+Let 0&P a meet P'F' in /. 
+
+Now, since, in two similar and similarly situated parabolic 
+
+* Archimedes does not give the solution of this problem, but it can be 
+supplied as follows. 
+
+Let BR^ , BRQ 2 be two similar and similarly situated parabolic segments 
+with their bases in the same straight line, and let BE be the common tangent 
+at. 
+
+
+
+
+Suppose the problem solved, and let ER^O, paralleljo the axes, meet the 
+parabolas in R, R 1 and BQ 2 in 0, making the intercept R^ equal to I. 
+Then, we have, as usual, 
+
+ER l :EO=BO:BQ l 
+
+^BO.BQt-.BQ^BQi, 
+and ER : EO=BO : BQ 2 
+
+^BO.BQi-.BQt.BQ,. 
+By subtraction, 
+
+RR l : EO=BO . Q& : BQ l . BQ. 2t 
+
+or BO.OE = l. -*i ^% f which ig known 
+
+ViVa 
+
+And the ratio BO : OE is known. Therefore JB0 2 , or OE a , can be found, and 
+therefore 0. 
+
+
+
+OK FLOATING BODIES II. 
+
+
+
+289 
+
+
+
+segments with bases BM, BB l in the same straight line, BV, BQ' 
+are drawn making the same angle with the bases, 
+
+BV : BQ' = BM : BBS 
+
+= 1:2, 
+so that BV'=V'Q'. 
+
+Suppose the segment of the paraboloid placed in the fluid, 
+as described, with its axis inclined at an angle to the vertical, 
+and with its base touching the surface at one point B only. 
+Let the solid be cut by a plane through the axis and per- 
+
+
+
+
+pendicular to the surface of the fluid, and let the plane intersect 
+the solid in the parabolic segment BAB' and the plane of the 
+surface of the fluid in BQ. 
+
+Take the points (7, on AM as before described. Draw 
+
+* To prove this, suppose that, in the figure on the opposite page, BR t is 
+produced to meet the outer parabola in 7? 2 . 
+
+We have, as before, 
+
+ER l : EO=BO : BQ lt 
+
+ER : EO=BO : BQ 9 , 
+
+whence ER l : ER=BQ 3 : BQ l . 
+
+And, since R l is a point within the outer parabola, 
+
+ER : ER l -BR l : BJR 2 , in like manner. 
+Hence BQ l : BQ^BI^ : BR>. 
+
+H. A. 19 
+
+
+
+290 ARCHIMEDES 
+
+the tangent parallel to BQ touching the parabola in P and 
+meeting AM in T\ and let PFbe the diameter bisecting BQ 
+(i.e. the axis of the immersed portion of the solid). 
+
+Then 
+
+P : A M 8 = (spec. gr. of solid) : (spec. gr. of fluid) 
+= (portion immersed) : (whole solid) 
+
+
+
+whence P'F' = Z 
+
+Thus the segments in the two figures, namely BP'Q' y 
+BPQ, are equal and similar. 
+
+Therefore z PTN = Z P'T'N'. 
+
+Also AT = AT' t AN = AN', PN = P'N'. 
+
+Now, in the first figure, P'I< 2/F'. 
+
+Therefore, if OL be perpendicular to PV in the second 
+figure, 
+
+PL<2LV. 
+
+Take F on LV so that PF = 2FF, i.e. so that F is the centre 
+of gravity of the immersed portion of the solid. And C is the 
+centre of gravity of the whole solid. Join FC and produce it to 
+H, the centre of gravity of the portion above the surface. 
+
+Now, since CO = %p, GL is perpendicular to the tangent at 
+P and to the surface of the fluid. Thus, as before, we prove 
+that the solid will not rest with -B touching the surface, but will 
+turn in the direction of increasing the angle PTN. 
+
+Hence, in the position of rest, the axis AM must make with 
+the surface of the fluid an angle greater than the angle U which 
+the tangent at Q l makes with A M. 
+
+(III. a) In this case 
+(spec. gr. of solid) : (spec. gr. of fluid) = Q&* : A M '. 
+
+Let the segment of the paraboloid be placed in the fluid so 
+that its base nowhere touches the surface of the fluid, and its 
+axis is inclined at an angle to the vertical. 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+291 
+
+
+
+Let the plane through AM perpendicular to the surface of 
+the fluid cut the paraboloid in the parabola BAB' and the 
+
+
+
+
+plane of the surface of the fluid in QQ'. Let PT be the tangent 
+parallel to QQ', PV the diameter bisecting QQ', PN the ordinate 
+at P. 
+
+
+
+Divide AM as before at C, 0. 
+
+
+
+192 
+
+
+
+292 ARCHIMEDES 
+
+
+
+In the other figure let Q^' be the ordinate at Q lt Join 
+BQ 9 and produce it to meet the outer parabola in q. Then 
+and the tangent &U is parallel to Bq. Now 
+
+: A M * = (spec. gr. of solid) : (spec. gr. of fluid) 
+= (portion immersed) : (whole solid) 
+
+
+
+Therefore Q& = PF; and the segments QPQ', BQ,q of the 
+paraboloid are equal in volume. And the base of one passes 
+through B, while the base of the other passes through Q, a point 
+nearer to A than B is. 
+
+It follows that the angle between QQ' and BE' is less than 
+the angle B^q. 
+
+Therefore ^U<^ PTN, 
+
+whence AN' > AN, 
+
+and therefore N'O (or Q&) < PL, 
+
+where OL is perpendicular to PF. 
+
+It follows, since Q& = 2Q 2 Q 8 , that 
+PL>2LV. 
+
+Therefore F y the centre of gravity of the immersed portion 
+of the solid, is between P and Z, while, as before, OL is perpen- 
+dicular to the surface of the fluid. 
+
+Producing FC to H, the centre of gravity of the portion of 
+the solid above the surface, we see that the solid must turn in 
+the direction of diminishing the angle PTN until one point B 
+of the base just touches the surface of the fluid. 
+
+When this is the case, we shall have a segment BPQ equal 
+and similar to the segment J3Qij, the angle PTN will be equal 
+to the angle U> and AN will be equal to AN'. 
+
+Hence in this case PL = 2LV t and F t L coincide, so that F y 
+C y H are all in one vertical straight line. 
+
+Thus the paraboloid will remain in the position in which 
+one point B of the base touches the surface of the fluid, and the 
+axis makes with the surface an angle equal to U. 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+293 
+
+
+
+(III. 6) In the case where 
+(spec. gr. of solid) : (spec. gr. of fluid) 
+
+
+
+? : A M* 9 
+
+
+
+we can prove in the same way that, if the solid be placed in the 
+fluid so that its axis is inclined to the vertical and its base does 
+not anywhere touch the surface of the fluid, the solid will take 
+up and rest in the position in which one point only of the base 
+touches the surface, and the axis is inclined to it at an angle 
+equal to T! (in the figure on p. 284). 
+
+(IV.) In this case 
+
+(spec. gr. of solid) : (spec. gr. of fluid) > PiP* : AM* 
+
+but < Q,Q 3 * : AM*. 
+
+Suppose the ratio to be equal to P : AM*, so that I is greater 
+than PxPs but less than 
+
+
+
+Place P'V between the parabolas BP&, jBP 3 Q 3 so that 
+P'V is equal to I and parallel to AM, and let P'V meet the 
+intermediate parabola in F' and OQJP^ i n ! 
+
+
+
+
+Join BV and produce it to meet the outer parabola in q. 
+
+Then, as before, BV = Vq, and accordingly the tangent 
+P'T at P' is parallel to Bq. Let P'N' be the ordinate of P'. 
+
+
+
+294 
+
+
+
+ARCHIMEDES 
+
+
+
+1. Now let the segment be placed in the fluid, first, with 
+its axis so inclined to the vertical that its base does not 
+anywhere touch the surface of the fluid. 
+
+
+
+
+Let the plane through AM perpendicular to the surface of 
+the fluid cut the paraboloid in the parabola BAB' and the 
+plane of the surface of the fluid in QQ'. Let PT be the 
+tangent parallel to QQ', PV the diameter bisecting QQ'. 
+Divide AM at (7, as before, and draw OL perpendicular to PV. 
+
+Then, as before, we have PF= I = P'V. 
+
+Thus the segments BP'q> QPQ' of the paraboloid are equal 
+in volume ; and it follows that the angle between QQ' and BB' 
+is less than the angle BJiq. 
+
+Therefore Z P'T'N' < ^ PTN, 
+
+and hence AN' > AN, 
+
+so that NO > N'O, 
+
+i.e. PL>P'I 
+
+>P'F' t a fortiori. 
+
+Thus PL >2LV, so that F, the centre of gravity of the 
+immersed portion of the solid, is between L and P, while CL 
+is perpendicular to the surface of the fluid. 
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+295 
+
+
+
+If then we produce FC to H, the centre of gravity of the 
+portion of the solid above the surface, we prove that the solid 
+will not rest but turn in the direction of diminishing the 
+angle PTN. 
+
+2, Next let the paraboloid be so placed in the fluid that 
+its base touches the surface of the fluid at one point B only, 
+and let the construction proceed as before. 
+
+Then P7 = P'F', and the segments BPQ, BP'q are equal 
+and similar, so that 
+
+
+
+It follows that 
+and therefore 
+whence 
+
+
+
+AN = AN', NO = N'O, 
+P'l = PL, 
+PL>2LV. 
+
+
+
+
+Thus F again lies between P and L, and, as before, the 
+paraboloid will turn in the direction of diminishing the angle 
+PTN> i.e. so that the base will be more submerged. 
+
+(V.) In this case 
+(spec. gr. of solid) : (spec. gr. of fluid) < P^P,* : AM*. 
+
+If then the ratio is equal to J f : AM*, I < P,P 3 . Place P'V 
+between the parabolas BPiQi and P S Q* equal in length to I 
+
+
+
+296 
+
+
+
+ARCHIMEDES 
+
+
+
+and parallel to AM. Let P'V meet the intermediate parabola 
+in F' and OP a in /. 
+
+Join BV and produce it to meet the outer parabola in q. 
+Then, as before, BV = F'g, and the tangent PT' is parallel 
+to Bq. 
+
+
+
+
+1. Let the paraboloid be so placed in the fluid that its 
+base touches the surface at one point only. 
+
+
+
+
+ON FLOATING BODIES II. 
+
+
+
+297 
+
+
+
+Let the plane through AM perpendicular to the surface 
+of the fluid cut the paraboloid in the parabolic section BAB' 
+and the plane of the surface of the fluid in BQ. 
+
+Making the usual construction, we find 
+
+
+
+and the segments BPQ, BP^q are equal and similar. 
+
+Therefore t PTN = P'T'N', 
+
+and AN = AN',N'0 = NO. 
+
+Therefore PL = P7, 
+
+whence it follows that PL < ZLV. 
+
+Thus jP, the centre of gravity of the immersed portion of the 
+solid, lies between L and V, while CL is perpendicular to the 
+surface of the fluid. 
+
+Producing FC to H, the centre of gravity of the portion 
+above the surface, we prove, as usual, that there will not be 
+rest, but the solid will turn in the direction of increasing the 
+angle PTN, so that the base will not anywhere touch the 
+surface. 
+
+2. The solid will however rest in a position where its axis 
+makes with the surface of the fluid an angle less than T,. 
+
+
+
+
+298 ARCHIMEDES 
+
+For let it be placed so that the angle PTN is not less 
+than 7\. 
+
+Then, with the same construction as before, PF = I = P'V. 
+And, since 
+
+
+
+and therefore NO <(: Nfi, where P^ is the ordinate of Pj. 
+Hence PL { P^. 
+
+But PiP*>P'F'. 
+
+Therefore PZ>gPF, 
+
+so that F, the centre of gravity of the immersed portion of 
+the solid, lies between P and L. 
+
+Thus the solid will turn in the direction of diminishing 
+the angle PTN until that angle becomes less than 2\. 
+
+
+
+[As before, if x, x' be the distances from T of the orthogonal 
+projections of (7, F respectively on TP, we have 
+
+x' - x = cos J (cot 8 6 + 2) - | (h - k)l ....... (1), 
+
+
+
+Also, if the base BB' touch the surface of the fluid at one 
+point B, we have further, as in the note following Prop. 6, 
+
+(2), 
+
+
+
+and A-& = V^cot0-cot*0 ............ (3). 
+
+Therefore, to find the relation between h and the angle 6 at 
+which the axis of the paraboloid is inclined to the surface of the 
+fluid in a position of equilibrium with B just touching the 
+surface, we eliminate k and equate the expression in (1) to 
+zero; thus 
+
+
+
+| (cot* 6 + 2) - 1 (\/ph cot -| cot* Bj = 0, 
+or 5pcot f 0-8\/;>cot0 + 6/> = ............ (4). 
+
+
+
+ON FLOATING BODIES II. 299 
+
+The two values of are given by the equations 
+
+5 Vp cot = W/i V16A - 30p ............ (5). 
+
+The lower sign corresponds to the angle U, and the upper 
+sign to the angle T 19 in the proposition of Archimedes, as can 
+be verified thus. 
+
+In the first figure of Archimedes (p. 284 above) we have 
+
+
+
+If PJ\Ps meet EM in D', it follows that 
+
+
+
+and = MM, + 
+
+2 / ,-_ 
+
+
+
+Now, from the property of the parabola, 
+
+
+
+so that ^cc 
+
+or 5 Vp cot \ ^ \ = 4 *Jh T \/16 h 
+
+(A) 
+
+which agrees with the result (5) above. 
+
+To find the corresponding ratio of the specific gravities, or 
+Iffl?, we have to use equations (2) and (5) and to express k in 
+terms of h and p. 
+
+
+
+300 ARCHIMEDES 
+
+Equation (2) gives, on the substitution in it of the value of 
+cot 6 contained in (5), 
+
+
+
+whence we obtain, by squaring, 
+
+(6). 
+
+
+
+The lower sign corresponds to the angle U and the upper to 
+the angle 2\, and, in order to verify the results of Archimedes, 
+we have simply to show that the two values of k are equal to 
+QiQz,P*P* respectively. 
+
+Now it is easily seen that 
+
+<2.i = A/2 - MD'fp + 2M a D'/ P> 
+
+
+
+Therefore, using the values of MD, ML', M 3 D, M 3 D' above 
+found, we have 
+
+Qi&) A /*A_.P\_7A 6 /M(4h~p 
+P,P S J 2 + 5U& 2/ 50 5V 5 \15 2 
+
+
+
+
+which are the values of k given in (6) above.] 
+
+                -->
+                <p/>
+            </div>
+        </body>
+    </text>
+</TEI>

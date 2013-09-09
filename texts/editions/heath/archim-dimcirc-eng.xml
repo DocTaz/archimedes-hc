@@ -1,0 +1,434 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Measurement of a Circle</title>
+                <author>Archimedes</author>
+                <respStmt>
+                    <persName>Thomas Heath</persName>
+                    <resp>translator</resp>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>This electronic edition was prepared by Neel Smith, and is licensed under the
+                    Creative Commons NonCommercial ShareAlike 3.0 License. Its markup validates
+                    against version P5 of the Text Encoding Initiative Guidelines, and follows the
+                    markup conventions of the "Free Greek" project.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This text is based on pages 91-98 of the Dover reprint edition of Heath's
+                    original 1897 publication now in the public domain: <biblStruct>
+                        <monogr>
+                            <editor>Thomas Heath</editor>
+                            <title>The Works of Archimedes</title>
+                            <imprint>
+                                <pubPlace>Mineola, NY</pubPlace>
+                                <publisher>Dover</publisher>
+                                <date>2002</date>
+                            </imprint>
+                            <biblScope type="pp">91-98</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- 
+            
+MEASUBEMENT OF A CIRCLE. 
+
+
+
+Proposition 1. 
+
+The area of any circle is equal to a right-angled triangle in 
+which one of the sides about the right angle is equal to the radius, 
+and the other to the circumference, of the circle. 
+
+Let ABCD be the given circle, K the triangle described. 
+
+
+
+
+Then, if the circle is not equal to K, it must be either 
+greater or less. 
+
+I. If possible, let the circle be greater than K. 
+
+Inscribe a square ABCD, bisect the arcs AB, BC, CD, DA, 
+then bisect (if necessary) the halves, and so on, until the sides 
+of the inscribed polygon whose angular points are the points of 
+division subtend segments whose sum is less than the excess of 
+the area of the circle over K. 
+
+
+
+92 ARCHIMEDES 
+
+Thus the area of the polygon is greater than K. 
+
+Let AE be any side of it, and ON the perpendicular on A E 
+from the centre 0. 
+
+Then ON is less than the radius of the circle and therefore 
+less than one of the sides about the right angle in K. Also the 
+perimeter of the polygon is less than the circumference of the 
+circle, i.e. less than the other side about the right angle in K. 
+
+Therefore the area of the polygon is less than K ; which is 
+inconsistent with the hypothesis. 
+
+Thus the area of the circle is not greater than K. 
+
+II. If possible, let the circle be less than K. 
+
+Circumscribe a square, and let two adjacent sides, touching 
+the circle in E, H, meet in T. Bisect the arcs between adjacent 
+points of contact and draw the tangents at the points of 
+bisection. Let A be the middle point of the arc EH, and FAG 
+the tangent at A. 
+
+Then the angle TAG is a right angle. 
+Therefore TG > GA 
+
+>GH. 
+
+It follows that the triangle FTG is greater than half the area 
+TEAH. 
+
+Similarly, if the arc AH be bisected and the tangent at the 
+point of bisection be drawn, it will cut off from the area GAH 
+more than one-half. 
+
+Thus, by continuing the process, we shall ultimately arrive 
+at a circumscribed polygon such that the spaces intercepted 
+between it and the circle are together less than the excess of 
+K over the area of the circle. 
+
+Thus the area of the polygon will be less than K. 
+
+Now, since the perpendicular from on any side of the 
+polygon is equal to the radius of the circle, while the perimeter 
+of the polygon is greater than the circumference of the circle, 
+it follows that the area of the polygon is greater than the 
+triangle K\ which is impossible. 
+
+
+
+MEASUREMENT OF A CIRCLE. 93 
+
+Therefore the area of the circle is not less than K. 
+Since then the area of the circle is neither greater nor less 
+than K 9 it is equal to it. 
+
+Proposition 2. 
+
+The area of a circle is to the square on its diameter as 11 
+to 14. 
+
+[The text of this proposition is not satisfactory, and Archi- 
+medes cannot have placed it before Proposition 3, as the 
+approximation depends upon the result of that proposition,] 
+
+Proposition 3. 
+
+The ratio of the circumference of any circle to its diameter 
+is less than 3f but greater than 
+
+
+
+[In view of the interesting questions arising out of the 
+arithmetical content of this proposition of Archimedes, it is 
+necessary, in reproducing it, to distinguish carefully the actual 
+steps set out in the text as we have it from the intermediate 
+steps (mostly supplied by Eutocius) which it is convenient to 
+put in for the purpose of making the proof easier to follow. 
+Accordingly all the steps not actually appearing in the text 
+have been enclosed in square brackets, in order that it may be 
+clearly seen how far Archimedes omits actual calculations and 
+only gives results. It will be observed that he gives two 
+fractional approximations to \/3 (one being less and the other 
+greater than the real value) without any explanation as to how 
+he arrived at them ; and in like manner approximations to the 
+square roots of several large numbers which are not complete 
+squares are merely stated. These various approximations and 
+the machinery of Greek arithmetic in general will be found 
+discussed in the Introduction, Chapter IV.] 
+
+I. Let AB be the diameter of any circle, its centre, AC 
+the tangent at A ; and let the angle A OC be one-third of a 
+right angle. 
+
+
+
+94 ARCHIMEDES 
+
+Then OA : AC\=f& : 1]>265 : 153 (1), 
+
+and OC : CA [=2 : 1] = 306 : 153 (2). 
+
+First, draw OD bisecting the angle AOG and meeting AC 
+inD. 
+
+Now CO : OA = CD: DA, [Eucl. VI. 3] 
+
+so that [CO + OA:OA = CA: DA, or] 
+
+CO + OA :CA = OA : AD. 
+Therefore [by (1) and (2)] 
+
+OA :AD>671 : 153 (3). 
+
+Hence OD* : A D* [= (OA* + AD*) : AD* 
+
+> (571 s + 153') :153 2 ] 
+
+> 349450 : 23409, 
+
+so that OD :DA>591% : 153 (4). 
+
+
+
+
+Secondly, let OE bisect the angle AOD, meeting AD in E. 
+[Then DO : OA = DE : EA, 
+
+so that DO + OA : DA = OA : AE.] 
+
+Therefore OA : AE [> (591 + 571) : 153, by (3) and (4)] 
+
+(5). 
+
+
+
+MEASUREMENT OF A CIRCLE. 95 
+
+[It follows that 
+
+OE* : EA* > {(1162) 2 + 153 2 } : 153 s 
+
+> (1350534|f + 23409) : 23409 
+
+> 1373943ff : 23409.] 
+
+Thus OE:EA> 1172 : 153 ..................... (6). 
+
+
+
+Thirdly, let OF bisect the angle AOE and meet AE in F. 
+
+We thus obtain the result [corresponding to (3) and (5) 
+
+above] that 
+
+OA : AF[> (1162 + 1172) : 153] 
+
+>2334: 153 ..................... (7). 
+
+[Therefore OF* : FA 2 > {(2334J) 2 + 153 2 } : 153 2 
+
+> 5472132^ : 23409.] 
+Thus OF:FA>23M:153 ..................... (8). 
+
+Fourthly, let OG bisect the angle AOF, meeting AF in (?. 
+We have then 
+
+OA : AG [> (2334J + 2339J) : 153, by means of (7) and (8)] 
+> 4673^:153. 
+
+Now the angle AOC, which is one-third of a right angle, 
+has been bisected four times, and it follows that 
+
+
+
+Z A 00 ? ^ (a right angle). 
+
+Make the angle AOH on the other side of OA equal to the 
+angle A OG, and let OA produced meet OH in H. 
+
+Then Z GOH=^ (a right angle). 
+
+Thus GH is one side of a regular polygon of 96 sides cir- 
+cumscribed to the given circle. 
+
+And, since OA : AG > 4673 : 153, 
+while AE = 20 A, GH = 2AG, 
+
+it follows that 
+
+A B : (perimeter of polygon of 96 sides) [> 4673J : 153 x 96] 
+
+^ 4673 J: 14688. 
+
+
+
+96 
+
+
+
+AKCHIMEDES 
+
+14688 _ 667* 
+~ 
+
+
+
+<3f 
+
+Therefore the circumference of the circle (being less than 
+the perimeter of the polygon) is a fortiori less than 3f times 
+the diameter AB. 
+
+II. Next let AB be the diameter of a circle, and let AC, 
+meeting the circle in C y make the angle CAB equal to one-third 
+of a right angle. Join BG. 
+
+Then AC : CB [= V3 : 1] < 1351 : 780. 
+
+First, let AD bisect the angle BAG and meet BC in d and 
+the circle in D. Join BD. 
+
+Then 
+
+
+
+and the angles at -D, C are both right angles. 
+
+It follows that the triangles ADB, [ACd], BDd are similar. 
+
+
+
+
+Therefore 
+
+
+
+AD:DB = BD: Dd 
+
+[=AC:Cd] 
+
+= AB:Bd 
+
+
+
+[Eucl. VI. 3] 
+
+
+
+or 
+
+
+
+=AB+AC:BC 
+BA+AC:BC=AD:DB. 
+
+
+
+MEASUREMENT OF A CIRCLE. 97 
+
+[But AC : CB< 1351 : 780, from above, 
+
+while BA :5tf=2:l 
+
+- 1560 : 780.] 
+
+Therefore 4D :ZXB< 2911 : 780 (1). 
+
+[Hence A B* : BD* < (291 1* + 780*) : 780* 
+
+< 9082321 : 608400.] 
+Thus AB :BD< 3013f : 780 (2). 
+
+Secondly, let AE bisect the angle BAD, meeting the circle 
+in E\ and let BE be joined. 
+
+Then we prove, in the same way as before, that 
+AE: EB[=BA + AD-.BD 
+
+< (3013| + 2911) : 780, by (1) and (2)] 
+
+< 5924f : 780 
+
+< 5924f x js : 780 x & 
+
+<1823 : 240 (3). 
+
+[Hence A B* : BE 9 < (1823 2 + 240 2 ) : 240* 
+< 3380929 : 57600.] 
+
+Therefore AB : BE < 1838 T \ : 240 (4). 
+
+Thirdly, let AF bisect the angle BAE t meeting the circle 
+in F. 
+
+Thus AF : FB [= BA + AE : BE 
+
+< 3661.fr : 240, by (3) and (4)] 
+
+< 3661 T 9 T x ii : 240 x U 
+<1007 :66 (5). 
+
+[It follows that 
+
+AB 9 : BF* < (1007 s + 66') : 66* 
+
+< 1018405 : 4356.] 
+Therefore AB : BF< 1009 : 66 (6). 
+
+Fourthly, let the angle BAF be bisected by AG meeting the 
+circle in G. 
+
+Then AG : GB [= BA + AF : BF] 
+
+< 2016J : 66, by (5) and (6). 
+
+H. A. 7 
+
+
+
+98 ARCHIMEDES 
+
+[And Aff : BQ* < {(2016J)' + 66 2 } : 66' 
+
+< 4069284^ : 4356.] 
+Therefore AB : BQ < 2017* : 66, 
+whence BG : AB > 66 : 2017J (7). 
+
+[Now the angle SAG which is the result of the fourth bisection 
+of the angle BAG, or of one- third of a right angle, is equal to 
+one-fortyeighth of a right angle. 
+
+Thus the angle subtended by BG at the centre is 
+Jj (a right angle).] 
+
+Therefore BG is a side of a regular inscribed polygon of 9(> 
+sides. 
+
+It follows from (7) that 
+
+(perimeter of polygon) : AB [> 96 x 66 : 20l7] 
+
+> 6336: 2017 J. 
+
+A A 6336 010 
+
+And 2bl7i >8 W- 
+
+Much more then is the circumference of the circle greater than 
+times the diameter. 
+
+Thus the ratio of the circumference to the diameter 
+< 3 but > 
+
+            -->
+            <p/>
+        </body>
+    </text>
+</TEI>
