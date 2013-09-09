@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!--
+<?oxygen RNGSchema="tei-analysis-figs.rng" type="xml"?>
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="eng">
+        <fileDesc>
+            <titleStmt>
+                <title>Measurement of the Circle</title>
+                <author>Archimedes</author>
+                <sponsor>...</sponsor>
+                <editor>Christine Roughan</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Licensed under the Creative Commons, Non-Commercial, Attribution, Share-alike
+                    license: http://creativecommons.org/licenses/by-nc-sa/2.0/</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>...</p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="grc">accented ancient Greek in beta code</language>
+                <language ident="grc-c">accented ancient Greek in Unicode-C Greek
+                    characters</language>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="internal">
+                    <list>
+                        <item>Content: Archimedes</item>
+                        <item>Content: On the Measurement of the Circle</item>
+                        <item>Greek Manuscript</item>
+                        <item>Paper Manuscript</item>
+                        <item>16th Century Manuscript</item>
+                        <item>Private Collection</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text xml:lang="grc-c">
+        <body>
+            <div n="1" type="book">
+                <div n="1" type="proposition">
+                    <p>
+                        <seg n="58v" type="folio">
+                            <seg type="line" n="1">Πᾶς κύκλος ἶσος ἐστὶ τριγώνω ὀρθωγωνίω· οὗ ἡ
+                                μὲν</seg>
+                            <seg type="line" n="2">ἐκ τοῦ κέντρου ἴση μιᾶ τῶν περὶ τὴν ὀρθὴν· ἡ
+                                δὲ</seg>
+                            <seg type="line" n="3">περίμετρος τῆ βάσει ἐχέτω ὁ <rs
+                                    type="tlg1799.tlg001:circle" n="1.1.ΑΒΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Β">
+                                        <rs type="label" n="1.1.Β">Β</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Γ">
+                                        <rs type="label" n="1.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Δ">
+                                        <rs type="label" n="1.1.Δ">Δ</rs></rs></rs> κύκλος </seg>
+                            <seg type="line" n="4">τριγώνω τῶ <rs type="tlg0552.tlg010:triangle"
+                                    n="1.1.Ε">
+                                    <rs type="label" n="1.1.Ε">Ε</rs></rs> ὡς ὑπόκειται· λέγω ὅτι
+                                ἶσος <w part="I">ἐ</w></seg>
+                            <seg type="line" n="5"><w part="F">στὶν</w>· εἰ γὰρ δυνατὸν, ἔστω μείζων
+                                ὁ κύκλος, καὶ <w part="I">ἐ</w></seg>
+                            <seg type="line" n="6"><w part="F">γγεγραφθω</w> τὸ <rs
+                                    type="tlg0552.tlg002:square" n="1.1.ΑΓ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Γ">
+                                        <rs type="label" n="1.1.Γ">Γ</rs></rs></rs> τετράγωνον, καὶ
+                                    <w part="I">τετμήσθω</w></seg>
+                            <seg type="line" n="7"><w part="F">σαν</w> αἱ περιφέρειαι δίχα· καὶ ἔστω
+                                τὰ τμήματα</seg>
+                            <seg type="line" n="8">ἤδη ἐλάσσονα τῆς ὑπεροχῆς, ἧ ὑπερέχει, ὁ <w
+                                    part="I">κύ</w>-</seg>
+                            <seg type="line" n="9"><w part="F">κλος</w> τοῦ τριγώνου· τὸ εὐθύγραμμον
+                                ἄρα ἐστὶν</seg>
+                            <seg type="line" n="10">ἔτι τοῦ τριγώνου μεῖζον· εἰλήφθω κέντρον</seg>
+                            <seg type="line" n="11">τὸ <rs type="tlg0552.tlg008:center" n="1.1.Ν">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ν">
+                                        <rs type="label" n="1.1.Ν">Ν</rs></rs></rs>, καὶ κάθετος ἡ
+                                    <rs type="tlg1799.tlg001:straight_line" n="1.1.ΝΞ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ν">
+                                        <rs type="label" n="1.1.Ν">Ν</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ξ">
+                                        <rs type="label" n="1.1.Ξ">Ξ</rs></rs></rs>· ἐλάσσων ἄρα ἡ
+                                    <rs type="tlg1799.tlg001:straight_line" n="1.1.ΝΞ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ν">
+                                        <rs type="label" n="1.1.Ν">Ν</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ξ">
+                                        <rs type="label" n="1.1.Ξ">Ξ</rs></rs></rs> τῆς</seg>
+                            <seg type="line" n="12">τοῦ τριγώνου <choice>
+                                    <sic>πλευράς</sic>
+                                    <corr>πλευρὰς</corr>
+                                </choice>· ἔστι δὲ καὶ ἡ περίμετρος</seg>
+                            <seg type="line" n="13">τοῦ εὐθυγράμμον τῆς λοιπῆς ἐλάττων· ἐπεὶ</seg>
+                            <seg type="line" n="14">καὶ τῆς τοῦ κύκλου περιμέτρου, ἔλαττον ἄρα
+                                τὸ</seg>
+                            <seg type="line" n="15">εὐθήγραμμον τοῦ <rs
+                                    type="tlg0552.tlg010:triangle" n="1.1.Ε">
+                                    <rs type="label" n="1.1.Ε">Ε</rs></rs> τριγώνου, ὅπερ ἄτοπον· <w
+                                    part="I">ἔ</w></seg>
+                            <seg type="line" n="16"><w part="F">στω</w> δὲ ὁ κύκλος εἰ δυνατὸν,
+                                μεῖζων τοῦ <rs type="tlg0552.tlg010:triangle" n="1.1.Ε">
+                                    <rs type="label" n="1.1.Ε">Ε</rs></rs>
+                                <w part="I">τριγώ</w>-</seg>
+                            <seg type="line" n="17"><w part="F">νου</w>· καὶ περιγεγράφθω τὸ
+                                τετράγωνον, καὶ <w part="I">τετμή</w>-</seg>
+                            <seg type="line" n="18"><w part="F">σθωσαν</w> αἱ περιφέρειαι δίχα· καὶ
+                                ἤχθωσαν <w part="I">ἐφα</w></seg>
+                            <seg type="line" n="19"><w part="F">πτόμεναι</w> διὰ τῶν σημείων· ὀρθὴ
+                                ἄρα ἡ ὑπὸ</seg>
+                            <seg type="line" n="20"><rs n="1.1.ΑΟΡ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ο">
+                                        <rs type="label" n="1.1.Ο">Ο</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ρ">
+                                        <rs type="label" n="1.1.Ρ">Ρ</rs></rs></rs>· ἡ <rs
+                                    n="1.1.ΟΡ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ο">
+                                        <rs type="label" n="1.1.Ο">Ο</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ρ">
+                                        <rs type="label" n="1.1.Ρ">Ρ</rs></rs></rs> ἄρα τῆς <rs
+                                    n="1.1.ΜΡ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Μ">
+                                        <rs type="label" n="1.1.Μ">Μ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ρ">
+                                        <rs type="label" n="1.1.Ρ">Ρ</rs></rs></rs> ἐστὶ μείζων· ἡ
+                                γὰρ <rs n="1.1.ΜΡ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ρ">
+                                        <rs type="label" n="1.1.Ρ">Ρ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Μ">
+                                        <rs type="label" n="1.1.Μ">Μ</rs></rs></rs></seg>
+                            <seg type="line" n="21">τῆς <rs n="1.1.ΑΡ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ρ">
+                                        <rs type="label" n="1.1.Ρ">Ρ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs></rs> ἴση ἐστὶ, καὶ τὸ
+                                    <rs n="1.1.ΟΠΡ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ρ">
+                                        <rs type="label" n="1.1.Ρ">Ρ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ο">
+                                        <rs type="label" n="1.1.Ο">Ο</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Π">
+                                        <rs type="label" n="1.1.Π">Π</rs></rs></rs> τρίγωνον ἄρα,
+                                τοῦ</seg>
+                            <seg type="line" n="22"><rs n="1.1.ΑΖΜΟ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ο">
+                                        <rs type="label" n="1.1.Ο">Ο</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ζ">
+                                        <rs type="label" n="1.1.Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Μ">
+                                        <rs type="label" n="1.1.Μ">Μ</rs></rs></rs> σχήματος μείζων
+                                ἐστὶ τὸ ἥμισυ· <w part="I">λελείφθω</w>-</seg>
+                            <seg type="line" n="23"><w part="F">σαν</w> οἱ τῶ <rs n="1.1.ΑΖΜ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Π">
+                                        <rs type="label" n="1.1.Π">Π</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ζ">
+                                        <rs type="label" n="1.1.Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs></rs> τομεῖ ὅμοιοι
+                                ἐλάσσους τῆς <w part="I">ὑπε</w>-</seg>
+                            <seg type="line" n="24"><w part="F">ροχῆς</w>, ἢ ὑπερέχει τὸ <rs
+                                    type="tlg0552.tlg010:triangle" n="1.1.Ε">
+                                    <rs type="label" n="1.1.Ε">Ε</rs></rs> τοῦ <rs
+                                    type="tlg1799.tlg001:circle" n="1.1.ΑΒΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Β">
+                                        <rs type="label" n="1.1.Β">Β</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Γ">
+                                        <rs type="label" n="1.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Δ">
+                                        <rs type="label" n="1.1.Δ">Δ</rs></rs></rs> κύκλου·
+                                ἔτι</seg>
+                            <seg type="line" n="25">ἄρα τὸ περιγεγραμμένον εὐθήγραμμον τοῦ</seg>
+                            <seg type="line" n="26">
+                                <rs type="tlg0552.tlg010:triangle" n="1.1.Ε">
+                                    <rs type="label" n="1.1.Ε">Ε</rs></rs> ἐστὶν ἔλασσον· ὅπερ
+                                ἄτοπον· ἔστι γὰρ μεῖζον·</seg>
+                            <seg type="line" n="27">ὅτι ἡ μὲν <rs n="1.1.ΑΝ">
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Ν">
+                                        <rs type="label" n="1.1.Ν">Ν</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="1.1.Α">
+                                        <rs type="label" n="1.1.Α">Α</rs></rs></rs> ἰση ἐστὶ τῆ
+                                καθέτω τοῦ τριγώνου,</seg>
+                            <seg type="line" n="28">ἡ δὲ περίμετρος μείζων ἐστὶ τῆς βάσεως τοῦ</seg>
+                            <seg type="line" n="29">τριγώνου· ἶσος ἄρα ὁ κύκλος τῶ <rs
+                                    type="tlg0552.tlg010:triangle" n="1.1.Ε">
+                                    <rs type="label" n="1.1.Ε">Ε</rs></rs> τριγώνω·</seg>
+                            
+                        </seg></p></div>
+                <div n="2" type="proposition"><p><seg n="58v" type="folio">
+                            <seg type="line" n="30">ὁ κύκλος πρὸς τὸ ἀπὸ τῆς διαμέτρου
+                                τετράγωνου</seg>
+                        </seg>
+                        <seg n="59r" type="folio">
+                            <seg type="line" n="1">λόγον ἕχει· οὓ <num value="11">ΙΑ</num> πρὸς <num
+                                    value="14">ΙΔ</num>· ἔστω κύκλος οὗ <w part="I">διά</w></seg>
+                            <seg type="line" n="2"><w part="F">μετρος</w> ἡ <rs n="2.1.ΑΒ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Β">
+                                        <rs type="label" n="2.1.Β">Β</rs></rs></rs>· καὶ
+                                περιγεγράφθω τετράγωνον</seg>
+                            <figure n="1.1">
+                                <figDesc xml:lang="eng">Figure 1.1</figDesc>
+                            </figure>
+                            <seg type="line" n="3">το <rs n="2.1.ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Η">
+                                        <rs type="label" n="2.1.Η">Η</rs></rs></rs>· καὶ τῆς <rs
+                                    n="2.1.ΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs></rs></seg>
+                            <seg type="line" n="4">διπλῆ ἡ <rs n="2.1.ΔΕ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ε">
+                                        <rs type="label" n="2.1.Ε">Ε</rs></rs></rs>· <w part="I"
+                                    >ἕβ</w></seg>
+                            <seg type="line" n="5"><w part="F">δομον</w> δὲ ἡ <rs n="2.1.ΕΖ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ε">
+                                        <rs type="label" n="2.1.Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ζ">
+                                        <rs type="label" n="2.1.Ζ">Ζ</rs></rs></rs> τῆς</seg>
+                            <seg type="line" n="6"><rs n="2.1.ΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs></rs>· ἐπει οὖν</seg>
+                            <seg type="line" n="7">τὸ <rs n="1.1.ΑΓΕ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ε">
+                                        <rs type="label" n="2.1.Ε">Ε</rs></rs></rs> πρὸς τὸ</seg>
+                            <seg type="line" n="8"><rs n="2.1.ΑΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs></rs> λόγον ἔχει
+                                ὃν</seg>
+                            <seg type="line" n="9"><num value="21">ΚΑ</num> πρὸς <num value="7"
+                                    >Ζ</num>· πρὸς</seg>
+                            <seg type="line" n="10">δὲ τὸ <rs n="2.1.ΑΕΖ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ε">
+                                        <rs type="label" n="2.1.Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ζ">
+                                        <rs type="label" n="2.1.Ζ">Ζ</rs></rs></rs> τὸ <rs
+                                    n="2.1.ΑΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs></rs></seg>
+                            <seg type="line" n="11">λόγον ἔχει ὁν ἑπτὰ</seg>
+                            <seg type="line" n="12">πρὸς ἓν τὸ <rs n="2.1.ΑΓΖ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ζ">
+                                        <rs type="label" n="2.1.Ζ">Ζ</rs></rs></rs> πρὸς τὸ <rs
+                                    n="2.1.ΑΓΖ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ζ">
+                                        <rs type="label" n="2.1.Ζ">Ζ</rs></rs></rs>· ἕστιν ὡς <num
+                                    value="22">ΚΒ</num> πρὸς <num value="7">Ζ</num>·</seg>
+                            <seg type="line" n="13">ἀλλὰ τοῦ <rs n="2.1.ΑΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs></rs> τετραπλάσιον
+                                ἔστι τὸ ΓΗ <w part="I">τετράγω</w>-</seg>
+                            <seg type="line" n="14"><w part="F">νον</w>· τὸ δὲ <rs n="2.1.ΑΓΔΖ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Δ">
+                                        <rs type="label" n="2.1.Δ">Δ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Ζ">
+                                        <rs type="label" n="2.1.Ζ">Ζ</rs></rs></rs> τρίγωνον, τῶ <rs
+                                    type="tlg1799.tlg001:circle" n="2.1.ΑΒΓΔ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Β">
+                                        <rs type="label" n="2.1.Β">Β</rs></rs></rs> κύκλω ἶσον
+                                ἐστίν·</seg>
+                            <seg type="line" n="15">ἐπεὶ ἡ μὲν <rs n="2.1.ΑΓ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Α">
+                                        <rs type="label" n="2.1.Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs></rs> κάθετος ἴση ἐστὶ
+                                τῆ ἐκ τοῦ κέντρου,</seg>
+                            <seg type="line" n="16">ἡ δὲ βάσις τῆς διαμέτρου τριπλασιῶν, καὶ
+                                τοῦ</seg>
+                            <seg type="line" n="17">
+                                <num value="7">Ζ</num> ἔγγιστα ὑπερέχουσα δειχθήσεται· ὁ κύκλος
+                                οὖν</seg>
+                            <seg type="line" n="18">πρὸς τὸ <rs n="2.1.ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Γ">
+                                        <rs type="label" n="2.1.Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="2.1.Η">
+                                        <rs type="label" n="2.1.Η">Η</rs></rs></rs> τετράγωνον λόγον
+                                ἔχει ὃν<num value="11">ΙΑ</num> πρὸς <num value="14">ΙΔ</num>⁑</seg>
+                        </seg>
+                    </p>
+                </div>
+                <div n="3" type="proposition">
+                    <head>
+                        <seg n="59r" type="folio">
+                            <num value="3">Γ</num>
+                        </seg>
+                    </head>
+                    <p>
+                        <seg n="59r" type="folio">
+                            <figure n="1.2">
+                                <figDesc xml:lang="eng">Figure 1.2</figDesc>
+                            </figure>
+                            <seg type="line" n="19">Παντὸς κύκλου ἡ</seg>
+                            <seg type="line" n="20">περίμετρος τῆς</seg>
+                            <seg type="line" n="21">διαμέτρου <w part="I">τρι</w>-</seg>
+                            <seg type="line" n="22"><w part="F">πλασίων</w> ἐστὶ· καὶ</seg>
+                            <seg type="line" n="23">ἔτι ὑπερέχει <w part="I">ἐλά</w></seg>
+                            <seg type="line" n="24"><w part="F">σσονι</w> μὲν ἢ ἑβδό</seg>
+                            <seg type="line" n="25">μω μέρει τῆς <w part="I">δια</w></seg>
+                            <seg type="line" n="26"><w part="F">μέτρου</w>· μείζονι</seg>
+                            <seg type="line" n="27">δὲ ἢ δέκα <w part="I">ἑβδο</w></seg>
+                            <seg type="line" n="28"><w part="F">μηκοστῶμόνοις</w>· ἔστω κύκλος καὶ
+                                διάμετρος ἡ <rs n="3.1..ΑΓ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Α">
+                                        <rs type="label" n="3.1..Α">Α</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs>·</seg>
+                            <seg type="line" n="29">καὶ κέντρον τὸ <rs
+                                    type="tlg0552.tlg010:triangle" n="3.1..Ε">
+                                    <rs type="label" n="3.1..Ε">Ε</rs></rs>· καὶ ἡ <rs n="3.1..ΓΖΛ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Λ">
+                                        <rs type="label" n="3.1..Λ">Λ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs></rs> ἐφαπτόμενη· καὶ
+                                ἡ</seg>
+                            <seg type="line" n="30">ὑπὸ <rs n="1.1.ΓΖΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Η">
+                                        <rs type="label" n="3.1..Η">Η</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs> τρίτου ὀρθὴ· ἡ
+                                    <rs n="3.1..ΕΖ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs></rs> ἄρα πρὸς <rs
+                                    type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                    <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                    <rs type="label" n="3.1..Γ">Γ</rs></rs> λόγον</seg>
+                        </seg>
+                        <seg n="59v" type="folio">
+                            <seg type="line" n="1">ἔχει ὃν <num value="306">ΤϚ</num> πρὸς <num value="153">ΡΝΓ</num>· ἡ δὲ <rs
+                                    n="3.1..ΓΕ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs> πρὸς τὴν <rs
+                                    n="3.1..ΓΖ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs></rs>
+                                <w part="I">λό</w>-</seg>
+                            <seg type="line" n="2"><w part="F">γον</w> ἔχει· ἢ ὃν <num value="265">ΣΞΕ</num> πρὸς <num value="153">ΡΝΓ</num>· τετμήσθω οὖν </seg>
+                            <seg type="line" n="3">ἡ ὑπὸ <rs n="3.1..ΓΕΖ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs> δίχα τῆς <rs
+                                    type="tlg1799.tlg001:point" n="3.1..Η">
+                                    <rs type="label" n="3.1..Η">Η</rs></rs>· ἔστιν ἄρα ὡς ἡ <rs
+                                    n="3.1..ΕΖ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs></rs> πρὸς</seg>
+                            <seg type="line" n="4"><rs n="3.1..ΓΕ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs>· ἡ <rs
+                                    n="3.1..ΖΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Η">
+                                        <rs type="label" n="3.1..Η">Η</rs></rs></rs> πρὸς <rs
+                                    n="3.1..ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Η">
+                                        <rs type="label" n="3.1..Η">Η</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs>· καὶ ἐναλλὰξ
+                                καὶ συνθέντι· ὡς</seg>
+                            <seg type="line" n="5">ἄρα συναμφότερος ἡ <rs n="3.1..ΕΖ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs></rs>
+                                <rs n="3.1..ΓΕ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs> πρὸς <rs
+                                    n="3.1..ΓΖ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ζ">
+                                        <rs type="label" n="3.1..Ζ">Ζ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs>· ἡ <rs
+                                    n="3.1..ΓΕ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs></rs> πρὸς</seg>
+                            <seg type="line" n="6"><rs n="3.1..ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Η">
+                                        <rs type="label" n="3.1..Η">Η</rs></rs></rs>· ὥστε ἡ <rs
+                                    n="3.1..ΓΕ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Ε">
+                                        <rs type="label" n="3.1..Ε">Ε</rs></rs></rs> πρὸς <rs
+                                    n="3.1..ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Γ">
+                                        <rs type="label" n="3.1..Γ">Γ</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1..Η">
+                                        <rs type="label" n="3.1..Η">Η</rs></rs></rs> μείζονα λόγον
+                                ἔχει ἤπερ</seg>
+                            <seg type="line" n="7"><num value="571">ΦΟΑ</num> πρὸς <num value="153">ΡΝΓ</num>· ἡ 
+                                <rs n="3.1.ΕΝ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ν">
+                                    <rs type="label" n="3.1.Ν">Ν</rs></rs></rs> ἄρα πρὸς 
+                                <rs n="3.1.ΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> δυνάμει <w part="I">λό</w>-</seg>
+                            <seg type="line" n="8"><w part="F">γον</w> ἔχει ὃν <num>ΛΔΜ</num> <num>ΘΓΝ</num>, πρὸς <num>ΜΒ</num> <num>ΤΝΘ</num>· μήκει</seg>
+                            <seg type="line" n="9">ἄρα ὃν <num value="591">ΦϘΑ</num> πρὸς <num value="153">ΡΝΓ</num>· πάλιν δίχα ἡ ὑπὸ 
+                                <rs n="3.1.ΓΕΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs></seg>
+                            <seg type="line" n="10">τῆ <rs n="3.1.ΕΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs></rs>· διὰ τὰ αὐτὰ ἄρα ἡ 
+                                <rs n="1.3.ΓΕ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> πρὸς 
+                                <rs n="3.1.ΓΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs></rs>,
+                                μείζονα</seg>
+                            <seg type="line" n="11">λόγον ἔχει ἡ ὂν <num value="1162">͵ΑΡΞΒ</num> ἤ πρὸς <num value="153">ΡΝΓ</num>· ἡ 
+                                <rs n="3.1.ΕΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs></rs> ἄρα
+                                πρὸς</seg>
+                            <seg type="line" n="12"><rs n="3.1.ΓΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> μείζονα λόγον ἔχει ἢ ὃν <num value="1172">͵ΑΡΟΒ</num><num value="1/8">Η</num> πρὸς
+                                <num value="153">ΡΝΓ</num>·</seg>
+                            <seg type="line" n="13">ἔτι δίχα ἡ ὑπὸ 
+                                <rs n="3.1.ΓΕΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> τῆ 
+                                <rs n="3.1.ΕΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs></rs>· ἡ 
+                                <rs n="3.1.ΓΕ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἄρα πρὸς 
+                                <rs n="3.1.ΓΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs></rs></seg>
+                            <seg type="line" n="14">μείζονα λόγον ἔχει, ἢ ὃν <num value="2334">͵ΒΤΛΔ</num>, <num value="1/4">Δʹ</num> πρὸς
+                                <num value="153">ΡΝΓ</num>·</seg>
+                            <seg type="line" n="15">ἡ 
+                                <rs n="3.1.ΕΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs></rs> ἄρα πρὸς 
+                                <rs n="3.1.ΓΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs></rs> μείζων, ἢ ὃν <num value="2339">͵ΒΤΛΘ</num> <num value="1/4">Δʹ</num></seg>
+                            <seg type="line" n="16">πρὸς <num value="153">ΡΝΓ</num>· ἔτι δίχα ἡ ὑπὸ 
+                                <rs n="3.1.ΓΕΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> τῆ 
+                                <rs n="3.1.ΕΛ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs></rs>· ἡ 
+                                <rs n="3.1.ΓΕ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>
+                                ἄρα</seg>
+                            <seg type="line" n="17">πρὸς 
+                                <rs n="3.1.ΓΛ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> μείζονα μήκει λόγον ἔχει ἤπερ
+                                <num>͵Δ͵<unclear>Υ</unclear>ΟΓ</num></seg>
+                            <seg type="line" n="18">πρὸς <num value="153">ΡΝΓ</num>· ἐπεὶ οὖν ἡ ὑπὸ 
+                                <rs n="3.1.ΓΕΖ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ζ">
+                                    <rs type="label" n="3.1.Ζ">Ζ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> τρίτου οὗσα
+                                <w part="I">ὀρ</w>-</seg>
+                            <seg type="line" n="19"><w part="F">θὴ</w> τέτμηται τετράκις δίχα, ἡ ὑπὸ 
+                                <rs n="3.1.ΓΕΛ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>
+                                ὀρθῆς-</seg>
+                            <seg type="line" n="20">ἐστϊ <num value="24">ΚΔ</num>· καὶ ἡ 
+                                <rs n="3.1.ΛΜ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Μ">
+                                    <rs type="label" n="3.1.Μ">Μ</rs></rs></rs> ἄρα εὐθεῖα τοῦ περὶ τοὺ
+                                <w part="I">κύ</w>-</seg>
+                            <seg type="line" n="21"><w part="F">κλου</w> ἐστι πολυγώνου πλευρὰς ἔχοντος <num value="96">ϘϚ</num>· <w part="I">ἐ</w></seg>
+                            <seg type="line" n="22"><w part="F">πεὶ</w> οὖν ἡ 
+                                <rs n="3.1.ΓΕ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> πρὸς τὴν 
+                                <rs n="3.1.ΓΛ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs></rs> ἐδείχθη μείζονα
+                                λόγον</seg>
+                            <seg type="line" n="23">ἔχουσα· ἤπερ <num>͵ΔΧΟ<unclear>Τ</unclear></num><num value="1/2">&#x10175;</num> πρὸς ΡΝΓ· ἀλλὰ
+                                τῆς</seg>
+                            <seg type="line" n="24">μὲν 
+                                <rs n="3.1.ΓΕ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ε">
+                                    <rs type="label" n="3.1.Ε">Ε</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> διπλῆ ἡ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>· πρὸς 
+                                <rs n="3.1.ΓΝΡ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ρ">
+                                    <rs type="label" n="3.1.Ρ">Ρ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ν">
+                                    <rs type="label" n="3.1.Ν">Ν</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>· ἀλλὰ τῆς</seg>
+                            <seg type="line" n="25">ἡ 
+                                <rs n="3.1.ΛΜ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Μ">
+                                    <rs type="label" n="3.1.Μ">Μ</rs></rs></rs>· καί ἡ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἄρα πρὸς τὴν τοῦ <num value="96">ϘϚ</num> <w part="I">πολυγώ</w>-</seg>
+                            <seg type="line" n="26"><w part="F">νου</w> <choice><sic>τερίμετρον</sic><corr>περίμετρον</corr></choice>, μείζονα λόγον ἔχει, ἤπερ
+                                <num value="4673" ana="initial">͵Δ</num></seg>
+                            <seg type="line" n="27"><num value="4673" ana="final">ΧΟΓ</num><num value="1/6">Ϛ</num> πρὸς <num value="14688">Μ<add place="supralinear">Α</add>͵ΔΧΠΗ</num>· καὶ ἔστι τριπλασία
+                                καὶ</seg>
+                            <seg type="line" n="28">ὑπερέχουσιν <num>ΧΞΖϚ</num>· ἅπερ τῶν <num value="4673">͵ΔΧΟΓ</num><num value="1/6">Ϛ</num>, <w part="I">ἐ</w></seg>
+                            <seg type="line" n="29"><w part="F">λάττονα</w> ἐστὶ τὸ εβδομον, ὥστε <add place="supralinear">τὸ</add> πολύγωνου
+                                τὸ</seg>
+                            <seg type="line" n="30">περὶ τὸν κύκλον τῆς διαμέτρου ἐστὶ
+                                τριπλάσιον</seg>
+                        </seg>
+                        <seg n="60r" type="folio">
+                            <seg type="line" n="1">καὶ ἔλαττον, ἢ τῶ ἑβδόμω μέρει μεῖζον· ἡ</seg>
+                            <seg type="line" n="2">τοῦ κύκλου ἄρα περίμετρος, πολὺ μᾶλλον</seg>
+                            <seg type="line" n="3">ἐλάσσων ἐστὶν ἢ <choice><sic>τριπλάσιων</sic><corr>τριπλασίων</corr></choice>· καὶ εβδόμω</seg>
+                            <seg type="line" n="4">μέρει μείζων⁑</seg>
+                        </seg></p>
+                </div>
+                <div n="3" type="proposition">
+                    <head>
+                        <seg n="60r" type="folio">
+                            <num value="4">Δ</num>
+                        </seg>
+                    </head>
+                    <p>
+                        <seg n="60r" type="folio">
+                            <figure n="1.3">
+                                <figDesc xml:lang="eng">Figure 1.3</figDesc>
+                            </figure>
+                            <seg type="line" n="5">Ἔστω κύκλος καὶ <w part="I">διά</w></seg>
+                            <seg type="line" n="6"><w part="F">μετρος</w> ἡ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἡ δὲ ὑπὸ</seg>
+                            <seg type="line" n="7">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs> τρίτω ὀρθὴ· ἡ-</seg>
+                            <seg type="line" n="8"><rs n="3.1.ΑΒ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs></rs> ἄρα πρὸς 
+                                <rs n="3.1.ΒΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> <w part="I">ἐλά</w></seg>
+                            <seg type="line" n="9"><w part="F">σσονα</w> λόγον ἔχει ἢ οὓ</seg>
+                            <seg type="line" n="10"><num value="351">ΤΝΑ</num> πρὸς <num value="780">ΨΠ</num>, δίχη</seg>
+                            <seg type="line" n="11">ἡ ὑπὸ <rs n="3.1.ΑΒΓ"><unclear>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs></unclear>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> τῆ 
+                                <rs n="3.1.ΑΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs>· <w part="I">ἐ</w></seg>
+                            <seg type="line" n="12"><w part="F">πεὶ</w> οὖν ἴση ἐστὶν ἡ ὑπὸ</seg>
+                            <seg type="line" n="13"><rs n="3.1.ΑΒΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> τῆ ὑπὸ 
+                                <rs n="3.1.ΒΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs></rs>·</seg>
+                            <seg type="line" n="14">ἀλλὰ καὶ τῆ ὑπὸ 
+                                <rs n="3.1.ΑΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>,</seg>
+                            <seg type="line" n="15">καὶ ἡ ὑπὸ 
+                                <rs n="3.1.ΒΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs></rs> τῆ ὑπὸ</seg>
+                            <seg type="line" n="16"><rs n="3.1.ΑΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἔστιν ἴση καὶ κοινὴ ἡ ὑπὸ 
+                                <rs n="3.1.ΑΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ὀρθή καὶ
+                                τρίτη·</seg>
+                            <seg type="line" n="17">ἔσται ἡ ὑπὸ 
+                                <rs n="3.1.ΓΖΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ζ">
+                                    <rs type="label" n="3.1.Ζ">Ζ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>, τρίτη τῆ ὑπὸ 
+                                <rs n="3.1.ΑΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> πρὸς 
+                                <rs n="3.1.ΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>·
+                                <w part="I">ἰσο</w></seg>
+                            <seg type="line" n="18"><w part="F">γώνιον</w> ἄρα τὸ 
+                                <rs n="3.1.ΑΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> τῶ 
+                                <rs n="3.1.ΓΖΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ζ">
+                                    <rs type="label" n="3.1.Ζ">Ζ</rs></rs></rs> τριγώνω· ἔστιν
+                                ἄρα</seg>
+                            <seg type="line" n="19">ὡς ἡ 
+                                <rs n="3.1.ΑΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> πρὸς 
+                                <rs n="3.1.ΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>· ἡ 
+                                <rs n="3.1.ΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> πρὸς 
+                                <rs n="3.1.ΖΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ζ">
+                                    <rs type="label" n="3.1.Ζ">Ζ</rs></rs></rs>· καὶ ἡ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> πρὸς
+                                <rs n="3.1.ΓΖ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ζ">
+                                    <rs type="label" n="3.1.Ζ">Ζ</rs></rs></rs>·</seg>
+                            <seg type="line" n="20">ἀλλ' ὡς ἡ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> πρὸς 
+                                <rs n="3.1.ΓΖ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Ζ">
+                                    <rs type="label" n="3.1.Ζ">Ζ</rs></rs></rs>, καὶ σϋναμφότερος ἡ
+                                <rs n="3.1.ΑΒΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs></rs></seg>
+                            <seg type="line" n="21">πρὸς <rs n="3.1.ΒΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                    <rs type="label" n="3.1.Β">Β</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>· καὶ ὡς συναμφότερος ἄρα ἡ 
+                                <rs n="3.1.ΑΒΓ">
+                                        <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                            <rs type="label" n="3.1.Β">Β</rs></rs>
+                                        <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                            <rs type="label" n="3.1.Α">Α</rs></rs>
+                                        <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                            <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>
+                                πρὸς</seg>
+                            <seg type="line" n="22">
+                               <rs n="3.1.ΒΓ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1.Β">
+                                        <rs type="label" n="3.1.Β">Β</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                        <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>· ἡ δῆ πρὸς 
+                                <rs n="3.1.ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                        <rs type="label" n="3.1.Η">Η</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                        <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>· διὰ τοῦτο οὖν ἡ 
+                                <rs n="3.1.ΑΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> πρὸς</seg>
+                            <seg type="line" n="23">τὴν 
+                                <rs n="3.1.ΓΗ">
+                                    <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                        <rs type="label" n="3.1.Η">Η</rs></rs>
+                                    <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                        <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἐλάσσονα λόγον ἔχει ἤπερ <num value="2911">͵ΒϡΙΑʹ</num>
+                                πρὸς</seg>
+                            <seg type="line" n="24"><num value="780">ΨΠ</num>· ἡ δὲ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> πρὸς τὴν 
+                                <rs n="3.1.ΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> ἐλάσσονα ἢ ὃν <num>͵ΤΙΓ</num></seg>
+                            <seg type="line" n="25"><num value="3/4">ΓΔ</num>· πρὸς <num value="780">ΨΠ</num> δίχα ἡ ὑπὸ 
+                                <rs n="3.1.ΑΓΗ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Η">
+                                    <rs type="label" n="3.1.Η">Η</rs></rs></rs> τῆ 
+                                <rs n="3.1.ΑΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs></rs>· ἡ ἄρα</seg>
+                            <seg type="line" n="26"><rs n="3.1.ΑΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs></rs> διὰ τὰ αὐτὰ πρὸς τὴν 
+                                <rs n="3.1.ΓΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἐλάσσονα λόγον
+                                ἔχει,</seg>
+                            <seg type="line" n="27">ἢ ὃν <num value="5324">͵ΕΤΚΔ</num> <num>ΕʹΔʹ</num> πρὸς <num value="780">ΨΠ</num>· ἢ ὃν <num value="1823">͵ΑΩΚΓ</num>· πρὸς</seg>
+                            <seg type="line" n="28"><num value="250">ΣΝ</num>· ἑκατέρα γὰρ ἑκατέρας· <num>Δ ΙΓʹ Αʹ</num>· ὥστε</seg>
+                            <seg type="line" n="29">ἡ <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs> </rs>πρὸς τὴν 
+                                <rs n="3.1.ΓΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs></rs>· ἢ ὃν <num value="1838">͵ΑΩΛΗ</num> <num value="1/9">Θ</num> πρὸς <num value="240">ΣΜ</num>·
+                                ἔτι</seg>
+                            <seg type="line" n="30">δίχα ἡ ὑπὸ 
+                                <rs n="3.1.ΑΓΘ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Θ">
+                                    <rs type="label" n="3.1.Θ">Θ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> τῆ 
+                                <rs n="3.1.ΑΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs></rs>· καὶ ἡ 
+                                <rs n="3.1.ΑΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs></rs> πρὸς τὴν
+                                <rs n="3.1.ΓΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs>·</seg>
+                        </seg>
+                        <seg n="60v" type="folio">
+                            <seg type="line" n="1">ἄρα ἐλάσσον·α λόγον ἔχει ἢ ὃν <num value="1007">͵ΑΖ</num> πρὸς <num value="266">ΣΞϚ</num>·</seg>
+                            <seg type="line" n="2">ἑκατέρα γὰρ ἑκατέρα οἶμαι ἄρα πρὸς τὴν <w part="I">κα</w></seg>
+                            <seg type="line" n="3"><w part="F">τάγον</w>· <num value="1076">͵ΑΟϚ</num> πρὸς <num value="66">ΞϚ</num>· ἔτι δίχα ἡ ὑπὸ 
+                                <rs n="3.1.ΑΓΚ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Κ">
+                                    <rs type="label" n="3.1.Κ">Κ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs></seg>
+                            <seg type="line" n="4">τῆ 
+                                <rs n="3.1.ΛΑ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs></rs>· ἡ 
+                                <rs n="3.1.ΑΛ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs></rs> ἄρα πρὸς τὴν 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs> ἐλάσσονα <w part="I">λό</w></seg>
+                            <seg type="line" n="5"><w part="F">γον</w> ἔχει ἢ ὃν τὰ <num value="2016">͵βΙϚ</num><num value="1/6">Ϛʹ</num> πρὸς <num value="66">ΞϚ</num>· ἡ δὲ 
+                                <rs n="3.1.ΑΓ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Α">
+                                    <rs type="label" n="3.1.Α">Α</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs></rs></seg>
+                            <seg type="line" n="6">πρὸς 
+                                <rs n="3.1.ΓΛ">
+                                <rs type="tlg1799.tlg001:point" n="3.1.Γ">
+                                    <rs type="label" n="3.1.Γ">Γ</rs></rs>
+                                <rs type="tlg1799.tlg001:point" n="3.1.Λ">
+                                    <rs type="label" n="3.1.Λ">Λ</rs></rs></rs> ἐλάσσονα ἢ τὰ <num value="2017">͵ΒΙΖ</num><num value="1/4">Δʹ</num> πρὸς <num value="66">ΞϚ</num>· <w part="I">ἀ</w></seg>
+                            <seg type="line" n="7"><w part="F">νάπαλιν</w> ἄρα ἐστὶν ἡ περίμετρος τοῦ
+                                πολυγώνου</seg>
+                            <seg type="line" n="8">πρὸς τὴν διάμετρον μείζονα λόγον ἔχει ἤπερ</seg>
+                            <seg type="line" n="9"><num value="6301">͵ϚΤΑ</num><num value="1/6">Ϛʹ</num> πρὸς <num value="7017">͵ΖΙΖ</num><num value="1/4">Δʹ</num>· ἅπερ τῶν <num value="2017">͵ΒΙΖ</num><num value="1/4">Δʹ</num>.</seg>
+                            <seg type="line" n="10">μείζονα ἐστὶν ἢ τριπλασίονα τοῦ ἐν τῶ <w part="I">κύ</w></seg>
+                            <seg type="line" n="11"><w part="F">κλω</w>, τῆς διαμετρον τριπλασίων ἐστὶν, καὶ</seg>
+                            <seg type="line" n="12">μείζων ἢ ὃν ὁ <num value="11">ΙΑ'</num>· ὥστε καὶ ὁ κύκλος· ἔτι</seg>
+                            <seg type="line" n="13">μᾶλλον τριπλασιῶν ἐστι καὶ μείζων ἢ <num value="1/9">Θʹ</num> <num value="11">ΙΑ</num>·
+                                ἡ</seg>
+                            <seg type="line" n="14">ἄρα τοῦ κύκλου περίμετρος, τῆς διὰμέτρου
+                                <w part="I">τρι</w></seg>
+                            <seg type="line" n="15"><w part="F">πλασίων</w> ἐστὶ· καὶ ἐλάσσων μὲν ἢ ἑβδόμω</seg>
+                            <seg type="line" n="16">μέρει· μείζων δέ ⁑</seg>
+                        </seg>
+                    </p>
+
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>
