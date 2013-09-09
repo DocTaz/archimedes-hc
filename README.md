@@ -1,4 +1,5 @@
-archimedes-hc
-=============
+#archimedes-hc#
 
-Project editing manuscripts and printed editions of Archimedes
+
+Digital scholarly editions  of manuscripts and printed editions of Archimedes, from the Holy Cross Manuscripts, Inscriptions and Documents Club.
+
