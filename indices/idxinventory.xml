@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexInventory
+    xmlns="http://chs.harvard.edu/xmlns/cite">
+    <rdfNamespace
+        abbr="cite"
+        fullValue="http://www.homermultitext.org/cite/rdf/"/>
+    <rdfNamespace
+        abbr="hmt"
+        fullValue="http://www.homermultitext.org/hmt/rdf/"/>
+    <index
+        inverse="hmt:commentsOn"
+        verb="hmt:isCommentedOnBy">
+        <source
+            type="file"
+            value="archimedesPassage-eutociusPassage.csv"/>
+    </index>
+    <index
+        inverse="cite:illustrates"
+        verb="cite:illustratedBy">
+        <source
+            type="file"
+            value="archimedesToImage.csv"/>
+    </index>
+    <index
+        inverse="hmt:isDefaultImage"
+        verb="hmt:hasDefaultImage">
+        <source
+            type="file"
+            value="defaultImage.csv"/>
+    </index>
+    <index
+        inverse="cite:illustrates"
+        verb="cite:illustratedBy">
+        <source
+            type="file"
+            value="eutociusToImage.csv"/>
+    </index>
+    <index
+        inverse="cite:hasOnIt"
+        verb="cite:appearsOn">
+        <source
+            type="file"
+            value="figureToImage.csv"/>
+    </index>
+
+    <index
+        inverse="cite:illustrates"
+        verb="cite:illustratedBy">
+        <source
+            type="file"
+            value="folioToImage.csv"/>
+    </index>
+    
+    <index
+        inverse="cite:hasOnIt"
+        verb="cite:appearsOn">
+        <source
+            type="file"
+            value="graphicToImage.csv"/>
+    </index>
+    
+    
+  
+
+ 
+</indexInventory>
