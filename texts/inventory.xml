@@ -19,7 +19,7 @@
           <edition urn="urn:cts:greekLit:tlg4072.001.cb8">
               <label xml:lang="eng">Codex Bodmer 8</label>
               <description xml:lang="eng">Holy Cross edition of text in Codex Bodmer 8</description>
-              <online docname="Eutocius-SC-cb8.xml">
+              <online docname="cb8/Eutocius-SC-cb8.xml">
                   <validate schema="chstei.rng"></validate>
               <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
               <citationMapping>
@@ -44,7 +44,7 @@
             <edition urn="urn:cts:greekLit:tlg0552.tlg001.cb8">
                 <label xml:lang="eng">Codex Bodmer 8</label>
                 <description xml:lang="eng">Holy Cross edition of text in Codex Bodmer 8</description>
-                <online docname="SphereandCylinder-cb8.xml">
+                <online docname="cb8/SphereandCylinder-cb8.xml">
                     <validate schema="chstei.rng"></validate>
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
