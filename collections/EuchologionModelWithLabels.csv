@@ -243,8 +243,8 @@ fuhc:euch.121r,fuhc:euch.120v,recto,22,241,Folio 121r (bifolio with 120v in quir
 fuhc:euch.121v,fuhc:euch.120r,verso,22,242,Folio 121v (bifolio with 120r in quire 22)
 fuhc:euch.122r,fuhc:euch.119v,recto,22,243,Folio 122r (bifolio with 119v in quire 22)
 fuhc:euch.122v,fuhc:euch.119r,verso,22,244,Folio 122v (bifolio with 119r in quire 22)
-fuhc:euch.123r,fuhc:euch.118v,recto,22,245,Folio 123r (bifolio with 118v in quire 22, now missing)
-fuhc:euch.123v,fuhc:euch.118r,recto,22,246,Folio 123v (bifolio with 118r in quire 22, now missing)
+fuhc:euch.123r,fuhc:euch.118v,recto,22,245,"Folio 123r (bifolio with 118v in quire 22, now missing)"
+fuhc:euch.123v,fuhc:euch.118r,recto,22,246,"Folio 123v (bifolio with 118r in quire 22, now missing)"
 fuhc:euch.124r,fuhc:euch.117v,recto,22,247,Folio 124r (bifolio with 117v in quire 22)
 fuhc:euch.124v,fuhc:euch.117r,verso,22,248,Folio 124v (bifolio with 117r in quire 22)
 fuhc:euch.125r,fuhc:euch.132v,recto,23,249,Folio 125r (bifolio with 132v in quire 23)
@@ -337,8 +337,8 @@ fuhc:euch.168r,fuhc:euch.165v,recto,28,335,Folio 168r (bifolio with 165v in quir
 fuhc:euch.168v,fuhc:euch.165r,verso,28,336,Folio 168v (bifolio with 165r in quire 28)
 fuhc:euch.169r,fuhc:euch.164v,recto,28,337,Folio 169r (bifolio with 164v in quire 28)
 fuhc:euch.169v,fuhc:euch.174r,verso,28,338,Folio 169v (bifolio with 174r in quire 28)
-fuhc:euch.170r,fuhc:euch.175v,recto,28,339,Folio 170r (bifolio with 175v in quire 28, now missing)
-fuhc:euch.170v,fuhc:euch.175r,verso,28,340,Folio 170v (bifolio with 175r in quire 28, now missing)
+fuhc:euch.170r,fuhc:euch.175v,recto,28,339,"Folio 170r (bifolio with 175v in quire 28, now missing)"
+fuhc:euch.170v,fuhc:euch.175r,verso,28,340,"Folio 170v (bifolio with 175r in quire 28, now missing)"
 fuhc:euch.171r,,recto,29,341,Folio 171r (single folio in quire 29)
 fuhc:euch.171v,,verso,29,342,Folio 171v (single folio in quire 29)
 fuhc:euch.172r,fuhc:euch.177v,recto,30,343,Folio 172r (bifolio with 177v in quire 30)
