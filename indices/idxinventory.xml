@@ -58,7 +58,7 @@
         verb="cite:illustrates">
         <source
             type="file"
-            value="imageToPalimpsest.csv"/>
+            value="imgToPalimpsest.csv"/>
     </index>
     
     <index
