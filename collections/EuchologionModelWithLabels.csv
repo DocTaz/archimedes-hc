@@ -1,4 +1,4 @@
-Folio,BifolioWith,RectoVerso,Quire,Sequence,Label
+Page,BifolioWith,RectoVerso,Quire,Sequence,Label
 urn:cite:fuhc:euch.1r,urn:cite:fuhc:euch.2v,recto,1,1,Folio 1r (bifolio with 2v in quire 1)
 urn:cite:fuhc:euch.1v,urn:cite:fuhc:euch.2r,verso,1,2,Folio 1v (bifolio with 2r in quire 1)
 urn:cite:fuhc:euch.2r,urn:cite:fuhc:euch.1v,recto,1,3,Folio 2r (bifolio with 1v in quire 1)

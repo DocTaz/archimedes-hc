@@ -2,6 +2,64 @@
 <?xml-model href="file:/data/repos/bitbucket/archimedes-hc/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService
     xmlns="http://chs.harvard.edu/xmlns/cite">
+    
+    <citeCollection canonicalId="Page" label="Label" urn="urn:cite:fuhc:pal">
+        <namespaceMapping
+            abbr="fuhc"
+            fullValue="http://shot.holycross.edu/ns/fuhc"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the original Archimedes  manuscript later palimpsested in a  prayer book.</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">69 pages of the original manuscript</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Simple model of page sequences reconstructed for the original MS</description>
+        
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <citeProperty name="Page" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Label" label="Page" type="string"></citeProperty>
+    </citeCollection>
+    
+    
+    <citeCollection canonicalId="Page" label="Label" urn="urn:cite:fuhc:euch">
+        <namespaceMapping
+            abbr="fuhc"
+            fullValue="http://shot.holycross.edu/ns/fuhc"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Pages of the euchologion containing palimpsested pages of Archimedes.</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All pages of the euchologion</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Model of page sequences with quire organization.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <orderedBy
+            property="Sequence"/>
+        <source type="file" value="EuchologionModelWithLabels.csv"/>
+        
+        <citeProperty name="Page" label="URN"  type="citeurn"></citeProperty>
+        <citeProperty name="BifolioWith" label="Bifolio with" type="citeurn"></citeProperty>
+        <citeProperty name="RectoVerso" label="Recto/Verso" type="string">
+        <valueList>
+            <value>recto</value>
+            <value>verso</value>
+        </valueList>
+        </citeProperty>
+        <citeProperty name="Quire" label="Quire" type="number"></citeProperty>
+        <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
+        <citeProperty name="Label" label="Page" type="string"></citeProperty>
+    </citeCollection>
     <citeCollection
         canonicalId="Page"
         label="Label"
