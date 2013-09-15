@@ -51,6 +51,16 @@
             value="folioToImage.csv"/>
     </index>
     
+    
+    
+    <index
+        inverse="cite:illustratedBy"
+        verb="cite:illustrates">
+        <source
+            type="file"
+            value="imageToPalimpsest.csv"/>
+    </index>
+    
     <index
         inverse="cite:hasOnIt"
         verb="cite:appearsOn">
