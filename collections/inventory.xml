@@ -22,6 +22,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy
             property="Sequence"/>
+        <source type="file" value="palimpsestModel.csv"/>
         <citeProperty name="Page" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="Label" label="Page" type="string"></citeProperty>
