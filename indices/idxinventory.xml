@@ -7,6 +7,15 @@
     <rdfNamespace
         abbr="hmt"
         fullValue="http://www.homermultitext.org/hmt/rdf/"/>
+        
+        
+        <rdfNamespace
+            abbr="pal"
+            fullValue="http://shot.holycross.edu/rdf/pal/"/>
+        
+       
+        
+        
     <index
         inverse="hmt:commentsOn"
         verb="hmt:isCommentedOnBy">
@@ -14,6 +23,9 @@
             type="file"
             value="archimedesPassage-eutociusPassage.csv"/>
     </index>
+        
+        
+        
     <index
         inverse="cite:illustrates"
         verb="cite:illustratedBy">
