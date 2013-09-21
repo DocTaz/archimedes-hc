@@ -163,7 +163,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="graphics.csv"/>
+        <source type="file" value="CodBod8_graphics.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
         <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
@@ -186,7 +186,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="lacunae.csv"/>
+        <source type="file" value="CodBod8_lacunae.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
         <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
         <citeProperty name="Heiberg" label="Heiberg reading" type="ctsurn"></citeProperty>
@@ -209,7 +209,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="personNames.csv"/>
+        <source type="file" value="CodBod8_personNames.csv"/>
     <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="English" label="Name" type="string"></citeProperty>
 </citeCollection>
@@ -231,7 +231,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="placeNames.csv"/>
+        <source type="file" value="CodBod8_placeNames.csv"/>
         <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="English" label="Name" type="string"></citeProperty>
     </citeCollection>
