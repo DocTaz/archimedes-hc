@@ -87,7 +87,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="Bodmer8-Pages.csv"/>
+            value="CodBod8_Pages.csv"/>
         <citeProperty
             label="Page"
             name="Page"
@@ -116,7 +116,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="figures.csv"/>
+        <source type="file" value="CodBod8_figures.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
         <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
@@ -139,7 +139,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="EutociusFigures.csv"/>
+        <source type="file" value="CodBod8_EutociusFigures.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
         <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
