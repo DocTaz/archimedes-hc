@@ -2,6 +2,7 @@
 <?xml-model href="file:/data/repos/bitbucket/archimedes-hc/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService
     xmlns="http://chs.harvard.edu/xmlns/cite">
+
     
     <citeCollection canonicalId="Page" label="Label" urn="urn:cite:fuhc:pal">
         <namespaceMapping

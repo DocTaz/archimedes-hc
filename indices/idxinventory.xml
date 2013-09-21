@@ -13,7 +13,9 @@
             abbr="pal"
             fullValue="http://shot.holycross.edu/rdf/pal/"/>
         
-       
+       <index verb="pal:isReusedBy" inverse="pal:reuses">
+           <source type="file" value="archimedesToEuchologion.csv"></source>
+       </index>
         
         
     <index
@@ -72,6 +74,16 @@
             type="file"
             value="imgToPalimpsest.csv"/>
     </index>
+
+
+    <index
+        inverse="cite:illustratedBy"
+        verb="cite:illustrates">
+        <source
+            type="file"
+            value="trueimgToPalimpsest.csv"/>
+    </index>
+
     
     <index
         inverse="cite:hasOnIt"
