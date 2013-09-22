@@ -118,7 +118,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="CodBod8_figures.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
-        <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
+        <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
     
@@ -141,7 +141,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="CodBod8_EutociusFigures.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
-        <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
+        <citeProperty name="imageReference" label="Visual evidence"  type="citeimg"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
     
@@ -165,7 +165,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="graphics.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
-        <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
+        <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
     
@@ -188,7 +188,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="lacunae.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
-        <citeProperty name="imageReference" label="Visual evidence" type="citeurn"></citeProperty>
+        <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
         <citeProperty name="Heiberg" label="Heiberg reading" type="ctsurn"></citeProperty>
     </citeCollection>
 
