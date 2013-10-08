@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/data/repos/bitbucket/archimedes-hc/collections/CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="CiteCollectionInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <collectionService
-    xmlns="http://chs.harvard.edu/xmlns/cite">
+    xmlns="http://chs.harvard.edu/xmlns/cite"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    >
 
     
     <citeCollection canonicalId="Page" label="Label" urn="urn:cite:fuhc:pal">
@@ -150,7 +152,7 @@
     <citeCollection canonicalId="figureUrn" label="Label" urn="urn:cite:ap:graphics">
         <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Graphic features</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Graphic features in Codex Bodmer 8</title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
         <creator
@@ -173,7 +175,7 @@
     <citeCollection canonicalId="LacunaUrn" label="LacunaUrn" urn="urn:cite:ap:lacunae">
         <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Lacunae</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Lacunae in Codex Bodmer 8</title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
         <creator
@@ -235,6 +237,35 @@
         <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="English" label="Name" type="string"></citeProperty>
     </citeCollection>
+    
+    
+    <citeCollection canonicalId="Observation" label="Observation" urn="urn:cite:hcmid:cb8paleo">
+        <namespaceMapping
+            abbr="hcmid"
+            fullValue="http://shot.holycross.edu/ns/hcmid"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Codex Bodmer 8.</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Planned to offer a complete paleographic repertory of Codex Bodmer 8..</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Codex Bodmer 8.</description>
+        
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        
+        <source type="file" value="CodBod8_paleo.csv"/>
+        <citeProperty name="Observation" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Feature" label="Feature" type="string"></citeProperty>
+        <citeProperty name="ImageReference" label="Image URN"  type="citeimg"></citeProperty>
+        <citeProperty name="Comments" label="Comments" type="string"></citeProperty>
+    </citeCollection>    
+    
+    
     <!--
     <citeCollection canonicalId="titleUrn" label="English" urn="urn:cite:ap:title">
         <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
