@@ -1,5 +1,7 @@
 PalimpsestURN,PalimpsestImageReference
-urn:cts:greekLit:tlg0552.tlg001.ap:1.preface,""
+urn:cts:greekLit:tlg0552.tlg001.ap:1.preface,"urn:cite:ap:apimg.109r-106v_Arch45r_Sinar_pseudo_no-veil@0.4144,0.3196,0.3554,0.5169"
+urn:cts:greekLit:tlg0552.tlg001.ap:1.preface,"urn:cite:ap:apimg.109v-106r_Arch45v_Sinar_pseudo_no-veil@0.1812,0.0983,0.3193,0.7359"
+urn:cts:greekLit:tlg0552.tlg001.ap:1.preface,"urn:cite:ap:apimg.109v-106r_Arch45v_Sinar_pseudo_no-veil@0.4985,0.0998,0.3193,0.3676"
 urn:cts:greekLit:tlg0552.tlg001.ap:1.axioms.1,""
 urn:cts:greekLit:tlg0552.tlg001.ap:1.postulates.0,""
 urn:cts:greekLit:tlg0552.tlg001.ap:1.propositions.1,""
