@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sphere and Cylinder</title>
+                <author>Archimedes</author>
+                <editor>Christine Roughan</editor>
+                <editor>Rebecca Finnigan</editor>
+                <editor>John Little</editor>
+                <editor>Matthew Wasser</editor>
+                <editor>Melody Wauke</editor>
+                <editor>William Peterson</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Unpublished</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Edited from photography of the Archimedes Palimpsest</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div n="1" type="book">
+                <milestone n="45r" unit="folio"/>
+                <div n="preface" type="section">
+                    <p>
+                        
+                    </p>
+                </div>
+                    <milestone n="45v" unit="folio"/>
+                    <div n="preface" type="section">
+                        <p>
+                            
+                        </p>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>
