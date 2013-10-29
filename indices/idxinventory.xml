@@ -27,6 +27,7 @@
     </index>
         
         
+   
 
     <index
         inverse="cite:illustrates"
@@ -34,13 +35,14 @@
         <source
             type="file"
             value="ArchPal_ArchimedesToImage-1.csv"/>
-            
+    </index>
                 <index
         inverse="cite:illustrates"
         verb="cite:illustratedBy">
         <source
             type="file"
             value="ArchPal_ArchimedesToImage-2.csv"/>
+                </index>
         
     <index
         inverse="cite:illustrates"
@@ -80,7 +82,6 @@
     </index>
     
     
-    
     <index
         inverse="cite:illustratedBy"
         verb="cite:illustrates">
@@ -107,8 +108,5 @@
             value="graphicToImage.csv"/>
     </index>
     
-    
-  
-
  
 </indexInventory>
