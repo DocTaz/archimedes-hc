@@ -47,21 +47,21 @@
         <body>
             <milestone n="218r" unit="page"/>
             <div n="preface" type="section">
-                <head><seg n="1" type="line"><persName n="pers1">Ἐυτοκίου</persName>
-                        <placeName n="place1">Ἀσκαλωνίτου</placeName>, ὑπόμνημα εἰς τὴν <persName
-                            n="pers2">Ἀρχιμήδους</persName></seg>
+                <head><seg n="1" type="line"><persName n="urn:cite:ap:persName.29">Ἐυτοκίου</persName>
+                    <placeName n="urn:cite:ap:placeName.01">Ἀσκαλωνίτου</placeName>, ὑπόμνημα εἰς τὴν <persName
+                            n="urn:cite:ap:persName.02">Ἀρχιμήδους</persName></seg>
                     <seg n="2" type="line">τοῦ <title>κύκλου μέτρησιν</title>⁑</seg></head>
                 <p>
-                    <seg n="1" type="line"><persName n="pers1">Ἐυτοκίου</persName>
-                        <placeName n="place1">Ἀσκαλωνίτου</placeName>, ὑπόμνημα εἰς τὴν <persName
-                            n="pers2">Ἀρχιμήδους</persName></seg>
+                    <seg n="1" type="line"><persName n="urn:cite:ap:persName.29">Ἐυτοκίου</persName>
+                        <placeName n="urn:cite:ap:placeName.01">Ἀσκαλωνίτου</placeName>, ὑπόμνημα εἰς τὴν <persName
+                            n="urn:cite:ap:persName.02">Ἀρχιμήδους</persName></seg>
                     <seg n="2" type="line">τοῦ <title>κύκλου μέτρησιν</title>⁑</seg>
                     <seg n="3" type="line">Ἐχόμενον ἂν εἴη τὸν ἐμὸν πληροῦντι σκοπὸν τοῖς <w
                             part="I">σαφε</w></seg>
                     <seg n="4" type="line"><w part="F">στέροις</w> καὶ βραχυτέρας ἐπιστάσεως
-                        δεομένοις τῶν ὑπ' <persName ana="initial" n="pers2"><w part="I"
+                        δεομένοις τῶν ὑπ' <persName ana="initial" n="urn:cite:ap:persName.02"><w part="I"
                             >Ἀρ</w></persName></seg>
-                    <seg n="5" type="line"><persName ana="final" n="pers2"><w part="F"
+                    <seg n="5" type="line"><persName ana="final" n="urn:cite:ap:persName.02"><w part="F"
                             >χιμήδους</w></persName> γεγραμμένων ἐντυγχάνοντι, καὶ τὰ ὁπωσοῦν</seg>
                     <seg n="6" type="line">ἐν αὐτοῖς ἐπεξεργασίας δεόμενα, τὸν δυνατὸν τρόπον <w
                             part="I">συ</w></seg>
@@ -74,7 +74,7 @@
                     <seg n="10" type="line">ἐπιστῆναι· εἴη δ' ἂν ὡς πρὸς τὸ προκείμενον ἐφεξῆς τὸ <w
                             part="I">γε</w></seg>
                     <seg n="11" type="line"><w part="F">γραμμένον</w>
-                        <persName n="pers2">Ἀρχιμήδει</persName> βιβλίδιον <title>κύκλου
+                        <persName n="urn:cite:ap:persName.02">Ἀρχιμήδει</persName> βιβλίδιον <title>κύκλου
                             μέτρησιν</title> τὴν <w part="I">ἐ</w></seg>
                     <seg n="12" type="line"><w part="F">πιγραφὴν</w> ἔχον, ἔνω τὴν πρόθεσιν τᾶνδρὸς,
                         ἐξ αὐτῆς τῆς</seg>
@@ -83,19 +83,19 @@
                     <seg n="15" type="line">τῶν προ αὐτοῦ κλεινῶν φιλοσόφων ἐξητημένον· δῆλον
                         γάρ</seg>
                     <seg n="16" type="line">ὅτι τοῦ τὶ ἂν εἴη τὸ ζητούμενον, ὅπερ <persName
-                            n="pers3">Ἱπποκράτης</persName> τε ὁ </seg>
-                    <seg n="17" type="line"><placeName n="place2">Χῖος</placeName> καὶ <persName
-                            n="pers4">Ἀντιφῶν</persName> ζητήσαντες ἐπιμελῶς. ἐκείνους ἡμῖν </seg>
+                        n="urn:cite:ap:persName.30">Ἱπποκράτης</persName> τε ὁ </seg>
+                    <seg n="17" type="line"><placeName n="urn:cite:ap:placeName.05">Χῖος</placeName> καὶ <persName
+                        n="urn:cite:ap:persName.31">Ἀντιφῶν</persName> ζητήσαντες ἐπιμελῶς. ἐκείνους ἡμῖν </seg>
                     <seg n="18" type="line">τοὺς παραλογισμοὺς εὑρήκασιν, οὓς ἀκριβῶς εἰδέναι <w
                             part="I">νο</w></seg>
                     <seg n="19" type="line"><w part="F">μίζω</w>·</seg>
                     <milestone n="218v" unit="page"/>
-                    <seg n="1" type="line">τούς τε τὴν <persName n="pers1">Εὐδήμου</persName>
+                    <seg n="1" type="line">τούς τε τὴν <persName n="urn:cite:ap:persName.34">Εὐδήμου</persName>
                         <title>γεωμετρικὴν ἱστορίαν</title> ἐπεσκεμμένους, </seg>
                     <seg n="2" type="line">καὶ τῶν Ἀριστοτελικῶν μετασχόντας κηρίων· ἀλλ' ἔστι μὲν
                         τοῦτο </seg>
-                    <seg n="3" type="line">τὸ βιβλίον ὡς φησὶν <persName n="pers5"
-                            >Ἡρακλείδης</persName> ἐν <title>τῶ <persName n="pers2"
+                    <seg n="3" type="line">τὸ βιβλίον ὡς φησὶν <persName n="urn:cite:ap:persName.32"
+                        >Ἡρακλείδης</persName> ἐν <title>τῶ <persName n="urn:cite:ap:persName.02"
                                 >Ἀρχιμήδους</persName> βίω</title></seg>
                     <seg n="4" type="line">πρὸς τὰς τοῦ βίου χρείας ἀναγκαῖον· δείκνυσι γάρ ὅτι ἡ <w
                             part="I">περι</w></seg>
@@ -122,7 +122,7 @@
                             <sic>οὐδὲμιαν</sic>
                             <corr>οὐδεμίαν</corr>
                         </choice> ἔχον ζήτησιν φαίνεται, αὐτῶν τῶν</seg>
-                    <seg n="12" type="line"><persName n="pers1">Ἀρχιμήδους</persName> ῥημάτων, σαφῶς
+                    <seg n="12" type="line"><persName n="urn:cite:ap:persName.02">Ἀρχιμήδους</persName> ῥημάτων, σαφῶς
                         ἐκτεθειμένων καὶ τὸ <w part="I">συμπέ</w>-</seg>
                     <seg n="13" type="line"><w part="F">ρασμα</w> πρὸς τὴν πρότασιν ἀνελλειπῶς
                         ἀπὸσωζόντων· δοκεῖ</seg>
@@ -138,7 +138,7 @@
                         δεδειγμένον </seg>
                     <seg n="19" type="line">εἶναι· ἀλλ' οὐδὲ ὑπ' ἄλλου παρα δεδομένον· συνορᾶν δὲ
                         ὁμοῦ χρὴ </seg>
-                    <seg n="20" type="line">ὡς οὐδὲν ἔξω τῶν προσηκόντων <persName n="pers2"
+                    <seg n="20" type="line">ὡς οὐδὲν ἔξω τῶν προσηκόντων <persName n="urn:cite:ap:persName.02"
                             >Ἀρχϊμήδους</persName> γράφεται· εἶναι </seg>
                     <seg n="21" type="line">γάρ τι μέγεθος τὴν περιφέρειαν τοῦ κύκλου, παντὶ που
                         δῆλον· </seg>
@@ -150,7 +150,7 @@
                             <del>'῾</del>ομως εἶναι τινὰ τῆ <w part="I">φύ</w>-</seg>
                     <seg n="25" type="line"><w part="F">σει</w> εὐθεῖαν ἴσην αὐτὸ πρὸς οὐδενὸς
                         ζητούμενον· τὸ τοίνυν </seg>
-                    <seg n="26" type="line">καὶ προς <persName n="pers2">Ἀρχιμήδους</persName>
+                    <seg n="26" type="line">καὶ προς <persName n="urn:cite:ap:persName.02">Ἀρχιμήδους</persName>
                         προτεθὲν, τοιοῦτόν ἐστιν· ὅτι τὸ <w part="I">τρίγω</w>-</seg>
                     <seg n="27" type="line"><w part="F">νον</w> τὸ ὀρθογώνιον τὸ ἔχον ὡς προείρηται
                         τὰς πλευρὰς, </seg>
@@ -212,11 +212,11 @@
                             μόριον </seg>
                         <seg n="16" type="line">ὅπως δὲ δεῖ σύνεγγυς τὴν δυναμένην <w>π<add
                                     place="supralinear">λ</add>ευρὰν</w> τὸν δοθέντα </seg>
-                        <seg n="17" type="line">ἀριθμὸν εὑρεῖν· εἴρηται μὲν <persName n="pers6"
+                        <seg n="17" type="line">ἀριθμὸν εὑρεῖν· εἴρηται μὲν <persName n="urn:cite:ap:persName.08"
                                 >Ἥρωνι</persName> ἐν τοῖς <title>μετρικοῖς</title>· εἴρηται </seg>
                         <seg n="18" type="line">δὲ πάππω καὶ Θέωνι καὶ ἑτέροις πλείοσιν ἐξηγουμένοις </seg>
                         <seg n="19" type="line">τὴν <title>μεγάλην σύνταξιν</title> τοῦ <persName
-                                n="pers7">Κλαυδίου Πτολεμαίου</persName>· ὥστε <w part="I"
+                            n="urn:cite:ap:persName.33">Κλαυδίου Πτολεμαίου</persName>· ὥστε <w part="I"
                             >οὐ</w></seg>
                         <seg n="20" type="line"><w part="F">δὲν</w> ἡμᾶς χρὴ περὶ τούτου ζητεῖν· ἐξ <choice>
                                 <sic>ὧν</sic>
@@ -478,7 +478,7 @@
                         <p>
                             <seg type="line" n="17">δια τὸ </seg>
                             <seg n="18" type="line">τρίτον θεώρημα ἐκ του <w part="I">βι</w></seg>
-                            <seg n="19" type="line"><w part="F">βλίου</w> τῆς <persName n="pers8"
+                            <seg n="19" type="line"><w part="F">βλίου</w> τῆς <persName n="urn:cite:ap:persName.01"
                                     >Εὐκλείδου</persName>
                                 <title><w part="I">Στοιχει</w></title></seg>
                             <seg n="20" type="line"><title><w part="F">ώσεως</w></title>, ὡς
@@ -2699,36 +2699,36 @@
                             <seg type="line" n="23">ὡς μὲν οὖν ἐνεχώρει οἱ </seg>
                             <seg n="24" type="line">παρ' αὐτοῦ εἰρημένοι ἀριθμοὶ, μετρίως
                                 ἐσαφανίσθησαν· </seg>
-                            <seg n="25" type="line">ἱστέον δὲ ὅτι καὶ <persName n="pers9"
-                                    >Ἀπωλλώνιος</persName> ὁ <placeName n="place3"
+                            <seg n="25" type="line">ἱστέον δὲ ὅτι καὶ <persName n="urn:cite:ap:persName.10"
+                                >Ἀπωλλώνιος</persName> ὁ <placeName n="urn:cite:ap:placeName.10"
                                     >Περγαῖος</placeName> ἐν τῶ <title>Ὠκυτοκίω</title>
                             </seg>
                             <seg n="26" type="line">ἀπέδειξεν αὐτὸ δι' ἀριθμῶν. ἑτέρων ἐπὶ τὸ
                                 σύνεγγυς <w part="I">μᾶ</w>-</seg>
                             <seg n="27" type="line"><w part="F">λον</w> ἀγαγὼν· τοῦτο δὲ
                                 ἀκριβέστερον μὲν εἶναι δοκεῖ· οὐ </seg>
-                            <seg n="28" type="line">χρήσιμον δὲ πρὸς τὸν <persName n="pers2"
+                            <seg n="28" type="line">χρήσιμον δὲ πρὸς τὸν <persName n="urn:cite:ap:persName.02"
                                     >Ἀρχιμήδους</persName> σκοπόν· ἔφαμεν γὰρ </seg>
                             <seg n="29" type="line">αὐτὸν σκοπὸν ἔχειν ἐν τῶδε τῶ βιβλίω τὸ συνεγγύς
                                     <w part="I">εὑ</w>-</seg>
                             <seg n="30" type="line"><w part="F">ρεῖν</w> διὰ τὰς ἐν τῶ βίῶ χρείας·
-                                ὥστε οὐδὲν <persName n="pers10">πόρος</persName> ὁ <placeName
-                                    n="place4">Νικαεὺς</placeName>, </seg>
+                                ὥστε οὐδὲν <persName n="urn:cite:ap:persName.13">πόρος</persName> ὁ <placeName
+                                    n="urn:cite:ap:placeName.11">Νικαεὺς</placeName>, </seg>
                             <milestone n="223v" unit="page"/>
                             <seg n="1" type="line">εὔκαιρον εὑρεθήσεται μέμψιν ἐπάγων <persName
-                                    n="pers2">Ἀρχιμήδει</persName>. </seg>
+                                n="urn:cite:ap:persName.02">Ἀρχιμήδει</persName>. </seg>
                             <seg n="2" type="line">ὡς μὴ ἀκριβῶς εὑρόντι, ποία εὐθεία ἴση ἐστὶ ἡ τοῦ
                                     <w part="I">κύ</w>-</seg>
                             <seg n="3" type="line">
                                 <w part="F">κλου</w> περιφέρεια. ἐξ ὧν αὐτὸς ἐν τοῖς
                                     <title>Κηρίοις</title> φησὶ,</seg>
-                            <seg n="4" type="line">τὸν ἑαυτοῦ διδάσκαλον <persName n="pers11"
-                                    >Φίλωνα</persName> λέγων, τὸν ἀπὸ <placeName n="place5"
+                            <seg n="4" type="line">τὸν ἑαυτοῦ διδάσκαλον <persName n="urn:cite:ap:persName.09"
+                                >Φίλωνα</persName> λέγων, τὸν ἀπὸ <placeName n="urn:cite:ap:placeName.12"
                                     >Γαδάρων</placeName>· </seg>
                             <seg n="5" type="line">εἰς <choice>
                                     <sic>ακριβέστεροως</sic>
                                     <corr>ακριβεστέροως</corr>
-                                </choice> ἀριθμοὺς ἀγαγεῖν τῶν ὑπ' <persName n="pers2"
+                            </choice> ἀριθμοὺς ἀγαγεῖν τῶν ὑπ' <persName n="urn:cite:ap:persName.02"
                                     >Ἀρχιμήδους</persName>
                             </seg>
                             <seg n="6" type="line">εἰρημένων· τοῦ τε <num value="7">ζ</num> φημὶ καὶ
@@ -2740,8 +2740,8 @@
                                 ἠγμένον· εἰ δέ τις ὅλως </seg>
                             <seg n="11" type="line">ἐβούλετο εἰς ἔλαττον αὐτὸ καταγαγεῖν, ἐχρῆν τοῖς </seg>
                             <seg n="12" type="line">ἐν τῆ <title>Μαθηματικῆ</title> συντάξει τοῦ
-                                    <persName n="pers7" ana="initial">Κλαυδίου Πτο</persName></seg>
-                            <seg n="13" type="line"><persName n="pers7" ana="final"
+                                <persName n="urn:cite:ap:persName.33" ana="initial">Κλαυδίου Πτο</persName></seg>
+                            <seg n="13" type="line"><persName n="urn:cite:ap:persName.33" ana="final"
                                     >λεμαίου</persName> εἰρημένοις ἀκολουθοῦντα· διὰ τῶν μοιρῶν </seg>
                             <seg n="14" type="line">καὶ λεπτῶν καὶ τῶν ἐν τῶ κύκλω εὐθειῶν τοῦτο
                                 ποιεῖν· καὶ </seg>
@@ -2753,7 +2753,7 @@
                                 εὐθεῖαν. </seg>
                             <seg n="18" type="line">καὶ εἴ τις τὸ σύ <w>εγ<unclear>κυ</unclear>ς</w> καὶ
                                 περι μικρὸν προσέχοι· ἀρκεῖ τὰ </seg>
-                            <seg n="19" type="line">ὑπ' <persName n="pers2">Ἀρχιμήδους</persName> ἐνταῦθα εἰρημένα⁑ </seg>
+                            <seg n="19" type="line">ὑπ' <persName n="urn:cite:ap:persName.02">Ἀρχιμήδους</persName> ἐνταῦθα εἰρημένα⁑ </seg>
                         </p>
                     </div>
                 </div>

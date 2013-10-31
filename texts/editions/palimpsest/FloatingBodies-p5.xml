@@ -57,7 +57,7 @@
 			<div n="1" type="book">
 				<head>
 					<seg n="88v2" type="folio">
-						<seg n="1" type="line">ΑΡΧΙΜΉΔΟΥΣ <w part="I">ὈΧΟΥ</w></seg>
+						<seg n="1" type="line"><persName n="urn:cite:ap:persName.02">ΑΡΧΙΜΉΔΟΥΣ</persName> <w part="I">ὈΧΟΥ</w></seg>
 						<seg n="2" type="line">
 							<w part="F">ΜΈΝΩΝ</w>
 						</seg>
