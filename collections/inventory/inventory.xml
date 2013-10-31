@@ -203,15 +203,17 @@
             xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christine Roughan</creator>
         <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Personal names in edited sections of Codex Bodmer 8</coverage>
+            xmlns="http://purl.org/dc/elements/1.1/">Personal names in edited sections of Codex Bodmer 8 and Archimedes Palimpsest</coverage>
         <description
-            xmlns="http://purl.org/dc/elements/1.1/">Personal names in Codex Bodmer 8</description>
+            xmlns="http://purl.org/dc/elements/1.1/">Personal names in the Archimedes Project</description>
         <rights
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="CodBod8_personNames.csv"/>
+        <source type="file" value="persNames.csv"/>
     <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="English" label="Name" type="string"></citeProperty>
 </citeCollection>
@@ -225,15 +227,17 @@
             xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christine Roughan</creator>
         <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in edited sections of Codex Bodmer 8</coverage>
+            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in edited sections of Codex Bodmer 8 and Archimedes Palimpsest</coverage>
         <description
-            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in Codex Bodmer 8</description>
+            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in the Archimedes Project</description>
         <rights
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="CodBod8_placeNames.csv"/>
+        <source type="file" value="placeNames.csv"/>
         <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="English" label="Name" type="string"></citeProperty>
     </citeCollection>
