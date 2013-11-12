@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" sodipodi:docname="ArchPal_diagram58v-optimized.svg" height="1502" width="2179" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" inkscape:version="0.48.4 r9939" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+ <sodipodi:namedview fit-margin-left="0" inkscape:zoom="0.35" borderopacity="1.0" inkscape:current-layer="layer3" inkscape:cx="1134.0884" inkscape:cy="751" inkscape:window-maximized="1" showgrid="false" fit-margin-right="0" inkscape:snap-midpoints="true" inkscape:document-units="px" bordercolor="#666666" inkscape:window-x="-8" inkscape:window-y="-8" fit-margin-bottom="0" inkscape:window-width="1280" inkscape:pageopacity="0.0" inkscape:pageshadow="2" pagecolor="#ffffff" inkscape:window-height="738" fit-margin-top="0"/>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g inkscape:label="CircleΑ" inkscape:groupmode="layer">
+  <path sodipodi:rx="212.85715" sodipodi:ry="212.85715" sodipodi:type="arc" d="m534.2857,840.5714a212.8572,212.8572,0,1,1,-425.7143,0,212.8572,212.8572,0,1,1,425.7143,0z" stroke-linejoin="miter" stroke-linecap="butt" transform="matrix(0.95313023,0,0,0.95313023,-84.129713,-26.483864)" stroke="#000" sodipodi:cy="840.57141" sodipodi:cx="321.42856" stroke-width="4.19669819000000020" fill="none"/>
+ </g>
+ <g inkscape:label="CircleΕΖΗΘ" inkscape:groupmode="layer">
+  <path sodipodi:rx="212.85715" sodipodi:ry="212.85715" sodipodi:type="arc" d="m534.2857,840.5714a212.8572,212.8572,0,1,1,-425.7143,0,212.8572,212.8572,0,1,1,425.7143,0z" stroke-linejoin="miter" stroke-linecap="butt" transform="matrix(2.6013119,0,0,2.6013119,363.92531,-1448.2637)" stroke="#000" sodipodi:cy="840.57141" sodipodi:cx="321.42856" stroke-width="1.53768562999999990" fill="none"/>
+ </g>
+ <g inkscape:label="LineΒ" inkscape:groupmode="layer">
+  <path stroke-linejoin="miter" d="m1911.015,701.0948,25.7143,587.143" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+ <g inkscape:label="LineΔ" inkscape:groupmode="layer">
+  <path stroke-linejoin="miter" d="m2025.714,720.5714,25.7143,460" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+ <g inkscape:label="LineΓ" inkscape:groupmode="layer">
+  <path stroke-linejoin="miter" d="M2131.429,709.1429,2148.572,1032" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+ <g inkscape:label="LineΕΗ" inkscape:groupmode="layer">
+  <path stroke-linejoin="miter" d="M504.2188,758.4481,1882.067,726.1233" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+ <g inkscape:label="LineΖΘ" inkscape:groupmode="layer">
+  <path stroke-linejoin="miter" d="m1170.368,46.08609,40.4061,1375.828" sodipodi:nodetypes="cc" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+ <g inkscape:label="PolygonΕΖΗΘ" inkscape:groupmode="layer">
+  <path stroke-linejoin="miter" d="m900.9488,273.843c13.75732,63.36693-82.65253,175.1017-186.8782,197.9899,58.86889,83.52872-11.454,278.4004-68.69037,275.7717,112.2931,35.74924,129.8014,211.3935,91.92388,297.9949,71.5222-3.5697,173.9135,104.872,197.9899,181.8275,113.0635-25.3765,218.5988-1.5492,264.66,64.6498,79.9494-83.948,178.7058-124.0127,307.0864-94.9544,34.852-78.0166,107.3546-138.463,181.8274-197.9898,2.478-81.72713-20.2165-156.1462,60.6091-260.6194-58.3198-3.01204-166.9445-226.1971-85.8629-288.9036-34.3579,55.41822-221.9717-102.6678-203.0406-191.929-58.8224,76.6446-263.4207,8.26862-279.252-63.47176-10.9635,90.71271-217.7242,133.1101-280.3726,79.6342z" sodipodi:nodetypes="ccccccccccccc" inkscape:connector-curvature="0" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+ <g inkscape:label="Polygon0" inkscape:groupmode="layer" transform="translate(635.21429,152.92354)">
+  <path stroke-linejoin="miter" d="M1516.45,151.2647c-155.898,115.0269-297.499,38.1789-342.164-103.5504-60.357,159.7933-208.7893,220.1984-348.745,82.02031,68.6454,182.5832-89.2374,314.4162-236.9696,272.2654,129.4968,105.5664,81.8194,331.6226-94.459,356.7962,201.7766,41.8093,201.9983,235.8369,105.8876,351.7748,217.4167-54.5853,312.387,108.17,262.8571,262.8572,119.5549-117.0878,308.5553-97.8154,360.1734,80,50.4184-167.6395,185.7455-257.3633,362.6838-108.5715-51.6824-136.7016-16.1483-298.6008,218.5714-287.1428-100.7509-64.31465-128.7639-228.5497,68.5714-330-126.4123-60.45265-197.1782-154.1485-117.212-337.8922-171.878,21.2707-282.3043-139.2444-239.1955-238.5574z" sodipodi:nodetypes="ccccccccccccc" inkscape:connector-curvature="0" transform="translate(-635.21429,-152.92354)" stroke="#000" stroke-linecap="butt" stroke-width="4" fill="none"/>
+ </g>
+</svg>
