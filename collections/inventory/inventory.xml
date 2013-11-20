@@ -4,6 +4,41 @@
     xmlns="http://chs.harvard.edu/xmlns/cite"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     >
+    
+    <citeCollection canonicalId="Diagram" label="Diagram" urn="urn:cite:ap:apdiagrams">
+        <namespaceMapping
+            abbr="ap"
+            fullValue="http://shot.holycross.edu/ns/ap"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Diagrams in the Archimedes palimpsest.</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All visible diagrams.</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Diagrams in the Archimedes palimpsest</description>
+        
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        <source type="file" value="ArchPal_diagrams.csv"/>
+        <citeProperty name="Diagram" label="Diagram" type="citeurn"></citeProperty>
+        <citeProperty name="TextPassage" label="Text location" type="ctsurn"></citeProperty>
+        <citeProperty name="Notes" label="Notes" type="string"></citeProperty>
+        <citeProperty name="Image" label="Visual evidence" type="citeimg"></citeProperty>
+        <citeProperty name="Folio" label="Folio" type="citeurn"></citeProperty>
+    </citeCollection>
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
     <citeCollection canonicalId="Page" label="Label" urn="urn:cite:fuhc:pal">
