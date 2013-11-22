@@ -1,9 +1,9 @@
 Diagram,TextPassage,Notes,Image,Folio
 urn:cite:ap:apdiagrams.001,urn:cts:greekLit:tlg0552.tlg008:1.1.1,"Proof by contradiction; logical diagram","urn:cite:ap:apimg.081v-088r_Arch03v_Sinar_pseudo_no-veil@0.11966667,0.5295,0.26666667,0.1545",urn:cite:fuhc:euch.3v
 urn:cite:ap:apdiagrams.002,urn:cts:greekLit:tlg0552.tlg008:1.2.1,"Proof by contradiction","urn:cite:ap:apimg.056r-049v_Arch04r_Sinar_pseudo_no-veil@0.10700000,0.5475,0.31066667,0.161",urn:cite:fuhc:euch.4r
-urn:cite:ap:apdiagrams.002,urn:cts:greekLit:tlg0552.tlg008:1.2.1,"Heiberg","urn:cite:ap:apimg.056r-049v_Arch04r_Heiberg_visible_stitch@0.1103,0.541,0.3117,0.1742",urn:cite:fuhc:euch.4r
+urn:cite:ap:apdiagrams.002,urn:cts:greekLit:tlg0552.tlg008:1.2.1,"Heiberg","urn:cite:ap:apimg.056r-049v_Arch04r_Heiberg_visible_stitch@0.10700000,0.5475,0.31066667,0.161",urn:cite:fuhc:euch.4r
 urn:cite:ap:apdiagrams.003,urn:cts:greekLit:tlg0552.tlg008:1.3.1,"Proof by contradiction; illogical diagram","urn:cite:ap:apimg.056v-049r_Arch04v_Sinar_pseudo_no-veil@0.08233333,0.768,0.31766667,0.1535",urn:cite:fuhc:euch.4v
-urn:cite:ap:apdiagrams.003,urn:cts:greekLit:tlg0552.tlg008:1.3.1,"Heiberg","urn:cite:ap:apimg.056v-049r_Arch04v_Heiberg_visible_stitch@0.0963,0.764,0.3087,0.149",urn:cite:fuhc:euch.4v
+urn:cite:ap:apdiagrams.003,urn:cts:greekLit:tlg0552.tlg008:1.3.1,"Heiberg","urn:cite:ap:apimg.056v-049r_Arch04v_Heiberg_visible_stitch@0.08233333,0.768,0.31766667,0.1535",urn:cite:fuhc:euch.4v
 urn:cite:ap:apdiagrams.004,urn:cts:greekLit:tlg0552.tlg008:1.4.1,"Proof by contradiction; Illogical diagram","urn:cite:ap:apimg.055r-050v_Arch05r_Sinar_pseudo_no-veil@0.18166667,0.76025,0.29333333,0.16075",urn:cite:fuhc:euch.5r
 urn:cite:ap:apdiagrams.005,urn:cts:greekLit:tlg0552.tlg008:1.5.1,"Straightforward proof; Logical diagram","urn:cite:ap:apimg.055r-050v_Arch05r_Sinar_pseudo_no-veil@0.56533333,0.61225,0.27466667,0.16725",urn:cite:fuhc:euch.5r
 urn:cite:ap:apdiagrams.006,urn:cts:greekLit:tlg0552.tlg008:1.6.1,"Straightforward proof","urn:cite:ap:apimg.055v-050r_Arch05v_Sinar_pseudo_no-veil@0.48866667,0.21225,0.34266667,0.1695",urn:cite:fuhc:euch.5v
@@ -14,7 +14,7 @@ urn:cite:ap:apdiagrams.010,urn:cts:greekLit:tlg0552.tlg008:1.9.2,,"urn:cite:ap:a
 urn:cite:ap:apdiagrams.011,urn:cts:greekLit:tlg0552.tlg008:1.9.3,,"urn:cite:ap:apimg.017r-016v_Arch07r_Sinar_pseudo_no-veil@0.47166667,0.49525,0.24833333,0.14175",urn:cite:fuhc:euch.7r
 urn:cite:ap:apdiagrams.012,urn:cts:greekLit:tlg0552.tlg008:2.1.1,,"urn:cite:ap:apimg.017v-016r_Arch07v_Sinar_pseudo_no-veil@0.1903,0.5958,0.336,0.2313",urn:cite:fuhc:euch.7v
 urn:cite:ap:apdiagrams.013,urn:cts:greekLit:tlg0552.tlg008:2.2.1,,"urn:cite:ap:apimg.028r-021v_Arch08r_Sinar_pseudo_no-veil@0.3957,0.647,0.3703,0.1293",urn:cite:fuhc:euch.8r
-urn:cite:ap:apdiagrams.013,urn:cts:greekLit:tlg0552.tlg008:2.2.1,"Heiberg","urn:cite:ap:apimg.028r-021v_Arch08r_Heiberg_visible_stitch@0.398,0.6393,0.3717,0.1407",urn:cite:fuhc:euch.8r
+urn:cite:ap:apdiagrams.013,urn:cts:greekLit:tlg0552.tlg008:2.2.1,"Heiberg","urn:cite:ap:apimg.028r-021v_Arch08r_Heiberg_visible_stitch@0.3957,0.647,0.3703,0.1293",urn:cite:fuhc:euch.8r
 urn:cite:ap:apdiagrams.014,urn:cts:greekLit:tlg0552.tlg008:2.3.1,,"urn:cite:ap:apimg.028v-021r_Arch08v_Sinar_pseudo_no-veil@0.529,0.1615,0.321,0.177",urn:cite:fuhc:euch.8v
 urn:cite:ap:apdiagrams.015,urn:cts:greekLit:tlg0552.tlg008:2.7.1,,"urn:cite:ap:apimg.069r-068v_Arch09r_Sinar_pseudo_no-veil@0.4673,0.5485,0.2877,0.1068",urn:cite:fuhc:euch.9r
 urn:cite:ap:apdiagrams.016,urn:cts:greekLit:tlg0552.tlg008:2.8.1,,"urn:cite:ap:apimg.128r-129v_Arch10r_Sinar_pseudo_no-veil@0.4833,0.4435,0.313,0.208",urn:cite:fuhc:euch.10r
@@ -26,21 +26,21 @@ urn:cite:ap:apdiagrams.021,urn:cts:greekLit:tlg0552.tlg008:2.10.2,,"urn:cite:ap:
 urn:cite:ap:apdiagrams.022,urn:cts:greekLit:tlg0552.tlg008:2.10.3,,"urn:cite:ap:apimg.169r-164v_Arch14r_Sinar_pseudo_no-veil@0.45,0.1178,0.274,0.1833",urn:cite:fuhc:euch.14r
 urn:cite:ap:apdiagrams.023,urn:cts:greekLit:tlg0552.tlg008:2.10.4,,"urn:cite:ap:apimg.169r-164v_Arch14r_Sinar_pseudo_no-veil@0.4717,0.2815,0.261,0.1775",urn:cite:fuhc:euch.14r
 urn:cite:ap:apdiagrams.024,urn:cts:greekLit:tlg0552.tlg008:2.10.5,,"urn:cite:ap:apimg.169r-164v_Arch14r_Sinar_pseudo_no-veil@0.4857,0.4335,0.2497,0.1665",urn:cite:fuhc:euch.14r
-urn:cite:ap:apdiagrams.024,urn:cts:greekLit:tlg0552.tlg008:2.10.5,"Heiberg","urn:cite:ap:apimg.0000-164v_Arch14r_Heiberg_visible_stitch@0.4953,0.4733,0.2377,0.127",urn:cite:fuhc:euch.14r
+urn:cite:ap:apdiagrams.024,urn:cts:greekLit:tlg0552.tlg008:2.10.5,"Heiberg","urn:cite:ap:apimg.0000-164v_Arch14r_Heiberg_visible_stitch@0.4857,0.4335,0.2497,0.1665",urn:cite:fuhc:euch.14r
 urn:cite:ap:apdiagrams.025,urn:cts:greekLit:tlg0552.tlg008:2.10.6,,"urn:cite:ap:apimg.046r-043v_Arch15r_Sinar_pseudo_no-veil@0.1243,0.4415,0.2713,0.1722",urn:cite:fuhc:euch.15r
-urn:cite:ap:apdiagrams.025,urn:cts:greekLit:tlg0552.tlg008:2.10.6,"Heiberg","urn:cite:ap:apimg.046r-043v_Arch15r_Heiberg_visible_stitch@0.1243,0.481,0.2677,0.1243",urn:cite:fuhc:euch.15r
+urn:cite:ap:apdiagrams.025,urn:cts:greekLit:tlg0552.tlg008:2.10.6,"Heiberg","urn:cite:ap:apimg.046r-043v_Arch15r_Heiberg_visible_stitch@0.1243,0.4415,0.2713,0.1722",urn:cite:fuhc:euch.15r
 urn:cite:ap:apdiagrams.026,urn:cts:greekLit:tlg0552.tlg008:2.10.7,,"urn:cite:ap:apimg.046r-043v_Arch15r_Sinar_pseudo_no-veil@0.1017,0.5888,0.2967,0.1663",urn:cite:fuhc:euch.15r
-urn:cite:ap:apdiagrams.026,urn:cts:greekLit:tlg0552.tlg008:2.10.7,"Heiberg","urn:cite:ap:apimg.046r-043v_Arch15r_Heiberg_visible_stitch@0.1007,0.5863,0.3073,0.1655",urn:cite:fuhc:euch.15r
+urn:cite:ap:apdiagrams.026,urn:cts:greekLit:tlg0552.tlg008:2.10.7,"Heiberg","urn:cite:ap:apimg.046r-043v_Arch15r_Heiberg_visible_stitch@0.1017,0.5888,0.2967,0.1663",urn:cite:fuhc:euch.15r
 urn:cite:ap:apdiagrams.027,urn:cts:greekLit:tlg0552.tlg008:2.10.8,,"urn:cite:ap:apimg.046r-043v_Arch15r_Sinar_pseudo_no-veil@0.124,0.7365,0.2703,0.187",urn:cite:fuhc:euch.15r
-urn:cite:ap:apdiagrams.027,urn:cts:greekLit:tlg0552.tlg008:2.10.8,"Heiberg","urn:cite:ap:apimg.046r-043v_Arch15r_Heiberg_visible_stitch@0.13,0.7413,0.282,0.1505",urn:cite:fuhc:euch.15r
+urn:cite:ap:apdiagrams.027,urn:cts:greekLit:tlg0552.tlg008:2.10.8,"Heiberg","urn:cite:ap:apimg.046r-043v_Arch15r_Heiberg_visible_stitch@0.124,0.7365,0.2703,0.187",urn:cite:fuhc:euch.15r
 urn:cite:ap:apdiagrams.028,urn:cts:greekLit:tlg0552.tlg010:1.1,,"urn:cite:ap:apimg.066r-071v_Arch17r_Sinar_pseudo_no-veil@0.0877,0.412,0.3467,0.1685",urn:cite:fuhc:euch.17r
-urn:cite:ap:apdiagrams.028,urn:cts:greekLit:tlg0552.tlg010:1.1,"Heiberg","urn:cite:ap:apimg.066r-071v_Arch17r_Heiberg_visible_stitch@0.101,0.4115,0.3363,0.1775",urn:cite:fuhc:euch.17r
+urn:cite:ap:apdiagrams.028,urn:cts:greekLit:tlg0552.tlg010:1.1,"Heiberg","urn:cite:ap:apimg.066r-071v_Arch17r_Heiberg_visible_stitch@0.0877,0.412,0.3467,0.1685",urn:cite:fuhc:euch.17r
 urn:cite:ap:apdiagrams.029,urn:cts:greekLit:tlg0552.tlg010:2.1,,"urn:cite:ap:apimg.065r-072v_Arch18r_Sinar_pseudo_no-veil@0.3997,0.2593,0.218,0.1858",urn:cite:fuhc:euch.18r
-urn:cite:ap:apdiagrams.029,urn:cts:greekLit:tlg0552.tlg010:2.1,"Heiberg","urn:cite:ap:apimg.065r-072v_Arch18r_Heiberg_visible_stitch@0.4037,0.2648,0.2223,0.1798",urn:cite:fuhc:euch.18r
+urn:cite:ap:apdiagrams.029,urn:cts:greekLit:tlg0552.tlg010:2.1,"Heiberg","urn:cite:ap:apimg.065r-072v_Arch18r_Heiberg_visible_stitch@0.3997,0.2593,0.218,0.1858",urn:cite:fuhc:euch.18r
 urn:cite:ap:apdiagrams.030,urn:cts:greekLit:tlg0552.tlg010:3.1,,"urn:cite:ap:apimg.058r-063v_Arch19r_Sinar_pseudo_no-veil@0.3953,0.7013,0.211,0.207",urn:cite:fuhc:euch.19r
-urn:cite:ap:apdiagrams.030,urn:cts:greekLit:tlg0552.tlg010:3.1,"Heiberg","urn:cite:ap:apimg.058r-063v_Arch19r_Heiberg_visible_stitch@0.401,0.7028,0.2123,0.1938",urn:cite:fuhc:euch.19r
+urn:cite:ap:apdiagrams.030,urn:cts:greekLit:tlg0552.tlg010:3.1,"Heiberg","urn:cite:ap:apimg.058r-063v_Arch19r_Heiberg_visible_stitch@0.3953,0.7013,0.211,0.207",urn:cite:fuhc:euch.19r
 urn:cite:ap:apdiagrams.031,urn:cts:greekLit:tlg0552.tlg010:4.1,,"urn:cite:ap:apimg.045r-044v_Arch20r_Sinar_pseudo_no-veil@0.0723,0.5285,0.2073,0.1943",urn:cite:fuhc:euch.20r
-urn:cite:ap:apdiagrams.031,urn:cts:greekLit:tlg0552.tlg010:4.1,"Heiberg","urn:cite:ap:apimg.045r-044v_Arch20r_Heiberg_visible_stitch@0.0807,0.5243,0.2083,0.197",urn:cite:fuhc:euch.20r
+urn:cite:ap:apdiagrams.031,urn:cts:greekLit:tlg0552.tlg010:4.1,"Heiberg","urn:cite:ap:apimg.045r-044v_Arch20r_Heiberg_visible_stitch@0.0723,0.5285,0.2073,0.1943",urn:cite:fuhc:euch.20r
 urn:cite:ap:apdiagrams.032,urn:cts:greekLit:tlg0552.tlg010:5.1,"Heiberg","urn:cite:ap:apimg.170r-163v_Arch21r_Heiberg_visible_stitch@0.1997,0.2535,0.169,0.1453",urn:cite:fuhc:euch.21r
 urn:cite:ap:apdiagrams.033,urn:cts:greekLit:tlg0552.tlg010:6.1,,"urn:cite:ap:apimg.157r-160v_Arch22r_Sinar_pseudo_no-veil@0.1043,0.5735,0.2983,0.186",urn:cite:fuhc:euch.22r
 urn:cite:ap:apdiagrams.034,urn:cts:greekLit:tlg0552.tlg010:7.1,"folio missing",,"23v"
@@ -52,9 +52,9 @@ urn:cite:ap:apdiagrams.039,urn:cts:greekLit:tlg0552.tlg010:13.1,,"urn:cite:ap:ap
 urn:cite:ap:apdiagrams.040,urn:cts:greekLit:tlg0552.tlg010:14.1,,"urn:cite:ap:apimg.158r-159v_Arch28r_Sinar_pseudo_no-veil@0.1557,0.3943,0.2303,0.1695",urn:cite:fuhc:euch.28r
 urn:cite:ap:apdiagrams.041,urn:cts:greekLit:tlg0552.tlg004:2.1,,"urn:cite:ap:apimg.165r-168v_Arch29v-30r_Sinar_pseudo_no-veil@0.4383,0.5071,0.239,0.0929",urn:cite:fuhc:euch.30r
 urn:cite:ap:apdiagrams.042,urn:cts:greekLit:tlg0552.tlg004:6.1,,"urn:cite:ap:apimg.168r-165v_Arch30v-29r_Sinar_pseudo_no-veil@0.2233,0.7633,0.2467,0.1733",urn:cite:fuhc:euch.30v
-urn:cite:ap:apdiagrams.042,urn:cts:greekLit:tlg0552.tlg004:6.1,"Heiberg","urn:cite:ap:apimg.168r-165v_Arch30v-29r_Heiberg_visible_stitch@0.2293,0.7622,0.224,0.1578",urn:cite:fuhc:euch.30v
+urn:cite:ap:apdiagrams.042,urn:cts:greekLit:tlg0552.tlg004:6.1,"Heiberg","urn:cite:ap:apimg.168r-165v_Arch30v-29r_Heiberg_visible_stitch@0.2233,0.7633,0.2467,0.1733",urn:cite:fuhc:euch.30v
 urn:cite:ap:apdiagrams.043,urn:cts:greekLit:tlg0552.tlg004:10.1,,"urn:cite:ap:apimg.059r-062v_Arch31r_Sinar_pseudo_no-veil@0.1193,0.651,0.344,0.1893",urn:cite:fuhc:euch.31r
-urn:cite:ap:apdiagrams.043,urn:cts:greekLit:tlg0552.tlg004:10.1,"Heiberg","urn:cite:ap:apimg.059r-062v_Arch31r_Heiberg_visible_stitch@0.125,0.6573,0.298,0.1818",urn:cite:fuhc:euch.31r
+urn:cite:ap:apdiagrams.043,urn:cts:greekLit:tlg0552.tlg004:10.1,"Heiberg","urn:cite:ap:apimg.059r-062v_Arch31r_Heiberg_visible_stitch@0.1193,0.651,0.344,0.1893",urn:cite:fuhc:euch.31r
 urn:cite:ap:apdiagrams.044,urn:cts:greekLit:tlg0552.tlg004:10.2,,"urn:cite:ap:apimg.059v-062r_Arch31v_Sinar_pseudo_no-veil@0.502,0.8275,0.2873,0.0845",urn:cite:fuhc:euch.31v
 urn:cite:ap:apdiagrams.045,urn:cts:greekLit:tlg0552.tlg004:11.1,,"urn:cite:ap:apimg.125r-132v_Arch33r_Sinar_pseudo_no-veil@0.1223,0.652,0.2997,0.1845",urn:cite:fuhc:euch.33r
 urn:cite:ap:apdiagrams.046,urn:cts:greekLit:tlg0552.tlg004:12.1,,"urn:cite:ap:apimg.125v-132r_Arch33v_Sinar_pseudo_no-veil@0.533,0.5968,0.2503,0.15",urn:cite:fuhc:euch.33v
@@ -101,14 +101,14 @@ urn:cite:ap:apdiagrams.086,urn:cts:greekLit:tlg0552.tlg001:1.35.1,,"urn:cite:ap:
 urn:cite:ap:apdiagrams.087,urn:cts:greekLit:tlg0552.tlg001:1.36.1,,"urn:cite:ap:apimg.cambridge_verso_white_registered@0.185,0.2769,0.2725,0.1569",urn:cite:fuhc:euch.59v
 urn:cite:ap:apdiagrams.088,urn:cts:greekLit:tlg0552.tlg001:1.37.1,,"urn:cite:ap:apimg.cambridge_verso_white_registered@0.4942,0.4056,0.3617,0.0956",urn:cite:fuhc:euch.59v
 urn:cite:ap:apdiagrams.089,urn:cts:greekLit:tlg0552.tlg001:1.38.1,,"urn:cite:ap:apimg.113v-114r_Arch60v_Sinar_pseudo_no-veil@0.1193,0.4058,0.4227,0.2263",urn:cite:fuhc:euch.60v
-urn:cite:ap:apdiagrams.089,urn:cts:greekLit:tlg0552.tlg001:1.38.1,"Heiberg","urn:cite:ap:apimg.113v-114r_Arch60v_Heiberg_visible_stitch@0.1183,0.419,0.422,0.1593",urn:cite:fuhc:euch.60v
+urn:cite:ap:apdiagrams.089,urn:cts:greekLit:tlg0552.tlg001:1.38.1,"Heiberg","urn:cite:ap:apimg.113v-114r_Arch60v_Heiberg_visible_stitch@0.1193,0.4058,0.4227,0.2263",urn:cite:fuhc:euch.60v
 urn:cite:ap:apdiagrams.090,urn:cts:greekLit:tlg0552.tlg001:1.39.1,,"urn:cite:ap:apimg.123r-118v_Arch61r_Sinar_pseudo_no-veil@0.144,0.4795,0.2647,0.1815",urn:cite:fuhc:euch.61r
-urn:cite:ap:apdiagrams.090,urn:cts:greekLit:tlg0552.tlg001:1.39.1,"Heiberg","urn:cite:ap:apimg.123r-118v_Arch61r_Heiberg_visible_stitch@0.1383,0.482,0.2777,0.1813",urn:cite:fuhc:euch.61r
+urn:cite:ap:apdiagrams.090,urn:cts:greekLit:tlg0552.tlg001:1.39.1,"Heiberg","urn:cite:ap:apimg.123r-118v_Arch61r_Heiberg_visible_stitch@0.144,0.4795,0.2647,0.1815",urn:cite:fuhc:euch.61r
 urn:cite:ap:apdiagrams.091,urn:cts:greekLit:tlg0552.tlg001:1.40.1,"Heiberg","urn:cite:ap:apimg.123v-118r_Arch61v_Heiberg_visible_stitch@0.1075,0.1875,0.4258,0.2088",urn:cite:fuhc:euch.61v
 urn:cite:ap:apdiagrams.092,urn:cts:greekLit:tlg0552.tlg001:1.41.1,,"urn:cite:ap:apimg.116r-111v_Arch62r_Sinar_pseudo_no-veil@0.3657,0.678,0.4753,0.1798",urn:cite:fuhc:euch.62r
-urn:cite:ap:apdiagrams.092,urn:cts:greekLit:tlg0552.tlg001:1.41.1,"Heiberg","urn:cite:ap:apimg.0000-111v_Arch62r_Heiberg_visible_stitch@0.3743,0.6785,0.4157,0.1758",urn:cite:fuhc:euch.62r
+urn:cite:ap:apdiagrams.092,urn:cts:greekLit:tlg0552.tlg001:1.41.1,"Heiberg","urn:cite:ap:apimg.0000-111v_Arch62r_Heiberg_visible_stitch@0.3657,0.678,0.4753,0.1798",urn:cite:fuhc:euch.62r
 urn:cite:ap:apdiagrams.093,urn:cts:greekLit:tlg0552.tlg001:1.42.1,,"urn:cite:ap:apimg.116v-111r_Arch62v_Sinar_pseudo_no-veil@0.5277,0.6045,0.3337,0.1643",urn:cite:fuhc:euch.62v
-urn:cite:ap:apdiagrams.093,urn:cts:greekLit:tlg0552.tlg001:1.42.1,"Heiberg","urn:cite:ap:apimg.0000-111r_Arch62v_Heiberg_visible_stitch@0.545,0.5968,0.307,0.1742",urn:cite:fuhc:euch.62v
+urn:cite:ap:apdiagrams.093,urn:cts:greekLit:tlg0552.tlg001:1.42.1,"Heiberg","urn:cite:ap:apimg.0000-111r_Arch62v_Heiberg_visible_stitch@0.5277,0.6045,0.3337,0.1643",urn:cite:fuhc:euch.62v
 urn:cite:ap:apdiagrams.094,urn:cts:greekLit:tlg0552.tlg001:2.1.1,,"urn:cite:ap:apimg.094v-091r_Arch64v_Sinar_pseudo_no-veil@0.4793,0.107,0.3373,0.204",urn:cite:fuhc:euch.64v
 urn:cite:ap:apdiagrams.095,urn:cts:greekLit:tlg0552.tlg001:2.2.1,,"urn:cite:ap:apimg.093v-092r_Arch65v_Sinar_pseudo_no-veil@0.104,0.42,0.542,0.1953",urn:cite:fuhc:euch.65v
 urn:cite:ap:apdiagrams.096,urn:cts:greekLit:tlg0552.tlg001:2.2.2,,"urn:cite:ap:apimg.040r-0000_Arch66r_Sinar_pseudo_no-veil@0.093,0.2618,0.3677,0.1395",urn:cite:fuhc:euch.66r
@@ -118,6 +118,6 @@ urn:cite:ap:apdiagrams.099,urn:cts:greekLit:tlg0552.tlg002:2.1,,"urn:cite:ap:api
 urn:cite:ap:apdiagrams.100,urn:cts:greekLit:tlg0552.tlg002:3.1,,"urn:cite:ap:apimg.0000-171r_Arch68v_Sinar_pseudo_no-veil@0.547,0.4295,0.2477,0.1727",urn:cite:fuhc:euch.68v
 urn:cite:ap:apdiagrams.101,urn:cts:greekLit:tlg0552.tlg002:3.2,,"urn:cite:ap:apimg.177r-172v_Arch69r_Sinar_pseudo_no-veil@0.478,0.1203,0.2773,0.1925",urn:cite:fuhc:euch.69r
 urn:cite:ap:apdiagrams.102,urn:cts:greekLit:tlg0552.tlg009:1.1,,"urn:cite:ap:apimg.177v-172r_Arch69v_Sinar_pseudo_no-veil@0.476,0.2058,0.3503,0.1473",urn:cite:fuhc:euch.69v
-urn:cite:ap:apdiagrams.102,urn:cts:greekLit:tlg0552.tlg009:1.1,"Heiberg","urn:cite:ap:apimg.177v-172r_Arch69v_Heiberg_visible_stitch@0.4783,0.2083,0.3387,0.1503",urn:cite:fuhc:euch.69v
+urn:cite:ap:apdiagrams.102,urn:cts:greekLit:tlg0552.tlg009:1.1,"Heiberg","urn:cite:ap:apimg.177v-172r_Arch69v_Heiberg_visible_stitch@0.476,0.2058,0.3503,0.1473",urn:cite:fuhc:euch.69v
 urn:cite:ap:apdiagrams.103,urn:cts:greekLit:tlg0552.tlg005:10.1,,"urn:cite:ap:apimg.014r-019v_Arch02r_Sinar_pseudo_no-veil@0.0793,0.2773,0.3737,0.0515",urn:cite:fuhc:euch.2r
 urn:cite:ap:apdiagrams.104,urn:cts:greekLit:tlg0552.tlg005:11.1,,"urn:cite:ap:apimg.081r-088v_Arch03r_Sinar_pseudo_no-veil@0.4273,0.2858,0.3413,0.1358",urn:cite:fuhc:euch.3r
