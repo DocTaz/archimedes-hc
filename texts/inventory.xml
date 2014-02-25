@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="file:/data/repos/bitbucket/dse/testdata/cts/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts/ti" tiversion="4.0">
+<?xml-model href="TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts" tiversion="5.0.rc.1">
     <ctsnamespace abbr="greekLit" ns="chs.harvard.edu/ctsns">
         <description xml:lang="eng">CHS's greekLit namespace</description>
     </ctsnamespace>
-    <collection id="archimedes">
-        <title xmlns="http://purl.org/dc/elements/1.1/" xml:lang="eng">Manuscripts of Archimedes</title>
-        <creator xmlns="http://purl.org/dc/elements/1.1/"></creator>
-        <coverage xmlns="http://purl.org/dc/elements/1.1/" xml:lang=""></coverage>
-        <description xmlns="http://purl.org/dc/elements/1.1/" xml:lang=""></description>
-        <rights xmlns="http://purl.org/dc/elements/1.1/" xml:lang=""></rights>
-    </collection>
+  
   
   <textgroup urn="urn:cts:greekLit:tlg4072">
       <groupname xml:lang="eng">Eutocius</groupname>
@@ -20,7 +14,7 @@
               <label xml:lang="eng">Codex Bodmer 8</label>
               <description xml:lang="eng">Holy Cross edition of text in Codex Bodmer 8</description>
               <online docname="cb8/Eutocius-SC-cb8.xml">
-                  <validate schema="chstei.rng"></validate>
+                  
               <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
               <citationMapping>
                   <citation label="book" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
@@ -45,7 +39,7 @@
                 <label xml:lang="eng">Codex Bodmer 8</label>
                 <description xml:lang="eng">Holy Cross edition of text in Codex Bodmer 8</description>
                 <online docname="cb8/SphereandCylinder-cb8.xml">
-                    <validate schema="chstei.rng"></validate>
+                    
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"></namespaceMapping>
                     <citationMapping>
                            <citation label="book" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
