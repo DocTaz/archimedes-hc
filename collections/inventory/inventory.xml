@@ -273,7 +273,7 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source type="file" value="placeNames.csv"/>
-        <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="placeNameUrn" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="English" label="Name" type="string"></citeProperty>
     </citeCollection>
     
