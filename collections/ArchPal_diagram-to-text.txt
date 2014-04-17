@@ -1,0 +1,2 @@
+﻿Diagram ID, ArchPal ID, Heiberg ID
+,,
