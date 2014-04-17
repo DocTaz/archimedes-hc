@@ -1,65 +1,130 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" sodipodi:docname="ArchPal_trace089.svg" height="1659" width="2324" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" inkscape:version="0.48.4 r9939" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
- <sodipodi:namedview bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="-8" fit-margin-left="0" pagecolor="#ffffff" fit-margin-top="0" inkscape:window-maximized="1" inkscape:zoom="0.24748737" inkscape:window-x="-8" inkscape:window-height="738" showgrid="false" borderopacity="1.0" inkscape:current-layer="layer14" inkscape:cx="1472.8488" inkscape:cy="949.88813" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1280" inkscape:pageopacity="0.0" inkscape:document-units="px"/>
- <metadata>
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <g inkscape:label="tracesteps.01" inkscape:groupmode="layer">
-  <path sodipodi:rx="695.71429" sodipodi:ry="598.57141" sodipodi:type="arc" d="m2228.572,706.1429a695.7143,598.5714,0,1,1,-1391.429,0,695.7143,598.5714,0,1,1,1391.429,0z" transform="matrix(1.0232904,0,0,1.2096477,-43.55791,-29.469823)" stroke="#000" sodipodi:cy="706.14288" sodipodi:cx="1532.8572" stroke-width="3.59526651000000010" inkscape:label="#circleΑΒΓΔΖΗΘ" fill="none">
-   <desc>unclear</desc>
-  </path>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="704.71429" x="742.85712" font-family="Sans" inkscape:label="#labelΑ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="742.85712" y="704.71429">Α</tspan></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="74.586372" x="1514.74" font-family="Sans" inkscape:label="#labelΒ" sodipodi:linespacing="125%" fill="#000000"><desc>unclear</desc><tspan sodipodi:role="line" x="1514.74" y="74.586372">Β</tspan></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="674.61694" x="2246.9355" font-family="Sans" inkscape:label="#labelΓ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="2246.9355" y="674.61694">Γ</tspan></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="905.42621" x="1555.6349" font-family="Sans" inkscape:label="#labelΕ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="1555.6349" y="905.42621">Ε</tspan></text>
-  <path d="M825.3149,682.1825,2217.305,643.7967" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΑΓ" fill="#FFF">
-   <desc>visible</desc>
-  </path>
- </g>
- <g inkscape:label="tracesteps.02" inkscape:groupmode="layer">
-  <path d="M828.3251,681.1723c91.9057-53.5182,131.8791-189.771,113.1371-284.863,157.7198-30.3548,266.2278-172.7589,244.4568-226.2741,106.0964,54.59372,294.3245,19.41004,341.4315-78.7919,53.9657,101.176,237.0218,129.0939,317.1879,86.87312,6.1791,122.2396,121.4747,177.3902,238.396,197.9899-13.8523,99.77871,16.7177,208.1046,131.3199,266.6803" sodipodi:nodetypes="ccccccc" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#polygonΑΒΓΔΖΗΘ" fill="none">
-   <desc>unclear</desc>
-  </path>
- </g>
- <g inkscape:label="tracesteps.03" inkscape:groupmode="layer">
-  <path d="M1525.33,93.26356,1549.574,1547.883" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΑΒ" fill="none">
-   <desc>visible</desc>
-  </path>
- </g>
- <g inkscape:label="tracesteps.04" inkscape:groupmode="layer">
-  <path d="M40.4061,1212.513,440.4265,404.3905,824.2845,1226.655z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#coneΚ" fill="none">
-   <desc>visible</desc>
-  </path>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="941.8526" x="406.00009" font-family="Sans" inkscape:label="#labelΚ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="406.00009" y="941.8526">Κ</tspan></text>
-  <path d="M825.315,682.182,2217.305,643.7962,1539.472,826.6343z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#coneΑΓΕ" fill="none">
-   <desc>visible</desc>
-  </path>
- </g>
- <g inkscape:label="tracesteps.05" inkscape:groupmode="layer">
-  <path d="M944.2857,394.7143,2084.286,380.4286" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΔΖ" fill="none">
-   <desc>visible</desc>
-  </path>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" font-style="normal" y="398.32962" x="866.71088" font-family="Sans" sodipodi:linespacing="125%" fill="#000000"><tspan sodipodi:role="line"/></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="404.39053" x="858.62964" font-family="Sans" inkscape:label="#labelΖ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="858.62964" y="404.39053">Ζ</tspan></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="172.05545" x="1145.5129" font-family="Sans" inkscape:label="#labelΗ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="1145.5129" y="172.05545">Η</tspan></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="141.75089" x="1830.3964" font-family="Sans" inkscape:label="#labelΘ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="1830.3964" y="141.75089">Θ</tspan></text>
-  <text style="letter-spacing:0px;word-spacing:0px;" line-height="125%" font-weight="normal" xml:space="preserve" font-size="72px" stroke="#000000" font-style="normal" y="353.8829" x="2095.0564" font-family="Sans" inkscape:label="#labelΔ" sodipodi:linespacing="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="2095.0564" y="353.8829">Δ</tspan></text>
-  <path d="m944.286,394.714,1140-14.28572-546.8338,444.1857z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#coneΔΕΖ" fill="none">
-   <desc>visible</desc>
-  </path>
-  <path d="M1191.429,173.2857,1844.286,179" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΗΘ" fill="#FFF">
-   <desc>unclear</desc>
-  </path>
-  <path d="M1191.429,173.2857,1844.286,179,1535.432,822.5937z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#coneΕΗΘ" fill="none">
-   <desc>unclear</desc>
-  </path>
-  <rect opacity="0" height="1657.998" width="2322.998" y="0.5008073" x="0.5008402" stroke-width="1.00168" inkscape:label="#scalingRectangle"/>
- </g>
-</svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" inkscape:version="0.48.4 r9939" height="1659" width="2324" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:docname="ArchPal_trace089.svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
+
+ <sodipodi:namedview bordercolor="#666666" inkscape:pageshadow="2" inkscape:window-y="-8" fit-margin-left="0" pagecolor="#ffffff" inkscape:zoom="0.24748737" inkscape:window-maximized="1" inkscape:window-x="-8" showgrid="false" borderopacity="1.0" inkscape:current-layer="g48" inkscape:cx="1472.8488" inkscape:cy="949.88813" inkscape:pageopacity="0.0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-height="738" fit-margin-top="0" inkscape:window-width="1280" inkscape:document-units="px"/>
+
+ <metadata>
+
+  <rdf:RDF>
+
+   <cc:Work rdf:about="">
+
+    <dc:format>image/svg+xml</dc:format>
+
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+
+    <dc:title/>
+
+   </cc:Work>
+
+  </rdf:RDF>
+
+ </metadata>
+
+ <g inkscape:label="tracesteps.01" inkscape:groupmode="layer">
+
+  <path sodipodi:rx="695.71429" sodipodi:ry="598.57141" sodipodi:type="arc" d="m2228.572,706.1429a695.7143,598.5714,0,1,1,-1391.429,0,695.7143,598.5714,0,1,1,1391.429,0z" sodipodi:cy="706.14288" transform="matrix(1.0232904,0,0,1.2096477,-43.55791,-29.469823)" stroke="#000" sodipodi:cx="1532.8572" stroke-width="3.59526651000000010" inkscape:label="circle(Α,Β,Γ,Δ,Ζ,Η,Θ)" fill="none">
+
+   <desc>unclear</desc>
+
+  </path>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="704.71429" x="742.85712" font-weight="normal" inkscape:label="label(Α)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="742.85712" y="704.71429">Α</tspan></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="74.586372" x="1514.74" font-weight="normal" inkscape:label="label(Β)" line-height="125%" fill="#000000"><desc>unclear</desc><tspan sodipodi:role="line" x="1514.74" y="74.586372">Β</tspan></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="674.61694" x="2246.9355" font-weight="normal" inkscape:label="label(Γ)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="2246.9355" y="674.61694">Γ</tspan></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="905.42621" x="1555.6349" font-weight="normal" inkscape:label="label(Ε)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="1555.6349" y="905.42621">Ε</tspan></text>
+
+  <path d="M825.3149,682.1825,2217.305,643.7967" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΑΓ" fill="#FFF">
+
+   <desc>visible</desc>
+
+  </path>
+
+ </g>
+
+ <g inkscape:label="tracesteps.02" inkscape:groupmode="layer">
+
+  <path d="M828.3251,681.1723c91.9057-53.5182,131.8791-189.771,113.1371-284.863,157.7198-30.3548,266.2278-172.7589,244.4568-226.2741,106.0964,54.59372,294.3245,19.41004,341.4315-78.7919,53.9657,101.176,237.0218,129.0939,317.1879,86.87312,6.1791,122.2396,121.4747,177.3902,238.396,197.9899-13.8523,99.77871,16.7177,208.1046,131.3199,266.6803" sodipodi:nodetypes="ccccccc" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="polygon(Α,Β,Γ,Δ,Ζ,Η,Θ)" fill="none">
+
+   <desc>unclear</desc>
+
+  </path>
+
+ </g>
+
+ <g inkscape:label="tracesteps.03" inkscape:groupmode="layer">
+
+  <path d="M1525.33,93.26356,1549.574,1547.883" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="line(Β,Ε)" fill="none">
+
+   <desc>visible</desc>
+
+  </path>
+
+ </g>
+
+ <g inkscape:label="tracesteps.04" inkscape:groupmode="layer">
+
+  <path d="M40.4061,1212.513,440.4265,404.3905,824.2845,1226.655z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="cone(Κ)" fill="none">
+
+   <desc>visible</desc>
+
+  </path>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="941.8526" x="406.00009" font-weight="normal" inkscape:label="label(Κ)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="406.00009" y="941.8526">Κ</tspan></text>
+
+  <path d="M825.315,682.182,2217.305,643.7962,1539.472,826.6343z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="cone(Α,Γ,Ε)" fill="none">
+
+   <desc>visible</desc>
+
+  </path>
+
+ </g>
+
+ <g inkscape:label="tracesteps.05" inkscape:groupmode="layer">
+
+  <path d="M944.2857,394.7143,2084.286,380.4286" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΔΖ" fill="none">
+
+   <desc>visible</desc>
+
+  </path>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" sodipodi:linespacing="125%" y="398.32962" x="866.71088" font-weight="normal" line-height="125%" fill="#000000"><tspan sodipodi:role="line"/></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="404.39053" x="858.62964" font-weight="normal" inkscape:label="label(Ζ)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="858.62964" y="404.39053">Ζ</tspan></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="172.05545" x="1145.5129" font-weight="normal" inkscape:label="label(Η)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="1145.5129" y="172.05545">Η</tspan></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="141.75089" x="1830.3964" font-weight="normal" inkscape:label="label(Θ)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="1830.3964" y="141.75089">Θ</tspan></text>
+
+  <text style="word-spacing:0px;letter-spacing:0px;" font-family="Sans" xml:space="preserve" font-size="72px" font-style="normal" stroke="#000000" sodipodi:linespacing="125%" y="353.8829" x="2095.0564" font-weight="normal" inkscape:label="label(Δ)" line-height="125%" fill="#000000"><desc>visible</desc><tspan sodipodi:role="line" x="2095.0564" y="353.8829">Δ</tspan></text>
+
+  <path d="m944.286,394.714,1140-14.28572-546.8338,444.1857z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="cone(Δ,Ε,Ζ)" fill="none">
+
+   <desc>visible</desc>
+
+  </path>
+
+  <path d="M1191.429,173.2857,1844.286,179" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="#lineΗΘ" fill="#FFF">
+
+   <desc>unclear</desc>
+
+  </path>
+
+  <path d="M1191.429,173.2857,1844.286,179,1535.432,822.5937z" inkscape:connector-curvature="0" stroke="#000" stroke-width="4" inkscape:label="cone(Ε,Η,Θ)" fill="none">
+
+   <desc>unclear</desc>
+
+  </path>
+
+  <rect opacity="0" height="1657.998" width="2322.998" y="0.5008073" x="0.5008402" stroke-width="1.00168" inkscape:label="#scalingRectangle"/>
+
+ </g>
+
+</svg>
+
