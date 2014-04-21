@@ -1,4 +1,4 @@
-ArchPal Diagram ID, ArchPal Text ID, Heiberg Text ID
+﻿ArchPal Diagram ID, ArchPal Text ID, Heiberg Text ID
 "ArchPal_trace084:circle(Μ)","","circle(Μ)"
 "ArchPal_trace084:circle(Ξ)","","circle(Ξ)"
 "ArchPal_trace084:polygon(Η,Θ)","","polygon(Ε,Ζ,Η,Θ,Λ)"
@@ -89,7 +89,7 @@ ArchPal Diagram ID, ArchPal Text ID, Heiberg Text ID
 "ArchPal_trace094:sphere(Β)","","sphere(Β)"
 "ArchPal_trace094:conecylinder(Α)","","conecylinder(Α)"
 "ArchPal_trace094:circle(Η,Θ)","","circle(Η,Θ)"
-"ArchPal_trace094:line(Η,Θ,Λ)","","line(Η,Θ,Λ)"
+"ArchPal_trace094:line(Η,Θ,Κ)","","line(Η,Θ,Κ)"
 "ArchPal_trace094:line(Κ,Λ)","","line(Κ,Λ)"
 "ArchPal_trace094:cylinder(Γ,Δ,Ε,Ζ)","","cylinder(Γ,Δ,Ε,Ζ)"
 "ArchPal_trace095:circle(Α,Β,Γ,Ζ)","","circle(Α,Β,Γ,Ζ)"
