@@ -254,7 +254,7 @@
 </citeCollection>
     
 
-    <citeCollection canonicalId="placeNameUrn" label="English" urn="urn:cite:ap:persName">
+    <citeCollection canonicalId="placeNameUrn" label="English" urn="urn:cite:ap:placeName">
         <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
         <title
             xmlns="http://purl.org/dc/elements/1.1/">Place names</title>
@@ -303,6 +303,13 @@
         <citeProperty name="ImageReference" label="Image URN"  type="citeimg"></citeProperty>
         <citeProperty name="Comments" label="Comments" type="string"></citeProperty>
     </citeCollection>    
+    
+   
+    
+    
+    
+    
+    
     
     
     <!--
