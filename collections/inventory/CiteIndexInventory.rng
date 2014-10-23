@@ -7,19 +7,28 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <start>
         <element
-            name="cite:collectionService">
-            <zeroOrMore>
+            name="cite:indexInventory">
+            <oneOrMore>
                 <element
-                    name="cite:extensionImplementation">
+                    name="cite:rdfNamespace">
                     <attribute
                         name="abbr"/>
                     <attribute
-                        name="rdfType"/>
+                        name="fullValue"/>
+                    <empty/>
                 </element>
-            </zeroOrMore>
+            </oneOrMore>
             <oneOrMore>
-                <externalRef
-                    href="CiteCollection.rng"/>
+                <element
+                    name="cite:index">
+                    <attribute
+                        name="verb"/>
+                    <attribute
+                        name="inverse"/>
+                    <optional>
+                        <externalRef href="src.rng"></externalRef>
+                    </optional>
+                </element>
             </oneOrMore>
         </element>
     </start>
