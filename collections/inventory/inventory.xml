@@ -5,6 +5,9 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     >
     
+    
+    <!-- ***************************************************************************-->
+    <!-- Diagram inventories -->
     <citeCollection canonicalId="Diagram" label="Diagram" urn="urn:cite:ap:apdiagrams">
         <namespaceMapping
             abbr="ap"
@@ -23,7 +26,7 @@
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         
-        <source type="file" value="ArchPal_diagrams.csv"/>
+        <source type="file" value="diagrams/ArchPal_diagrams.csv"/>
         <citeProperty name="Diagram" label="Diagram" type="citeurn"></citeProperty>
         <citeProperty name="TextPassage" label="Text location" type="ctsurn"></citeProperty>
         <citeProperty name="Notes" label="Notes" type="string"></citeProperty>
@@ -31,6 +34,53 @@
         <citeProperty name="Folio" label="Folio" type="citeurn"></citeProperty>
     </citeCollection>
     
+    <citeCollection canonicalId="figureUrn" label="Label" urn="urn:cite:ap:figures">
+        <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Mathematical figures (Archimedes)</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All diagrams in edited sections of the works of
+            Archimedes in Codex Bodmer 8</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Diagrams in edited sections of the works of Archimedes in Codex Bodmer 8</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="diagrams/CodBod8_figures.csv"/>
+        <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
+        <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+    
+    <citeCollection canonicalId="figureUrn" label="Label" urn="urn:cite:ap:efigures">
+        <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Mathematical figures (Eutocius)</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">All diagrams in edited sections of the works of
+            Eutocius in Codex Bodmer 8</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Diagrams in edited sections of the works of Eutocius in Codex Bodmer 8</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source type="file" value="diagrams/CodBod8_EutociusFigures.csv"/>
+        <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
+        <citeProperty name="imageReference" label="Visual evidence"  type="citeimg"></citeProperty>
+        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+    </citeCollection>
+    
+    <!-- ***************************************************************************-->
     
     
     
@@ -38,9 +88,8 @@
     
     
     
-    
-
-    
+    <!-- ***************************************************************************-->
+    <!-- Codex models -->
     <citeCollection canonicalId="Page" label="Label" urn="urn:cite:fuhc:pal">
         <namespaceMapping
             abbr="fuhc"
@@ -60,7 +109,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy
             property="Sequence"/>
-        <source type="file" value="palimpsestModel.csv"/>
+        <source type="file" value="tbs/palimpsestModel.csv"/>
         <citeProperty name="Page" label="URN" type="citeurn"></citeProperty>
         <citeProperty name="Sequence" label="Sequence" type="number"></citeProperty>
         <citeProperty name="Label" label="Page" type="string"></citeProperty>
@@ -85,7 +134,7 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <orderedBy
             property="Sequence"/>
-        <source type="file" value="EuchologionModelWithLabels.csv"/>
+        <source type="file" value="tbs/EuchologionModelWithLabels.csv"/>
         
         <citeProperty name="Page" label="URN"  type="citeurn"></citeProperty>
         <citeProperty name="BifolioWith" label="Bifolio with" type="citeurn"></citeProperty>
@@ -124,7 +173,7 @@
             property="Sequence"/>
         <source
             type="file"
-            value="CodBod8_Pages.csv"/>
+            value="tbs/CodBod8_Pages.csv"/>
         <citeProperty
             label="Page"
             name="Page"
@@ -135,53 +184,104 @@
             type="number"/>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
     </citeCollection>
+    <!-- ***************************************************************************-->
     
-    <citeCollection canonicalId="figureUrn" label="Label" urn="urn:cite:ap:figures">
+    
+    
+    
+    <!-- ***************************************************************************-->
+    <!--  Named entities in the texts -->
+    <citeCollection canonicalId="persNameUrn" label="English" urn="urn:cite:ap:persName">
         <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Mathematical figures (Archimedes)</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Personal names</title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christine Roughan</creator>
         <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All diagrams in edited sections of the works of
-            Archimedes in Codex Bodmer 8</coverage>
+            xmlns="http://purl.org/dc/elements/1.1/">Personal names in edited sections of Codex Bodmer 8 and Archimedes Palimpsest</coverage>
         <description
-            xmlns="http://purl.org/dc/elements/1.1/">Diagrams in edited sections of the works of Archimedes in Codex Bodmer 8</description>
+            xmlns="http://purl.org/dc/elements/1.1/">Personal names in the Archimedes Project</description>
         <rights
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="CodBod8_figures.csv"/>
-        <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
-        <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
-        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <source type="file" value="namedents/persNames.csv"/>
+        <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="English" label="Name" type="string"></citeProperty>
     </citeCollection>
     
-    <citeCollection canonicalId="figureUrn" label="Label" urn="urn:cite:ap:efigures">
+    
+    <citeCollection canonicalId="placeNameUrn" label="English" urn="urn:cite:ap:placeName">
         <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Mathematical figures (Eutocius)</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Place names</title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Christine Roughan</creator>
         <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">All diagrams in edited sections of the works of
-            Eutocius in Codex Bodmer 8</coverage>
+            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in edited sections of Codex Bodmer 8 and Archimedes Palimpsest</coverage>
         <description
-            xmlns="http://purl.org/dc/elements/1.1/">Diagrams in edited sections of the works of Eutocius in Codex Bodmer 8</description>
+            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in the Archimedes Project</description>
         <rights
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="CodBod8_EutociusFigures.csv"/>
-        <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
-        <citeProperty name="imageReference" label="Visual evidence"  type="citeimg"></citeProperty>
-        <citeProperty name="Label" label="Label" type="string"></citeProperty>
+        <source type="file" value="namedents/placeNames.csv"/>
+        <citeProperty name="placeNameUrn" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="English" label="Name" type="string"></citeProperty>
     </citeCollection>
     
+    <!-- ***************************************************************************-->
+    
+    
+    
+    
+    
+    
+    
+    <!-- ***************************************************************************-->
+    <!-- Paleographic collections -->
+    
+    <citeCollection canonicalId="Observation" label="Observation" urn="urn:cite:hcmid:cb8paleo">
+        <namespaceMapping
+            abbr="hcmid"
+            fullValue="http://shot.holycross.edu/ns/hcmgid"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Codex Bodmer 8.</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Planned to offer a complete paleographic repertory of Codex Bodmer 8..</coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Codex Bodmer 8.</description>
+        
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
+            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        
+        
+        <source type="file" value="paleo/CodBod8_paleo.csv"/>
+        <citeProperty name="Observation" label="URN" type="citeurn"></citeProperty>
+        <citeProperty name="Feature" label="Feature" type="string"></citeProperty>
+        <citeProperty name="ImageReference" label="Image URN"  type="citeimg"></citeProperty>
+        <citeProperty name="Comments" label="Comments" type="string"></citeProperty>
+    </citeCollection>    
+    
+    
+    <!-- ***************************************************************************-->
+    
+    
+    
+    <!-- ***************************************************************************-->
+    <!-- Other features of the MSS -->
     
     
     <citeCollection canonicalId="figureUrn" label="Label" urn="urn:cite:ap:graphics">
@@ -200,7 +300,7 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="CodBod8_graphics.csv"/>
+        <source type="file" value="msfeatures/CodBod8_graphics.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
         <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
         <citeProperty name="Label" label="Label" type="string"></citeProperty>
@@ -223,86 +323,13 @@
             xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
             the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="CodBod8_lacunae.csv"/>
+        <source type="file" value="msfeatures/CodBod8_lacunae.csv"/>
         <citeProperty name="figureUrn" label="Figure" type="citeurn"></citeProperty>
         <citeProperty name="imageReference" label="Visual evidence" type="citeimg"></citeProperty>
         <citeProperty name="Heiberg" label="Heiberg reading" type="ctsurn"></citeProperty>
     </citeCollection>
 
-  
-    <citeCollection canonicalId="persNameUrn" label="English" urn="urn:cite:ap:persName">
-        <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Personal names</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christine Roughan</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Personal names in edited sections of Codex Bodmer 8 and Archimedes Palimpsest</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Personal names in the Archimedes Project</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
-            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="persNames.csv"/>
-    <citeProperty name="persNameUrn" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="English" label="Name" type="string"></citeProperty>
-</citeCollection>
-    
 
-    <citeCollection canonicalId="placeNameUrn" label="English" urn="urn:cite:ap:placeName">
-        <namespaceMapping abbr="ap" fullValue="http://shot.holycross.edu/ns/ap"></namespaceMapping>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Place names</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Andrew Boudon</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Rebecca Finnigan</creator>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Christine Roughan</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in edited sections of Codex Bodmer 8 and Archimedes Palimpsest</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Geographic names in the Archimedes Project</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
-            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source type="file" value="placeNames.csv"/>
-        <citeProperty name="placeNameUrn" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="English" label="Name" type="string"></citeProperty>
-    </citeCollection>
-    
-    
-    <citeCollection canonicalId="Observation" label="Observation" urn="urn:cite:hcmid:cb8paleo">
-        <namespaceMapping
-            abbr="hcmid"
-            fullValue="http://shot.holycross.edu/ns/hcmid"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Codex Bodmer 8.</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Planned to offer a complete paleographic repertory of Codex Bodmer 8..</coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/">Paleographic notes on Codex Bodmer 8.</description>
-        
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/">All data in this collection are available under
-            the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        
-        
-        <source type="file" value="CodBod8_paleo.csv"/>
-        <citeProperty name="Observation" label="URN" type="citeurn"></citeProperty>
-        <citeProperty name="Feature" label="Feature" type="string"></citeProperty>
-        <citeProperty name="ImageReference" label="Image URN"  type="citeimg"></citeProperty>
-        <citeProperty name="Comments" label="Comments" type="string"></citeProperty>
-    </citeCollection>    
     
    
     
