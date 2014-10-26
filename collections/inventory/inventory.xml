@@ -7,7 +7,7 @@
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:img">
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:ecod:codbod8">
         <namespaceMapping
             abbr="ecod"
             fullValue="http://shot.holycross.edu/datans/ecodices"/>
